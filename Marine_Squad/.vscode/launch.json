@@ -1,0 +1,128 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Marine_Squad (Debug)",
+			"request": "launch",
+			"preLaunchTask": "Marine_Squad Win64 Debug Build",
+			"program": "C:\\Users\\ericf\\Desktop\\repos\\Marine-Squad\\Marine_Squad\\Binaries\\Win64\\Marine_Squad-Win64-Debug.exe",
+			"args": [
+			],
+			"cwd": "Q:\\UE_4.22",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "Q:\\UE_4.22\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Marine_Squad (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "Marine_Squad Win64 DebugGame Build",
+			"program": "C:\\Users\\ericf\\Desktop\\repos\\Marine-Squad\\Marine_Squad\\Binaries\\Win64\\Marine_Squad-Win64-DebugGame.exe",
+			"args": [
+			],
+			"cwd": "Q:\\UE_4.22",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "Q:\\UE_4.22\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Marine_Squad (Development)",
+			"request": "launch",
+			"preLaunchTask": "Marine_Squad Win64 Development Build",
+			"program": "C:\\Users\\ericf\\Desktop\\repos\\Marine-Squad\\Marine_Squad\\Binaries\\Win64\\Marine_Squad.exe",
+			"args": [
+			],
+			"cwd": "Q:\\UE_4.22",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "Q:\\UE_4.22\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Marine_Squad (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "Marine_Squad Win64 Shipping Build",
+			"program": "C:\\Users\\ericf\\Desktop\\repos\\Marine-Squad\\Marine_Squad\\Binaries\\Win64\\Marine_Squad-Win64-Shipping.exe",
+			"args": [
+			],
+			"cwd": "Q:\\UE_4.22",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "Q:\\UE_4.22\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Marine_Squad (Test)",
+			"request": "launch",
+			"preLaunchTask": "Marine_Squad Win64 Test Build",
+			"program": "C:\\Users\\ericf\\Desktop\\repos\\Marine-Squad\\Marine_Squad\\Binaries\\Win64\\Marine_Squad-Win64-Test.exe",
+			"args": [
+			],
+			"cwd": "Q:\\UE_4.22",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "Q:\\UE_4.22\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Marine_SquadEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "Marine_SquadEditor Win64 Debug Build",
+			"program": "Q:\\UE_4.22\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+			"args": [
+				"C:\\Users\\ericf\\Desktop\\repos\\Marine-Squad\\Marine_Squad\\Marine_Squad.uproject"
+			],
+			"cwd": "Q:\\UE_4.22",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "Q:\\UE_4.22\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Marine_SquadEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "Marine_SquadEditor Win64 DebugGame Build",
+			"program": "Q:\\UE_4.22\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"C:\\Users\\ericf\\Desktop\\repos\\Marine-Squad\\Marine_Squad\\Marine_Squad.uproject"
+			],
+			"cwd": "Q:\\UE_4.22",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "Q:\\UE_4.22\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Marine_SquadEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "Marine_SquadEditor Win64 Development Build",
+			"program": "Q:\\UE_4.22\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"C:\\Users\\ericf\\Desktop\\repos\\Marine-Squad\\Marine_Squad\\Marine_Squad.uproject"
+			],
+			"cwd": "Q:\\UE_4.22",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "Q:\\UE_4.22\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "clr",
+			"request": "launch",
+			"program": "Q:\\UE_4.22\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
+			"console": "externalTerminal",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=\"C:\\Users\\ericf\\Desktop\\repos\\Marine-Squad\\Marine_Squad\\Marine_Squad.uproject\"",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "Q:\\UE_4.22"
+		}
+	]
+}

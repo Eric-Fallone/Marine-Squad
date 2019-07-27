@@ -1,0 +1,3 @@
+C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Source\Marine_Squad\Marine_Squad.Build.cs
+C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Source\Marine_Squad.Target.cs
+C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Source\Marine_SquadEditor.Target.cs

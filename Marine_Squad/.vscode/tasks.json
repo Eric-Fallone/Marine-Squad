@@ -1,0 +1,977 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Marine_Squad Win32 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Marine_Squad",
+				"Win32",
+				"Debug",
+				"C:\\Users\\ericf\\Desktop\\repos\\Marine-Squad\\Marine_Squad\\Marine_Squad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "Q:\\UE_4.22"
+			}
+		},
+		{
+			"label": "Marine_Squad Win32 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Marine_Squad",
+				"Win32",
+				"Debug",
+				"C:\\Users\\ericf\\Desktop\\repos\\Marine-Squad\\Marine_Squad\\Marine_Squad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Marine_Squad Win32 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "Q:\\UE_4.22"
+			}
+		},
+		{
+			"label": "Marine_Squad Win32 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Marine_Squad",
+				"Win32",
+				"Debug",
+				"C:\\Users\\ericf\\Desktop\\repos\\Marine-Squad\\Marine_Squad\\Marine_Squad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "Q:\\UE_4.22"
+			}
+		},
+		{
+			"label": "Marine_Squad Win32 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Marine_Squad",
+				"Win32",
+				"DebugGame",
+				"C:\\Users\\ericf\\Desktop\\repos\\Marine-Squad\\Marine_Squad\\Marine_Squad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "Q:\\UE_4.22"
+			}
+		},
+		{
+			"label": "Marine_Squad Win32 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Marine_Squad",
+				"Win32",
+				"DebugGame",
+				"C:\\Users\\ericf\\Desktop\\repos\\Marine-Squad\\Marine_Squad\\Marine_Squad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Marine_Squad Win32 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "Q:\\UE_4.22"
+			}
+		},
+		{
+			"label": "Marine_Squad Win32 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Marine_Squad",
+				"Win32",
+				"DebugGame",
+				"C:\\Users\\ericf\\Desktop\\repos\\Marine-Squad\\Marine_Squad\\Marine_Squad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "Q:\\UE_4.22"
+			}
+		},
+		{
+			"label": "Marine_Squad Win32 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Marine_Squad",
+				"Win32",
+				"Development",
+				"C:\\Users\\ericf\\Desktop\\repos\\Marine-Squad\\Marine_Squad\\Marine_Squad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "Q:\\UE_4.22"
+			}
+		},
+		{
+			"label": "Marine_Squad Win32 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Marine_Squad",
+				"Win32",
+				"Development",
+				"C:\\Users\\ericf\\Desktop\\repos\\Marine-Squad\\Marine_Squad\\Marine_Squad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Marine_Squad Win32 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "Q:\\UE_4.22"
+			}
+		},
+		{
+			"label": "Marine_Squad Win32 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Marine_Squad",
+				"Win32",
+				"Development",
+				"C:\\Users\\ericf\\Desktop\\repos\\Marine-Squad\\Marine_Squad\\Marine_Squad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "Q:\\UE_4.22"
+			}
+		},
+		{
+			"label": "Marine_Squad Win32 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Marine_Squad",
+				"Win32",
+				"Shipping",
+				"C:\\Users\\ericf\\Desktop\\repos\\Marine-Squad\\Marine_Squad\\Marine_Squad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "Q:\\UE_4.22"
+			}
+		},
+		{
+			"label": "Marine_Squad Win32 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Marine_Squad",
+				"Win32",
+				"Shipping",
+				"C:\\Users\\ericf\\Desktop\\repos\\Marine-Squad\\Marine_Squad\\Marine_Squad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Marine_Squad Win32 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "Q:\\UE_4.22"
+			}
+		},
+		{
+			"label": "Marine_Squad Win32 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Marine_Squad",
+				"Win32",
+				"Shipping",
+				"C:\\Users\\ericf\\Desktop\\repos\\Marine-Squad\\Marine_Squad\\Marine_Squad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "Q:\\UE_4.22"
+			}
+		},
+		{
+			"label": "Marine_Squad Win32 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Marine_Squad",
+				"Win32",
+				"Test",
+				"C:\\Users\\ericf\\Desktop\\repos\\Marine-Squad\\Marine_Squad\\Marine_Squad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "Q:\\UE_4.22"
+			}
+		},
+		{
+			"label": "Marine_Squad Win32 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Marine_Squad",
+				"Win32",
+				"Test",
+				"C:\\Users\\ericf\\Desktop\\repos\\Marine-Squad\\Marine_Squad\\Marine_Squad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Marine_Squad Win32 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "Q:\\UE_4.22"
+			}
+		},
+		{
+			"label": "Marine_Squad Win32 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Marine_Squad",
+				"Win32",
+				"Test",
+				"C:\\Users\\ericf\\Desktop\\repos\\Marine-Squad\\Marine_Squad\\Marine_Squad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "Q:\\UE_4.22"
+			}
+		},
+		{
+			"label": "Marine_Squad Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Marine_Squad",
+				"Win64",
+				"Debug",
+				"C:\\Users\\ericf\\Desktop\\repos\\Marine-Squad\\Marine_Squad\\Marine_Squad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "Q:\\UE_4.22"
+			}
+		},
+		{
+			"label": "Marine_Squad Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Marine_Squad",
+				"Win64",
+				"Debug",
+				"C:\\Users\\ericf\\Desktop\\repos\\Marine-Squad\\Marine_Squad\\Marine_Squad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Marine_Squad Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "Q:\\UE_4.22"
+			}
+		},
+		{
+			"label": "Marine_Squad Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Marine_Squad",
+				"Win64",
+				"Debug",
+				"C:\\Users\\ericf\\Desktop\\repos\\Marine-Squad\\Marine_Squad\\Marine_Squad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "Q:\\UE_4.22"
+			}
+		},
+		{
+			"label": "Marine_Squad Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Marine_Squad",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\ericf\\Desktop\\repos\\Marine-Squad\\Marine_Squad\\Marine_Squad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "Q:\\UE_4.22"
+			}
+		},
+		{
+			"label": "Marine_Squad Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Marine_Squad",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\ericf\\Desktop\\repos\\Marine-Squad\\Marine_Squad\\Marine_Squad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Marine_Squad Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "Q:\\UE_4.22"
+			}
+		},
+		{
+			"label": "Marine_Squad Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Marine_Squad",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\ericf\\Desktop\\repos\\Marine-Squad\\Marine_Squad\\Marine_Squad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "Q:\\UE_4.22"
+			}
+		},
+		{
+			"label": "Marine_Squad Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Marine_Squad",
+				"Win64",
+				"Development",
+				"C:\\Users\\ericf\\Desktop\\repos\\Marine-Squad\\Marine_Squad\\Marine_Squad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "Q:\\UE_4.22"
+			}
+		},
+		{
+			"label": "Marine_Squad Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Marine_Squad",
+				"Win64",
+				"Development",
+				"C:\\Users\\ericf\\Desktop\\repos\\Marine-Squad\\Marine_Squad\\Marine_Squad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Marine_Squad Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "Q:\\UE_4.22"
+			}
+		},
+		{
+			"label": "Marine_Squad Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Marine_Squad",
+				"Win64",
+				"Development",
+				"C:\\Users\\ericf\\Desktop\\repos\\Marine-Squad\\Marine_Squad\\Marine_Squad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "Q:\\UE_4.22"
+			}
+		},
+		{
+			"label": "Marine_Squad Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Marine_Squad",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\ericf\\Desktop\\repos\\Marine-Squad\\Marine_Squad\\Marine_Squad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "Q:\\UE_4.22"
+			}
+		},
+		{
+			"label": "Marine_Squad Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Marine_Squad",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\ericf\\Desktop\\repos\\Marine-Squad\\Marine_Squad\\Marine_Squad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Marine_Squad Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "Q:\\UE_4.22"
+			}
+		},
+		{
+			"label": "Marine_Squad Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Marine_Squad",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\ericf\\Desktop\\repos\\Marine-Squad\\Marine_Squad\\Marine_Squad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "Q:\\UE_4.22"
+			}
+		},
+		{
+			"label": "Marine_Squad Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Marine_Squad",
+				"Win64",
+				"Test",
+				"C:\\Users\\ericf\\Desktop\\repos\\Marine-Squad\\Marine_Squad\\Marine_Squad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "Q:\\UE_4.22"
+			}
+		},
+		{
+			"label": "Marine_Squad Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Marine_Squad",
+				"Win64",
+				"Test",
+				"C:\\Users\\ericf\\Desktop\\repos\\Marine-Squad\\Marine_Squad\\Marine_Squad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Marine_Squad Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "Q:\\UE_4.22"
+			}
+		},
+		{
+			"label": "Marine_Squad Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Marine_Squad",
+				"Win64",
+				"Test",
+				"C:\\Users\\ericf\\Desktop\\repos\\Marine-Squad\\Marine_Squad\\Marine_Squad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "Q:\\UE_4.22"
+			}
+		},
+		{
+			"label": "Marine_Squad HTML5 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Marine_Squad",
+				"HTML5",
+				"Debug",
+				"C:\\Users\\ericf\\Desktop\\repos\\Marine-Squad\\Marine_Squad\\Marine_Squad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "Q:\\UE_4.22"
+			}
+		},
+		{
+			"label": "Marine_Squad HTML5 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Marine_Squad",
+				"HTML5",
+				"Debug",
+				"C:\\Users\\ericf\\Desktop\\repos\\Marine-Squad\\Marine_Squad\\Marine_Squad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Marine_Squad HTML5 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "Q:\\UE_4.22"
+			}
+		},
+		{
+			"label": "Marine_Squad HTML5 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Marine_Squad",
+				"HTML5",
+				"Debug",
+				"C:\\Users\\ericf\\Desktop\\repos\\Marine-Squad\\Marine_Squad\\Marine_Squad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "Q:\\UE_4.22"
+			}
+		},
+		{
+			"label": "Marine_Squad HTML5 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Marine_Squad",
+				"HTML5",
+				"DebugGame",
+				"C:\\Users\\ericf\\Desktop\\repos\\Marine-Squad\\Marine_Squad\\Marine_Squad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "Q:\\UE_4.22"
+			}
+		},
+		{
+			"label": "Marine_Squad HTML5 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Marine_Squad",
+				"HTML5",
+				"DebugGame",
+				"C:\\Users\\ericf\\Desktop\\repos\\Marine-Squad\\Marine_Squad\\Marine_Squad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Marine_Squad HTML5 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "Q:\\UE_4.22"
+			}
+		},
+		{
+			"label": "Marine_Squad HTML5 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Marine_Squad",
+				"HTML5",
+				"DebugGame",
+				"C:\\Users\\ericf\\Desktop\\repos\\Marine-Squad\\Marine_Squad\\Marine_Squad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "Q:\\UE_4.22"
+			}
+		},
+		{
+			"label": "Marine_Squad HTML5 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Marine_Squad",
+				"HTML5",
+				"Development",
+				"C:\\Users\\ericf\\Desktop\\repos\\Marine-Squad\\Marine_Squad\\Marine_Squad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "Q:\\UE_4.22"
+			}
+		},
+		{
+			"label": "Marine_Squad HTML5 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Marine_Squad",
+				"HTML5",
+				"Development",
+				"C:\\Users\\ericf\\Desktop\\repos\\Marine-Squad\\Marine_Squad\\Marine_Squad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Marine_Squad HTML5 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "Q:\\UE_4.22"
+			}
+		},
+		{
+			"label": "Marine_Squad HTML5 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Marine_Squad",
+				"HTML5",
+				"Development",
+				"C:\\Users\\ericf\\Desktop\\repos\\Marine-Squad\\Marine_Squad\\Marine_Squad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "Q:\\UE_4.22"
+			}
+		},
+		{
+			"label": "Marine_Squad HTML5 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Marine_Squad",
+				"HTML5",
+				"Shipping",
+				"C:\\Users\\ericf\\Desktop\\repos\\Marine-Squad\\Marine_Squad\\Marine_Squad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "Q:\\UE_4.22"
+			}
+		},
+		{
+			"label": "Marine_Squad HTML5 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Marine_Squad",
+				"HTML5",
+				"Shipping",
+				"C:\\Users\\ericf\\Desktop\\repos\\Marine-Squad\\Marine_Squad\\Marine_Squad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Marine_Squad HTML5 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "Q:\\UE_4.22"
+			}
+		},
+		{
+			"label": "Marine_Squad HTML5 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Marine_Squad",
+				"HTML5",
+				"Shipping",
+				"C:\\Users\\ericf\\Desktop\\repos\\Marine-Squad\\Marine_Squad\\Marine_Squad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "Q:\\UE_4.22"
+			}
+		},
+		{
+			"label": "Marine_Squad HTML5 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Marine_Squad",
+				"HTML5",
+				"Test",
+				"C:\\Users\\ericf\\Desktop\\repos\\Marine-Squad\\Marine_Squad\\Marine_Squad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "Q:\\UE_4.22"
+			}
+		},
+		{
+			"label": "Marine_Squad HTML5 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Marine_Squad",
+				"HTML5",
+				"Test",
+				"C:\\Users\\ericf\\Desktop\\repos\\Marine-Squad\\Marine_Squad\\Marine_Squad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Marine_Squad HTML5 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "Q:\\UE_4.22"
+			}
+		},
+		{
+			"label": "Marine_Squad HTML5 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Marine_Squad",
+				"HTML5",
+				"Test",
+				"C:\\Users\\ericf\\Desktop\\repos\\Marine-Squad\\Marine_Squad\\Marine_Squad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "Q:\\UE_4.22"
+			}
+		},
+		{
+			"label": "Marine_SquadEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Marine_SquadEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\ericf\\Desktop\\repos\\Marine-Squad\\Marine_Squad\\Marine_Squad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "Q:\\UE_4.22"
+			}
+		},
+		{
+			"label": "Marine_SquadEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Marine_SquadEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\ericf\\Desktop\\repos\\Marine-Squad\\Marine_Squad\\Marine_Squad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Marine_SquadEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "Q:\\UE_4.22"
+			}
+		},
+		{
+			"label": "Marine_SquadEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Marine_SquadEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\ericf\\Desktop\\repos\\Marine-Squad\\Marine_Squad\\Marine_Squad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "Q:\\UE_4.22"
+			}
+		},
+		{
+			"label": "Marine_SquadEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Marine_SquadEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\ericf\\Desktop\\repos\\Marine-Squad\\Marine_Squad\\Marine_Squad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "Q:\\UE_4.22"
+			}
+		},
+		{
+			"label": "Marine_SquadEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Marine_SquadEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\ericf\\Desktop\\repos\\Marine-Squad\\Marine_Squad\\Marine_Squad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Marine_SquadEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "Q:\\UE_4.22"
+			}
+		},
+		{
+			"label": "Marine_SquadEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Marine_SquadEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\ericf\\Desktop\\repos\\Marine-Squad\\Marine_Squad\\Marine_Squad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "Q:\\UE_4.22"
+			}
+		},
+		{
+			"label": "Marine_SquadEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Marine_SquadEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\ericf\\Desktop\\repos\\Marine-Squad\\Marine_Squad\\Marine_Squad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "Q:\\UE_4.22"
+			}
+		},
+		{
+			"label": "Marine_SquadEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Marine_SquadEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\ericf\\Desktop\\repos\\Marine-Squad\\Marine_Squad\\Marine_Squad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Marine_SquadEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "Q:\\UE_4.22"
+			}
+		},
+		{
+			"label": "Marine_SquadEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Marine_SquadEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\ericf\\Desktop\\repos\\Marine-Squad\\Marine_Squad\\Marine_Squad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "Q:\\UE_4.22"
+			}
+		}
+	]
+}
