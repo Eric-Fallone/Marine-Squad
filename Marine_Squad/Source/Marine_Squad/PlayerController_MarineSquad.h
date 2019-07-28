@@ -23,6 +23,8 @@ public:
 protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;
+	//called everyframe
+	virtual void Tick(float DeltaTime) override;
 
 private:
 
@@ -32,6 +34,10 @@ private:
 	void SelectionEnded();
 
 	void MoveCommandStarted();
+	void MoveCommandEnded();
+	void MoveCommand();
+
+	bool moving;
 
 	UPROPERTY(VisibleAnywhere)
 	TArray<AParentUnit*> SelectedUnits;
