@@ -6,6 +6,7 @@
 #include "GameFramework/PlayerController.h"
 #include "DrawDebugHelpers.h"
 #include "HUD_MarineSquad.h"
+#include "PlayerCamera_MarineSquad.h"
 #include "PlayerController_MarineSquad.generated.h"
 
 /**
@@ -27,19 +28,25 @@ protected:
 	virtual void Tick(float DeltaTime) override;
 
 private:
-
 	void SetupInputComponent();
-
+//unit selection
 	void SelectionStarted();
 	void SelectionEnded();
 
+//Unit Movement
 	void MoveCommandStarted();
 	void MoveCommandEnded();
 	void MoveCommand();
-
-	bool moving;
-
+	bool Moving;
 	UPROPERTY(VisibleAnywhere)
 	TArray<AParentUnit*> SelectedUnits;
 
+//Player Camera
+	void MoveCamera();
+	UPROPERTY(VisibleAnywhere)
+	float Margin = 15.0f;
+	UPROPERTY(VisibleAnywhere)
+	APlayerCamera_MarineSquad* CAMPtr;
+	int32 ScreenSizeX;
+	int32 ScreenSizeY;
 };

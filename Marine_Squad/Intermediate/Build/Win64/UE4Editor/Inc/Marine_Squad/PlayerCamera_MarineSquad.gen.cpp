@@ -31,6 +31,11 @@ void EmptyLinkFunctionForGeneratedCodePlayerCamera_MarineSquad() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CameraMoveSpeed_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_CameraMoveSpeed;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -45,6 +50,16 @@ void EmptyLinkFunctionForGeneratedCodePlayerCamera_MarineSquad() {}
 		{ "ModuleRelativePath", "PlayerCamera_MarineSquad.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayerCamera_MarineSquad_Statics::NewProp_CameraMoveSpeed_MetaData[] = {
+		{ "Category", "PlayerCamera_MarineSquad" },
+		{ "ModuleRelativePath", "PlayerCamera_MarineSquad.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_APlayerCamera_MarineSquad_Statics::NewProp_CameraMoveSpeed = { "CameraMoveSpeed", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APlayerCamera_MarineSquad, CameraMoveSpeed), METADATA_PARAMS(Z_Construct_UClass_APlayerCamera_MarineSquad_Statics::NewProp_CameraMoveSpeed_MetaData, ARRAY_COUNT(Z_Construct_UClass_APlayerCamera_MarineSquad_Statics::NewProp_CameraMoveSpeed_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_APlayerCamera_MarineSquad_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerCamera_MarineSquad_Statics::NewProp_CameraMoveSpeed,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_APlayerCamera_MarineSquad_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<APlayerCamera_MarineSquad>::IsAbstract,
 	};
@@ -54,11 +69,11 @@ void EmptyLinkFunctionForGeneratedCodePlayerCamera_MarineSquad() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
-		nullptr,
+		Z_Construct_UClass_APlayerCamera_MarineSquad_Statics::PropPointers,
 		nullptr,
 		ARRAY_COUNT(DependentSingletons),
 		0,
-		0,
+		ARRAY_COUNT(Z_Construct_UClass_APlayerCamera_MarineSquad_Statics::PropPointers),
 		0,
 		0x009000A0u,
 		METADATA_PARAMS(Z_Construct_UClass_APlayerCamera_MarineSquad_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_APlayerCamera_MarineSquad_Statics::Class_MetaDataParams))
@@ -72,7 +87,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerCamera_MarineSquad() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APlayerCamera_MarineSquad, 1488177695);
+	IMPLEMENT_CLASS(APlayerCamera_MarineSquad, 546424847);
 	template<> MARINE_SQUAD_API UClass* StaticClass<APlayerCamera_MarineSquad>()
 	{
 		return APlayerCamera_MarineSquad::StaticClass();

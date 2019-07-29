@@ -15,15 +15,18 @@ public:
 	// Sets default values for this pawn's properties
 	APlayerCamera_MarineSquad();
 
-protected:
+//protected:
 	// Called when the game starts or when spawned
-	virtual void BeginPlay() override;
+	//virtual void BeginPlay() override;
 
 public:	
+	void MoveCamera(FVector CamDir);
+	UPROPERTY(EditAnywhere)
+	float CameraMoveSpeed = 10.0f;
 	// Called every frame
-	virtual void Tick(float DeltaTime) override;
+	//virtual void Tick(float DeltaTime) override;
 
 	// Called to bind functionality to input
-	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+	//virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
 };

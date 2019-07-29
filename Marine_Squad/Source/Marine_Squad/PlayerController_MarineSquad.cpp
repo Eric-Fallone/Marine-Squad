@@ -12,19 +12,25 @@ APlayerController_MarineSquad::APlayerController_MarineSquad()
 {
     bShowMouseCursor = true;
     DefaultMouseCursor = EMouseCursor::Crosshairs;
-    moving = false;
+    Moving = false;
 }
 
 
 void APlayerController_MarineSquad::BeginPlay()
 {
     HUDPtr = Cast<AHUD_MarineSquad>(GetHUD());
+    CAMPtr = Cast<APlayerCamera_MarineSquad>(GetPawn());
+
+	GetViewportSize(OUT ScreenSizeX, OUT ScreenSizeY);
 }
+
 
 void APlayerController_MarineSquad::Tick(float DeltaTime)
 {
     MoveCommand();
+    MoveCamera();    
 }
+
 
 void APlayerController_MarineSquad::SetupInputComponent()
 {
@@ -61,21 +67,24 @@ void APlayerController_MarineSquad::SelectionEnded()
     SelectedUnits = HUDPtr->FoundUnits;
 }
 
+
 void APlayerController_MarineSquad::MoveCommandStarted()
 {
     UE_LOG(LogTemp, Warning, TEXT("Right Mouse Button Pressed"))
-    moving = true;
+    Moving = true;
 }
+
 
 void APlayerController_MarineSquad::MoveCommandEnded()
 {
     UE_LOG(LogTemp, Warning, TEXT("Right Mouse Button Released"))
-    moving = false;
+    Moving = false;
 }
+
 
 void APlayerController_MarineSquad::MoveCommand()
 {
-    if(moving)
+    if(Moving)
     {
         if(SelectedUnits.Num() > 0)
         {
@@ -93,5 +102,43 @@ void APlayerController_MarineSquad::MoveCommand()
             DrawDebugSphere(GetWorld(), MoveLocation, 25,10, FColor::Red,false, 1.f);
             }
         }
+    }
+}
+
+
+void APlayerController_MarineSquad::MoveCamera()
+{
+    if(CAMPtr){
+        float MousePosX;
+        float MousePosY;
+        float CamDirX = 0.0f;
+        float CamDirY = 0.0f;
+
+        GetMousePosition(OUT MousePosX, OUT MousePosY);
+
+		//if mouse is touching an edge of the screen
+
+        //Left and Right
+		if(MousePosX <= Margin)
+        {
+			CamDirY = 1.0f;
+        }else if (MousePosX >= ScreenSizeX - Margin)
+		{
+			CamDirY = -1.0f;
+		}
+		//UP and Down
+		if(MousePosY <= 0)
+        {
+			CamDirX = -1.0f;
+        }else if (MousePosY >= ScreenSizeY - Margin)
+		{
+			CamDirX = 1.0f;
+		}
+
+		//Ruturns of no screen movement is wanted
+		if(CamDirX == 0.0f && CamDirY == 0.0f){
+			return; 
+		}
+        CAMPtr->MoveCamera(FVector(CamDirX, CamDirY, 0.0f));
     }
 }
