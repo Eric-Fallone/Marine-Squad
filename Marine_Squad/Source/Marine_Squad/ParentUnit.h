@@ -26,4 +26,15 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
+private:
+	//unit stats
+	UPROPERTY(EditAnywhere)
+	float HealthMax = 100;
+	UPROPERTY(EditAnywhere)
+	float HealthCurrent;
+	UPROPERTY(EditAnywhere)
+	float MoveSpeed = 300;
+	UPROPERTY(EditAnywhere)
+	float RotationSpeed;
+
 };

@@ -57,7 +57,13 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AParentUnit); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AParentUnit)
 
 
-#define Marine_Squad_Source_Marine_Squad_ParentUnit_h_12_PRIVATE_PROPERTY_OFFSET
+#define Marine_Squad_Source_Marine_Squad_ParentUnit_h_12_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__HealthMax() { return STRUCT_OFFSET(AParentUnit, HealthMax); } \
+	FORCEINLINE static uint32 __PPO__HealthCurrent() { return STRUCT_OFFSET(AParentUnit, HealthCurrent); } \
+	FORCEINLINE static uint32 __PPO__MoveSpeed() { return STRUCT_OFFSET(AParentUnit, MoveSpeed); } \
+	FORCEINLINE static uint32 __PPO__RotationSpeed() { return STRUCT_OFFSET(AParentUnit, RotationSpeed); }
+
+
 #define Marine_Squad_Source_Marine_Squad_ParentUnit_h_9_PROLOG
 #define Marine_Squad_Source_Marine_Squad_ParentUnit_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

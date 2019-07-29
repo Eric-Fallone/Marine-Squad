@@ -15,7 +15,11 @@ AParentUnit::AParentUnit()
 void AParentUnit::BeginPlay()
 {
 	Super::BeginPlay();
-	
+	//sets current health to max hp if not set from editor
+	if(HealthCurrent == 0)
+	{
+		HealthCurrent = HealthMax;
+	}
 }
 
 // Called every frame
