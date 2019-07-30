@@ -9,6 +9,14 @@
 #include "PlayerCamera_MarineSquad.h"
 #include "PlayerController_MarineSquad.generated.h"
 
+UENUM(BlueprintType)
+enum class ECommandsEnum : uint8
+{
+	VE_Move 	UMETA(DisplayName="Move"),
+	VE_Rotate 	UMETA(DisplayName="Rotate"),
+	VE_Attack 	UMETA(DisplayName="Attack"),
+};
+
 /**
  * 
  */
@@ -19,7 +27,9 @@ class MARINE_SQUAD_API APlayerController_MarineSquad : public APlayerController
 
 public:
 	APlayerController_MarineSquad();
-	AHUD_MarineSquad* HUDPtr;
+
+	UPROPERTY(EditAnywhere)//, BlueprintReadWrite, Category="Enum")
+	ECommandsEnum CommandEnum;
 
 protected:
 	// Called when the game starts
@@ -29,21 +39,25 @@ protected:
 
 private:
 	void SetupInputComponent();
+	AHUD_MarineSquad* HUDPtr;
 //unit selection
 	void SelectionStarted();
 	void SelectionEnded();
 
-//Unit Movement
+//Player Input
 	void MoveCommandStarted();
 	void MoveCommandEnded();
 	void MoveCommand();
+	void QueCommandStarted();
+
+//Selection
 	bool Moving;
 	UPROPERTY(VisibleAnywhere)
 	TArray<AParentUnit*> SelectedUnits;
 
 //Player Camera
 	void MoveCamera();
-	UPROPERTY(VisibleAnywhere)
+	UPROPERTY(EditAnywhere)
 	float Margin = 15.0f;
 	UPROPERTY(VisibleAnywhere)
 	APlayerCamera_MarineSquad* CAMPtr;

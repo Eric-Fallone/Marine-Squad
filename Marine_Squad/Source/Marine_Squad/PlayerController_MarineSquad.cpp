@@ -27,7 +27,7 @@ void APlayerController_MarineSquad::BeginPlay()
 
 void APlayerController_MarineSquad::Tick(float DeltaTime)
 {
-    MoveCommand();
+    //MoveCommand();
     MoveCamera();    
 }
 
@@ -42,6 +42,8 @@ void APlayerController_MarineSquad::SetupInputComponent()
 
         InputComponent->BindAction("RightMouseClick", IE_Pressed, this, &APlayerController_MarineSquad::MoveCommandStarted);
         InputComponent->BindAction("RightMouseClick", IE_Released, this, &APlayerController_MarineSquad::MoveCommandEnded);
+
+        InputComponent->BindAction("Que_Command", IE_Pressed, this, &APlayerController_MarineSquad::QueCommandStarted);
     }
     else{
         UE_LOG(LogTemp, Warning, TEXT("ErrorSetting Up inputs"))
@@ -63,47 +65,53 @@ void APlayerController_MarineSquad::SelectionEnded()
     
     HUDPtr->bStartSelecting = false;
 
-    //set TArray to be same array from mechHud
+    //set TArray to be same array from Hud
     SelectedUnits = HUDPtr->FoundUnits;
 }
+
+
+/*          Move Commands          */
 
 
 void APlayerController_MarineSquad::MoveCommandStarted()
 {
     UE_LOG(LogTemp, Warning, TEXT("Right Mouse Button Pressed"))
-    Moving = true;
+    //todo - clear command que from unit
+    MoveCommand();
 }
 
 
 void APlayerController_MarineSquad::MoveCommandEnded()
 {
     UE_LOG(LogTemp, Warning, TEXT("Right Mouse Button Released"))
-    Moving = false;
 }
 
 
 void APlayerController_MarineSquad::MoveCommand()
 {
-    if(Moving)
+    if(SelectedUnits.Num() > 0)
     {
-        if(SelectedUnits.Num() > 0)
+    for(int32 i= 0 ; i < SelectedUnits.Num() ; i++)
         {
-        for(int32 i= 0 ; i < SelectedUnits.Num() ; i++)
-            {
-            FHitResult Hit;
-            GetHitResultUnderCursor(ECollisionChannel::ECC_Visibility, false, OUT Hit);
-            FVector MoveLocation = Hit.Location + FVector(i / 2 * 100 , i % 2 *100 , 0);
-            //get ai controller
+        FHitResult Hit;
+        GetHitResultUnderCursor(ECollisionChannel::ECC_Visibility, false, OUT Hit);
+        FVector MoveLocation = Hit.Location + FVector(i / 2 * 100 , i % 2 *100 , 0);
 
-            //set move action
-            AAIController* ai =  Cast<AAIController>(SelectedUnits[i]->GetController());
-            ai->MoveToLocation(MoveLocation,-1.0f,true,true,false,true,0,true);
-            
-            DrawDebugSphere(GetWorld(), MoveLocation, 25,10, FColor::Red,false, 1.f);
-            }
+        //set move action
+        SelectedUnits[i]->Move(MoveLocation);
+        //AAIController* ai =  Cast<AAIController>(SelectedUnits[i]->GetController());
+        //ai->MoveToLocation(MoveLocation,-1.0f,true,true,false,true,0,true);
+        
+        DrawDebugSphere(GetWorld(), MoveLocation, 25,10, FColor::Red,false, 1.f);
         }
     }
 }
+void APlayerController_MarineSquad::QueCommandStarted()
+{
+    UE_LOG(LogTemp, Warning, TEXT("QUE Right Mouse Button Pressed"))
+}
+
+/*          CAMERA METHODS          */
 
 
 void APlayerController_MarineSquad::MoveCamera()

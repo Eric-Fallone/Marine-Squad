@@ -26,6 +26,8 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
+	//command methods
+	void Move(FVector MoveLocation);
 private:
 	//unit stats
 	UPROPERTY(EditAnywhere)
@@ -36,5 +38,4 @@ private:
 	float MoveSpeed = 300;
 	UPROPERTY(EditAnywhere)
 	float RotationSpeed;
-
 };

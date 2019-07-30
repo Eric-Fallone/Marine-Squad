@@ -2,6 +2,7 @@
 
 
 #include "ParentUnit.h"
+#include "AIController.h"
 
 // Sets default values
 AParentUnit::AParentUnit()
@@ -34,5 +35,11 @@ void AParentUnit::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
+}
+
+void AParentUnit::Move(FVector MoveLocation)
+{
+	AAIController * ai = Cast<AAIController>(GetController());
+	ai->MoveToLocation(MoveLocation,-1.0f,true,true,false,true,0,true);
 }
 

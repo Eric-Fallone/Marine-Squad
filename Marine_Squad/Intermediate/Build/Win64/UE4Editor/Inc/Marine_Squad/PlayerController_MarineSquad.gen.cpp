@@ -13,13 +13,69 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodePlayerController_MarineSquad() {}
 // Cross Module References
+	MARINE_SQUAD_API UEnum* Z_Construct_UEnum_Marine_Squad_ECommandsEnum();
+	UPackage* Z_Construct_UPackage__Script_Marine_Squad();
 	MARINE_SQUAD_API UClass* Z_Construct_UClass_APlayerController_MarineSquad_NoRegister();
 	MARINE_SQUAD_API UClass* Z_Construct_UClass_APlayerController_MarineSquad();
 	ENGINE_API UClass* Z_Construct_UClass_APlayerController();
-	UPackage* Z_Construct_UPackage__Script_Marine_Squad();
 	MARINE_SQUAD_API UClass* Z_Construct_UClass_APlayerCamera_MarineSquad_NoRegister();
 	MARINE_SQUAD_API UClass* Z_Construct_UClass_AParentUnit_NoRegister();
 // End Cross Module References
+	static UEnum* ECommandsEnum_StaticEnum()
+	{
+		static UEnum* Singleton = nullptr;
+		if (!Singleton)
+		{
+			Singleton = GetStaticEnum(Z_Construct_UEnum_Marine_Squad_ECommandsEnum, Z_Construct_UPackage__Script_Marine_Squad(), TEXT("ECommandsEnum"));
+		}
+		return Singleton;
+	}
+	template<> MARINE_SQUAD_API UEnum* StaticEnum<ECommandsEnum>()
+	{
+		return ECommandsEnum_StaticEnum();
+	}
+	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_ECommandsEnum(ECommandsEnum_StaticEnum, TEXT("/Script/Marine_Squad"), TEXT("ECommandsEnum"), false, nullptr, nullptr);
+	uint32 Get_Z_Construct_UEnum_Marine_Squad_ECommandsEnum_Hash() { return 1500511547U; }
+	UEnum* Z_Construct_UEnum_Marine_Squad_ECommandsEnum()
+	{
+#if WITH_HOT_RELOAD
+		UPackage* Outer = Z_Construct_UPackage__Script_Marine_Squad();
+		static UEnum* ReturnEnum = FindExistingEnumIfHotReloadOrDynamic(Outer, TEXT("ECommandsEnum"), 0, Get_Z_Construct_UEnum_Marine_Squad_ECommandsEnum_Hash(), false);
+#else
+		static UEnum* ReturnEnum = nullptr;
+#endif // WITH_HOT_RELOAD
+		if (!ReturnEnum)
+		{
+			static const UE4CodeGen_Private::FEnumeratorParam Enumerators[] = {
+				{ "ECommandsEnum::VE_Move", (int64)ECommandsEnum::VE_Move },
+				{ "ECommandsEnum::VE_Rotate", (int64)ECommandsEnum::VE_Rotate },
+				{ "ECommandsEnum::VE_Attack", (int64)ECommandsEnum::VE_Attack },
+			};
+#if WITH_METADATA
+			const UE4CodeGen_Private::FMetaDataPairParam Enum_MetaDataParams[] = {
+				{ "BlueprintType", "true" },
+				{ "ModuleRelativePath", "PlayerController_MarineSquad.h" },
+				{ "VE_Attack.DisplayName", "Attack" },
+				{ "VE_Move.DisplayName", "Move" },
+				{ "VE_Rotate.DisplayName", "Rotate" },
+			};
+#endif
+			static const UE4CodeGen_Private::FEnumParams EnumParams = {
+				(UObject*(*)())Z_Construct_UPackage__Script_Marine_Squad,
+				nullptr,
+				"ECommandsEnum",
+				"ECommandsEnum",
+				Enumerators,
+				ARRAY_COUNT(Enumerators),
+				RF_Public|RF_Transient|RF_MarkAsNative,
+				UE4CodeGen_Private::EDynamicType::NotDynamic,
+				(uint8)UEnum::ECppForm::EnumClass,
+				METADATA_PARAMS(Enum_MetaDataParams, ARRAY_COUNT(Enum_MetaDataParams))
+			};
+			UE4CodeGen_Private::ConstructUEnum(ReturnEnum, EnumParams);
+		}
+		return ReturnEnum;
+	}
 	void APlayerController_MarineSquad::StaticRegisterNativesAPlayerController_MarineSquad()
 	{
 	}
@@ -46,6 +102,11 @@ void EmptyLinkFunctionForGeneratedCodePlayerController_MarineSquad() {}
 #endif
 		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_SelectedUnits;
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_SelectedUnits_Inner;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CommandEnum_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FEnumPropertyParams NewProp_CommandEnum;
+		static const UE4CodeGen_Private::FBytePropertyParams NewProp_CommandEnum_Underlying;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -74,7 +135,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerController_MarineSquad() {}
 		{ "ModuleRelativePath", "PlayerController_MarineSquad.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_APlayerController_MarineSquad_Statics::NewProp_Margin = { "Margin", nullptr, (EPropertyFlags)0x0040000000020001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APlayerController_MarineSquad, Margin), METADATA_PARAMS(Z_Construct_UClass_APlayerController_MarineSquad_Statics::NewProp_Margin_MetaData, ARRAY_COUNT(Z_Construct_UClass_APlayerController_MarineSquad_Statics::NewProp_Margin_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_APlayerController_MarineSquad_Statics::NewProp_Margin = { "Margin", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APlayerController_MarineSquad, Margin), METADATA_PARAMS(Z_Construct_UClass_APlayerController_MarineSquad_Statics::NewProp_Margin_MetaData, ARRAY_COUNT(Z_Construct_UClass_APlayerController_MarineSquad_Statics::NewProp_Margin_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayerController_MarineSquad_Statics::NewProp_SelectedUnits_MetaData[] = {
 		{ "Category", "PlayerController_MarineSquad" },
@@ -83,11 +144,22 @@ void EmptyLinkFunctionForGeneratedCodePlayerController_MarineSquad() {}
 #endif
 	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_APlayerController_MarineSquad_Statics::NewProp_SelectedUnits = { "SelectedUnits", nullptr, (EPropertyFlags)0x0040000000020001, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APlayerController_MarineSquad, SelectedUnits), METADATA_PARAMS(Z_Construct_UClass_APlayerController_MarineSquad_Statics::NewProp_SelectedUnits_MetaData, ARRAY_COUNT(Z_Construct_UClass_APlayerController_MarineSquad_Statics::NewProp_SelectedUnits_MetaData)) };
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APlayerController_MarineSquad_Statics::NewProp_SelectedUnits_Inner = { "SelectedUnits", nullptr, (EPropertyFlags)0x0000000000020000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_AParentUnit_NoRegister, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayerController_MarineSquad_Statics::NewProp_CommandEnum_MetaData[] = {
+		{ "Category", "PlayerController_MarineSquad" },
+		{ "ModuleRelativePath", "PlayerController_MarineSquad.h" },
+		{ "ToolTip", ", BlueprintReadWrite, Category=\"Enum\")" },
+	};
+#endif
+	const UE4CodeGen_Private::FEnumPropertyParams Z_Construct_UClass_APlayerController_MarineSquad_Statics::NewProp_CommandEnum = { "CommandEnum", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APlayerController_MarineSquad, CommandEnum), Z_Construct_UEnum_Marine_Squad_ECommandsEnum, METADATA_PARAMS(Z_Construct_UClass_APlayerController_MarineSquad_Statics::NewProp_CommandEnum_MetaData, ARRAY_COUNT(Z_Construct_UClass_APlayerController_MarineSquad_Statics::NewProp_CommandEnum_MetaData)) };
+	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UClass_APlayerController_MarineSquad_Statics::NewProp_CommandEnum_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, nullptr, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_APlayerController_MarineSquad_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerController_MarineSquad_Statics::NewProp_CAMPtr,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerController_MarineSquad_Statics::NewProp_Margin,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerController_MarineSquad_Statics::NewProp_SelectedUnits,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerController_MarineSquad_Statics::NewProp_SelectedUnits_Inner,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerController_MarineSquad_Statics::NewProp_CommandEnum,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerController_MarineSquad_Statics::NewProp_CommandEnum_Underlying,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_APlayerController_MarineSquad_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<APlayerController_MarineSquad>::IsAbstract,
@@ -116,7 +188,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerController_MarineSquad() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APlayerController_MarineSquad, 3187574414);
+	IMPLEMENT_CLASS(APlayerController_MarineSquad, 3739304197);
 	template<> MARINE_SQUAD_API UClass* StaticClass<APlayerController_MarineSquad>()
 	{
 		return APlayerController_MarineSquad::StaticClass();
