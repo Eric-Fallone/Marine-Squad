@@ -28,6 +28,11 @@ public:
 
 	//command methods
 	void Move(FVector MoveLocation);
+
+	// 0 non player controlled
+	// 1 or more is player number
+	UPROPERTY(EditAnywhere)
+	int PlayerControlled;
 private:
 	//unit stats
 	UPROPERTY(EditAnywhere)

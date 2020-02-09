@@ -36,5 +36,13 @@ void AHUD_MarineSquad::DrawHUD()
             false,
             false
         );
+        //removes non player controlled actors
+        for (size_t i = 0; i < FoundUnits.Num(); i++)
+        {
+            if(FoundUnits[i]->PlayerControlled != 1)
+            {
+                FoundUnits.RemoveAt(i);
+            }
+        }
     }
 }

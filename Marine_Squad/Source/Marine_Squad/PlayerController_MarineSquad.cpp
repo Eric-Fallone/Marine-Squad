@@ -95,12 +95,10 @@ void APlayerController_MarineSquad::MoveCommand()
         {
         FHitResult Hit;
         GetHitResultUnderCursor(ECollisionChannel::ECC_Visibility, false, OUT Hit);
-        FVector MoveLocation = Hit.Location + FVector(i / 2 * 100 , i % 2 *100 , 0);
+        FVector MoveLocation = Hit.Location + FVector(i / 2 * 300 - 150 , i % 2 *200 -100 , 0);
 
         //set move action
         SelectedUnits[i]->Move(MoveLocation);
-        //AAIController* ai =  Cast<AAIController>(SelectedUnits[i]->GetController());
-        //ai->MoveToLocation(MoveLocation,-1.0f,true,true,false,true,0,true);
         
         DrawDebugSphere(GetWorld(), MoveLocation, 25,10, FColor::Red,false, 1.f);
         }
