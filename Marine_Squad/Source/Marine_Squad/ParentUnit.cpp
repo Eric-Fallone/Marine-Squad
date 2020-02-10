@@ -3,6 +3,7 @@
 
 #include "ParentUnit.h"
 #include "AIController.h"
+#include "GameFramework/CharacterMovementComponent.h"
 
 // Sets default values
 AParentUnit::AParentUnit()
@@ -21,6 +22,7 @@ void AParentUnit::BeginPlay()
 	{
 		HealthCurrent = HealthMax;
 	}
+	GetCharacterMovement()->MaxWalkSpeed = MoveSpeed;
 }
 
 // Called every frame
