@@ -1,0 +1,2 @@
+C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Intermediate\Build\Win64\UE4\Development\Marine_Squad\Definitions.Marine_Squad.h
+C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Source\Marine_Squad\Marine_Squad.h
