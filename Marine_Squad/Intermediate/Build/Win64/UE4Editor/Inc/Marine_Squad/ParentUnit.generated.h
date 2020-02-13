@@ -8,13 +8,36 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class AParentUnit;
 #ifdef MARINE_SQUAD_ParentUnit_generated_h
 #error "ParentUnit.generated.h already included, missing '#pragma once' in ParentUnit.h"
 #endif
 #define MARINE_SQUAD_ParentUnit_generated_h
 
-#define Marine_Squad_Source_Marine_Squad_ParentUnit_h_12_RPC_WRAPPERS
-#define Marine_Squad_Source_Marine_Squad_ParentUnit_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define Marine_Squad_Source_Marine_Squad_ParentUnit_h_12_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execAttack) \
+	{ \
+		P_GET_OBJECT(AParentUnit,Z_Param_target); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Attack(Z_Param_target); \
+		P_NATIVE_END; \
+	}
+
+
+#define Marine_Squad_Source_Marine_Squad_ParentUnit_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execAttack) \
+	{ \
+		P_GET_OBJECT(AParentUnit,Z_Param_target); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Attack(Z_Param_target); \
+		P_NATIVE_END; \
+	}
+
+
 #define Marine_Squad_Source_Marine_Squad_ParentUnit_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAParentUnit(); \
@@ -57,13 +80,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AParentUnit); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AParentUnit)
 
 
-#define Marine_Squad_Source_Marine_Squad_ParentUnit_h_12_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__HealthMax() { return STRUCT_OFFSET(AParentUnit, HealthMax); } \
-	FORCEINLINE static uint32 __PPO__HealthCurrent() { return STRUCT_OFFSET(AParentUnit, HealthCurrent); } \
-	FORCEINLINE static uint32 __PPO__MoveSpeed() { return STRUCT_OFFSET(AParentUnit, MoveSpeed); } \
-	FORCEINLINE static uint32 __PPO__RotationSpeed() { return STRUCT_OFFSET(AParentUnit, RotationSpeed); }
-
-
+#define Marine_Squad_Source_Marine_Squad_ParentUnit_h_12_PRIVATE_PROPERTY_OFFSET
 #define Marine_Squad_Source_Marine_Squad_ParentUnit_h_9_PROLOG
 #define Marine_Squad_Source_Marine_Squad_ParentUnit_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

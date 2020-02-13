@@ -45,3 +45,9 @@ void AParentUnit::Move(FVector MoveLocation)
 	ai->MoveToLocation(MoveLocation,-1.0f,true,true,false,true,0,true);
 }
 
+
+void AParentUnit::Attack(AParentUnit* target)
+{
+	
+}
+

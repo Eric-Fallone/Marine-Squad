@@ -127,18 +127,18 @@ void APlayerController_MarineSquad::MoveCamera()
         //Left and Right
 		if(MousePosX <= Margin)
         {
-			CamDirY = 1.0f;
+			CamDirY = -1.0f;
         }else if (MousePosX >= ScreenSizeX - Margin)
 		{
-			CamDirY = -1.0f;
+			CamDirY = 1.0f;
 		}
 		//UP and Down
 		if(MousePosY <= 0)
         {
-			CamDirX = -1.0f;
+			CamDirX = 1.0f;
         }else if (MousePosY >= ScreenSizeY - Margin)
 		{
-			CamDirX = 1.0f;
+			CamDirX = -1.0f;
 		}
 
 		//Ruturns of no screen movement is wanted

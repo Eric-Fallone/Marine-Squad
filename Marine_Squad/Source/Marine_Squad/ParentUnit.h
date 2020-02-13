@@ -29,18 +29,37 @@ public:
 	//command methods
 	void Move(FVector MoveLocation);
 
+	UFUNCTION(BlueprintCallable, Category = "AttackFunction")
+    void Attack(class AParentUnit* target);
+
 	// 0 non player controlled
 	// 1 or more is player number
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=PlayerTeam)
 	int PlayerControlled;
-private:
-	//unit stats
-	UPROPERTY(EditAnywhere)
+	//Unit Stats
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=UnitStats)
+	float AttackRange;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=UnitStats)
+	float AttackDamage;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=UnitStats)
+	float MagSize;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=UnitStats)
+	float MagTotal;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=UnitStats)
+	float MagCurrent;
+
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=UnitStats)
 	float HealthMax = 100;
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=UnitStats)
 	float HealthCurrent;
-	UPROPERTY(EditAnywhere)
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=UnitStats)
 	float MoveSpeed = 300;
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=UnitStats)
 	float RotationSpeed;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=UnitTarget)
+	AParentUnit* CurrentTarget;
+
 };

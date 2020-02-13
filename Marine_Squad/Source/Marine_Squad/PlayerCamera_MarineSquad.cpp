@@ -11,31 +11,7 @@ APlayerCamera_MarineSquad::APlayerCamera_MarineSquad()
 
 }
 
-
-// Called when the game starts or when spawned
-/* 
-void APlayerCamera_MarineSquad::BeginPlay()
-{
-	Super::BeginPlay();
-	
-}
-
-// Called every frame
-void APlayerCamera_MarineSquad::Tick(float DeltaTime)
-{
-	Super::Tick(DeltaTime);
-	//move camera
-}
-
-// Called to bind functionality to input
-void APlayerCamera_MarineSquad::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
-{
-	Super::SetupPlayerInputComponent(PlayerInputComponent);
-
-} 
-*/
 void APlayerCamera_MarineSquad::MoveCamera(FVector CamDir)
 {
-	UE_LOG(LogTemp, Warning, TEXT("Camera Moving"))
 	AddActorWorldOffset(CamDir * CameraMoveSpeed);
 }
