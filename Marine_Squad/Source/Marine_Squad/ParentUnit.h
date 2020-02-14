@@ -32,6 +32,12 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "AttackFunction")
     void Attack(class AParentUnit* target);
 
+	UFUNCTION(BlueprintCallable, Category = "AttackFunction")
+    void TakeDamage(float DamageTaken);
+
+	UFUNCTION(BlueprintCallable, Category = "BasicFunction")
+    void KillSelf();
+
 	// 0 non player controlled
 	// 1 or more is player number
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=PlayerTeam)

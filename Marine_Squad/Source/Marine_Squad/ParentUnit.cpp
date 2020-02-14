@@ -51,3 +51,17 @@ void AParentUnit::Attack(AParentUnit* target)
 	
 }
 
+
+void AParentUnit::TakeDamage(float DamageTaken)
+{
+	HealthCurrent = HealthCurrent - DamageTaken;
+	if (HealthCurrent <= 0){
+		KillSelf();
+	}
+}
+
+
+void AParentUnit::KillSelf()
+{
+	Destroy();
+}

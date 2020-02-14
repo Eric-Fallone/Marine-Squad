@@ -16,6 +16,23 @@ class AParentUnit;
 
 #define Marine_Squad_Source_Marine_Squad_ParentUnit_h_12_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execKillSelf) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->KillSelf(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execTakeDamage) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_DamageTaken); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->TakeDamage(Z_Param_DamageTaken); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execAttack) \
 	{ \
 		P_GET_OBJECT(AParentUnit,Z_Param_target); \
@@ -27,6 +44,23 @@ class AParentUnit;
 
 
 #define Marine_Squad_Source_Marine_Squad_ParentUnit_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execKillSelf) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->KillSelf(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execTakeDamage) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_DamageTaken); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->TakeDamage(Z_Param_DamageTaken); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execAttack) \
 	{ \
