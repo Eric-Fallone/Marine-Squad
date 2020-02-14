@@ -35,7 +35,7 @@ public:
 	// 0 non player controlled
 	// 1 or more is player number
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=PlayerTeam)
-	int PlayerControlled;
+	int TeamNumber;
 	//Unit Stats
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=UnitStats)
 	float AttackRange;
