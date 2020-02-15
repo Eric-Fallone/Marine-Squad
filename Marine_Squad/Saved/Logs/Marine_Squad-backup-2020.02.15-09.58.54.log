@@ -1,0 +1,1794 @@
+﻿Log file open, 02/15/20 01:27:33
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: Marine_Squad
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.355039
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -6:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin VaFogOfWar
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.22-CL-7053642
+LogInit: Engine Version: 4.22.3-7053642+++UE4+Release-4.22
+LogInit: Compatible Engine Version: 4.22.0-5660361+++UE4+Release-4.22
+LogInit: Net CL: 5660361
+LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Core(TM) i5-4690K CPU @ 3.50GHz, GPU: NVIDIA GeForce GTX 970
+LogInit: Compiled (64-bit): Jun 18 2019 03:09:11
+LogInit: Compiled with Visual C++: 19.16.27025.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.22
+LogInit: Command Line: 
+LogInit: Base Directory: Q:/UE_4.22/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 30
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 28
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 25
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 2
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.02.15-07.27.34:435][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.02.15-07.27.34:435][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.02.15-07.27.34:435][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Config/Windows/Engine.ini]
+[2020.02.15-07.27.34:435][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.02.15-07.27.34:435][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2020.02.15-07.27.34:435][  0]LogConfig: Setting CVar [[r.AllowGlobalClipPlane:1]]
+[2020.02.15-07.27.34:435][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Config/Windows/Engine.ini]
+[2020.02.15-07.27.34:435][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Config/Windows/Engine.ini]
+[2020.02.15-07.27.34:435][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.02.15-07.27.34:435][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.02.15-07.27.34:435][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.02.15-07.27.34:435][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.02.15-07.27.34:435][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.02.15-07.27.34:435][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.02.15-07.27.34:435][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.02.15-07.27.34:435][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.02.15-07.27.34:435][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.02.15-07.27.34:435][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.02.15-07.27.34:435][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.02.15-07.27.34:435][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.02.15-07.27.34:435][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.02.15-07.27.34:435][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Config/Windows/Engine.ini]
+[2020.02.15-07.27.34:435][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.02.15-07.27.34:435][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.02.15-07.27.34:435][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.02.15-07.27.34:435][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.02.15-07.27.34:435][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.02.15-07.27.34:435][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.02.15-07.27.34:435][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2020.02.15-07.27.34:435][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.02.15-07.27.34:435][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.02.15-07.27.34:435][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.02.15-07.27.34:435][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.02.15-07.27.34:435][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.02.15-07.27.34:435][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.02.15-07.27.34:435][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Config/Windows/Engine.ini]
+[2020.02.15-07.27.34:435][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Config/Windows/Engine.ini]
+[2020.02.15-07.27.34:445][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Config/Windows/Scalability.ini]
+[2020.02.15-07.27.34:445][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.02.15-07.27.34:445][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.02.15-07.27.34:445][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Config/Windows/Scalability.ini]
+[2020.02.15-07.27.34:445][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.02.15-07.27.34:445][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Config/Windows/Scalability.ini]
+[2020.02.15-07.27.34:445][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.02.15-07.27.34:445][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.02.15-07.27.34:445][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.02.15-07.27.34:445][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.02.15-07.27.34:445][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.02.15-07.27.34:445][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.02.15-07.27.34:445][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.02.15-07.27.34:445][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.02.15-07.27.34:445][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.02.15-07.27.34:445][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.02.15-07.27.34:445][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.02.15-07.27.34:445][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.02.15-07.27.34:445][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.02.15-07.27.34:445][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.02.15-07.27.34:445][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.02.15-07.27.34:445][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.02.15-07.27.34:445][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.02.15-07.27.34:445][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.02.15-07.27.34:445][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Config/Windows/Scalability.ini]
+[2020.02.15-07.27.34:445][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.02.15-07.27.34:445][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.02.15-07.27.34:445][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.02.15-07.27.34:445][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.02.15-07.27.34:445][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.02.15-07.27.34:445][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.02.15-07.27.34:445][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.02.15-07.27.34:445][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.02.15-07.27.34:445][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.02.15-07.27.34:445][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.02.15-07.27.34:445][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.02.15-07.27.34:445][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.02.15-07.27.34:445][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.02.15-07.27.34:445][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.02.15-07.27.34:445][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.02.15-07.27.34:445][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.02.15-07.27.34:445][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.02.15-07.27.34:445][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.02.15-07.27.34:445][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.02.15-07.27.34:445][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.02.15-07.27.34:445][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.02.15-07.27.34:445][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.02.15-07.27.34:445][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.02.15-07.27.34:445][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.02.15-07.27.34:445][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.02.15-07.27.34:445][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.02.15-07.27.34:445][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.02.15-07.27.34:445][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.02.15-07.27.34:445][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.02.15-07.27.34:445][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.02.15-07.27.34:445][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Config/Windows/Scalability.ini]
+[2020.02.15-07.27.34:445][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.02.15-07.27.34:445][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.02.15-07.27.34:445][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.02.15-07.27.34:445][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.02.15-07.27.34:445][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.02.15-07.27.34:445][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.02.15-07.27.34:445][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.02.15-07.27.34:445][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.02.15-07.27.34:445][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Config/Windows/Scalability.ini]
+[2020.02.15-07.27.34:445][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.02.15-07.27.34:445][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.02.15-07.27.34:445][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.02.15-07.27.34:445][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.02.15-07.27.34:445][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.02.15-07.27.34:446][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.02.15-07.27.34:446][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.02.15-07.27.34:446][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.02.15-07.27.34:446][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.02.15-07.27.34:446][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.02.15-07.27.34:446][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.02.15-07.27.34:446][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.02.15-07.27.34:446][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.02.15-07.27.34:446][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Config/Windows/Scalability.ini]
+[2020.02.15-07.27.34:446][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.02.15-07.27.34:446][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.02.15-07.27.34:446][  0]LogInit: Selected Device Profile: [Windows]
+[2020.02.15-07.27.34:446][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.02.15-07.27.34:467][  0]LogHAL: Display: Platform has ~ 8 GB [8444633088 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.02.15-07.27.34:468][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2020.02.15-07.27.34:468][  0]LogInit: Going up to parent DeviceProfile []
+[2020.02.15-07.27.34:468][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Config/Windows/Scalability.ini]
+[2020.02.15-07.27.34:468][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.02.15-07.27.34:468][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.02.15-07.27.34:468][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Config/Windows/Scalability.ini]
+[2020.02.15-07.27.34:468][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.02.15-07.27.34:468][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Config/Windows/Scalability.ini]
+[2020.02.15-07.27.34:468][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.02.15-07.27.34:468][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.02.15-07.27.34:468][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.02.15-07.27.34:468][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.02.15-07.27.34:468][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.02.15-07.27.34:468][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.02.15-07.27.34:468][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.02.15-07.27.34:468][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.02.15-07.27.34:468][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.02.15-07.27.34:468][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.02.15-07.27.34:468][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.02.15-07.27.34:468][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.02.15-07.27.34:468][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.02.15-07.27.34:468][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.02.15-07.27.34:468][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.02.15-07.27.34:468][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.02.15-07.27.34:468][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.02.15-07.27.34:468][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.02.15-07.27.34:468][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Config/Windows/Scalability.ini]
+[2020.02.15-07.27.34:468][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.02.15-07.27.34:468][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.02.15-07.27.34:468][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.02.15-07.27.34:468][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.02.15-07.27.34:468][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.02.15-07.27.34:468][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.02.15-07.27.34:468][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.02.15-07.27.34:468][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.02.15-07.27.34:468][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.02.15-07.27.34:468][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.02.15-07.27.34:468][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.02.15-07.27.34:468][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.02.15-07.27.34:468][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.02.15-07.27.34:468][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.02.15-07.27.34:468][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.02.15-07.27.34:468][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.02.15-07.27.34:468][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.02.15-07.27.34:468][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.02.15-07.27.34:468][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.02.15-07.27.34:468][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.02.15-07.27.34:468][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.02.15-07.27.34:468][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.02.15-07.27.34:468][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.02.15-07.27.34:468][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.02.15-07.27.34:468][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.02.15-07.27.34:468][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.02.15-07.27.34:468][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.02.15-07.27.34:468][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.02.15-07.27.34:468][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.02.15-07.27.34:468][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.02.15-07.27.34:468][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Config/Windows/Scalability.ini]
+[2020.02.15-07.27.34:468][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.02.15-07.27.34:468][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.02.15-07.27.34:468][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.02.15-07.27.34:468][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.02.15-07.27.34:468][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.02.15-07.27.34:468][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.02.15-07.27.34:468][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.02.15-07.27.34:468][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.02.15-07.27.34:468][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Config/Windows/Scalability.ini]
+[2020.02.15-07.27.34:468][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.02.15-07.27.34:468][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.02.15-07.27.34:468][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.02.15-07.27.34:468][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.02.15-07.27.34:468][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.02.15-07.27.34:468][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.02.15-07.27.34:468][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.02.15-07.27.34:468][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.02.15-07.27.34:468][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.02.15-07.27.34:468][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.02.15-07.27.34:469][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.02.15-07.27.34:469][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.02.15-07.27.34:469][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.02.15-07.27.34:469][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Config/Windows/Scalability.ini]
+[2020.02.15-07.27.34:469][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.02.15-07.27.34:469][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.02.15-07.27.34:469][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.02.15-07.27.34:474][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.02.15-07.27.34:474][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.02.15-07.27.34:474][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Config/Windows/Engine.ini]
+[2020.02.15-07.27.34:475][  0]LogInit: Computer: FALL-PC
+[2020.02.15-07.27.34:475][  0]LogInit: User: ericf
+[2020.02.15-07.27.34:475][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.02.15-07.27.34:475][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.02.15-07.27.34:475][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2020.02.15-07.27.34:475][  0]LogMemory: Platform Memory Stats for Windows
+[2020.02.15-07.27.34:475][  0]LogMemory: Process Physical Memory: 97.25 MB used, 97.25 MB peak
+[2020.02.15-07.27.34:475][  0]LogMemory: Process Virtual Memory: 96.12 MB used, 96.12 MB peak
+[2020.02.15-07.27.34:475][  0]LogMemory: Physical Memory: 4726.45 MB used,  3326.98 MB free, 8053.43 MB total
+[2020.02.15-07.27.34:475][  0]LogMemory: Virtual Memory: 4636.96 MB used,  134213088.00 MB free, 134217728.00 MB total
+[2020.02.15-07.27.34:554][  0]LogInit: Using OS detected language (en-US).
+[2020.02.15-07.27.34:554][  0]LogInit: Using OS detected locale (en-US).
+[2020.02.15-07.27.34:556][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.02.15-07.27.34:912][  0]LogInit: Setting process to per monitor DPI aware
+[2020.02.15-07.27.35:021][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.02.15-07.27.35:021][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.02.15-07.27.37:869][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.02.15-07.27.37:869][  0]LogD3D11RHI: D3D11 adapters:
+[2020.02.15-07.27.37:933][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2020.02.15-07.27.37:933][  0]LogD3D11RHI:       4043/0/4026 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.02.15-07.27.37:998][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2020.02.15-07.27.37:998][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.02.15-07.27.38:004][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.02.15-07.27.38:004][  0]LogD3D11RHI:       0/0/4026 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.02.15-07.27.38:004][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.02.15-07.27.38:011][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.02.15-07.27.38:011][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2020.02.15-07.27.38:011][  0]LogWindows: EnumDisplayDevices:
+[2020.02.15-07.27.38:012][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2020.02.15-07.27.38:012][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2020.02.15-07.27.38:012][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2020.02.15-07.27.38:012][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2020.02.15-07.27.38:013][  0]LogWindows:    4. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2020.02.15-07.27.38:013][  0]LogWindows:    5. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2020.02.15-07.27.38:013][  0]LogWindows:    6. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2020.02.15-07.27.38:013][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2020.02.15-07.27.38:013][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2020.02.15-07.27.38:013][  0]LogD3D11RHI:   Driver Version: 436.02 (internal:26.21.14.3602, unified:436.02)
+[2020.02.15-07.27.38:014][  0]LogD3D11RHI:      Driver Date: 8-16-2019
+[2020.02.15-07.27.38:014][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
+[2020.02.15-07.27.38:065][  0]LogD3D11RHI: Async texture creation enabled
+[2020.02.15-07.27.38:096][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2020.02.15-07.27.38:097][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2020.02.15-07.27.38:097][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2020.02.15-07.27.38:105][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.02.15-07.27.38:829][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2020.02.15-07.27.38:843][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2020.02.15-07.27.38:856][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2020.02.15-07.27.38:870][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2020.02.15-07.27.38:890][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2020.02.15-07.27.38:904][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2020.02.15-07.27.38:917][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2020.02.15-07.27.38:931][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2020.02.15-07.27.38:937][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2020.02.15-07.27.39:030][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2020.02.15-07.27.39:030][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2020.02.15-07.27.39:030][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2020.02.15-07.27.39:030][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2020.02.15-07.27.39:030][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2020.02.15-07.27.39:030][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2020.02.15-07.27.39:030][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2020.02.15-07.27.39:030][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2020.02.15-07.27.39:030][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2020.02.15-07.27.39:030][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2020.02.15-07.27.39:030][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2020.02.15-07.27.39:030][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2020.02.15-07.27.39:030][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2020.02.15-07.27.39:030][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2020.02.15-07.27.39:030][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2020.02.15-07.27.39:030][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2020.02.15-07.27.39:030][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2020.02.15-07.27.39:030][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2020.02.15-07.27.39:033][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2020.02.15-07.27.39:093][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2020.02.15-07.27.39:093][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2020.02.15-07.27.39:118][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2020.02.15-07.27.39:118][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2020.02.15-07.27.39:131][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2020.02.15-07.27.39:144][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2020.02.15-07.27.39:157][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2020.02.15-07.27.39:181][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2020.02.15-07.27.39:233][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2020.02.15-07.27.39:233][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2020.02.15-07.27.39:233][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.02.15-07.27.39:242][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.02.15-07.27.39:310][  0]LogShaderCompilers: Guid format shader working directory is -8 characters bigger than the processId version (C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Intermediate/Shaders/WorkingDirectory/7904/).
+[2020.02.15-07.27.39:310][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ericf/AppData/Local/Temp/UnrealShaderWorkingDir/6D3632A14A42B63D89C77882E5C52F2E/'.
+[2020.02.15-07.27.39:311][  0]LogXGEController: Cleaning working directory: C:/Users/ericf/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.02.15-07.27.39:312][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.02.15-07.27.39:312][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.02.15-07.27.39:312][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.02.15-07.27.41:714][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.02.15-07.27.42:299][  0]LogDerivedDataCache: Loaded boot cache 0.58s 71MB C:/Users/ericf/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2020.02.15-07.27.42:299][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/ericf/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2020.02.15-07.27.42:299][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.02.15-07.27.42:299][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.02.15-07.27.42:299][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.02.15-07.27.42:299][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.02.15-07.27.42:327][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.02.15-07.27.42:327][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.02.15-07.27.42:327][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.02.15-07.27.42:340][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ericf/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.02.15-07.27.42:340][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.02.15-07.27.42:340][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.02.15-07.27.42:364][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.02.15-07.27.42:366][  0]LogSlate: Using FreeType 2.6.0
+[2020.02.15-07.27.42:387][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.02.15-07.27.42:653][  0]LogAssetRegistry: FAssetRegistry took 0.0335 seconds to start up
+[2020.02.15-07.27.43:046][  0]LogInit: Selected Device Profile: [Windows]
+[2020.02.15-07.27.43:323][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.02.15-07.27.43:323][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.02.15-07.27.43:323][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.02.15-07.27.43:323][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.02.15-07.27.43:324][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.02.15-07.27.43:367][  0]LogNetVersion: Marine_Squad 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 4148284594)
+[2020.02.15-07.27.44:541][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.049734 seconds
+[2020.02.15-07.27.44:549][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2020.02.15-07.27.44:549][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2020.02.15-07.27.44:549][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.02.15-07.27.48:215][  0]LogVaFog: [FVaFogOfWarModule::StartupModule(44)] VaFogOfWar module started
+[2020.02.15-07.27.48:221][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.02.15-07.27.48:236][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.02.15-07.27.48:431][  0]SourceControl: Source control is disabled
+[2020.02.15-07.27.48:431][  0]SourceControl: Source control is disabled
+[2020.02.15-07.27.48:439][  0]SourceControl: Source control is disabled
+[2020.02.15-07.27.48:442][  0]SourceControl: Source control is disabled
+[2020.02.15-07.27.48:614][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.02.15-07.27.48:852][  0]LogOcInput: OculusInput pre-init called
+[2020.02.15-07.27.49:665][  0]LogEngine: Initializing Engine...
+[2020.02.15-07.27.49:667][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.02.15-07.27.49:669][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.001 s
+[2020.02.15-07.27.50:140][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.02.15-07.27.50:157][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.02.15-07.27.50:157][  0]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_976865d7f760a47e2a086b15bf7dcbd9>::operator ()(41)] Fog Controller is created for: Untitled
+[2020.02.15-07.27.50:207][  0]LogInit: XAudio2 using 'HEAD SET (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.02.15-07.27.50:231][  0]LogInit: FAudioDevice initialized.
+[2020.02.15-07.27.50:232][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.02.15-07.27.50:593][  0]LogDerivedDataCache: Saved boot cache 0.36s 71MB C:/Users/ericf/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2020.02.15-07.27.50:607][  0]LogInit: Texture streaming: Enabled
+[2020.02.15-07.27.50:628][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.02.15-07.27.50:655][  0]LogInit: Transaction tracking system initialized
+[2020.02.15-07.27.50:695][  0]BlueprintLog: New page: Editor Load
+[2020.02.15-07.27.50:837][  0]LocalizationService: Localization service is disabled
+[2020.02.15-07.27.51:689][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.02.15-07.27.51:689][  0]LogCook: Display: Mobile HDR setting 1
+[2020.02.15-07.27.51:811][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Content/' took 0.02s
+[2020.02.15-07.27.52:163][  0]SourceControl: Source control is disabled
+[2020.02.15-07.27.52:163][  0]Cmd: MAP LOAD FILE="C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.02.15-07.27.52:172][  0]LightingResults: New page: Lighting Build
+[2020.02.15-07.27.52:175][  0]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_144d8ffb0c7ca55232a4412d9c0c3636>::operator ()(31)] Fog Controller is removed for: Untitled
+[2020.02.15-07.27.52:175][  0]MapCheck: New page: Map Check
+[2020.02.15-07.27.52:175][  0]LightingResults: New page: Lighting Build
+[2020.02.15-07.27.52:206][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2020.02.15-07.27.52:210][  0]LogLinker: Warning: Can't find file '/Game/BP/Units_BP/BaseEnemyUnit'
+[2020.02.15-07.27.52:210][  0]LogLinker: Warning: Can't find file for asset '/Game/BP/Units_BP/BaseEnemyUnit' while loading NULL.
+[2020.02.15-07.27.52:771][  0]LogLinker: Warning: Can't find file '/Game/BP/Units_BP/BaseEnemyUnit'
+[2020.02.15-07.27.52:771][  0]LogLinker: Warning: Can't find file for asset '/Game/BP/Units_BP/BaseEnemyUnit' while loading NULL.
+[2020.02.15-07.27.52:981][  0]LogLinker: Warning: Can't find file '/Game/BP/Units_BP/BaseEnemyUnit'
+[2020.02.15-07.27.52:981][  0]LogLinker: Warning: Can't find file for asset '/Game/BP/Units_BP/BaseEnemyUnit' while loading NULL.
+[2020.02.15-07.27.52:981][  0]LogLinker: Warning: Can't find file '/Game/BP/Units_BP/BaseEnemyUnit'
+[2020.02.15-07.27.52:982][  0]LogLinker: Warning: Can't find file for asset '/Game/BP/Units_BP/BaseEnemyUnit' while loading NULL.
+[2020.02.15-07.27.52:982][  0]LogLinker: Warning: Can't find file '/Game/BP/Units_BP/BaseEnemyUnit'
+[2020.02.15-07.27.52:982][  0]LogLinker: Warning: Can't find file for asset '/Game/BP/Units_BP/BaseEnemyUnit' while loading NULL.
+[2020.02.15-07.27.53:380][  0]LogLinker: Warning: Can't find file '/Game/BP/Units_BP/BaseEnemyUnit'
+[2020.02.15-07.27.53:380][  0]LogLinker: Warning: Can't find file for asset '/Game/BP/Units_BP/BaseEnemyUnit' while loading NULL.
+[2020.02.15-07.27.53:424][  0]LogLinker: Warning: Can't find file '/Game/BP/Units_BP/BaseEnemyUnit'
+[2020.02.15-07.27.53:424][  0]LogLinker: Warning: Can't find file for asset '/Game/BP/Units_BP/BaseEnemyUnit' while loading NULL.
+[2020.02.15-07.27.53:425][  0]LogLinker: Warning: Can't find file '/Game/BP/Units_BP/BaseEnemyUnit'
+[2020.02.15-07.27.53:426][  0]LogLinker: Warning: Can't find file for asset '/Game/BP/Units_BP/BaseEnemyUnit' while loading NULL.
+[2020.02.15-07.27.53:426][  0]LogLinker: Warning: Can't find file '/Game/BP/Units_BP/BaseEnemyUnit'
+[2020.02.15-07.27.53:426][  0]LogLinker: Warning: Can't find file for asset '/Game/BP/Units_BP/BaseEnemyUnit' while loading NULL.
+[2020.02.15-07.27.53:426][  0]LogLinker: Warning: Can't find file '/Game/BP/Units_BP/BaseEnemyUnit'
+[2020.02.15-07.27.53:426][  0]LogLinker: Warning: Can't find file for asset '/Game/BP/Units_BP/BaseEnemyUnit' while loading NULL.
+[2020.02.15-07.27.53:427][  0]LogLinker: Warning: Can't find file '/Game/BP/Units_BP/BaseEnemyUnit'
+[2020.02.15-07.27.53:427][  0]LogLinker: Warning: Can't find file for asset '/Game/BP/Units_BP/BaseEnemyUnit' while loading NULL.
+[2020.02.15-07.27.53:427][  0]LogLinker: Warning: Can't find file '/Game/BP/Units_BP/BaseEnemyUnit'
+[2020.02.15-07.27.53:427][  0]LogLinker: Warning: Can't find file for asset '/Game/BP/Units_BP/BaseEnemyUnit' while loading NULL.
+[2020.02.15-07.27.53:427][  0]LogLinker: Warning: Can't find file '/Game/BP/Units_BP/BaseEnemyUnit'
+[2020.02.15-07.27.53:427][  0]LogLinker: Warning: Can't find file for asset '/Game/BP/Units_BP/BaseEnemyUnit' while loading NULL.
+[2020.02.15-07.27.53:427][  0]LogLinker: Warning: Can't find file '/Game/BP/Units_BP/BaseEnemyUnit'
+[2020.02.15-07.27.53:428][  0]LogLinker: Warning: Can't find file for asset '/Game/BP/Units_BP/BaseEnemyUnit' while loading NULL.
+[2020.02.15-07.27.53:443][  0]LogLinker: Warning: Can't find file '/Game/BP/Units_BP/BaseEnemyUnit'
+[2020.02.15-07.27.53:443][  0]LogLinker: Warning: Can't find file for asset '/Game/BP/Units_BP/BaseEnemyUnit' while loading NULL.
+[2020.02.15-07.27.53:443][  0]LogLinker: Warning: Can't find file '/Game/BP/Units_BP/BaseEnemyUnit'
+[2020.02.15-07.27.53:444][  0]LogLinker: Warning: Can't find file for asset '/Game/BP/Units_BP/BaseEnemyUnit' while loading NULL.
+[2020.02.15-07.27.53:804][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.02.15-07.27.53:804][  0]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_976865d7f760a47e2a086b15bf7dcbd9>::operator ()(41)] Fog Controller is created for: Minimal_Default
+[2020.02.15-07.27.53:867][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.02.15-07.27.53:894][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.75ms
+[2020.02.15-07.27.53:895][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.02.15-07.27.53:895][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.153ms to complete.
+[2020.02.15-07.27.53:895][  0]LogFileHelpers: Loading map 'Minimal_Default' took 1.732
+[2020.02.15-07.27.54:049][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.15-07.27.54:057][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.15-07.27.54:065][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.15-07.27.54:073][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.15-07.27.54:134][  0]LogCollectionManager: Loaded 0 collections in 0.000792 seconds
+[2020.02.15-07.27.54:153][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Collections/' took 0.01s
+[2020.02.15-07.27.54:153][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Content/Developers/ericf/Collections/' took 0.00s
+[2020.02.15-07.27.54:153][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Content/Collections/' took 0.00s
+[2020.02.15-07.27.54:153][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2020.02.15-07.27.54:164][  0]LogContentBrowser: Native class hierarchy populated in 0.0108 seconds. Added 2748 classes and 666 folders.
+[2020.02.15-07.27.54:174][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.02.15-07.27.54:183][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.15-07.27.54:191][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.15-07.27.54:233][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.15-07.27.54:260][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.15-07.27.54:268][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.15-07.27.54:290][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.15-07.27.54:298][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.15-07.27.54:322][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.15-07.27.54:330][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.15-07.27.54:337][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.15-07.27.54:344][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.15-07.27.54:351][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.15-07.27.54:358][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.15-07.27.54:365][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.15-07.27.54:372][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.15-07.27.54:379][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.15-07.27.54:409][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.15-07.27.54:417][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.15-07.27.54:424][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.15-07.27.54:434][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.15-07.27.54:442][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.15-07.27.54:451][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.15-07.27.54:458][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.15-07.27.54:466][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.15-07.27.54:475][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.15-07.27.54:483][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.15-07.27.54:672][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.02.15-07.27.54:788][  0]LogSlate: Took 0.007001 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.02.15-07.27.54:798][  0]LogSlate: Took 0.006996 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.02.15-07.27.54:890][  0]LogRenderer: Reallocating scene render targets to support 1904x916 Format 10 NumSamples 1 (Frame:1).
+[2020.02.15-07.27.55:119][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.02.15-07.27.55:119][  0]LogLoad: (Engine Initialization) Total time: 25.03 seconds
+[2020.02.15-07.27.55:119][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.02.15-07.27.55:141][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Arrow': BaseEnemyUnit_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.BaseEnemyUnit_2
+[2020.02.15-07.27.55:141][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'CollisionCylinder': BaseEnemyUnit_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.BaseEnemyUnit_2
+[2020.02.15-07.27.55:141][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'CharMoveComp': BaseEnemyUnit_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.BaseEnemyUnit_2
+[2020.02.15-07.27.55:141][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'CharacterMesh0': BaseEnemyUnit_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.BaseEnemyUnit_2
+[2020.02.15-07.27.55:183][  0]LogAssetRegistry: Asset discovery search completed in 12.5540 seconds
+[2020.02.15-07.27.55:186][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2020.02.15-07.27.55:186][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000070 seconds (updated 0 objects)
+[2020.02.15-07.27.55:188][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.02.15-07.28.45:745][151]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.15-07.28.47:035][289]LogSlate: Took 0.007167 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.02.15-07.29.05:145][ 15]LogSlate: Took 0.010497 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.02.15-07.29.09:304][ 15]LogAIModule: Creating AISystem for world Town
+[2020.02.15-07.29.09:305][ 15]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_976865d7f760a47e2a086b15bf7dcbd9>::operator ()(41)] Fog Controller is created for: Town
+[2020.02.15-07.29.09:328][ 15]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/Town.Town
+[2020.02.15-07.29.09:352][ 15]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2020.02.15-07.29.09:353][ 15]Cmd: MAP LOAD FILE="C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Content/Maps/Town.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.02.15-07.29.09:353][ 15]LightingResults: New page: Lighting Build
+[2020.02.15-07.29.09:354][ 15]LoadErrors: New page: Loading map: Town.umap
+[2020.02.15-07.29.09:355][ 15]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_144d8ffb0c7ca55232a4412d9c0c3636>::operator ()(31)] Fog Controller is removed for: Minimal_Default
+[2020.02.15-07.29.09:356][ 15]MapCheck: New page: Map Check
+[2020.02.15-07.29.09:356][ 15]LightingResults: New page: Lighting Build
+[2020.02.15-07.29.09:379][ 15]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2020.02.15-07.29.09:865][ 15]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.02.15-07.29.09:896][ 15]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2020.02.15-07.29.09:934][ 15]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.02.15-07.29.09:934][ 15]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.17ms to complete.
+[2020.02.15-07.29.09:934][ 15]LogFileHelpers: Loading map 'Town' took 0.582
+[2020.02.15-07.59.39:959][651]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.02.15-08.00.17:076][741]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2020.02.15-08.00.31:558][793]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2020.02.15-08.00.45:783][719]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.15-08.01.08:780][888]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2020.02.15-08.01.11:968][ 35]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.15-08.02.24:472][915]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.15-08.02.43:414][240]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.15-08.03.45:202][  6]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2020.02.15-08.03.45:205][  6]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Town" FILE="C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Autosaves/Game/Maps/Town_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2020.02.15-08.03.45:968][  6]LogSavePackage: Moving 'C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Town_Auto1F282A6624B5C7A4E20E6D68508FE6890.tmp' to 'C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Autosaves/Game/Maps/Town_Auto1.umap'
+[2020.02.15-08.03.45:979][  6]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Town' took 0.805
+[2020.02.15-08.03.45:979][  6]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.805
+[2020.02.15-08.04.45:386][183]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2020.02.15-08.04.52:021][664]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.15-08.05.00:906][403]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.15-08.05.04:004][413]LogTexture: Display: Building textures: Texture2D_2 (G8, 128X128)
+[2020.02.15-08.05.15:382][ 34]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.02.15-08.05.35:815][424]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape1)
+[2020.02.15-08.05.35:914][425]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_976865d7f760a47e2a086b15bf7dcbd9>::operator ()(41)] Fog Controller is created for: World_0
+[2020.02.15-08.05.43:222][ 62]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.15-08.05.43:343][ 76]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.02.15-08.05.43:407][ 76]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2020.02.15-08.05.43:410][ 76]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.15-08.05.43:430][ 76]PIE: New page: PIE session: Town (Feb 14, 2020, 8:05:43 PM)
+[2020.02.15-08.05.43:672][ 76]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Town
+[2020.02.15-08.05.43:758][ 76]LogPlayLevel: PIE: StaticDuplicateObject took: (0.085505s)
+[2020.02.15-08.05.43:794][ 76]LogAIModule: Creating AISystem for world Town
+[2020.02.15-08.05.43:803][ 76]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_976865d7f760a47e2a086b15bf7dcbd9>::operator ()(41)] Fog Controller is created for: Town
+[2020.02.15-08.05.43:804][ 76]LogPlayLevel: PIE: World Init took: (0.045121s)
+[2020.02.15-08.05.43:805][ 76]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Town.Town to /Game/Maps/UEDPIE_0_Town.Town (0.133201s)
+[2020.02.15-08.05.43:872][ 76]LogUObjectHash: Compacting FUObjectHashTables data took   6.94ms
+[2020.02.15-08.05.43:942][ 76]LogInit: XAudio2 using 'HEAD SET (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.02.15-08.05.43:967][ 76]LogInit: FAudioDevice initialized.
+[2020.02.15-08.05.43:998][ 76]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.15-08.05.44:064][ 76]LogLoad: Game class is 'MyGameModeBase_MarineSquad_BP_C'
+[2020.02.15-08.05.44:129][ 76]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Town.Town up for play (max tick rate 0) at 2020.02.15-02.05.44
+[2020.02.15-08.05.44:146][ 76]LogWorld: Bringing up level for play took: 0.070716
+[2020.02.15-08.05.44:223][ 76]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0167 seconds. Added 20 classes and 0 folders.
+[2020.02.15-08.05.44:387][ 76]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Town 1.577
+[2020.02.15-08.05.44:390][ 76]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2020.02.15-08.05.46:114][241]LogTemp: Warning: Left Mouse Button Pressed
+[2020.02.15-08.05.46:199][251]LogTemp: Warning: Left Mouse Button Released
+[2020.02.15-08.05.47:368][387]LogTemp: Warning: Left Mouse Button Pressed
+[2020.02.15-08.05.47:559][409]LogTemp: Warning: Left Mouse Button Released
+[2020.02.15-08.05.48:269][490]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-08.05.48:375][502]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-08.05.52:987][  3]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-08.05.53:101][ 16]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-08.05.53:382][ 48]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-08.05.53:513][ 63]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-08.05.53:538][ 66]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-08.05.53:652][ 74]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-08.05.54:013][115]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-08.05.54:099][125]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-08.05.54:184][134]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-08.05.54:263][142]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-08.05.54:623][180]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-08.05.54:737][191]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-08.05.54:825][200]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-08.05.54:950][204]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-08.05.55:886][284]LogTemp: Warning: Left Mouse Button Pressed
+[2020.02.15-08.05.56:015][295]LogTemp: Warning: Left Mouse Button Released
+[2020.02.15-08.05.58:665][564]LogTemp: Warning: Left Mouse Button Pressed
+[2020.02.15-08.05.58:770][575]LogTemp: Warning: Left Mouse Button Released
+[2020.02.15-08.06.03:496][795]LogTemp: Warning: Left Mouse Button Pressed
+[2020.02.15-08.06.03:621][805]LogTemp: Warning: Left Mouse Button Released
+[2020.02.15-08.06.04:838][908]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.15-08.06.04:965][917]LogSlate: Window 'Marine_Squad Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.02.15-08.06.04:977][917]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2020.02.15-08.06.04:996][917]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_144d8ffb0c7ca55232a4412d9c0c3636>::operator ()(31)] Fog Controller is removed for: Town
+[2020.02.15-08.06.05:030][917]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.15-08.06.05:030][917]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2020.02.15-08.06.05:134][917]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2020.02.15-08.06.05:221][918]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2020.02.15-08.14.08:059][743]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2020.02.15-08.14.08:063][743]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Town" FILE="C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Autosaves/Game/Maps/Town_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2020.02.15-08.14.08:675][743]LogTexture: Display: Building textures: Texture2D_24 (BGRA8, 128X128)
+[2020.02.15-08.14.08:761][743]LogTexture: Display: Building textures: Texture2D_18 (BGRA8, 16X16)
+[2020.02.15-08.14.08:773][743]LogTexture: Display: Building textures: Texture2D_19 (BGRA8, 16X16)
+[2020.02.15-08.14.08:775][743]LogTexture: Display: Building textures: Texture2D_66 (BGRA8, 16X16)
+[2020.02.15-08.14.08:785][743]LogTexture: Display: Building textures: Texture2D_67 (BGRA8, 16X16)
+[2020.02.15-08.14.08:791][743]LogTexture: Display: Building textures: Texture2D_84 (BGRA8, 16X16)
+[2020.02.15-08.14.08:801][743]LogTexture: Display: Building textures: Texture2D_206 (BGRA8, 16X16)
+[2020.02.15-08.14.08:814][743]LogTexture: Display: Building textures: Texture2D_85 (BGRA8, 16X16)
+[2020.02.15-08.14.08:838][743]LogTexture: Display: Building textures: Texture2D_93 (BGRA8, 16X16)
+[2020.02.15-08.14.08:852][743]LogTexture: Display: Building textures: Texture2D_94 (BGRA8, 16X16)
+[2020.02.15-08.14.08:854][743]LogTexture: Display: Building textures: Texture2D_95 (BGRA8, 16X16)
+[2020.02.15-08.14.08:860][743]LogTexture: Display: Building textures: Texture2D_114 (BGRA8, 16X16)
+[2020.02.15-08.14.08:874][743]LogTexture: Display: Building textures: Texture2D_115 (BGRA8, 16X16)
+[2020.02.15-08.14.08:885][743]LogTexture: Display: Building textures: Texture2D_116 (BGRA8, 16X16)
+[2020.02.15-08.14.08:888][743]LogTexture: Display: Building textures: Texture2D_117 (BGRA8, 16X16)
+[2020.02.15-08.14.09:859][743]LogSavePackage: Moving 'C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Town_Auto201D7E1CA49C43711DBF11E9FB0A44829.tmp' to 'C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Autosaves/Game/Maps/Town_Auto2.umap'
+[2020.02.15-08.14.09:887][743]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Town' took 1.886
+[2020.02.15-08.14.09:888][743]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.886
+[2020.02.15-08.39.41:780][889]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.15-08.43.07:330][953]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_976865d7f760a47e2a086b15bf7dcbd9>::operator ()(41)] Fog Controller is created for: World_1
+[2020.02.15-08.43.16:459][863]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_976865d7f760a47e2a086b15bf7dcbd9>::operator ()(41)] Fog Controller is created for: World_2
+[2020.02.15-08.43.23:016][277]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_976865d7f760a47e2a086b15bf7dcbd9>::operator ()(41)] Fog Controller is created for: World_3
+[2020.02.15-08.43.35:493][ 29]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_976865d7f760a47e2a086b15bf7dcbd9>::operator ()(41)] Fog Controller is created for: World_4
+[2020.02.15-08.44.06:130][ 34]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_976865d7f760a47e2a086b15bf7dcbd9>::operator ()(41)] Fog Controller is created for: World_5
+[2020.02.15-08.44.06:158][ 35]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_976865d7f760a47e2a086b15bf7dcbd9>::operator ()(41)] Fog Controller is created for: World_6
+[2020.02.15-08.44.16:987][901]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/CartoonRtsFoliage/BluePrints/BP_OakTrees/BP_Oak_01_Child_05.BP_Oak_01_Child_05
+[2020.02.15-08.44.16:993][901]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_976865d7f760a47e2a086b15bf7dcbd9>::operator ()(41)] Fog Controller is created for: World_7
+[2020.02.15-08.44.17:608][901]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0029 seconds. Added 121 classes and 0 folders.
+[2020.02.15-08.44.18:946][903]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_976865d7f760a47e2a086b15bf7dcbd9>::operator ()(41)] Fog Controller is created for: World_8
+[2020.02.15-08.44.23:753][146]LogSlate: Window 'BP_Oak_01_Child_05' being destroyed
+[2020.02.15-08.44.23:757][146]LogSlate: Window 'BP_Oak_01_Child_05' being destroyed
+[2020.02.15-08.44.23:763][146]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_144d8ffb0c7ca55232a4412d9c0c3636>::operator ()(31)] Fog Controller is removed for: World_7
+[2020.02.15-08.45.06:658][415]LogUObjectHash: Compacting FUObjectHashTables data took   9.43ms
+[2020.02.15-08.45.06:661][415]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Town" FILE="C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Autosaves/Game/Maps/Town_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2020.02.15-08.45.08:129][415]LogSavePackage: Moving 'C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Town_Auto3ED5D5E164B9958F8EB27E8816B3F6C8C.tmp' to 'C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Autosaves/Game/Maps/Town_Auto3.umap'
+[2020.02.15-08.45.08:142][415]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Town' took 1.565
+[2020.02.15-08.45.08:144][415]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.565
+[2020.02.15-09.21.11:106][961]LogSavePackage: Moving 'C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/NewFoliageType_InstancedStaticMeC35E106145803A55182E6D87121B003D.tmp' to 'C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Content/CartoonRtsFoliage/Textures/Landscape/Landscape_Layers/NewFoliageType_InstancedStaticMesh.uasset'
+[2020.02.15-09.21.27:369][927]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_976865d7f760a47e2a086b15bf7dcbd9>::operator ()(41)] Fog Controller is created for: World_9
+[2020.02.15-09.23.03:010][495]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.15-09.23.07:418][783]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.15-09.23.07:530][793]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Town" FILE="C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Content/Maps/Town.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.02.15-09.23.07:587][793]LogUObjectHash: Compacting FUObjectHashTables data took   6.08ms
+[2020.02.15-09.23.08:312][793]LogSavePackage: Moving 'C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Town3F281CA9406D81C68DA5159A892EC7CA.tmp' to 'C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Content/Maps/Town.umap'
+[2020.02.15-09.23.08:395][793]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Town_BuiltData" FILE="C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Content/Maps/Town_BuiltData.uasset" SILENT=true
+[2020.02.15-09.23.08:494][793]LogSavePackage: Moving 'C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Town_BuiltData6598DD06482E3855331A5292BB4B3CBA.tmp' to 'C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Content/Maps/Town_BuiltData.uasset'
+[2020.02.15-09.23.09:686][867]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2020.02.15-09.23.11:676][993]LogEditorViewport: Clicking on Actor (LMB): BasicUnit_C (BasicUnit)
+[2020.02.15-09.23.14:447][149]LogEditorViewport: Clicking on Actor (LMB): BasicUnit_C (BasicUnit3)
+[2020.02.15-09.23.16:805][279]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.15-09.23.16:913][291]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.02.15-09.23.16:942][291]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2020.02.15-09.23.16:942][291]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.15-09.23.16:942][291]PIE: New page: PIE session: Town (Feb 14, 2020, 9:23:16 PM)
+[2020.02.15-09.23.16:943][291]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Town
+[2020.02.15-09.23.16:978][291]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034997s)
+[2020.02.15-09.23.16:979][291]LogAIModule: Creating AISystem for world Town
+[2020.02.15-09.23.16:979][291]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_976865d7f760a47e2a086b15bf7dcbd9>::operator ()(41)] Fog Controller is created for: Town
+[2020.02.15-09.23.16:979][291]LogPlayLevel: PIE: World Init took: (0.001084s)
+[2020.02.15-09.23.16:979][291]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Town.Town to /Game/Maps/UEDPIE_0_Town.Town (0.036265s)
+[2020.02.15-09.23.17:039][291]LogUObjectHash: Compacting FUObjectHashTables data took   3.38ms
+[2020.02.15-09.23.17:094][291]LogInit: XAudio2 using 'HEAD SET (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.02.15-09.23.17:113][291]LogInit: FAudioDevice initialized.
+[2020.02.15-09.23.17:126][291]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.15-09.23.17:163][291]LogLoad: Game class is 'MyGameModeBase_MarineSquad_BP_C'
+[2020.02.15-09.23.17:175][291]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Town.Town up for play (max tick rate 0) at 2020.02.15-03.23.17
+[2020.02.15-09.23.17:177][291]LogWorld: Bringing up level for play took: 0.012264
+[2020.02.15-09.23.17:222][291]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Town 0.412
+[2020.02.15-09.23.17:223][291]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2020.02.15-09.23.19:017][435]LogTemp: Warning: Left Mouse Button Pressed
+[2020.02.15-09.23.19:102][443]LogTemp: Warning: Left Mouse Button Released
+[2020.02.15-09.23.37:677][243]LogTemp: Warning: Left Mouse Button Pressed
+[2020.02.15-09.23.38:018][273]LogTemp: Warning: Left Mouse Button Released
+[2020.02.15-09.23.38:216][291]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.23.38:359][305]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.23.38:837][349]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.23.38:916][356]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.23.38:981][361]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.23.39:100][371]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.23.39:153][375]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.23.39:251][383]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.23.39:305][388]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.23.39:411][398]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.23.39:614][416]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.23.39:709][425]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.23.39:804][433]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.23.39:894][441]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.23.40:290][478]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.23.40:386][486]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.23.40:472][493]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.23.40:570][502]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.23.41:022][541]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.23.41:123][550]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.23.41:279][563]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.23.41:356][570]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.23.41:513][583]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.23.41:603][591]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.23.41:701][599]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.23.41:794][607]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.23.41:893][616]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2020.02.15-09.23.41:893][616]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.15-09.23.41:914][616]LogSlate: Window 'Marine_Squad Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.02.15-09.23.41:936][616]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_144d8ffb0c7ca55232a4412d9c0c3636>::operator ()(31)] Fog Controller is removed for: Town
+[2020.02.15-09.23.41:963][616]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.15-09.23.41:963][616]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2020.02.15-09.23.42:026][616]LogUObjectHash: Compacting FUObjectHashTables data took   2.88ms
+[2020.02.15-09.23.42:047][617]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2020.02.15-09.23.48:558][899]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2020.02.15-09.23.50:037][979]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.15-09.23.59:046][501]LogSlate: Took 0.022330 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.02.15-09.24.15:931][509]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.02.15-09.24.15:952][509]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2020.02.15-09.24.15:952][509]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.15-09.24.15:952][509]PIE: New page: PIE session: Town (Feb 14, 2020, 9:24:15 PM)
+[2020.02.15-09.24.15:952][509]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Town
+[2020.02.15-09.24.15:984][509]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031525s)
+[2020.02.15-09.24.15:984][509]LogAIModule: Creating AISystem for world Town
+[2020.02.15-09.24.15:984][509]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_976865d7f760a47e2a086b15bf7dcbd9>::operator ()(41)] Fog Controller is created for: Town
+[2020.02.15-09.24.15:984][509]LogPlayLevel: PIE: World Init took: (0.000608s)
+[2020.02.15-09.24.15:985][509]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Town.Town to /Game/Maps/UEDPIE_0_Town.Town (0.033206s)
+[2020.02.15-09.24.16:021][509]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2020.02.15-09.24.16:065][509]LogInit: XAudio2 using 'HEAD SET (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.02.15-09.24.16:080][509]LogInit: FAudioDevice initialized.
+[2020.02.15-09.24.16:092][509]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.15-09.24.16:123][509]LogLoad: Game class is 'MyGameModeBase_MarineSquad_BP_C'
+[2020.02.15-09.24.16:131][509]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Town.Town up for play (max tick rate 0) at 2020.02.15-03.24.16
+[2020.02.15-09.24.16:132][509]LogWorld: Bringing up level for play took: 0.008389
+[2020.02.15-09.24.16:147][509]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Town -0.662
+[2020.02.15-09.24.16:148][509]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2020.02.15-09.24.16:151][509]LogBlueprintUserMessages: [BasicUnit_2] BasicUnit_2/detects/BasicUnit3_5
+[2020.02.15-09.24.16:151][509]LogBlueprintUserMessages: [BasicUnit3_5] BasicUnit3_5/detects/BasicUnit_2
+[2020.02.15-09.24.16:151][509]LogBlueprintUserMessages: [BasicUnit4_8] BasicUnit4_8/detects/BasicUnit3_5
+[2020.02.15-09.24.16:238][510]LogBlueprintUserMessages: [BasicUnit3_5] BasicUnit3_5/detects/BasicUnit4_8
+[2020.02.15-09.24.16:423][528]LogBlueprintUserMessages: [BasicUnit3_5] BasicUnit3_5/detects/BasicUnit5_11
+[2020.02.15-09.24.16:423][528]LogBlueprintUserMessages: [BasicUnit5_11] BasicUnit5_11/detects/BasicUnit3_5
+[2020.02.15-09.24.17:114][591]LogTemp: Warning: Left Mouse Button Pressed
+[2020.02.15-09.24.17:486][627]LogTemp: Warning: Left Mouse Button Released
+[2020.02.15-09.24.17:700][647]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.24.17:720][649]LogBlueprintUserMessages: [BasicUnit4_8] Unit - /BasicUnit4/- deals - /10.0/to /BasicUnit3
+[2020.02.15-09.24.17:804][657]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.24.18:422][721]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.24.18:534][733]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.24.18:686][750]LogBlueprintUserMessages: [BasicUnit_2] BasicUnit_2/detects/BasicUnit3_5
+[2020.02.15-09.24.18:829][764]LogBlueprintUserMessages: [BasicUnit3_5] BasicUnit3_5/detects/BasicUnit_2
+[2020.02.15-09.24.18:911][773]LogBlueprintUserMessages: [BasicUnit5_11] Unit - /BasicUnit5/- deals - /10.0/to /BasicUnit3
+[2020.02.15-09.24.19:676][853]LogBlueprintUserMessages: [BasicEnemyUni] BasicEnemyUni/detects/BasicUnit2_14
+[2020.02.15-09.24.19:676][853]LogBlueprintUserMessages: [BasicUnit2_14] BasicUnit2_14/detects/BasicEnemyUni
+[2020.02.15-09.24.20:196][911]LogBlueprintUserMessages: [ASGARDIAN] ASGARDIAN/detects/BasicEnemyUni
+[2020.02.15-09.24.20:196][911]LogBlueprintUserMessages: [BasicEnemyUni] BasicEnemyUni/detects/ASGARDIAN
+[2020.02.15-09.24.21:144][ 12]LogBlueprintUserMessages: [BasicUnit5_11] Unit - /BasicUnit5/- deals - /10.0/to /BasicUnit3
+[2020.02.15-09.24.21:153][ 13]LogBlueprintUserMessages: [BasicUnit2_14] Unit - /BasicUnit2/- deals - /10.0/to /BasicEnemyUni
+[2020.02.15-09.24.21:662][ 69]LogBlueprintUserMessages: [ASGARDIAN] Unit - /ASGARDIAN/- deals - /10.0/to /BasicEnemyUni
+[2020.02.15-09.24.22:192][127]LogBlueprintUserMessages: [BasicEnemyUni] Unit - /BasicEnemyUni/- deals - /10.0/to /ASGARDIAN
+[2020.02.15-09.24.23:366][257]LogBlueprintUserMessages: [BasicUnit5_11] Unit - /BasicUnit5/- deals - /10.0/to /BasicUnit3
+[2020.02.15-09.24.23:384][259]LogBlueprintUserMessages: [BasicUnit2_14] Unit - /BasicUnit2/- deals - /10.0/to /BasicEnemyUni
+[2020.02.15-09.24.23:890][315]LogBlueprintUserMessages: [ASGARDIAN] Unit - /ASGARDIAN/- deals - /10.0/to /BasicEnemyUni
+[2020.02.15-09.24.24:412][371]LogBlueprintUserMessages: [BasicEnemyUni] Unit - /BasicEnemyUni/- deals - /10.0/to /ASGARDIAN
+[2020.02.15-09.24.25:589][502]LogBlueprintUserMessages: [BasicUnit5_11] Unit - /BasicUnit5/- deals - /10.0/to /BasicUnit3
+[2020.02.15-09.24.25:606][504]LogBlueprintUserMessages: [BasicUnit2_14] Unit - /BasicUnit2/- deals - /10.0/to /BasicEnemyUni
+[2020.02.15-09.24.26:114][559]LogBlueprintUserMessages: [ASGARDIAN] Unit - /ASGARDIAN/- deals - /10.0/to /BasicEnemyUni
+[2020.02.15-09.24.26:652][618]LogBlueprintUserMessages: [BasicEnemyUni] Unit - /BasicEnemyUni/- deals - /10.0/to /ASGARDIAN
+[2020.02.15-09.24.27:819][748]LogBlueprintUserMessages: [BasicUnit5_11] Unit - /BasicUnit5/- deals - /10.0/to /BasicUnit3
+[2020.02.15-09.24.27:836][750]LogBlueprintUserMessages: [BasicUnit2_14] Unit - /BasicUnit2/- deals - /10.0/to /BasicEnemyUni
+[2020.02.15-09.24.28:345][803]LogBlueprintUserMessages: [ASGARDIAN] Unit - /ASGARDIAN/- deals - /10.0/to /BasicEnemyUni
+[2020.02.15-09.24.28:872][860]LogBlueprintUserMessages: [BasicEnemyUni] Unit - /BasicEnemyUni/- deals - /10.0/to /ASGARDIAN
+[2020.02.15-09.24.30:043][985]LogBlueprintUserMessages: [BasicUnit5_11] Unit - /BasicUnit5/- deals - /10.0/to /BasicUnit3
+[2020.02.15-09.24.30:061][986]LogBlueprintUserMessages: [BasicUnit2_14] Unit - /BasicUnit2/- deals - /10.0/to /BasicEnemyUni
+[2020.02.15-09.24.30:569][ 38]LogBlueprintUserMessages: [ASGARDIAN] Unit - /ASGARDIAN/- deals - /10.0/to /BasicEnemyUni
+[2020.02.15-09.24.30:571][ 38]LogScript: Warning: Attempted to access BasicEnemyUni via property K2Node_DynamicCast_AsParent_Unit, but BasicEnemyUni is pending kill
+	BasicUnit_C /Game/Maps/UEDPIE_0_Town.Town:PersistentLevel.ASGARDIAN
+	Function /Game/BP/Units_BP/BasicUnit.BasicUnit_C:ExecuteUbergraph_BasicUnit:03A2
+[2020.02.15-09.24.30:573][ 38]PIE: Error: Blueprint Runtime Error: "Attempted to access BasicEnemyUni via property K2Node_DynamicCast_AsParent_Unit, but BasicEnemyUni is pending kill". Blueprint:  BasicUnit Function:  Execute Ubergraph Basic Unit Graph:  CompareInt Node:  Branch
+[2020.02.15-09.24.30:573][ 38]LogBlueprintUserMessages: [ASGARDIAN] ASGARDIAN/detects/BasicEnemyUni
+[2020.02.15-09.24.30:573][ 38]LogScript: Warning: Attempted to access BasicEnemyUni via property K2Node_DynamicCast_AsParent_Unit, but BasicEnemyUni is pending kill
+	BasicUnit_C /Game/Maps/UEDPIE_0_Town.Town:PersistentLevel.BasicUnit2_14
+	Function /Game/BP/Units_BP/BasicUnit.BasicUnit_C:ExecuteUbergraph_BasicUnit:03A2
+[2020.02.15-09.24.30:573][ 38]PIE: Error: Blueprint Runtime Error: "Attempted to access BasicEnemyUni via property K2Node_DynamicCast_AsParent_Unit, but BasicEnemyUni is pending kill". Blueprint:  BasicUnit Function:  Execute Ubergraph Basic Unit Graph:  CompareInt Node:  Branch
+[2020.02.15-09.24.30:573][ 38]LogBlueprintUserMessages: [BasicUnit2_14] BasicUnit2_14/detects/BasicEnemyUni
+[2020.02.15-09.24.31:335][118]LogTemp: Warning: Left Mouse Button Pressed
+[2020.02.15-09.24.31:731][145]LogTemp: Warning: Left Mouse Button Released
+[2020.02.15-09.24.32:267][198]LogBlueprintUserMessages: [BasicUnit5_11] Unit - /BasicUnit5/- deals - /10.0/to /BasicUnit3
+[2020.02.15-09.24.34:495][437]LogBlueprintUserMessages: [BasicUnit5_11] Unit - /BasicUnit5/- deals - /10.0/to /BasicUnit3
+[2020.02.15-09.24.36:720][664]LogBlueprintUserMessages: [BasicUnit5_11] Unit - /BasicUnit5/- deals - /10.0/to /BasicUnit3
+[2020.02.15-09.24.36:722][664]LogScript: Warning: Attempted to access BasicUnit3_5 via property K2Node_DynamicCast_AsParent_Unit, but BasicUnit3_5 is pending kill
+	BasicUnit_C /Game/Maps/UEDPIE_0_Town.Town:PersistentLevel.BasicUnit4_8
+	Function /Game/BP/Units_BP/BasicUnit.BasicUnit_C:ExecuteUbergraph_BasicUnit:03A2
+[2020.02.15-09.24.36:722][664]PIE: Error: Blueprint Runtime Error: "Attempted to access BasicUnit3_5 via property K2Node_DynamicCast_AsParent_Unit, but BasicUnit3_5 is pending kill". Blueprint:  BasicUnit Function:  Execute Ubergraph Basic Unit Graph:  CompareInt Node:  Branch
+[2020.02.15-09.24.36:722][664]LogBlueprintUserMessages: [BasicUnit4_8] BasicUnit4_8/detects/BasicUnit3_5
+[2020.02.15-09.24.36:723][664]LogScript: Warning: Attempted to access BasicUnit3_5 via property K2Node_DynamicCast_AsParent_Unit, but BasicUnit3_5 is pending kill
+	BasicUnit_C /Game/Maps/UEDPIE_0_Town.Town:PersistentLevel.BasicUnit5_11
+	Function /Game/BP/Units_BP/BasicUnit.BasicUnit_C:ExecuteUbergraph_BasicUnit:03A2
+[2020.02.15-09.24.36:723][664]PIE: Error: Blueprint Runtime Error: "Attempted to access BasicUnit3_5 via property K2Node_DynamicCast_AsParent_Unit, but BasicUnit3_5 is pending kill". Blueprint:  BasicUnit Function:  Execute Ubergraph Basic Unit Graph:  CompareInt Node:  Branch
+[2020.02.15-09.24.36:723][664]LogBlueprintUserMessages: [BasicUnit5_11] BasicUnit5_11/detects/BasicUnit3_5
+[2020.02.15-09.24.48:122][871]LogTemp: Warning: Left Mouse Button Pressed
+[2020.02.15-09.24.48:862][945]LogTemp: Warning: Left Mouse Button Released
+[2020.02.15-09.24.49:099][966]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.24.49:211][977]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.24.49:557][  9]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.24.49:671][ 21]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.24.50:380][ 92]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.24.50:477][102]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.24.50:557][110]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.24.50:663][121]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.24.50:742][128]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.24.50:834][137]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.24.51:210][174]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.24.51:326][186]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.24.52:979][349]LogTemp: Warning: Left Mouse Button Pressed
+[2020.02.15-09.24.53:270][376]LogTemp: Warning: Left Mouse Button Released
+[2020.02.15-09.24.54:130][460]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2020.02.15-09.24.54:130][460]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.15-09.24.54:147][460]LogSlate: Window 'Marine_Squad Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.02.15-09.24.54:174][460]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_144d8ffb0c7ca55232a4412d9c0c3636>::operator ()(31)] Fog Controller is removed for: Town
+[2020.02.15-09.24.54:203][460]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.15-09.24.54:203][460]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2020.02.15-09.24.54:310][460]LogUObjectHash: Compacting FUObjectHashTables data took   2.68ms
+[2020.02.15-09.24.54:346][461]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2020.02.15-09.25.05:392][373]LogEditorViewport: Clicking on Actor (LMB): BasicUnit_C (BasicUnit3)
+[2020.02.15-09.25.10:448][752]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.15-09.25.10:574][762]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.02.15-09.25.10:607][762]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2020.02.15-09.25.10:607][762]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.15-09.25.10:607][762]PIE: New page: PIE session: Town (Feb 14, 2020, 9:25:10 PM)
+[2020.02.15-09.25.10:607][762]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Town
+[2020.02.15-09.25.10:640][762]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032942s)
+[2020.02.15-09.25.10:641][762]LogAIModule: Creating AISystem for world Town
+[2020.02.15-09.25.10:641][762]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_976865d7f760a47e2a086b15bf7dcbd9>::operator ()(41)] Fog Controller is created for: Town
+[2020.02.15-09.25.10:641][762]LogPlayLevel: PIE: World Init took: (0.000760s)
+[2020.02.15-09.25.10:641][762]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Town.Town to /Game/Maps/UEDPIE_0_Town.Town (0.033876s)
+[2020.02.15-09.25.10:677][762]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2020.02.15-09.25.10:723][762]LogInit: XAudio2 using 'HEAD SET (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.02.15-09.25.10:736][762]LogInit: FAudioDevice initialized.
+[2020.02.15-09.25.10:745][762]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.15-09.25.10:779][762]LogLoad: Game class is 'MyGameModeBase_MarineSquad_BP_C'
+[2020.02.15-09.25.10:787][762]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Town.Town up for play (max tick rate 0) at 2020.02.15-03.25.10
+[2020.02.15-09.25.10:788][762]LogWorld: Bringing up level for play took: 0.008779
+[2020.02.15-09.25.10:805][762]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Town -0.005
+[2020.02.15-09.25.10:805][762]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2020.02.15-09.25.10:807][762]LogBlueprintUserMessages: [BasicUnit_2] BasicUnit_2/detects/BasicUnit3_5
+[2020.02.15-09.25.10:807][762]LogBlueprintUserMessages: [BasicUnit3_5] BasicUnit3_5/detects/BasicUnit_2
+[2020.02.15-09.25.10:807][762]LogBlueprintUserMessages: [BasicUnit4_8] BasicUnit4_8/detects/BasicUnit3_5
+[2020.02.15-09.25.10:831][763]LogBlueprintUserMessages: [BasicUnit3_5] BasicUnit3_5/detects/BasicUnit4_8
+[2020.02.15-09.25.11:088][781]LogBlueprintUserMessages: [BasicUnit5_11] BasicUnit5_11/detects/BasicUnit3_5
+[2020.02.15-09.25.11:107][783]LogBlueprintUserMessages: [BasicUnit3_5] BasicUnit3_5/detects/BasicUnit5_11
+[2020.02.15-09.25.11:618][822]LogTemp: Warning: Left Mouse Button Pressed
+[2020.02.15-09.25.11:730][832]LogTemp: Warning: Left Mouse Button Released
+[2020.02.15-09.25.12:371][896]LogBlueprintUserMessages: [BasicUnit4_8] Unit - /BasicUnit4/- deals - /10.0/to /BasicUnit3
+[2020.02.15-09.25.13:179][978]LogBlueprintUserMessages: [BasicUnit_2] BasicUnit_2/detects/BasicUnit3_5
+[2020.02.15-09.25.13:588][ 22]LogBlueprintUserMessages: [BasicUnit3_5] BasicUnit3_5/detects/BasicUnit_2
+[2020.02.15-09.25.27:432][452]LogTemp: Warning: Left Mouse Button Pressed
+[2020.02.15-09.25.27:681][475]LogTemp: Warning: Left Mouse Button Released
+[2020.02.15-09.25.27:858][492]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.25.27:976][504]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.25.28:493][551]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.25.28:576][559]LogBlueprintUserMessages: [BasicUnit_2] BasicUnit_2/detects/BasicUnit3_5
+[2020.02.15-09.25.28:602][562]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.25.28:604][562]LogBlueprintUserMessages: [BasicUnit3_5] BasicUnit3_5/detects/BasicUnit_2
+[2020.02.15-09.25.29:491][646]LogBlueprintUserMessages: [BasicUnit3_5] BasicUnit3_5/detects/BasicUnit4_8
+[2020.02.15-09.25.29:492][646]LogBlueprintUserMessages: [BasicUnit3_5] BasicUnit3_5/detects/BasicUnit5_11
+[2020.02.15-09.25.29:492][646]LogBlueprintUserMessages: [BasicUnit4_8] BasicUnit4_8/detects/BasicUnit3_5
+[2020.02.15-09.25.29:538][649]LogBlueprintUserMessages: [BasicUnit5_11] BasicUnit5_11/detects/BasicUnit3_5
+[2020.02.15-09.25.29:635][658]LogTemp: Warning: Left Mouse Button Pressed
+[2020.02.15-09.25.29:824][676]LogTemp: Warning: Left Mouse Button Released
+[2020.02.15-09.25.30:073][698]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.25.30:189][710]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.25.30:256][717]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.25.30:303][722]LogBlueprintUserMessages: [BasicUnit3_5] BasicUnit3_5/detects/BasicUnit_2
+[2020.02.15-09.25.30:348][727]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.25.30:406][733]LogBlueprintUserMessages: [BasicUnit_2] BasicUnit_2/detects/BasicUnit3_5
+[2020.02.15-09.25.30:771][769]LogTemp: Warning: Left Mouse Button Pressed
+[2020.02.15-09.25.31:428][831]LogTemp: Warning: Left Mouse Button Released
+[2020.02.15-09.25.31:746][862]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.25.31:863][874]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.25.32:046][893]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.25.32:137][903]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.25.32:802][954]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.02.15-09.25.41:071][572]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2020.02.15-09.25.41:072][572]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.15-09.25.41:090][572]LogSlate: Window 'Marine_Squad Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.02.15-09.25.41:107][572]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_144d8ffb0c7ca55232a4412d9c0c3636>::operator ()(31)] Fog Controller is removed for: Town
+[2020.02.15-09.25.41:137][572]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.15-09.25.41:138][572]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2020.02.15-09.25.41:201][572]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2020.02.15-09.25.41:219][573]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2020.02.15-09.25.48:190][  4]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.02.15-09.25.48:219][  4]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2020.02.15-09.25.48:219][  4]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.15-09.25.48:219][  4]PIE: New page: PIE session: Town (Feb 14, 2020, 9:25:48 PM)
+[2020.02.15-09.25.48:219][  4]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Town
+[2020.02.15-09.25.48:252][  4]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033088s)
+[2020.02.15-09.25.48:253][  4]LogAIModule: Creating AISystem for world Town
+[2020.02.15-09.25.48:253][  4]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_976865d7f760a47e2a086b15bf7dcbd9>::operator ()(41)] Fog Controller is created for: Town
+[2020.02.15-09.25.48:253][  4]LogPlayLevel: PIE: World Init took: (0.000809s)
+[2020.02.15-09.25.48:253][  4]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Town.Town to /Game/Maps/UEDPIE_0_Town.Town (0.034069s)
+[2020.02.15-09.25.48:290][  4]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2020.02.15-09.25.48:342][  4]LogInit: XAudio2 using 'HEAD SET (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.02.15-09.25.48:356][  4]LogInit: FAudioDevice initialized.
+[2020.02.15-09.25.48:366][  4]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.15-09.25.48:399][  4]LogLoad: Game class is 'MyGameModeBase_MarineSquad_BP_C'
+[2020.02.15-09.25.48:407][  4]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Town.Town up for play (max tick rate 0) at 2020.02.15-03.25.48
+[2020.02.15-09.25.48:408][  4]LogWorld: Bringing up level for play took: 0.008653
+[2020.02.15-09.25.48:426][  4]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Town -0.384
+[2020.02.15-09.25.48:426][  4]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2020.02.15-09.25.51:225][104]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2020.02.15-09.25.54:530][379]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.15-09.25.54:641][391]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2020.02.15-09.25.54:646][391]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.15-09.25.54:663][391]LogSlate: Window 'Marine_Squad Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.02.15-09.25.54:669][391]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_144d8ffb0c7ca55232a4412d9c0c3636>::operator ()(31)] Fog Controller is removed for: Town
+[2020.02.15-09.25.54:696][391]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.15-09.25.54:696][391]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2020.02.15-09.25.54:744][391]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2020.02.15-09.25.54:762][392]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2020.02.15-09.25.55:783][460]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.02.15-09.25.55:808][460]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2020.02.15-09.25.55:808][460]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.15-09.25.55:808][460]PIE: New page: PIE session: Town (Feb 14, 2020, 9:25:55 PM)
+[2020.02.15-09.25.55:808][460]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Town
+[2020.02.15-09.25.55:839][460]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031383s)
+[2020.02.15-09.25.55:840][460]LogAIModule: Creating AISystem for world Town
+[2020.02.15-09.25.55:840][460]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_976865d7f760a47e2a086b15bf7dcbd9>::operator ()(41)] Fog Controller is created for: Town
+[2020.02.15-09.25.55:840][460]LogPlayLevel: PIE: World Init took: (0.000639s)
+[2020.02.15-09.25.55:840][460]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Town.Town to /Game/Maps/UEDPIE_0_Town.Town (0.032168s)
+[2020.02.15-09.25.55:873][460]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2020.02.15-09.25.55:923][460]LogInit: XAudio2 using 'HEAD SET (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.02.15-09.25.55:942][460]LogInit: FAudioDevice initialized.
+[2020.02.15-09.25.55:952][460]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.15-09.25.55:985][460]LogLoad: Game class is 'MyGameModeBase_MarineSquad_BP_C'
+[2020.02.15-09.25.55:994][460]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Town.Town up for play (max tick rate 0) at 2020.02.15-03.25.55
+[2020.02.15-09.25.55:996][460]LogWorld: Bringing up level for play took: 0.010281
+[2020.02.15-09.25.56:013][460]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Town 1.204
+[2020.02.15-09.25.56:014][460]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2020.02.15-09.25.56:842][525]LogTemp: Warning: Left Mouse Button Pressed
+[2020.02.15-09.25.56:933][533]LogTemp: Warning: Left Mouse Button Released
+[2020.02.15-09.26.15:231][292]LogTemp: Warning: Left Mouse Button Pressed
+[2020.02.15-09.26.15:470][311]LogTemp: Warning: Left Mouse Button Released
+[2020.02.15-09.26.15:664][328]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.26.15:767][337]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.26.16:280][381]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.26.16:375][389]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.26.17:524][474]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.02.15-09.26.21:732][545]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.26.21:823][553]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.26.21:905][559]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.26.22:004][563]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.26.22:367][594]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.26.22:452][600]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.26.23:854][719]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.26.23:940][727]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.26.24:034][735]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.26.24:131][743]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.26.25:852][901]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.26.25:939][910]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.26.25:996][915]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.26.26:079][923]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.26.28:008][124]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.26.28:125][137]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.26.28:153][140]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.26.28:258][151]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.26.28:335][158]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.26.28:407][165]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.26.29:388][255]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.26.29:481][264]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.26.29:553][271]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.26.29:632][278]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.26.31:622][464]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.26.31:727][474]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.26.31:805][481]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.26.31:898][490]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.26.31:951][495]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.26.32:042][504]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.26.32:086][508]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.26.32:187][517]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.26.33:519][645]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.26.33:607][654]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.26.33:667][660]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.26.33:757][669]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.26.34:364][721]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.26.34:448][729]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.26.34:543][738]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.26.34:617][745]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.26.34:693][752]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.26.34:764][759]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.26.35:948][869]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.26.36:014][875]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.26.36:080][881]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.26.36:154][888]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.26.36:941][963]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.26.37:042][973]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.26.37:166][985]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.26.37:238][992]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.26.37:314][999]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.26.37:407][  8]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.26.37:484][ 15]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.26.37:574][ 24]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.26.37:664][ 32]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.26.37:751][ 40]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.26.37:829][ 47]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.26.37:910][ 54]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.26.37:979][ 60]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.26.38:075][ 68]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.26.38:666][122]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.26.38:767][132]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.26.38:835][138]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.26.38:938][148]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.26.39:378][189]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.26.39:503][201]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.26.39:678][217]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.26.39:798][229]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.26.39:871][236]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.26.39:965][245]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.26.41:145][354]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.26.41:208][359]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.26.41:314][368]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.26.41:408][377]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.26.42:370][466]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.26.42:485][477]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.26.42:552][483]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.26.42:648][492]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.26.43:421][564]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.26.43:519][573]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.26.44:546][668]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.26.44:656][678]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.26.45:170][718]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.26.45:271][726]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.26.45:356][733]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.26.45:416][738]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.26.45:478][742]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.26.45:590][751]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.26.46:412][819]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.26.46:490][825]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.26.46:607][835]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.26.46:769][848]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.26.46:862][856]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.26.46:952][864]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.26.48:784][ 15]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.26.48:886][ 24]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.26.48:962][ 30]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.26.49:042][ 37]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.26.50:269][143]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.26.50:376][152]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.26.50:411][155]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.26.50:505][163]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.26.53:652][438]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.26.53:770][448]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.26.53:807][451]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.26.53:926][461]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.26.54:911][542]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.26.55:010][550]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.26.57:051][722]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.26.57:142][730]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.26.57:234][738]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.26.57:303][744]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.26.57:437][755]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.26.57:553][765]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.26.57:608][770]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.26.57:702][778]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.26.57:776][784]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.26.57:864][791]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.26.58:463][836]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.26.58:547][843]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.26.58:631][850]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.26.58:700][856]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.26.58:779][862]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.26.58:870][869]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.26.58:998][880]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.26.59:105][889]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.26.59:168][894]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.26.59:262][901]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.26.59:334][906]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.26.59:416][912]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.27.00:789][ 29]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.27.00:873][ 36]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.27.00:958][ 43]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.27.01:046][ 51]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.27.02:207][148]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.27.02:299][156]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.27.02:352][161]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.27.02:447][168]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.27.02:518][174]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.27.02:598][181]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.27.02:970][214]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.27.03:061][222]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.27.03:112][226]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.27.03:230][236]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.27.12:035][391]LogTemp: Warning: Left Mouse Button Pressed
+[2020.02.15-09.27.12:035][391]LogTemp: Warning: Left Mouse Button Released
+[2020.02.15-09.27.13:050][477]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.27.13:139][485]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.27.13:276][497]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.27.13:367][505]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.27.13:460][513]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.27.13:525][519]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.27.15:290][679]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.27.15:372][687]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.27.15:715][718]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.27.15:820][728]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.27.16:847][819]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.27.16:955][829]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.27.17:243][854]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.27.17:333][862]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.27.19:937][ 90]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.27.20:036][ 99]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.27.20:138][108]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.27.20:207][114]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.27.21:448][225]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.27.21:538][233]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.27.21:596][238]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.27.21:704][247]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.27.22:669][334]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.27.22:762][343]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.27.22:828][349]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.27.22:936][359]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.27.25:065][546]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.27.25:153][554]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.27.25:235][561]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.27.25:316][569]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.27.27:398][758]LogTemp: Warning: Left Mouse Button Pressed
+[2020.02.15-09.27.27:962][808]LogTemp: Warning: Left Mouse Button Released
+[2020.02.15-09.27.28:201][829]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.27.28:302][838]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.27.28:406][847]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.27.28:555][860]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.27.28:615][865]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.27.28:710][874]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.27.30:068][991]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.27.30:156][996]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.27.30:251][  4]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.27.30:338][ 12]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.27.30:402][ 18]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.27.30:518][ 29]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.27.30:520][ 29]LogBlueprintUserMessages: [BasicEnemyUni] BasicEnemyUni/detects/BasicUnit2_14
+[2020.02.15-09.27.30:520][ 29]LogBlueprintUserMessages: [BasicUnit2_14] BasicUnit2_14/detects/BasicEnemyUni
+[2020.02.15-09.27.30:543][ 31]LogBlueprintUserMessages: [BasicEnemyUni] BasicEnemyUni/detects/BasicUnit3_5
+[2020.02.15-09.27.30:543][ 31]LogBlueprintUserMessages: [BasicUnit3_5] BasicUnit3_5/detects/BasicEnemyUni
+[2020.02.15-09.27.30:543][ 31]LogBlueprintUserMessages: [BasicUnit5_11] BasicUnit5_11/detects/BasicEnemyUni
+[2020.02.15-09.27.30:556][ 32]LogBlueprintUserMessages: [BasicEnemyUni] BasicEnemyUni/detects/ASGARDIAN
+[2020.02.15-09.27.30:568][ 33]LogBlueprintUserMessages: [ASGARDIAN] ASGARDIAN/detects/BasicEnemyUni
+[2020.02.15-09.27.30:569][ 33]LogBlueprintUserMessages: [BasicEnemyUni] BasicEnemyUni/detects/BasicUnit5_11
+[2020.02.15-09.27.30:723][ 45]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.27.30:809][ 53]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.27.30:941][ 64]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.27.31:014][ 70]LogBlueprintUserMessages: [ASGARDIAN] Unit - /ASGARDIAN/- deals - /10.0/to /BasicEnemyUni
+[2020.02.15-09.27.31:014][ 70]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.27.31:053][ 73]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.27.31:170][ 83]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.27.31:260][ 90]LogBlueprintUserMessages: [BasicEnemyUni] BasicEnemyUni/detects/BasicUnit4_8
+[2020.02.15-09.27.31:260][ 90]LogBlueprintUserMessages: [BasicUnit4_8] BasicUnit4_8/detects/BasicEnemyUni
+[2020.02.15-09.27.31:295][ 93]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.27.31:341][ 96]LogBlueprintUserMessages: [BasicEnemyUni] BasicEnemyUni/detects/BasicUnit_2
+[2020.02.15-09.27.31:352][ 97]LogBlueprintUserMessages: [BasicUnit_2] BasicUnit_2/detects/BasicEnemyUni
+[2020.02.15-09.27.31:386][100]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.27.31:872][142]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.27.31:983][152]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.27.33:237][267]LogBlueprintUserMessages: [ASGARDIAN] Unit - /ASGARDIAN/- deals - /10.0/to /BasicEnemyUni
+[2020.02.15-09.27.33:858][323]LogBlueprintUserMessages: [BasicUnit_2] Unit - /BasicUnit/- deals - /10.0/to /BasicEnemyUni
+[2020.02.15-09.27.34:045][340]LogBlueprintUserMessages: [BasicEnemyUni] Unit - /BasicEnemyUni/- deals - /10.0/to /BasicUnit
+[2020.02.15-09.27.35:045][431]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.27.35:152][440]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.27.35:488][470]LogBlueprintUserMessages: [ASGARDIAN] Unit - /ASGARDIAN/- deals - /10.0/to /BasicEnemyUni
+[2020.02.15-09.27.35:641][483]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.27.35:753][493]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.27.37:114][618]LogBlueprintUserMessages: [BasicUnit_2] Unit - /BasicUnit/- deals - /10.0/to /BasicEnemyUni
+[2020.02.15-09.27.37:308][636]LogBlueprintUserMessages: [BasicEnemyUni] Unit - /BasicEnemyUni/- deals - /10.0/to /BasicUnit
+[2020.02.15-09.27.37:712][675]LogBlueprintUserMessages: [ASGARDIAN] Unit - /ASGARDIAN/- deals - /10.0/to /BasicEnemyUni
+[2020.02.15-09.27.38:543][755]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.27.38:640][764]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.27.39:189][814]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.15-09.27.39:302][825]LogTemp: Warning: Right Mouse Button Released
+[2020.02.15-09.27.39:940][885]LogBlueprintUserMessages: [ASGARDIAN] Unit - /ASGARDIAN/- deals - /10.0/to /BasicEnemyUni
+[2020.02.15-09.27.40:371][926]LogBlueprintUserMessages: [BasicUnit_2] Unit - /BasicUnit/- deals - /10.0/to /BasicEnemyUni
+[2020.02.15-09.27.40:571][945]LogBlueprintUserMessages: [BasicEnemyUni] Unit - /BasicEnemyUni/- deals - /10.0/to /BasicUnit
+[2020.02.15-09.27.42:177][ 87]LogBlueprintUserMessages: [ASGARDIAN] Unit - /ASGARDIAN/- deals - /10.0/to /BasicEnemyUni
+[2020.02.15-09.27.42:620][125]LogBlueprintUserMessages: [BasicUnit_2] Unit - /BasicUnit/- deals - /10.0/to /BasicEnemyUni
+[2020.02.15-09.27.42:624][125]LogScript: Warning: Attempted to access BasicEnemyUni via property K2Node_DynamicCast_AsParent_Unit, but BasicEnemyUni is pending kill
+	BasicUnit_C /Game/Maps/UEDPIE_0_Town.Town:PersistentLevel.ASGARDIAN
+	Function /Game/BP/Units_BP/BasicUnit.BasicUnit_C:ExecuteUbergraph_BasicUnit:03A2
+[2020.02.15-09.27.42:624][125]PIE: Error: Blueprint Runtime Error: "Attempted to access BasicEnemyUni via property K2Node_DynamicCast_AsParent_Unit, but BasicEnemyUni is pending kill". Blueprint:  BasicUnit Function:  Execute Ubergraph Basic Unit Graph:  CompareInt Node:  Branch
+[2020.02.15-09.27.42:624][125]LogBlueprintUserMessages: [ASGARDIAN] ASGARDIAN/detects/BasicEnemyUni
+[2020.02.15-09.27.42:624][125]LogScript: Warning: Attempted to access BasicEnemyUni via property K2Node_DynamicCast_AsParent_Unit, but BasicEnemyUni is pending kill
+	BasicUnit_C /Game/Maps/UEDPIE_0_Town.Town:PersistentLevel.BasicUnit2_14
+	Function /Game/BP/Units_BP/BasicUnit.BasicUnit_C:ExecuteUbergraph_BasicUnit:03A2
+[2020.02.15-09.27.42:624][125]PIE: Error: Blueprint Runtime Error: "Attempted to access BasicEnemyUni via property K2Node_DynamicCast_AsParent_Unit, but BasicEnemyUni is pending kill". Blueprint:  BasicUnit Function:  Execute Ubergraph Basic Unit Graph:  CompareInt Node:  Branch
+[2020.02.15-09.27.42:624][125]LogBlueprintUserMessages: [BasicUnit2_14] BasicUnit2_14/detects/BasicEnemyUni
+[2020.02.15-09.27.42:624][125]LogScript: Warning: Attempted to access BasicEnemyUni via property K2Node_DynamicCast_AsParent_Unit, but BasicEnemyUni is pending kill
+	BasicUnit_C /Game/Maps/UEDPIE_0_Town.Town:PersistentLevel.BasicUnit_2
+	Function /Game/BP/Units_BP/BasicUnit.BasicUnit_C:ExecuteUbergraph_BasicUnit:03A2
+[2020.02.15-09.27.42:625][125]PIE: Error: Blueprint Runtime Error: "Attempted to access BasicEnemyUni via property K2Node_DynamicCast_AsParent_Unit, but BasicEnemyUni is pending kill". Blueprint:  BasicUnit Function:  Execute Ubergraph Basic Unit Graph:  CompareInt Node:  Branch
+[2020.02.15-09.27.42:625][125]LogBlueprintUserMessages: [BasicUnit_2] BasicUnit_2/detects/BasicEnemyUni
+[2020.02.15-09.27.42:625][125]LogScript: Warning: Attempted to access BasicEnemyUni via property K2Node_DynamicCast_AsParent_Unit, but BasicEnemyUni is pending kill
+	BasicUnit_C /Game/Maps/UEDPIE_0_Town.Town:PersistentLevel.BasicUnit3_5
+	Function /Game/BP/Units_BP/BasicUnit.BasicUnit_C:ExecuteUbergraph_BasicUnit:03A2
+[2020.02.15-09.27.42:625][125]PIE: Error: Blueprint Runtime Error: "Attempted to access BasicEnemyUni via property K2Node_DynamicCast_AsParent_Unit, but BasicEnemyUni is pending kill". Blueprint:  BasicUnit Function:  Execute Ubergraph Basic Unit Graph:  CompareInt Node:  Branch
+[2020.02.15-09.27.42:626][125]LogBlueprintUserMessages: [BasicUnit3_5] BasicUnit3_5/detects/BasicEnemyUni
+[2020.02.15-09.27.42:626][125]LogScript: Warning: Attempted to access BasicEnemyUni via property K2Node_DynamicCast_AsParent_Unit, but BasicEnemyUni is pending kill
+	BasicUnit_C /Game/Maps/UEDPIE_0_Town.Town:PersistentLevel.BasicUnit4_8
+	Function /Game/BP/Units_BP/BasicUnit.BasicUnit_C:ExecuteUbergraph_BasicUnit:03A2
+[2020.02.15-09.27.42:626][125]PIE: Error: Blueprint Runtime Error: "Attempted to access BasicEnemyUni via property K2Node_DynamicCast_AsParent_Unit, but BasicEnemyUni is pending kill". Blueprint:  BasicUnit Function:  Execute Ubergraph Basic Unit Graph:  CompareInt Node:  Branch
+[2020.02.15-09.27.42:626][125]LogBlueprintUserMessages: [BasicUnit4_8] BasicUnit4_8/detects/BasicEnemyUni
+[2020.02.15-09.27.42:626][125]LogScript: Warning: Attempted to access BasicEnemyUni via property K2Node_DynamicCast_AsParent_Unit, but BasicEnemyUni is pending kill
+	BasicUnit_C /Game/Maps/UEDPIE_0_Town.Town:PersistentLevel.BasicUnit5_11
+	Function /Game/BP/Units_BP/BasicUnit.BasicUnit_C:ExecuteUbergraph_BasicUnit:03A2
+[2020.02.15-09.27.42:626][125]PIE: Error: Blueprint Runtime Error: "Attempted to access BasicEnemyUni via property K2Node_DynamicCast_AsParent_Unit, but BasicEnemyUni is pending kill". Blueprint:  BasicUnit Function:  Execute Ubergraph Basic Unit Graph:  CompareInt Node:  Branch
+[2020.02.15-09.27.42:626][125]LogBlueprintUserMessages: [BasicUnit5_11] BasicUnit5_11/detects/BasicEnemyUni
+[2020.02.15-09.27.44:290][263]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2020.02.15-09.27.44:290][263]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.15-09.27.44:311][263]LogSlate: Window 'Marine_Squad Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.02.15-09.27.44:346][263]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_144d8ffb0c7ca55232a4412d9c0c3636>::operator ()(31)] Fog Controller is removed for: Town
+[2020.02.15-09.27.44:384][263]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.15-09.27.44:384][263]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2020.02.15-09.27.44:481][263]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2020.02.15-09.27.44:625][264]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2020.02.15-09.29.32:683][587]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Town" FILE="C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Content/Maps/Town.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.02.15-09.29.32:720][587]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2020.02.15-09.29.33:400][587]LogSavePackage: Moving 'C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/TownFAEF4DE547FB26B099FA949E0BE12324.tmp' to 'C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Content/Maps/Town.umap'
+[2020.02.15-09.29.33:439][587]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Town_BuiltData" FILE="C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Content/Maps/Town_BuiltData.uasset" SILENT=true
+[2020.02.15-09.29.33:504][587]LogSavePackage: Moving 'C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Town_BuiltDataC1D52E904378DC19028DD4842E4BDBF8.tmp' to 'C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Content/Maps/Town_BuiltData.uasset'
+[2020.02.15-09.29.36:195][768]MapCheck: New page: Map Check
+[2020.02.15-09.29.36:210][768]Cmd: MAP REBUILD ALLVISIBLE
+[2020.02.15-09.29.36:211][768]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2020.02.15-09.29.36:666][768]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_144d8ffb0c7ca55232a4412d9c0c3636>::operator ()(31)] Fog Controller is removed for: Town
+[2020.02.15-09.29.36:833][768]LogBlueprintActionDatabase: Requesting refresh due to module change: HierarchicalLODUtilities (loaded)
+[2020.02.15-09.29.37:107][768]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2020.02.15-09.29.37:151][768]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.02.15-09.29.37:177][768]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.02.15-09.29.37:184][768]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.02.15-09.29.37:193][768]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.02.15-09.29.37:201][768]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.02.15-09.29.37:208][768]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.02.15-09.29.37:215][768]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.02.15-09.29.37:223][768]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.02.15-09.29.37:233][768]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.02.15-09.29.40:696][768]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.02.15-09.29.40:696][768]TextureStreamingBuild: Display: Compiling optional shaders took 3.574 seconds.
+[2020.02.15-09.29.40:741][768]LogLevel: Display: Export Material TexCoord Scales took 0.044 seconds.
+[2020.02.15-09.29.40:758][768]TextureStreamingBuild: Display: Build Texture Streaming took 0.017 seconds.
+[2020.02.15-09.29.40:794][768]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2020.02.15-09.29.40:798][768]LightingResults: New page: Lighting Build - Feb 14, 2020, 9:29:40 PM
+[2020.02.15-09.29.41:011][768]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2020.02.15-09.29.41:306][768]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2020.02.15-09.29.41:445][768]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2020.02.15-09.29.42:015][768]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2020.02.15-09.29.42:015][768]LogSwarmInterface: [TryOpenConnection] Local Process ID is 7904
+[2020.02.15-09.29.51:368][768]LightingResults: Warning: No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
+[2020.02.15-09.29.51:369][768]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2020.02.15-09.29.51:369][768]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2020.02.15-09.29.51:369][768]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2020.02.15-09.29.51:369][768]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2020.02.15-09.29.51:369][768]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2020.02.15-09.29.51:643][768]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2020.02.15-09.29.51:643][768]MapCheck: New page: Town - Feb 14, 2020, 9:29:51 PM
+[2020.02.15-09.29.51:644][768]MapCheck: Error: WorldSettings Maps need lighting rebuilt 
+[2020.02.15-09.29.51:648][768]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 4.91ms to complete.
+[2020.02.15-09.29.51:673][768]LogEditorBuildUtils: Build time 0:15
+[2020.02.15-09.29.52:172][769]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_2293, compiling. 
+[2020.02.15-09.29.52:322][770]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_2594, compiling. 
+[2020.02.15-09.29.52:355][771]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_2591, compiling. 
+[2020.02.15-09.29.52:390][772]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_2592, compiling. 
+[2020.02.15-09.29.52:425][773]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_2595, compiling. 
+[2020.02.15-09.29.52:451][774]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_2593, compiling. 
+[2020.02.15-09.29.52:486][775]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_2590, compiling. 
+[2020.02.15-09.29.52:529][776]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_2330, compiling. 
+[2020.02.15-09.29.52:540][776]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_2330, compiling. 
+[2020.02.15-09.29.52:605][777]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_2333, compiling. 
+[2020.02.15-09.29.52:615][777]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_2333, compiling. 
+[2020.02.15-09.29.52:693][779]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_2567, compiling. 
+[2020.02.15-09.29.53:058][784]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_2322, compiling. 
+[2020.02.15-09.29.53:143][786]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_2315, compiling. 
+[2020.02.15-09.29.53:196][787]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_2308, compiling. 
+[2020.02.15-09.29.53:203][787]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_2308, compiling. 
+[2020.02.15-09.29.53:241][788]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_2323, compiling. 
+[2020.02.15-09.29.53:273][789]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_2577, compiling. 
+[2020.02.15-09.29.53:291][789]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_2577, compiling. 
+[2020.02.15-09.29.53:354][790]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_2575, compiling. 
+[2020.02.15-09.29.53:405][790]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_2575, compiling. 
+[2020.02.15-09.29.53:446][791]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_2574, compiling. 
+[2020.02.15-09.29.53:508][792]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_2297, compiling. 
+[2020.02.15-09.29.53:567][793]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_2581, compiling. 
+[2020.02.15-09.29.53:619][794]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_2580, compiling. 
+[2020.02.15-09.29.53:676][795]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_2294, compiling. 
+[2020.02.15-09.29.53:719][796]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_2586, compiling. 
+[2020.02.15-09.29.53:776][797]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_2588, compiling. 
+[2020.02.15-09.29.53:839][798]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_2579, compiling. 
+[2020.02.15-09.29.53:899][799]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_2436, compiling. 
+[2020.02.15-09.29.53:908][799]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_2436, compiling. 
+[2020.02.15-09.29.53:987][800]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_2475, compiling. 
+[2020.02.15-09.29.54:071][801]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_2481, compiling. 
+[2020.02.15-09.29.54:185][802]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_2583, compiling. 
+[2020.02.15-09.29.54:209][803]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_2589, compiling. 
+[2020.02.15-09.29.54:229][804]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_2585, compiling. 
+[2020.02.15-09.29.57:995][869]LogUObjectHash: Compacting FUObjectHashTables data took   5.69ms
+[2020.02.15-09.30.15:673][958]Job is a success!
+[2020.02.15-09.30.16:253][959]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.117s
+[2020.02.15-09.30.16:259][959]LogVolumetricLightmapImport:      Indirection Texture 32x32x32 = 0.1Mb
+[2020.02.15-09.30.16:289][959]LogVolumetricLightmapImport:      BrickData 340x5x5 = 0.3Mb (trimmed 2.6Mb due to 0.010000 MinBrickError)
+[2020.02.15-09.30.16:290][959]LogVolumetricLightmapImport:      Bricks at Level
+[2020.02.15-09.30.16:290][959]LogVolumetricLightmapImport:          0: 11.8% covering 100.0% of volume
+[2020.02.15-09.30.16:290][959]LogVolumetricLightmapImport:          1: 88.2% covering 11.7% of volume
+[2020.02.15-09.30.16:291][959]LogVolumetricLightmapImport:          2: 0.0% covering 0.0% of volume
+[2020.02.15-09.30.16:886][959]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 512X512)
+[2020.02.15-09.30.16:886][959]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 512X256)
+[2020.02.15-09.30.16:898][959]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 512X512)
+[2020.02.15-09.30.16:930][959]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 1024X128)
+[2020.02.15-09.30.16:975][959]LogStaticLightingSystem: Town_BuiltData storing lightmap data for 121 meshes in 1 LightmapResourceClusters (121.0 Meshes per cluster).
+[2020.02.15-09.30.17:195][959]Lightmass on FALL-PC: 17.0 sec total, 6.30 sec importing, 75 ms setup, 1.86 sec photons, 8.52 sec processing, 0 ms extra exporting [121/121 mappings]. Threads: 34.0 sec total, 6.77 sec processing.
+[2020.02.15-09.30.17:281][959]LogUObjectHash: Compacting FUObjectHashTables data took   4.12ms
+[2020.02.15-09.30.17:295][959]LogStaticLightingSystem: Illumination: 36.1 sec (394 ms encoding lightmaps, 29 ms encoding shadowmaps)
+[2020.02.15-09.30.17:295][959]LogStaticLightingSystem: Lightmap texture memory:  0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 2 textures
+[2020.02.15-09.30.17:296][959]LogStaticLightingSystem: Shadowmap texture memory: 0.2 MB (0.2 MB streaming, 0.0 MB non-streaming), 1 textures
+[2020.02.15-09.30.18:536][959]DumpUnbuiltLightIteractions
+[2020.02.15-09.30.18:536][959]Lights with unbuilt interactions: 0
+[2020.02.15-09.30.18:537][959]
+[2020.02.15-09.30.18:538][959]Primitives with unbuilt interactions: 0
+[2020.02.15-09.30.18:779][960]Cmd: MAP CHECK NOTIFYRESULTS
+[2020.02.15-09.30.18:781][960]MapCheck: New page: Town - Feb 14, 2020, 9:30:18 PM
+[2020.02.15-09.30.18:798][960]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 17.902ms to complete.
+[2020.02.15-09.39.35:990][616]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2020.02.15-09.39.35:992][616]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Town" FILE="C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Autosaves/Game/Maps/Town_Auto4.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2020.02.15-09.39.37:187][616]LogSavePackage: Moving 'C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Town_Auto429EF02C743B65E11974B56BC995510C9.tmp' to 'C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Autosaves/Game/Maps/Town_Auto4.umap'
+[2020.02.15-09.39.37:218][616]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Town' took 1.283
+[2020.02.15-09.39.37:219][616]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.283
+[2020.02.15-09.49.37:716][396]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
+[2020.02.15-09.49.37:716][396]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Town' took 0.054
+[2020.02.15-09.58.45:205][234]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.15-09.58.45:322][246]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Town" FILE="C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Content/Maps/Town.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.02.15-09.58.45:359][246]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2020.02.15-09.58.46:068][246]LogSavePackage: Moving 'C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/TownAF0BE8074F23BB36147B889A7DC52D40.tmp' to 'C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Content/Maps/Town.umap'
+[2020.02.15-09.58.46:114][246]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Town_BuiltData" FILE="C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Content/Maps/Town_BuiltData.uasset" SILENT=true
+[2020.02.15-09.58.46:203][246]LogSavePackage: Moving 'C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Town_BuiltData4991611D40D8B29E32F7ECBB59FBC438.tmp' to 'C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Content/Maps/Town_BuiltData.uasset'
+[2020.02.15-09.58.47:269][335]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2020.02.15-09.58.47:371][335]LogSlate: Window 'Marine_Squad - Unreal Editor' being destroyed
+[2020.02.15-09.58.47:374][335]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.02.15-09.58.47:852][336]Cmd: QUIT_EDITOR
+[2020.02.15-09.58.48:588][336]LogExit: Preparing to exit.
+[2020.02.15-09.58.49:323][336]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_144d8ffb0c7ca55232a4412d9c0c3636>::operator ()(31)] Fog Controller is removed for: World_1
+[2020.02.15-09.58.49:326][336]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_144d8ffb0c7ca55232a4412d9c0c3636>::operator ()(31)] Fog Controller is removed for: World_3
+[2020.02.15-09.58.49:330][336]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_144d8ffb0c7ca55232a4412d9c0c3636>::operator ()(31)] Fog Controller is removed for: World_5
+[2020.02.15-09.58.49:334][336]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_144d8ffb0c7ca55232a4412d9c0c3636>::operator ()(31)] Fog Controller is removed for: World_6
+[2020.02.15-09.58.49:337][336]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_144d8ffb0c7ca55232a4412d9c0c3636>::operator ()(31)] Fog Controller is removed for: World_9
+[2020.02.15-09.58.49:343][336]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_144d8ffb0c7ca55232a4412d9c0c3636>::operator ()(31)] Fog Controller is removed for: World_0
+[2020.02.15-09.58.49:345][336]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_144d8ffb0c7ca55232a4412d9c0c3636>::operator ()(31)] Fog Controller is removed for: World_4
+[2020.02.15-09.58.49:347][336]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_144d8ffb0c7ca55232a4412d9c0c3636>::operator ()(31)] Fog Controller is removed for: World_8
+[2020.02.15-09.58.49:481][336]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_144d8ffb0c7ca55232a4412d9c0c3636>::operator ()(31)] Fog Controller is removed for: World_2
+[2020.02.15-09.58.49:772][336]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_144d8ffb0c7ca55232a4412d9c0c3636>::operator ()(31)] Fog Controller is removed for: None
+[2020.02.15-09.58.49:772][336]LogExit: Editor shut down
+[2020.02.15-09.58.49:776][336]LogExit: Transaction tracking system shut down
+[2020.02.15-09.58.50:664][336]LogExit: Object subsystem successfully closed.
+[2020.02.15-09.58.50:741][336]LogShaderCompilers: Display: Shaders left to compile 0
+[2020.02.15-09.58.50:794][336]LogD3D11RHI: Shutdown
+[2020.02.15-09.58.50:794][336]LogD3D11RHI: CleanupD3DDevice
+[2020.02.15-09.58.50:806][336]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2020.02.15-09.58.50:806][336]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2020.02.15-09.58.50:806][336]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2020.02.15-09.58.50:807][336]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2020.02.15-09.58.50:807][336]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2020.02.15-09.58.50:807][336]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2020.02.15-09.58.51:826][336]LogD3D11RHI: ~FD3D11DynamicRHI
+[2020.02.15-09.58.51:932][336]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (654)
+[2020.02.15-09.58.51:932][336]LogModuleManager: Shutting down and abandoning module BlueprintGraph (652)
+[2020.02.15-09.58.51:932][336]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (650)
+[2020.02.15-09.58.51:932][336]LogModuleManager: Shutting down and abandoning module Voice (648)
+[2020.02.15-09.58.51:933][336]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (646)
+[2020.02.15-09.58.51:933][336]LogModuleManager: Shutting down and abandoning module AddContentDialog (644)
+[2020.02.15-09.58.51:960][336]LogModuleManager: Shutting down and abandoning module WidgetCarousel (643)
+[2020.02.15-09.58.51:960][336]LogModuleManager: Shutting down and abandoning module EditorWidgets (640)
+[2020.02.15-09.58.51:960][336]LogModuleManager: Shutting down and abandoning module CollectionManager (638)
+[2020.02.15-09.58.51:961][336]LogModuleManager: Shutting down and abandoning module SceneOutliner (636)
+[2020.02.15-09.58.51:961][336]LogModuleManager: Shutting down and abandoning module StatsViewer (634)
+[2020.02.15-09.58.51:962][336]LogModuleManager: Shutting down and abandoning module FoliageEdit (632)
+[2020.02.15-09.58.51:963][336]LogModuleManager: Shutting down and abandoning module LandscapeEditor (630)
+[2020.02.15-09.58.51:963][336]LogModuleManager: Shutting down and abandoning module MeshPaintMode (628)
+[2020.02.15-09.58.51:963][336]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (626)
+[2020.02.15-09.58.51:963][336]LogModuleManager: Shutting down and abandoning module ActorPickerMode (624)
+[2020.02.15-09.58.51:963][336]LogModuleManager: Shutting down and abandoning module GeometryMode (622)
+[2020.02.15-09.58.51:964][336]LogModuleManager: Shutting down and abandoning module TextureAlignMode (620)
+[2020.02.15-09.58.51:964][336]LogModuleManager: Shutting down and abandoning module BspMode (618)
+[2020.02.15-09.58.51:964][336]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (616)
+[2020.02.15-09.58.51:965][336]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (614)
+[2020.02.15-09.58.51:965][336]LogModuleManager: Shutting down and abandoning module AutomationWorker (612)
+[2020.02.15-09.58.51:965][336]LogModuleManager: Shutting down and abandoning module OculusMR (610)
+[2020.02.15-09.58.51:965][336]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (608)
+[2020.02.15-09.58.51:965][336]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (606)
+[2020.02.15-09.58.51:967][336]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (604)
+[2020.02.15-09.58.51:972][336]LogModuleManager: Shutting down and abandoning module PlacementMode (603)
+[2020.02.15-09.58.51:972][336]LogModuleManager: Shutting down and abandoning module MaterialEditor (602)
+[2020.02.15-09.58.51:975][336]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (598)
+[2020.02.15-09.58.51:977][336]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (596)
+[2020.02.15-09.58.51:977][336]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (594)
+[2020.02.15-09.58.51:977][336]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (592)
+[2020.02.15-09.58.51:978][336]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (590)
+[2020.02.15-09.58.51:978][336]LogModuleManager: Shutting down and abandoning module WebMMedia (588)
+[2020.02.15-09.58.51:978][336]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (586)
+[2020.02.15-09.58.51:979][336]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (584)
+[2020.02.15-09.58.51:982][336]LogModuleManager: Shutting down and abandoning module SequenceRecorder (583)
+[2020.02.15-09.58.51:982][336]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (580)
+[2020.02.15-09.58.51:982][336]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (578)
+[2020.02.15-09.58.51:982][336]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (576)
+[2020.02.15-09.58.51:983][336]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (574)
+[2020.02.15-09.58.51:983][336]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (572)
+[2020.02.15-09.58.51:983][336]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (570)
+[2020.02.15-09.58.51:983][336]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (568)
+[2020.02.15-09.58.51:983][336]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (566)
+[2020.02.15-09.58.51:983][336]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (564)
+[2020.02.15-09.58.51:983][336]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (562)
+[2020.02.15-09.58.51:983][336]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (560)
+[2020.02.15-09.58.51:983][336]LogModuleManager: Shutting down and abandoning module CharacterAI (558)
+[2020.02.15-09.58.51:983][336]LogModuleManager: Shutting down and abandoning module SmartSnapping (556)
+[2020.02.15-09.58.51:984][336]LogModuleManager: Shutting down and abandoning module SessionServices (554)
+[2020.02.15-09.58.51:984][336]LogModuleManager: Shutting down and abandoning module MeshPaint (552)
+[2020.02.15-09.58.51:985][336]LogModuleManager: Shutting down and abandoning module ViewportSnapping (550)
+[2020.02.15-09.58.51:985][336]LogModuleManager: Shutting down and abandoning module ViewportInteraction (548)
+[2020.02.15-09.58.51:985][336]LogModuleManager: Shutting down and abandoning module ClothPainter (546)
+[2020.02.15-09.58.51:988][336]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (545)
+[2020.02.15-09.58.51:990][336]LogModuleManager: Shutting down and abandoning module LogVisualizer (542)
+[2020.02.15-09.58.51:992][336]LogModuleManager: Shutting down and abandoning module IntroTutorials (540)
+[2020.02.15-09.58.51:994][336]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (539)
+[2020.02.15-09.58.51:995][336]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (536)
+[2020.02.15-09.58.51:995][336]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (534)
+[2020.02.15-09.58.51:996][336]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (532)
+[2020.02.15-09.58.51:996][336]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (530)
+[2020.02.15-09.58.51:996][336]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (529)
+[2020.02.15-09.58.53:064][336]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (526)
+[2020.02.15-09.58.53:064][336]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (524)
+[2020.02.15-09.58.53:064][336]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (522)
+[2020.02.15-09.58.53:064][336]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (520)
+[2020.02.15-09.58.53:064][336]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (518)
+[2020.02.15-09.58.53:065][336]LogModuleManager: Shutting down and abandoning module InputBindingEditor (516)
+[2020.02.15-09.58.53:066][336]LogModuleManager: Shutting down and abandoning module MergeActors (514)
+[2020.02.15-09.58.53:067][336]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (512)
+[2020.02.15-09.58.53:069][336]LogModuleManager: Shutting down and abandoning module LocalizationService (511)
+[2020.02.15-09.58.53:071][336]LogModuleManager: Shutting down and abandoning module HardwareTargeting (508)
+[2020.02.15-09.58.53:071][336]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (506)
+[2020.02.15-09.58.53:072][336]LogModuleManager: Shutting down and abandoning module UndoHistory (504)
+[2020.02.15-09.58.53:073][336]LogModuleManager: Shutting down and abandoning module XmlParser (502)
+[2020.02.15-09.58.53:073][336]LogModuleManager: Shutting down and abandoning module Blutility (500)
+[2020.02.15-09.58.53:074][336]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (498)
+[2020.02.15-09.58.53:074][336]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (497)
+[2020.02.15-09.58.53:077][336]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (494)
+[2020.02.15-09.58.53:079][336]LogModuleManager: Shutting down and abandoning module SettingsEditor (492)
+[2020.02.15-09.58.53:081][336]LogModuleManager: Shutting down and abandoning module ProjectLauncher (490)
+[2020.02.15-09.58.53:082][336]LogModuleManager: Shutting down and abandoning module SessionFrontend (488)
+[2020.02.15-09.58.53:083][336]LogModuleManager: Shutting down and abandoning module ProfilerClient (486)
+[2020.02.15-09.58.53:083][336]LogModuleManager: Shutting down and abandoning module DeviceManager (484)
+[2020.02.15-09.58.53:085][336]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (483)
+[2020.02.15-09.58.53:130][336]LogModuleManager: Shutting down and abandoning module AutomationController (480)
+[2020.02.15-09.58.53:132][336]LogModuleManager: Shutting down and abandoning module AutomationWindow (478)
+[2020.02.15-09.58.53:132][336]LogModuleManager: Shutting down and abandoning module Layers (476)
+[2020.02.15-09.58.53:139][336]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (474)
+[2020.02.15-09.58.53:139][336]LogModuleManager: Shutting down and abandoning module DetailCustomizations (472)
+[2020.02.15-09.58.53:141][336]LogModuleManager: Shutting down and abandoning module PackagesDialog (470)
+[2020.02.15-09.58.53:141][336]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (468)
+[2020.02.15-09.58.53:144][336]LogModuleManager: Shutting down and abandoning module Persona (466)
+[2020.02.15-09.58.53:147][336]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (465)
+[2020.02.15-09.58.53:147][336]LogModuleManager: Shutting down and abandoning module AnimGraph (463)
+[2020.02.15-09.58.53:147][336]LogModuleManager: Shutting down and abandoning module Kismet (460)
+[2020.02.15-09.58.53:165][336]LogModuleManager: Shutting down and abandoning module GraphEditor (458)
+[2020.02.15-09.58.53:174][336]LogModuleManager: Shutting down and abandoning module ClassViewer (456)
+[2020.02.15-09.58.53:174][336]LogModuleManager: Shutting down and abandoning module Toolbox (454)
+[2020.02.15-09.58.53:175][336]LogModuleManager: Shutting down and abandoning module DesktopPlatform (453)
+[2020.02.15-09.58.53:176][336]LogModuleManager: Shutting down and abandoning module ModuleUI (450)
+[2020.02.15-09.58.53:176][336]LogModuleManager: Shutting down and abandoning module MovieSceneTools (448)
+[2020.02.15-09.58.53:177][336]LogModuleManager: Shutting down and abandoning module OutputLog (446)
+[2020.02.15-09.58.53:177][336]LogModuleManager: Shutting down and abandoning module GammaUI (444)
+[2020.02.15-09.58.53:177][336]LogModuleManager: Shutting down and abandoning module Documentation (442)
+[2020.02.15-09.58.53:177][336]LogModuleManager: Shutting down and abandoning module LiveCoding (440)
+[2020.02.15-09.58.53:178][336]LogModuleManager: Shutting down and abandoning module LevelSequence (438)
+[2020.02.15-09.58.53:178][336]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (436)
+[2020.02.15-09.58.53:178][336]LogModuleManager: Shutting down and abandoning module MovieScene (434)
+[2020.02.15-09.58.53:179][336]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (432)
+[2020.02.15-09.58.53:179][336]LogModuleManager: Shutting down and abandoning module LauncherPlatform (430)
+[2020.02.15-09.58.53:179][336]LogModuleManager: Shutting down and abandoning module AnalyticsET (428)
+[2020.02.15-09.58.53:179][336]LogModuleManager: Shutting down and abandoning module PortalServices (426)
+[2020.02.15-09.58.53:179][336]LogModuleManager: Shutting down and abandoning module PortalRpc (424)
+[2020.02.15-09.58.53:179][336]LogModuleManager: Shutting down and abandoning module MessagingRpc (422)
+[2020.02.15-09.58.53:179][336]LogModuleManager: Shutting down and abandoning module AIModule (420)
+[2020.02.15-09.58.53:180][336]LogModuleManager: Shutting down and abandoning module GameplayDebugger (419)
+[2020.02.15-09.58.53:180][336]LogModuleManager: Shutting down and abandoning module AITestSuite (417)
+[2020.02.15-09.58.53:180][336]LogModuleManager: Shutting down and abandoning module NavigationSystem (415)
+[2020.02.15-09.58.53:180][336]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (412)
+[2020.02.15-09.58.53:184][336]LogModuleManager: Shutting down and abandoning module ProfilerService (410)
+[2020.02.15-09.58.53:438][336]LogModuleManager: Shutting down and abandoning module TaskGraph (408)
+[2020.02.15-09.58.53:441][336]LogModuleManager: Shutting down and abandoning module SteamVRController (406)
+[2020.02.15-09.58.53:441][336]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (404)
+[2020.02.15-09.58.53:441][336]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (402)
+[2020.02.15-09.58.53:441][336]LogModuleManager: Shutting down and abandoning module OculusEditor (400)
+[2020.02.15-09.58.53:443][336]LogModuleManager: Shutting down and abandoning module OculusInput (398)
+[2020.02.15-09.58.53:443][336]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (396)
+[2020.02.15-09.58.53:444][336]LogModuleManager: Shutting down and abandoning module EditableMesh (394)
+[2020.02.15-09.58.53:444][336]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (392)
+[2020.02.15-09.58.53:444][336]LogModuleManager: Shutting down and abandoning module CableComponent (390)
+[2020.02.15-09.58.53:444][336]LogModuleManager: Shutting down and abandoning module AudioCapture (388)
+[2020.02.15-09.58.53:444][336]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (386)
+[2020.02.15-09.58.53:444][336]LogModuleManager: Shutting down and abandoning module AndroidPermission (384)
+[2020.02.15-09.58.53:444][336]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (382)
+[2020.02.15-09.58.53:444][336]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (380)
+[2020.02.15-09.58.53:447][336]LogModuleManager: Shutting down and abandoning module MediaCompositing (378)
+[2020.02.15-09.58.53:447][336]LogModuleManager: Shutting down and abandoning module LinearTimecode (376)
+[2020.02.15-09.58.53:447][336]LogModuleManager: Shutting down and abandoning module ImgMedia (374)
+[2020.02.15-09.58.53:447][336]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (372)
+[2020.02.15-09.58.53:447][336]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (370)
+[2020.02.15-09.58.53:447][336]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (368)
+[2020.02.15-09.58.53:447][336]LogModuleManager: Shutting down and abandoning module HTML5Networking (366)
+[2020.02.15-09.58.53:447][336]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (364)
+[2020.02.15-09.58.53:447][336]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (362)
+[2020.02.15-09.58.53:447][336]LogModuleManager: Shutting down and abandoning module BackChannel (360)
+[2020.02.15-09.58.53:447][336]LogModuleManager: Shutting down and abandoning module AppleVision (358)
+[2020.02.15-09.58.53:447][336]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (356)
+[2020.02.15-09.58.53:447][336]LogModuleManager: Shutting down and abandoning module AppleImageUtils (354)
+[2020.02.15-09.58.53:447][336]LogModuleManager: Shutting down and abandoning module AlembicImporter (352)
+[2020.02.15-09.58.53:447][336]LogModuleManager: Shutting down and abandoning module AlembicLibrary (351)
+[2020.02.15-09.58.53:447][336]LogModuleManager: Shutting down and abandoning module GeometryCache (350)
+[2020.02.15-09.58.53:447][336]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (349)
+[2020.02.15-09.58.53:447][336]LogModuleManager: Shutting down and abandoning module VariantManagerContent (344)
+[2020.02.15-09.58.53:447][336]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (342)
+[2020.02.15-09.58.53:448][336]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (340)
+[2020.02.15-09.58.53:448][336]LogModuleManager: Shutting down and abandoning module PluginBrowser (338)
+[2020.02.15-09.58.53:451][336]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (336)
+[2020.02.15-09.58.53:453][336]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (334)
+[2020.02.15-09.58.53:454][336]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (332)
+[2020.02.15-09.58.53:454][336]LogModuleManager: Shutting down and abandoning module CryptoKeys (330)
+[2020.02.15-09.58.53:454][336]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (328)
+[2020.02.15-09.58.53:455][336]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (326)
+[2020.02.15-09.58.53:458][336]LogModuleManager: Shutting down and abandoning module UObjectPlugin (324)
+[2020.02.15-09.58.53:458][336]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (322)
+[2020.02.15-09.58.53:463][336]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (320)
+[2020.02.15-09.58.53:465][336]LogModuleManager: Shutting down and abandoning module GitSourceControl (318)
+[2020.02.15-09.58.53:467][336]LogModuleManager: Shutting down and abandoning module SourceControl (317)
+[2020.02.15-09.58.53:467][336]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (314)
+[2020.02.15-09.58.53:467][336]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (312)
+[2020.02.15-09.58.53:467][336]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (310)
+[2020.02.15-09.58.53:468][336]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (308)
+[2020.02.15-09.58.53:468][336]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (306)
+[2020.02.15-09.58.53:469][336]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (304)
+[2020.02.15-09.58.53:469][336]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (302)
+[2020.02.15-09.58.53:469][336]LogModuleManager: Shutting down and abandoning module Paper2DEditor (300)
+[2020.02.15-09.58.53:471][336]LogModuleManager: Shutting down and abandoning module Marine_Squad (298)
+[2020.02.15-09.58.53:471][336]LogModuleManager: Shutting down and abandoning module SignificanceManager (296)
+[2020.02.15-09.58.53:471][336]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (294)
+[2020.02.15-09.58.53:471][336]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (292)
+[2020.02.15-09.58.53:472][336]LogModuleManager: Shutting down and abandoning module PhysXVehicles (290)
+[2020.02.15-09.58.53:472][336]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (288)
+[2020.02.15-09.58.53:472][336]LogModuleManager: Shutting down and abandoning module ActorSequence (286)
+[2020.02.15-09.58.53:472][336]LogModuleManager: Shutting down and abandoning module UdpMessaging (284)
+[2020.02.15-09.58.53:573][336]LogModuleManager: Shutting down and abandoning module TcpMessaging (282)
+[2020.02.15-09.58.53:678][336]LogModuleManager: Shutting down and abandoning module VaFogOfWar (280)
+[2020.02.15-09.58.53:678][336]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (278)
+[2020.02.15-09.58.53:678][336]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (276)
+[2020.02.15-09.58.53:678][336]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (274)
+[2020.02.15-09.58.53:679][336]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (272)
+[2020.02.15-09.58.53:679][336]LogModuleManager: Shutting down and abandoning module MagicLeapController (270)
+[2020.02.15-09.58.53:680][336]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2020.02.15-09.58.53:680][336]LogModuleManager: Shutting down and abandoning module MagicLeapAR (268)
+[2020.02.15-09.58.53:680][336]LogModuleManager: Shutting down and abandoning module AugmentedReality (267)
+[2020.02.15-09.58.53:680][336]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (264)
+[2020.02.15-09.58.53:680][336]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (262)
+[2020.02.15-09.58.53:680][336]LogModuleManager: Shutting down and abandoning module FacialAnimation (260)
+[2020.02.15-09.58.53:680][336]LogModuleManager: Shutting down and abandoning module DataValidation (258)
+[2020.02.15-09.58.53:680][336]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (256)
+[2020.02.15-09.58.53:681][336]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2020.02.15-09.58.53:688][336]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2020.02.15-09.58.53:690][336]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (252)
+[2020.02.15-09.58.53:691][336]LogModuleManager: Shutting down and abandoning module MainFrame (250)
+[2020.02.15-09.58.53:691][336]LogModuleManager: Shutting down and abandoning module HotReload (249)
+[2020.02.15-09.58.53:694][336]LogModuleManager: Shutting down and abandoning module ContentBrowser (245)
+[2020.02.15-09.58.53:698][336]LogModuleManager: Shutting down and abandoning module TreeMap (243)
+[2020.02.15-09.58.53:699][336]LogModuleManager: Shutting down and abandoning module AnimationSharing (240)
+[2020.02.15-09.58.53:699][336]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
+[2020.02.15-09.58.53:699][336]LogModuleManager: Shutting down and abandoning module AISupportModule (236)
+[2020.02.15-09.58.53:699][336]LogModuleManager: Shutting down and abandoning module Paper2D (234)
+[2020.02.15-09.58.53:699][336]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (232)
+[2020.02.15-09.58.53:700][336]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (230)
+[2020.02.15-09.58.53:700][336]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
+[2020.02.15-09.58.53:700][336]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
+[2020.02.15-09.58.53:700][336]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
+[2020.02.15-09.58.53:703][336]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
+[2020.02.15-09.58.53:703][336]LogModuleManager: Shutting down and abandoning module Overlay (220)
+[2020.02.15-09.58.53:703][336]LogModuleManager: Shutting down and abandoning module OverlayEditor (219)
+[2020.02.15-09.58.53:703][336]LogModuleManager: Shutting down and abandoning module VREditor (216)
+[2020.02.15-09.58.53:704][336]LogModuleManager: Shutting down and abandoning module StringTableEditor (214)
+[2020.02.15-09.58.53:705][336]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (212)
+[2020.02.15-09.58.53:705][336]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (210)
+[2020.02.15-09.58.53:707][336]LogModuleManager: Shutting down and abandoning module FunctionalTesting (208)
+[2020.02.15-09.58.53:708][336]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (206)
+[2020.02.15-09.58.53:709][336]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (205)
+[2020.02.15-09.58.53:714][336]LogModuleManager: Shutting down and abandoning module UMG (202)
+[2020.02.15-09.58.53:714][336]LogModuleManager: Shutting down and abandoning module UMGEditor (201)
+[2020.02.15-09.58.53:716][336]LogModuleManager: Shutting down and abandoning module Sequencer (200)
+[2020.02.15-09.58.53:719][336]LogModuleManager: Shutting down and abandoning module MessageLog (197)
+[2020.02.15-09.58.53:719][336]LogModuleManager: Shutting down and abandoning module SlateReflector (192)
+[2020.02.15-09.58.53:729][336]LogModuleManager: Shutting down and abandoning module Slate (190)
+[2020.02.15-09.58.53:729][336]LogModuleManager: Shutting down and abandoning module EditorStyle (188)
+[2020.02.15-09.58.53:737][336]LogModuleManager: Shutting down and abandoning module UnrealEd (186)
+[2020.02.15-09.58.53:738][336]LogModuleManager: Shutting down and abandoning module MRMesh (184)
+[2020.02.15-09.58.53:738][336]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
+[2020.02.15-09.58.53:738][336]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
+[2020.02.15-09.58.53:738][336]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
+[2020.02.15-09.58.53:738][336]LogModuleManager: Shutting down and abandoning module Networking (176)
+[2020.02.15-09.58.53:738][336]LogModuleManager: Shutting down and abandoning module Core (174)
+[2020.02.15-09.58.53:738][336]LogModuleManager: Shutting down and abandoning module KismetCompiler (172)
+[2020.02.15-09.58.53:738][336]LogModuleManager: Shutting down and abandoning module MeshUtilities (170)
+[2020.02.15-09.58.53:739][336]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (169)
+[2020.02.15-09.58.53:740][336]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (168)
+[2020.02.15-09.58.53:740][336]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (167)
+[2020.02.15-09.58.53:740][336]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (165)
+[2020.02.15-09.58.53:743][336]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (163)
+[2020.02.15-09.58.53:743][336]LogModuleManager: Shutting down and abandoning module MaterialBaking (159)
+[2020.02.15-09.58.53:744][336]LogModuleManager: Shutting down and abandoning module DerivedDataCache (154)
+[2020.02.15-09.58.53:750][336]LogDerivedDataCache: Shutdown
+[2020.02.15-09.58.53:750][336]LogModuleManager: Shutting down and abandoning module XGEController (152)
+[2020.02.15-09.58.53:750][336]LogXGEController: Cleaning working directory: C:/Users/ericf/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.02.15-09.58.53:751][336]LogModuleManager: Shutting down and abandoning module TargetPlatform (150)
+[2020.02.15-09.58.53:753][336]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (149)
+[2020.02.15-09.58.53:754][336]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (147)
+[2020.02.15-09.58.53:754][336]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (145)
+[2020.02.15-09.58.53:754][336]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (143)
+[2020.02.15-09.58.53:755][336]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (141)
+[2020.02.15-09.58.53:755][336]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (139)
+[2020.02.15-09.58.53:755][336]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (137)
+[2020.02.15-09.58.53:756][336]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (135)
+[2020.02.15-09.58.53:756][336]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (133)
+[2020.02.15-09.58.53:757][336]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (131)
+[2020.02.15-09.58.53:757][336]LogModuleManager: Shutting down and abandoning module ImageWrapper (130)
+[2020.02.15-09.58.53:757][336]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (127)
+[2020.02.15-09.58.53:757][336]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (125)
+[2020.02.15-09.58.53:757][336]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (123)
+[2020.02.15-09.58.53:758][336]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (121)
+[2020.02.15-09.58.53:758][336]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (119)
+[2020.02.15-09.58.53:789][336]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (117)
+[2020.02.15-09.58.53:789][336]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (115)
+[2020.02.15-09.58.53:789][336]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (113)
+[2020.02.15-09.58.53:789][336]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (111)
+[2020.02.15-09.58.53:789][336]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (109)
+[2020.02.15-09.58.53:821][336]LogModuleManager: Shutting down and abandoning module Messaging (107)
+[2020.02.15-09.58.53:821][336]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (105)
+[2020.02.15-09.58.53:837][336]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (103)
+[2020.02.15-09.58.53:838][336]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (101)
+[2020.02.15-09.58.54:029][336]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (99)
+[2020.02.15-09.58.54:029][336]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (97)
+[2020.02.15-09.58.54:030][336]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (95)
+[2020.02.15-09.58.54:030][336]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (93)
+[2020.02.15-09.58.54:031][336]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (91)
+[2020.02.15-09.58.54:031][336]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (89)
+[2020.02.15-09.58.54:031][336]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (87)
+[2020.02.15-09.58.54:031][336]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (85)
+[2020.02.15-09.58.54:032][336]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (83)
+[2020.02.15-09.58.54:032][336]LogModuleManager: Shutting down and abandoning module InputCore (80)
+[2020.02.15-09.58.54:032][336]LogModuleManager: Shutting down and abandoning module Settings (78)
+[2020.02.15-09.58.54:032][336]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (76)
+[2020.02.15-09.58.54:033][336]LogModuleManager: Shutting down and abandoning module PhysXCooking (74)
+[2020.02.15-09.58.54:033][336]LogModuleManager: Shutting down and abandoning module SteamVR (72)
+[2020.02.15-09.58.54:033][336]LogHMD: Freeing OpenVRDLLHandle.
+[2020.02.15-09.58.54:033][336]LogModuleManager: Shutting down and abandoning module OculusHMD (70)
+[2020.02.15-09.58.54:033][336]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (68)
+[2020.02.15-09.58.54:033][336]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (66)
+[2020.02.15-09.58.54:033][336]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (64)
+[2020.02.15-09.58.54:033][336]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (60)
+[2020.02.15-09.58.54:036][336]LogModuleManager: Shutting down and abandoning module XMPP (55)
+[2020.02.15-09.58.54:038][336]LogModuleManager: Shutting down and abandoning module WebSockets (54)
+[2020.02.15-09.58.54:079][336]LogModuleManager: Shutting down and abandoning module HTTP (51)
+[2020.02.15-09.58.54:079][336]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2020.02.15-09.58.54:079][336]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B89B09337-4271-FBEF-E3A9-2B9AD83E5C08%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=ae86788d4134fa5a137890a720085a6a%7C722f828ed35e43ae806c4e05bee10d1a%7C623e5266-bd3d-4d5d-a1dd-fac30eb961f2&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2020.02.15-09.58.54:089][336]LogModuleManager: Shutting down and abandoning module SSL (50)
+[2020.02.15-09.58.54:099][336]LogModuleManager: Shutting down and abandoning module WmfMedia (46)
+[2020.02.15-09.58.54:102][336]LogModuleManager: Shutting down and abandoning module Media (45)
+[2020.02.15-09.58.54:109][336]LogModuleManager: Shutting down and abandoning module MagicLeap (42)
+[2020.02.15-09.58.54:112][336]LogModuleManager: Shutting down and abandoning module DatasmithContent (40)
+[2020.02.15-09.58.54:113][336]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2020.02.15-09.58.54:114][336]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2020.02.15-09.58.54:118][336]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2020.02.15-09.58.54:125][336]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2020.02.15-09.58.54:125][336]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2020.02.15-09.58.54:125][336]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2020.02.15-09.58.54:125][336]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2020.02.15-09.58.54:129][336]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2020.02.15-09.58.54:130][336]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2020.02.15-09.58.54:130][336]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2020.02.15-09.58.54:130][336]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2020.02.15-09.58.54:131][336]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2020.02.15-09.58.54:131][336]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2020.02.15-09.58.54:131][336]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2020.02.15-09.58.54:131][336]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2020.02.15-09.58.54:131][336]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2020.02.15-09.58.54:131][336]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2020.02.15-09.58.54:132][336]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2020.02.15-09.58.54:133][336]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2020.02.15-09.58.54:146][336]LogExit: Exiting.
+[2020.02.15-09.58.54:167][336]Log file closed, 02/15/20 03:58:54
