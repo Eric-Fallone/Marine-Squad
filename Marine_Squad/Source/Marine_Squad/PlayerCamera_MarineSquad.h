@@ -22,7 +22,7 @@ public:
 public:	
 	void MoveCamera(FVector CamDir);
 	UPROPERTY(EditAnywhere)
-	float CameraMoveSpeed = 10.0f;
+	float CameraMoveSpeed = 25.0f;
 	// Called every frame
 	//virtual void Tick(float DeltaTime) override;
 
