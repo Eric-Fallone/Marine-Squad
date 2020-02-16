@@ -22,6 +22,8 @@ void AParentUnit::BeginPlay()
 	{
 		HealthCurrent = HealthMax;
 	}
+	HealthPercent = (HealthCurrent / HealthMax);
+	UE_LOG(LogTemp, Warning, TEXT("Setting HPPercent to %f"),HealthPercent)
 	GetCharacterMovement()->MaxWalkSpeed = MoveSpeed;
 }
 
@@ -55,6 +57,8 @@ void AParentUnit::Attack(AParentUnit* target)
 void AParentUnit::TakeDamage(float DamageTaken)
 {
 	HealthCurrent = HealthCurrent - DamageTaken;
+	HealthPercent = (HealthCurrent / HealthMax);
+	UE_LOG(LogTemp, Warning, TEXT("Setting HPPercent to %f"),HealthPercent)
 	if (HealthCurrent <= 0){
 		KillSelf();
 	}

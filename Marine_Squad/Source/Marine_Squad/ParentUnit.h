@@ -59,6 +59,9 @@ public:
 	float HealthMax = 100;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=UnitStats)
 	float HealthCurrent;
+	//used for the HP bar element
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=UnitStats)
+	float HealthPercent;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=UnitStats)
 	float MoveSpeed = 300;

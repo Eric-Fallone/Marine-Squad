@@ -144,6 +144,10 @@ void EmptyLinkFunctionForGeneratedCodeParentUnit() {}
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_MoveSpeed;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_HealthPercent_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_HealthPercent;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_HealthCurrent_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_HealthCurrent;
@@ -217,6 +221,14 @@ void EmptyLinkFunctionForGeneratedCodeParentUnit() {}
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AParentUnit_Statics::NewProp_MoveSpeed = { "MoveSpeed", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AParentUnit, MoveSpeed), METADATA_PARAMS(Z_Construct_UClass_AParentUnit_Statics::NewProp_MoveSpeed_MetaData, ARRAY_COUNT(Z_Construct_UClass_AParentUnit_Statics::NewProp_MoveSpeed_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AParentUnit_Statics::NewProp_HealthPercent_MetaData[] = {
+		{ "Category", "UnitStats" },
+		{ "ModuleRelativePath", "ParentUnit.h" },
+		{ "ToolTip", "used for the HP bar element" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AParentUnit_Statics::NewProp_HealthPercent = { "HealthPercent", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AParentUnit, HealthPercent), METADATA_PARAMS(Z_Construct_UClass_AParentUnit_Statics::NewProp_HealthPercent_MetaData, ARRAY_COUNT(Z_Construct_UClass_AParentUnit_Statics::NewProp_HealthPercent_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AParentUnit_Statics::NewProp_HealthCurrent_MetaData[] = {
 		{ "Category", "UnitStats" },
 		{ "ModuleRelativePath", "ParentUnit.h" },
@@ -278,6 +290,7 @@ void EmptyLinkFunctionForGeneratedCodeParentUnit() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AParentUnit_Statics::NewProp_CurrentTarget,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AParentUnit_Statics::NewProp_RotationSpeed,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AParentUnit_Statics::NewProp_MoveSpeed,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AParentUnit_Statics::NewProp_HealthPercent,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AParentUnit_Statics::NewProp_HealthCurrent,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AParentUnit_Statics::NewProp_HealthMax,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AParentUnit_Statics::NewProp_MagCurrent,
@@ -314,7 +327,7 @@ void EmptyLinkFunctionForGeneratedCodeParentUnit() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AParentUnit, 2796567165);
+	IMPLEMENT_CLASS(AParentUnit, 2886326583);
 	template<> MARINE_SQUAD_API UClass* StaticClass<AParentUnit>()
 	{
 		return AParentUnit::StaticClass();
