@@ -4,7 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
-#include "Widget.h"
+#include "WidgetComponent.h"
 #include "ParentUnit.generated.h"
 
 UCLASS()
@@ -73,5 +73,6 @@ public:
 	AParentUnit* CurrentTarget;
 
 	//unit selection unit
-    UWidget *SelectionCircle;
+	
+    UWidgetComponent *SelectionCircle;
 };

@@ -1,0 +1,1529 @@
+﻿Log file open, 02/20/20 00:54:42
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: Marine_Squad
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.174208
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -6:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin VaFogOfWar
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.22-CL-7053642
+LogInit: Engine Version: 4.22.3-7053642+++UE4+Release-4.22
+LogInit: Compatible Engine Version: 4.22.0-5660361+++UE4+Release-4.22
+LogInit: Net CL: 5660361
+LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Core(TM) i5-4690K CPU @ 3.50GHz, GPU: NVIDIA GeForce GTX 970
+LogInit: Compiled (64-bit): Jun 18 2019 03:09:11
+LogInit: Compiled with Visual C++: 19.16.27025.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.22
+LogInit: Command Line: 
+LogInit: Base Directory: Q:/UE_4.22/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 30
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 28
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 25
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 2
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.02.20-06.54.42:456][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.02.20-06.54.42:456][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.02.20-06.54.42:456][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Config/Windows/Engine.ini]
+[2020.02.20-06.54.42:456][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.02.20-06.54.42:456][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2020.02.20-06.54.42:456][  0]LogConfig: Setting CVar [[r.AllowGlobalClipPlane:1]]
+[2020.02.20-06.54.42:456][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Config/Windows/Engine.ini]
+[2020.02.20-06.54.42:456][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Config/Windows/Engine.ini]
+[2020.02.20-06.54.42:456][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.02.20-06.54.42:456][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.02.20-06.54.42:457][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.02.20-06.54.42:457][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.02.20-06.54.42:457][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.02.20-06.54.42:457][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.02.20-06.54.42:457][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.02.20-06.54.42:457][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.02.20-06.54.42:457][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.02.20-06.54.42:457][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.02.20-06.54.42:457][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.02.20-06.54.42:457][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.02.20-06.54.42:457][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.02.20-06.54.42:457][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Config/Windows/Engine.ini]
+[2020.02.20-06.54.42:457][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.02.20-06.54.42:457][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.02.20-06.54.42:457][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.02.20-06.54.42:457][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.02.20-06.54.42:457][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.02.20-06.54.42:457][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.02.20-06.54.42:457][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2020.02.20-06.54.42:457][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.02.20-06.54.42:457][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.02.20-06.54.42:457][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.02.20-06.54.42:457][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.02.20-06.54.42:457][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.02.20-06.54.42:457][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.02.20-06.54.42:457][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Config/Windows/Engine.ini]
+[2020.02.20-06.54.42:457][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Config/Windows/Engine.ini]
+[2020.02.20-06.54.42:467][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Config/Windows/Scalability.ini]
+[2020.02.20-06.54.42:467][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.02.20-06.54.42:467][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.02.20-06.54.42:467][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Config/Windows/Scalability.ini]
+[2020.02.20-06.54.42:467][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.02.20-06.54.42:467][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Config/Windows/Scalability.ini]
+[2020.02.20-06.54.42:467][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.02.20-06.54.42:467][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.02.20-06.54.42:467][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.02.20-06.54.42:467][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.02.20-06.54.42:467][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.02.20-06.54.42:467][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.02.20-06.54.42:467][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.02.20-06.54.42:467][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.02.20-06.54.42:467][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.02.20-06.54.42:467][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.02.20-06.54.42:467][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.02.20-06.54.42:467][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.02.20-06.54.42:467][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.02.20-06.54.42:467][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.02.20-06.54.42:467][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.02.20-06.54.42:467][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.02.20-06.54.42:467][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.02.20-06.54.42:467][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.02.20-06.54.42:467][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Config/Windows/Scalability.ini]
+[2020.02.20-06.54.42:467][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.02.20-06.54.42:467][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.02.20-06.54.42:467][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.02.20-06.54.42:467][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.02.20-06.54.42:467][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.02.20-06.54.42:467][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.02.20-06.54.42:467][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.02.20-06.54.42:467][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.02.20-06.54.42:467][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.02.20-06.54.42:467][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.02.20-06.54.42:467][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.02.20-06.54.42:467][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.02.20-06.54.42:467][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.02.20-06.54.42:467][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.02.20-06.54.42:467][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.02.20-06.54.42:467][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.02.20-06.54.42:467][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.02.20-06.54.42:467][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.02.20-06.54.42:467][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.02.20-06.54.42:467][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.02.20-06.54.42:467][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.02.20-06.54.42:467][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.02.20-06.54.42:467][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.02.20-06.54.42:467][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.02.20-06.54.42:467][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.02.20-06.54.42:467][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.02.20-06.54.42:467][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.02.20-06.54.42:467][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.02.20-06.54.42:467][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.02.20-06.54.42:467][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.02.20-06.54.42:467][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Config/Windows/Scalability.ini]
+[2020.02.20-06.54.42:467][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.02.20-06.54.42:467][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.02.20-06.54.42:467][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.02.20-06.54.42:467][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.02.20-06.54.42:467][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.02.20-06.54.42:468][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.02.20-06.54.42:468][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.02.20-06.54.42:468][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.02.20-06.54.42:468][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Config/Windows/Scalability.ini]
+[2020.02.20-06.54.42:468][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.02.20-06.54.42:468][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.02.20-06.54.42:468][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.02.20-06.54.42:468][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.02.20-06.54.42:468][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.02.20-06.54.42:468][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.02.20-06.54.42:468][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.02.20-06.54.42:468][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.02.20-06.54.42:468][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.02.20-06.54.42:468][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.02.20-06.54.42:468][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.02.20-06.54.42:468][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.02.20-06.54.42:468][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.02.20-06.54.42:468][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Config/Windows/Scalability.ini]
+[2020.02.20-06.54.42:468][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.02.20-06.54.42:468][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.02.20-06.54.42:468][  0]LogInit: Selected Device Profile: [Windows]
+[2020.02.20-06.54.42:468][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.02.20-06.54.42:492][  0]LogHAL: Display: Platform has ~ 8 GB [8444633088 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.02.20-06.54.42:492][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2020.02.20-06.54.42:492][  0]LogInit: Going up to parent DeviceProfile []
+[2020.02.20-06.54.42:492][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Config/Windows/Scalability.ini]
+[2020.02.20-06.54.42:492][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.02.20-06.54.42:492][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.02.20-06.54.42:492][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Config/Windows/Scalability.ini]
+[2020.02.20-06.54.42:492][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.02.20-06.54.42:492][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Config/Windows/Scalability.ini]
+[2020.02.20-06.54.42:492][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.02.20-06.54.42:492][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.02.20-06.54.42:492][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.02.20-06.54.42:492][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.02.20-06.54.42:492][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.02.20-06.54.42:492][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.02.20-06.54.42:492][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.02.20-06.54.42:492][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.02.20-06.54.42:492][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.02.20-06.54.42:492][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.02.20-06.54.42:492][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.02.20-06.54.42:492][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.02.20-06.54.42:492][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.02.20-06.54.42:492][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.02.20-06.54.42:492][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.02.20-06.54.42:492][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.02.20-06.54.42:492][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.02.20-06.54.42:492][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.02.20-06.54.42:492][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Config/Windows/Scalability.ini]
+[2020.02.20-06.54.42:492][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.02.20-06.54.42:492][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.02.20-06.54.42:492][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.02.20-06.54.42:492][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.02.20-06.54.42:492][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.02.20-06.54.42:492][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.02.20-06.54.42:492][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.02.20-06.54.42:492][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.02.20-06.54.42:492][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.02.20-06.54.42:492][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.02.20-06.54.42:492][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.02.20-06.54.42:492][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.02.20-06.54.42:492][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.02.20-06.54.42:492][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.02.20-06.54.42:492][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.02.20-06.54.42:492][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.02.20-06.54.42:492][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.02.20-06.54.42:492][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.02.20-06.54.42:492][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.02.20-06.54.42:492][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.02.20-06.54.42:492][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.02.20-06.54.42:492][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.02.20-06.54.42:493][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.02.20-06.54.42:493][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.02.20-06.54.42:493][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.02.20-06.54.42:493][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.02.20-06.54.42:493][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.02.20-06.54.42:493][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.02.20-06.54.42:493][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.02.20-06.54.42:493][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.02.20-06.54.42:493][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Config/Windows/Scalability.ini]
+[2020.02.20-06.54.42:493][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.02.20-06.54.42:493][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.02.20-06.54.42:493][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.02.20-06.54.42:493][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.02.20-06.54.42:493][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.02.20-06.54.42:493][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.02.20-06.54.42:493][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.02.20-06.54.42:493][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.02.20-06.54.42:493][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Config/Windows/Scalability.ini]
+[2020.02.20-06.54.42:493][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.02.20-06.54.42:493][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.02.20-06.54.42:493][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.02.20-06.54.42:493][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.02.20-06.54.42:493][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.02.20-06.54.42:493][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.02.20-06.54.42:493][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.02.20-06.54.42:493][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.02.20-06.54.42:493][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.02.20-06.54.42:493][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.02.20-06.54.42:493][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.02.20-06.54.42:493][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.02.20-06.54.42:493][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.02.20-06.54.42:493][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Config/Windows/Scalability.ini]
+[2020.02.20-06.54.42:493][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.02.20-06.54.42:493][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.02.20-06.54.42:493][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.02.20-06.54.42:493][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.02.20-06.54.42:493][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.02.20-06.54.42:493][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Config/Windows/Engine.ini]
+[2020.02.20-06.54.42:493][  0]LogInit: Computer: FALL-PC
+[2020.02.20-06.54.42:493][  0]LogInit: User: ericf
+[2020.02.20-06.54.42:493][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.02.20-06.54.42:493][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.02.20-06.54.42:494][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2020.02.20-06.54.42:494][  0]LogMemory: Platform Memory Stats for Windows
+[2020.02.20-06.54.42:494][  0]LogMemory: Process Physical Memory: 96.99 MB used, 97.00 MB peak
+[2020.02.20-06.54.42:494][  0]LogMemory: Process Virtual Memory: 96.00 MB used, 96.00 MB peak
+[2020.02.20-06.54.42:494][  0]LogMemory: Physical Memory: 5669.29 MB used,  2384.14 MB free, 8053.43 MB total
+[2020.02.20-06.54.42:494][  0]LogMemory: Virtual Memory: 4637.96 MB used,  134213088.00 MB free, 134217728.00 MB total
+[2020.02.20-06.54.42:511][  0]LogInit: Using OS detected language (en-US).
+[2020.02.20-06.54.42:511][  0]LogInit: Using OS detected locale (en-US).
+[2020.02.20-06.54.42:512][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.02.20-06.54.42:680][  0]LogInit: Setting process to per monitor DPI aware
+[2020.02.20-06.54.42:727][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.02.20-06.54.42:727][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.02.20-06.54.42:875][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.02.20-06.54.42:875][  0]LogD3D11RHI: D3D11 adapters:
+[2020.02.20-06.54.42:951][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2020.02.20-06.54.42:951][  0]LogD3D11RHI:       4043/0/4026 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.02.20-06.54.42:958][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2020.02.20-06.54.42:958][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.02.20-06.54.42:961][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.02.20-06.54.42:961][  0]LogD3D11RHI:       0/0/4026 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.02.20-06.54.42:961][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.02.20-06.54.42:969][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.02.20-06.54.42:969][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2020.02.20-06.54.42:969][  0]LogWindows: EnumDisplayDevices:
+[2020.02.20-06.54.42:970][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2020.02.20-06.54.42:970][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2020.02.20-06.54.42:970][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2020.02.20-06.54.42:970][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2020.02.20-06.54.42:971][  0]LogWindows:    4. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2020.02.20-06.54.42:971][  0]LogWindows:    5. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2020.02.20-06.54.42:971][  0]LogWindows:    6. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2020.02.20-06.54.42:971][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2020.02.20-06.54.42:971][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2020.02.20-06.54.42:971][  0]LogD3D11RHI:   Driver Version: 436.02 (internal:26.21.14.3602, unified:436.02)
+[2020.02.20-06.54.42:971][  0]LogD3D11RHI:      Driver Date: 8-16-2019
+[2020.02.20-06.54.42:971][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
+[2020.02.20-06.54.43:024][  0]LogD3D11RHI: Async texture creation enabled
+[2020.02.20-06.54.43:034][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2020.02.20-06.54.43:034][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2020.02.20-06.54.43:034][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2020.02.20-06.54.43:049][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2020.02.20-06.54.43:574][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2020.02.20-06.54.43:586][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2020.02.20-06.54.43:599][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2020.02.20-06.54.43:612][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2020.02.20-06.54.43:625][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2020.02.20-06.54.43:638][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2020.02.20-06.54.43:652][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2020.02.20-06.54.43:665][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2020.02.20-06.54.43:671][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2020.02.20-06.54.43:764][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2020.02.20-06.54.43:764][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2020.02.20-06.54.43:764][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2020.02.20-06.54.43:764][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2020.02.20-06.54.43:764][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2020.02.20-06.54.43:764][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2020.02.20-06.54.43:765][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2020.02.20-06.54.43:765][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2020.02.20-06.54.43:765][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2020.02.20-06.54.43:765][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2020.02.20-06.54.43:765][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2020.02.20-06.54.43:765][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2020.02.20-06.54.43:765][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2020.02.20-06.54.43:765][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2020.02.20-06.54.43:765][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2020.02.20-06.54.43:765][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2020.02.20-06.54.43:765][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2020.02.20-06.54.43:765][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2020.02.20-06.54.43:766][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2020.02.20-06.54.43:815][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2020.02.20-06.54.43:815][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2020.02.20-06.54.43:845][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2020.02.20-06.54.43:845][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2020.02.20-06.54.43:858][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2020.02.20-06.54.43:871][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2020.02.20-06.54.43:883][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2020.02.20-06.54.43:896][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2020.02.20-06.54.43:945][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2020.02.20-06.54.43:945][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2020.02.20-06.54.43:945][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.02.20-06.54.43:951][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.02.20-06.54.43:983][  0]LogShaderCompilers: Guid format shader working directory is -9 characters bigger than the processId version (C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Intermediate/Shaders/WorkingDirectory/16628/).
+[2020.02.20-06.54.43:983][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ericf/AppData/Local/Temp/UnrealShaderWorkingDir/2F9E519D48CC4541B9F6D891F929F339/'.
+[2020.02.20-06.54.43:984][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.02.20-06.54.43:984][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.02.20-06.54.43:984][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.02.20-06.54.44:549][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.02.20-06.54.44:633][  0]LogDerivedDataCache: Loaded boot cache 0.08s 85MB C:/Users/ericf/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2020.02.20-06.54.44:633][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/ericf/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2020.02.20-06.54.44:633][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.02.20-06.54.44:633][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.02.20-06.54.44:633][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.02.20-06.54.44:633][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.02.20-06.54.44:648][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.02.20-06.54.44:648][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.02.20-06.54.44:648][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.02.20-06.54.44:661][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ericf/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.02.20-06.54.44:661][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.02.20-06.54.44:661][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.02.20-06.54.44:691][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.02.20-06.54.44:692][  0]LogSlate: Using FreeType 2.6.0
+[2020.02.20-06.54.44:692][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.02.20-06.54.44:786][  0]LogAssetRegistry: FAssetRegistry took 0.0373 seconds to start up
+[2020.02.20-06.54.45:178][  0]LogInit: Selected Device Profile: [Windows]
+[2020.02.20-06.54.45:325][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.02.20-06.54.45:325][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.02.20-06.54.45:325][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.02.20-06.54.45:325][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.02.20-06.54.45:325][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.02.20-06.54.45:336][  0]LogNetVersion: Marine_Squad 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 4148284594)
+[2020.02.20-06.54.45:811][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.069519 seconds
+[2020.02.20-06.54.45:821][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2020.02.20-06.54.45:821][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2020.02.20-06.54.45:821][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.02.20-06.54.46:681][  0]LogVaFog: [FVaFogOfWarModule::StartupModule(44)] VaFogOfWar module started
+[2020.02.20-06.54.46:684][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.02.20-06.54.46:697][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.02.20-06.54.46:869][  0]SourceControl: Source control is disabled
+[2020.02.20-06.54.46:869][  0]SourceControl: Source control is disabled
+[2020.02.20-06.54.46:870][  0]SourceControl: Source control is disabled
+[2020.02.20-06.54.46:871][  0]SourceControl: Source control is disabled
+[2020.02.20-06.54.46:947][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.02.20-06.54.47:126][  0]LogOcInput: OculusInput pre-init called
+[2020.02.20-06.54.47:797][  0]LogEngine: Initializing Engine...
+[2020.02.20-06.54.47:798][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.02.20-06.54.47:799][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.02.20-06.54.48:045][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.02.20-06.54.48:057][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.02.20-06.54.48:058][  0]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_976865d7f760a47e2a086b15bf7dcbd9>::operator ()(41)] Fog Controller is created for: Untitled
+[2020.02.20-06.54.48:120][  0]LogInit: XAudio2 using 'HEAD SET (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.02.20-06.54.48:142][  0]LogInit: FAudioDevice initialized.
+[2020.02.20-06.54.48:142][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.02.20-06.54.48:539][  0]LogDerivedDataCache: Saved boot cache 0.40s 85MB C:/Users/ericf/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2020.02.20-06.54.48:553][  0]LogInit: Texture streaming: Enabled
+[2020.02.20-06.54.48:568][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.02.20-06.54.48:586][  0]LogInit: Transaction tracking system initialized
+[2020.02.20-06.54.48:602][  0]BlueprintLog: New page: Editor Load
+[2020.02.20-06.54.48:677][  0]LocalizationService: Localization service is disabled
+[2020.02.20-06.54.49:609][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.02.20-06.54.49:609][  0]LogCook: Display: Mobile HDR setting 1
+[2020.02.20-06.54.49:898][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Content/' took 0.06s
+[2020.02.20-06.54.49:898][  0]SourceControl: Source control is disabled
+[2020.02.20-06.54.49:898][  0]Cmd: MAP LOAD FILE="C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.02.20-06.54.49:935][  0]LightingResults: New page: Lighting Build
+[2020.02.20-06.54.49:937][  0]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_144d8ffb0c7ca55232a4412d9c0c3636>::operator ()(31)] Fog Controller is removed for: Untitled
+[2020.02.20-06.54.49:937][  0]MapCheck: New page: Map Check
+[2020.02.20-06.54.49:937][  0]LightingResults: New page: Lighting Build
+[2020.02.20-06.54.49:961][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2020.02.20-06.54.49:979][  0]LogLinker: Warning: Can't find file '/Game/BP/Units_BP/BaseEnemyUnit'
+[2020.02.20-06.54.49:979][  0]LogLinker: Warning: Can't find file for asset '/Game/BP/Units_BP/BaseEnemyUnit' while loading NULL.
+[2020.02.20-06.54.51:033][  0]LogLinker: Warning: Can't find file '/Game/BP/Units_BP/BaseEnemyUnit'
+[2020.02.20-06.54.51:033][  0]LogLinker: Warning: Can't find file for asset '/Game/BP/Units_BP/BaseEnemyUnit' while loading NULL.
+[2020.02.20-06.54.51:121][  0]LogLinker: Warning: Can't find file '/Game/BP/Units_BP/BaseEnemyUnit'
+[2020.02.20-06.54.51:121][  0]LogLinker: Warning: Can't find file for asset '/Game/BP/Units_BP/BaseEnemyUnit' while loading NULL.
+[2020.02.20-06.54.51:121][  0]LogLinker: Warning: Can't find file '/Game/BP/Units_BP/BaseEnemyUnit'
+[2020.02.20-06.54.51:122][  0]LogLinker: Warning: Can't find file for asset '/Game/BP/Units_BP/BaseEnemyUnit' while loading NULL.
+[2020.02.20-06.54.51:122][  0]LogLinker: Warning: Can't find file '/Game/BP/Units_BP/BaseEnemyUnit'
+[2020.02.20-06.54.51:122][  0]LogLinker: Warning: Can't find file for asset '/Game/BP/Units_BP/BaseEnemyUnit' while loading NULL.
+[2020.02.20-06.54.51:276][  0]LogLinker: Warning: Can't find file '/Game/BP/Units_BP/BaseEnemyUnit'
+[2020.02.20-06.54.51:276][  0]LogLinker: Warning: Can't find file for asset '/Game/BP/Units_BP/BaseEnemyUnit' while loading NULL.
+[2020.02.20-06.54.51:348][  0]LogLinker: Warning: Can't find file '/Game/BP/Units_BP/BaseEnemyUnit'
+[2020.02.20-06.54.51:349][  0]LogLinker: Warning: Can't find file for asset '/Game/BP/Units_BP/BaseEnemyUnit' while loading NULL.
+[2020.02.20-06.54.51:350][  0]LogLinker: Warning: Can't find file '/Game/BP/Units_BP/BaseEnemyUnit'
+[2020.02.20-06.54.51:350][  0]LogLinker: Warning: Can't find file for asset '/Game/BP/Units_BP/BaseEnemyUnit' while loading NULL.
+[2020.02.20-06.54.51:350][  0]LogLinker: Warning: Can't find file '/Game/BP/Units_BP/BaseEnemyUnit'
+[2020.02.20-06.54.51:350][  0]LogLinker: Warning: Can't find file for asset '/Game/BP/Units_BP/BaseEnemyUnit' while loading NULL.
+[2020.02.20-06.54.51:350][  0]LogLinker: Warning: Can't find file '/Game/BP/Units_BP/BaseEnemyUnit'
+[2020.02.20-06.54.51:350][  0]LogLinker: Warning: Can't find file for asset '/Game/BP/Units_BP/BaseEnemyUnit' while loading NULL.
+[2020.02.20-06.54.51:351][  0]LogLinker: Warning: Can't find file '/Game/BP/Units_BP/BaseEnemyUnit'
+[2020.02.20-06.54.51:351][  0]LogLinker: Warning: Can't find file for asset '/Game/BP/Units_BP/BaseEnemyUnit' while loading NULL.
+[2020.02.20-06.54.51:351][  0]LogLinker: Warning: Can't find file '/Game/BP/Units_BP/BaseEnemyUnit'
+[2020.02.20-06.54.51:351][  0]LogLinker: Warning: Can't find file for asset '/Game/BP/Units_BP/BaseEnemyUnit' while loading NULL.
+[2020.02.20-06.54.51:351][  0]LogLinker: Warning: Can't find file '/Game/BP/Units_BP/BaseEnemyUnit'
+[2020.02.20-06.54.51:351][  0]LogLinker: Warning: Can't find file for asset '/Game/BP/Units_BP/BaseEnemyUnit' while loading NULL.
+[2020.02.20-06.54.51:351][  0]LogLinker: Warning: Can't find file '/Game/BP/Units_BP/BaseEnemyUnit'
+[2020.02.20-06.54.51:351][  0]LogLinker: Warning: Can't find file for asset '/Game/BP/Units_BP/BaseEnemyUnit' while loading NULL.
+[2020.02.20-06.54.51:353][  0]LogLinker: Warning: Can't find file '/Game/BP/Units_BP/BaseEnemyUnit'
+[2020.02.20-06.54.51:353][  0]LogLinker: Warning: Can't find file for asset '/Game/BP/Units_BP/BaseEnemyUnit' while loading NULL.
+[2020.02.20-06.54.51:354][  0]LogLinker: Warning: Can't find file '/Game/BP/Units_BP/BaseEnemyUnit'
+[2020.02.20-06.54.51:354][  0]LogLinker: Warning: Can't find file for asset '/Game/BP/Units_BP/BaseEnemyUnit' while loading NULL.
+[2020.02.20-06.54.52:075][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.02.20-06.54.52:075][  0]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_976865d7f760a47e2a086b15bf7dcbd9>::operator ()(41)] Fog Controller is created for: Minimal_Default
+[2020.02.20-06.54.52:304][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.02.20-06.54.52:333][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.69ms
+[2020.02.20-06.54.52:333][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.02.20-06.54.52:334][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.179ms to complete.
+[2020.02.20-06.54.52:334][  0]LogFileHelpers: Loading map 'Minimal_Default' took 2.435
+[2020.02.20-06.54.52:525][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.20-06.54.52:535][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.20-06.54.52:545][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.20-06.54.52:554][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.20-06.54.52:620][  0]LogCollectionManager: Loaded 0 collections in 0.000849 seconds
+[2020.02.20-06.54.52:639][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Collections/' took 0.01s
+[2020.02.20-06.54.52:640][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Content/Developers/ericf/Collections/' took 0.00s
+[2020.02.20-06.54.52:640][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Content/Collections/' took 0.00s
+[2020.02.20-06.54.52:640][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2020.02.20-06.54.52:650][  0]LogContentBrowser: Native class hierarchy populated in 0.0100 seconds. Added 2748 classes and 666 folders.
+[2020.02.20-06.54.52:656][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.02.20-06.54.52:669][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.20-06.54.52:682][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.20-06.54.52:720][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.20-06.54.52:739][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.20-06.54.52:749][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.20-06.54.52:756][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.20-06.54.52:765][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.20-06.54.52:772][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.20-06.54.52:780][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.20-06.54.52:788][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.20-06.54.52:796][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.20-06.54.52:802][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.20-06.54.52:810][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.20-06.54.52:817][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.20-06.54.52:825][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.20-06.54.52:832][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.20-06.54.52:862][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.20-06.54.52:868][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.20-06.54.52:875][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.20-06.54.52:882][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.20-06.54.52:889][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.20-06.54.52:896][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.20-06.54.52:903][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.20-06.54.52:911][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.20-06.54.52:919][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.20-06.54.52:926][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.20-06.54.53:151][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2020.02.20-06.54.53:334][  0]LogSlate: Took 0.000148 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.02.20-06.54.53:337][  0]LogSlate: Took 0.000153 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.02.20-06.54.53:358][  0]LogSlate: Took 0.018252 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.02.20-06.54.53:372][  0]LogSlate: Took 0.013411 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.02.20-06.54.53:520][  0]LogRenderer: Reallocating scene render targets to support 1964x916 Format 10 NumSamples 1 (Frame:1).
+[2020.02.20-06.54.53:682][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.02.20-06.54.53:683][  0]LogLoad: (Engine Initialization) Total time: 12.61 seconds
+[2020.02.20-06.54.53:683][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.02.20-06.54.53:693][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Arrow': BaseEnemyUnit_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.BaseEnemyUnit_2
+[2020.02.20-06.54.53:693][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'CollisionCylinder': BaseEnemyUnit_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.BaseEnemyUnit_2
+[2020.02.20-06.54.53:694][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'CharMoveComp': BaseEnemyUnit_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.BaseEnemyUnit_2
+[2020.02.20-06.54.53:694][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'CharacterMesh0': BaseEnemyUnit_C /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.BaseEnemyUnit_2
+[2020.02.20-06.54.53:726][  0]LogAssetRegistry: Asset discovery search completed in 8.9623 seconds
+[2020.02.20-06.54.53:730][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2020.02.20-06.54.53:730][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000397 seconds (updated 0 objects)
+[2020.02.20-06.54.53:732][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.02.20-06.54.55:168][  5]LogSlate: Took 0.012752 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.02.20-06.55.06:599][ 40]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.20-06.55.16:870][ 40]LogAIModule: Creating AISystem for world Town
+[2020.02.20-06.55.16:871][ 40]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_976865d7f760a47e2a086b15bf7dcbd9>::operator ()(41)] Fog Controller is created for: Town
+[2020.02.20-06.55.16:903][ 40]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/Town.Town
+[2020.02.20-06.55.16:932][ 40]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2020.02.20-06.55.16:933][ 40]Cmd: MAP LOAD FILE="C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Content/Maps/Town.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.02.20-06.55.16:933][ 40]LightingResults: New page: Lighting Build
+[2020.02.20-06.55.16:934][ 40]LoadErrors: New page: Loading map: Town.umap
+[2020.02.20-06.55.16:935][ 40]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_144d8ffb0c7ca55232a4412d9c0c3636>::operator ()(31)] Fog Controller is removed for: Minimal_Default
+[2020.02.20-06.55.16:935][ 40]MapCheck: New page: Map Check
+[2020.02.20-06.55.16:935][ 40]LightingResults: New page: Lighting Build
+[2020.02.20-06.55.16:966][ 40]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2020.02.20-06.55.18:796][ 40]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.02.20-06.55.18:829][ 40]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2020.02.20-06.55.18:866][ 40]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.02.20-06.55.18:874][ 40]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 7.376ms to complete.
+[2020.02.20-06.55.18:874][ 40]LogFileHelpers: Loading map 'Town' took 1.942
+[2020.02.20-07.10.00:521][120]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2020.02.20-07.10.23:692][324]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.20-07.10.25:195][458]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.20-07.11.49:699][560]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2020.02.20-07.12.04:693][938]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.20-07.12.04:793][950]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.02.20-07.12.04:819][950]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2020.02.20-07.12.04:821][950]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.20-07.12.04:822][950]PIE: New page: PIE session: Town (Feb 19, 2020, 7:12:04 PM)
+[2020.02.20-07.12.04:837][950]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Town
+[2020.02.20-07.12.04:895][950]LogPlayLevel: PIE: StaticDuplicateObject took: (0.057252s)
+[2020.02.20-07.12.04:895][950]LogAIModule: Creating AISystem for world Town
+[2020.02.20-07.12.04:896][950]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_976865d7f760a47e2a086b15bf7dcbd9>::operator ()(41)] Fog Controller is created for: Town
+[2020.02.20-07.12.04:896][950]LogPlayLevel: PIE: World Init took: (0.001509s)
+[2020.02.20-07.12.04:896][950]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Town.Town to /Game/Maps/UEDPIE_0_Town.Town (0.059373s)
+[2020.02.20-07.12.04:925][950]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2020.02.20-07.12.04:969][950]LogInit: XAudio2 using 'HEAD SET (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.02.20-07.12.04:984][950]LogInit: FAudioDevice initialized.
+[2020.02.20-07.12.04:997][950]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.20-07.12.05:049][950]LogLoad: Game class is 'MyGameModeBase_MarineSquad_BP_C'
+[2020.02.20-07.12.05:067][950]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Town.Town up for play (max tick rate 0) at 2020.02.20-01.12.05
+[2020.02.20-07.12.05:080][950]LogWorld: Bringing up level for play took: 0.021395
+[2020.02.20-07.12.05:107][950]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 20 classes and 0 folders.
+[2020.02.20-07.12.05:118][950]LogTemp: Warning: Setting HPPercent to 1.000000
+[2020.02.20-07.12.05:118][950]LogTemp: Warning: Setting HPPercent to 1.000000
+[2020.02.20-07.12.05:118][950]LogTemp: Warning: Setting HPPercent to 1.000000
+[2020.02.20-07.12.05:123][950]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Town 0.106
+[2020.02.20-07.12.05:124][950]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2020.02.20-07.12.06:493][ 87]LogTemp: Warning: Left Mouse Button Pressed
+[2020.02.20-07.12.06:590][ 98]LogTemp: Warning: Left Mouse Button Released
+[2020.02.20-07.12.08:759][339]LogTemp: Warning: Left Mouse Button Pressed
+[2020.02.20-07.12.09:323][402]LogTemp: Warning: Left Mouse Button Released
+[2020.02.20-07.12.09:604][433]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.20-07.12.09:719][445]LogTemp: Warning: Right Mouse Button Released
+[2020.02.20-07.12.10:055][481]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.20-07.12.10:152][492]LogTemp: Warning: Right Mouse Button Released
+[2020.02.20-07.12.11:424][629]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2020.02.20-07.12.11:428][629]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.20-07.12.11:450][629]LogSlate: Window 'Marine_Squad Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.02.20-07.12.11:461][629]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_144d8ffb0c7ca55232a4412d9c0c3636>::operator ()(31)] Fog Controller is removed for: Town
+[2020.02.20-07.12.11:493][629]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.20-07.12.11:493][629]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2020.02.20-07.12.11:535][629]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2020.02.20-07.12.11:544][630]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2020.02.20-07.12.24:499][ 15]LogAssetEditorManager: Opening Asset editor for Class /Script/Marine_Squad.ParentUnit
+[2020.02.20-07.21.06:573][849]Candidate modules for hot reload:
+[2020.02.20-07.21.06:573][849]  Marine_Squad
+[2020.02.20-07.21.06:574][849]Launching UnrealBuildTool... [Q:/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Marine_Squad,9607 Win64 Development -TargetType=Editor -Project="C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Marine_Squad.uproject" "C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Marine_Squad.uproject"  -IgnoreJunk]
+[2020.02.20-07.21.06:950][849]Warning: Starting HotReload took  0.4s.
+[2020.02.20-07.22.38:301][170]CompilerResultsLog: New page: Compilation - Feb 19, 2020, 7:22:38 PM
+[2020.02.20-07.22.38:302][170]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\ericf\Desktop\repos\Marine-Squad).
+[2020.02.20-07.22.38:302][170]CompilerResultsLog: Creating makefile for Marine_SquadEditor (ini files are newer than makefile)
+[2020.02.20-07.22.38:303][170]CompilerResultsLog: Parsing headers for Marine_SquadEditor
+[2020.02.20-07.22.38:303][170]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Marine_Squad.uproject" "C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Intermediate\Build\Win64\Marine_SquadEditor\Development\Marine_SquadEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.02.20-07.22.38:303][170]CompilerResultsLog: Reflection code generated for Marine_SquadEditor in 26.9107608 seconds
+[2020.02.20-07.22.38:303][170]CompilerResultsLog: Using Visual Studio 2019 14.21.27702 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.21.27702) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.02.20-07.22.38:304][170]CompilerResultsLog: Building 10 actions with 4 processes...
+[2020.02.20-07.22.38:304][170]CompilerResultsLog:   [1/10] Marine_Squad.init.gen.cpp
+[2020.02.20-07.22.38:304][170]CompilerResultsLog:   [2/10] ParentUnit.gen.cpp
+[2020.02.20-07.22.38:304][170]CompilerResultsLog:   C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Source\Marine_Squad/ParentUnit.h(37): warning C4263: 'void AParentUnit::TakeDamage(float)': member function does not override any base class virtual member function
+[2020.02.20-07.22.38:305][170]CompilerResultsLog:   C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Source\Marine_Squad/ParentUnit.h(78): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+[2020.02.20-07.22.38:305][170]CompilerResultsLog:   Q:\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(242): note: see declaration of 'APawn::TakeDamage'
+[2020.02.20-07.22.38:305][170]CompilerResultsLog:   Q:\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AnimInstance.generated.h(23): note: see declaration of 'APawn'
+[2020.02.20-07.22.38:306][170]CompilerResultsLog:   [3/10] PlayerController_MarineSquad.gen.cpp
+[2020.02.20-07.22.38:306][170]CompilerResultsLog:   C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Source\Marine_Squad\ParentUnit.h(37): warning C4263: 'void AParentUnit::TakeDamage(float)': member function does not override any base class virtual member function
+[2020.02.20-07.22.38:306][170]CompilerResultsLog:   C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Source\Marine_Squad\ParentUnit.h(78): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+[2020.02.20-07.22.38:306][170]CompilerResultsLog:   Q:\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(242): note: see declaration of 'APawn::TakeDamage'
+[2020.02.20-07.22.38:306][170]CompilerResultsLog:   Q:\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/HUD.h(14): note: see declaration of 'APawn'
+[2020.02.20-07.22.38:307][170]CompilerResultsLog:   [4/10] HUD_MarineSquad.gen.cpp
+[2020.02.20-07.22.38:307][170]CompilerResultsLog:   C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Source\Marine_Squad\ParentUnit.h(37): warning C4263: 'void AParentUnit::TakeDamage(float)': member function does not override any base class virtual member function
+[2020.02.20-07.22.38:307][170]CompilerResultsLog:   C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Source\Marine_Squad\ParentUnit.h(78): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+[2020.02.20-07.22.38:307][170]CompilerResultsLog:   Q:\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(242): note: see declaration of 'APawn::TakeDamage'
+[2020.02.20-07.22.38:307][170]CompilerResultsLog:   Q:\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/HUD.h(14): note: see declaration of 'APawn'
+[2020.02.20-07.22.38:308][170]CompilerResultsLog:   [5/10] HUD_MarineSquad.cpp
+[2020.02.20-07.22.38:308][170]CompilerResultsLog:   C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Source\Marine_Squad\ParentUnit.h(37): warning C4263: 'void AParentUnit::TakeDamage(float)': member function does not override any base class virtual member function
+[2020.02.20-07.22.38:308][170]CompilerResultsLog:   C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Source\Marine_Squad\ParentUnit.h(78): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+[2020.02.20-07.22.38:308][170]CompilerResultsLog:   Q:\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(242): note: see declaration of 'APawn::TakeDamage'
+[2020.02.20-07.22.38:309][170]CompilerResultsLog:   Q:\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/HUD.h(14): note: see declaration of 'APawn'
+[2020.02.20-07.22.38:309][170]CompilerResultsLog:   [6/10] ParentUnit.cpp
+[2020.02.20-07.22.38:309][170]CompilerResultsLog:   C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Source\Marine_Squad\ParentUnit.h(37): warning C4263: 'void AParentUnit::TakeDamage(float)': member function does not override any base class virtual member function
+[2020.02.20-07.22.38:309][170]CompilerResultsLog:   C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Source\Marine_Squad\ParentUnit.h(78): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+[2020.02.20-07.22.38:309][170]CompilerResultsLog:   Q:\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(242): note: see declaration of 'APawn::TakeDamage'
+[2020.02.20-07.22.38:310][170]CompilerResultsLog:   Q:\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AnimInstance.generated.h(23): note: see declaration of 'APawn'
+[2020.02.20-07.22.38:310][170]CompilerResultsLog:   [7/10] PlayerController_MarineSquad.cpp
+[2020.02.20-07.22.38:310][170]CompilerResultsLog:   C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Source\Marine_Squad\ParentUnit.h(37): warning C4263: 'void AParentUnit::TakeDamage(float)': member function does not override any base class virtual member function
+[2020.02.20-07.22.38:311][170]CompilerResultsLog:   C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Source\Marine_Squad\ParentUnit.h(78): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+[2020.02.20-07.22.38:311][170]CompilerResultsLog:   Q:\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(242): note: see declaration of 'APawn::TakeDamage'
+[2020.02.20-07.22.38:311][170]CompilerResultsLog:   Q:\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/HUD.h(14): note: see declaration of 'APawn'
+[2020.02.20-07.22.38:311][170]CompilerResultsLog:   [8/10] UE4Editor-Marine_Squad-9607.lib
+[2020.02.20-07.22.38:311][170]CompilerResultsLog:      Creating library C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Intermediate\Build\Win64\UE4Editor\Development\Marine_Squad\UE4Editor-Marine_Squad-9607.lib and object C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Intermediate\Build\Win64\UE4Editor\Development\Marine_Squad\UE4Editor-Marine_Squad-9607.exp
+[2020.02.20-07.22.38:312][170]CompilerResultsLog:   [9/10] UE4Editor-Marine_Squad-9607.dll
+[2020.02.20-07.22.38:312][170]CompilerResultsLog:      Creating library C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Intermediate\Build\Win64\UE4Editor\Development\Marine_Squad\UE4Editor-Marine_Squad-9607.suppressed.lib and object C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Intermediate\Build\Win64\UE4Editor\Development\Marine_Squad\UE4Editor-Marine_Squad-9607.suppressed.exp
+[2020.02.20-07.22.38:312][170]CompilerResultsLog: Error:   ParentUnit.gen.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) class UClass * __cdecl Z_Construct_UClass_UWidget_NoRegister(void)" (__imp_?Z_Construct_UClass_UWidget_NoRegister@@YAPEAVUClass@@XZ) referenced in function "void __cdecl `dynamic initializer for 'public: static struct UE4CodeGen_Private::FObjectPropertyParams const Z_Construct_UClass_AParentUnit_Statics::NewProp_SelectionCircle''(void)" (??__E?NewProp_SelectionCircle@Z_Construct_UClass_AParentUnit_Statics@@2UFObjectPropertyParams@UE4CodeGen_Private@@B@@YAXXZ)
+[2020.02.20-07.22.38:313][170]CompilerResultsLog: Error:   C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Binaries\Win64\UE4Editor-Marine_Squad-9607.dll : fatal error LNK1120: 1 unresolved externals
+[2020.02.20-07.22.38:314][170]LogMainFrame: MainFrame: Module compiling took 91.749 seconds
+[2020.02.20-07.22.38:315][170]Warning: HotReload failed, recompile failed
+[2020.02.20-07.22.41:994][180]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2020.02.20-07.22.42:631][210]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.20-07.23.22:136][766]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2020.02.20-07.23.23:897][899]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.02.20-07.23.26:654][137]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.20-07.23.26:919][163]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_976865d7f760a47e2a086b15bf7dcbd9>::operator ()(41)] Fog Controller is created for: World_0
+[2020.02.20-07.23.27:803][219]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BP/Units_BP/BasicUnit.BasicUnit
+[2020.02.20-07.23.27:806][219]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_976865d7f760a47e2a086b15bf7dcbd9>::operator ()(41)] Fog Controller is created for: World_1
+[2020.02.20-07.23.29:043][219]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0016 seconds. Added 121 classes and 0 folders.
+[2020.02.20-07.23.30:268][219]LogSlate: Took 0.010959 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.02.20-07.23.30:503][220]LogSlate: Took 0.013989 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.02.20-07.23.33:720][370]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_976865d7f760a47e2a086b15bf7dcbd9>::operator ()(41)] Fog Controller is created for: World_2
+[2020.02.20-07.24.39:097][222]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.02.20-07.25.58:703][ 82]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.20-07.28.09:565][783]Candidate modules for hot reload:
+[2020.02.20-07.28.09:565][783]  Marine_Squad
+[2020.02.20-07.28.09:565][783]Launching UnrealBuildTool... [Q:/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Marine_Squad,8432 Win64 Development -TargetType=Editor -Project="C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Marine_Squad.uproject" "C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Marine_Squad.uproject"  -IgnoreJunk]
+[2020.02.20-07.28.09:983][783]Warning: Starting HotReload took  0.4s.
+[2020.02.20-07.31.06:396][843]CompilerResultsLog: New page: Compilation - Feb 19, 2020, 7:31:06 PM
+[2020.02.20-07.31.06:397][843]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\ericf\Desktop\repos\Marine-Squad).
+[2020.02.20-07.31.06:397][843]CompilerResultsLog: Creating makefile for Marine_SquadEditor (ini files are newer than makefile)
+[2020.02.20-07.31.06:397][843]CompilerResultsLog: Parsing headers for Marine_SquadEditor
+[2020.02.20-07.31.06:397][843]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Marine_Squad.uproject" "C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Intermediate\Build\Win64\Marine_SquadEditor\Development\Marine_SquadEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.02.20-07.31.06:398][843]CompilerResultsLog: Reflection code generated for Marine_SquadEditor in 37.5128339 seconds
+[2020.02.20-07.31.06:398][843]CompilerResultsLog: Using Visual Studio 2019 14.21.27702 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.21.27702) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.02.20-07.31.06:398][843]CompilerResultsLog: Building 10 actions with 4 processes...
+[2020.02.20-07.31.06:398][843]CompilerResultsLog:   [1/10] Marine_Squad.init.gen.cpp
+[2020.02.20-07.31.06:399][843]CompilerResultsLog:   [2/10] HUD_MarineSquad.gen.cpp
+[2020.02.20-07.31.06:399][843]CompilerResultsLog:   C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Source\Marine_Squad\ParentUnit.h(37): warning C4263: 'void AParentUnit::TakeDamage(float)': member function does not override any base class virtual member function
+[2020.02.20-07.31.06:399][843]CompilerResultsLog:   C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Source\Marine_Squad\ParentUnit.h(78): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+[2020.02.20-07.31.06:399][843]CompilerResultsLog:   Q:\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(242): note: see declaration of 'APawn::TakeDamage'
+[2020.02.20-07.31.06:400][843]CompilerResultsLog:   Q:\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\UserWidget.generated.h(18): note: see declaration of 'APawn'
+[2020.02.20-07.31.06:400][843]CompilerResultsLog:   [3/10] PlayerController_MarineSquad.gen.cpp
+[2020.02.20-07.31.06:400][843]CompilerResultsLog:   C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Source\Marine_Squad\ParentUnit.h(37): warning C4263: 'void AParentUnit::TakeDamage(float)': member function does not override any base class virtual member function
+[2020.02.20-07.31.06:400][843]CompilerResultsLog:   C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Source\Marine_Squad\ParentUnit.h(78): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+[2020.02.20-07.31.06:401][843]CompilerResultsLog:   Q:\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(242): note: see declaration of 'APawn::TakeDamage'
+[2020.02.20-07.31.06:401][843]CompilerResultsLog:   Q:\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\UserWidget.generated.h(18): note: see declaration of 'APawn'
+[2020.02.20-07.31.06:401][843]CompilerResultsLog:   [4/10] ParentUnit.gen.cpp
+[2020.02.20-07.31.06:401][843]CompilerResultsLog:   C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Source\Marine_Squad/ParentUnit.h(37): warning C4263: 'void AParentUnit::TakeDamage(float)': member function does not override any base class virtual member function
+[2020.02.20-07.31.06:401][843]CompilerResultsLog:   C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Source\Marine_Squad/ParentUnit.h(78): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+[2020.02.20-07.31.06:402][843]CompilerResultsLog:   Q:\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(242): note: see declaration of 'APawn::TakeDamage'
+[2020.02.20-07.31.06:402][843]CompilerResultsLog:   Q:\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\UserWidget.generated.h(18): note: see declaration of 'APawn'
+[2020.02.20-07.31.06:402][843]CompilerResultsLog:   [5/10] ParentUnit.cpp
+[2020.02.20-07.31.06:402][843]CompilerResultsLog:   C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Source\Marine_Squad\ParentUnit.h(37): warning C4263: 'void AParentUnit::TakeDamage(float)': member function does not override any base class virtual member function
+[2020.02.20-07.31.06:402][843]CompilerResultsLog:   C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Source\Marine_Squad\ParentUnit.h(78): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+[2020.02.20-07.31.06:403][843]CompilerResultsLog:   Q:\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(242): note: see declaration of 'APawn::TakeDamage'
+[2020.02.20-07.31.06:403][843]CompilerResultsLog:   Q:\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\UserWidget.generated.h(18): note: see declaration of 'APawn'
+[2020.02.20-07.31.06:403][843]CompilerResultsLog:   [6/10] HUD_MarineSquad.cpp
+[2020.02.20-07.31.06:404][843]CompilerResultsLog:   C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Source\Marine_Squad\ParentUnit.h(37): warning C4263: 'void AParentUnit::TakeDamage(float)': member function does not override any base class virtual member function
+[2020.02.20-07.31.06:404][843]CompilerResultsLog:   C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Source\Marine_Squad\ParentUnit.h(78): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+[2020.02.20-07.31.06:405][843]CompilerResultsLog:   Q:\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(242): note: see declaration of 'APawn::TakeDamage'
+[2020.02.20-07.31.06:405][843]CompilerResultsLog:   Q:\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\UserWidget.generated.h(18): note: see declaration of 'APawn'
+[2020.02.20-07.31.06:405][843]CompilerResultsLog:   [7/10] PlayerController_MarineSquad.cpp
+[2020.02.20-07.31.06:405][843]CompilerResultsLog:   C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Source\Marine_Squad\ParentUnit.h(37): warning C4263: 'void AParentUnit::TakeDamage(float)': member function does not override any base class virtual member function
+[2020.02.20-07.31.06:406][843]CompilerResultsLog:   C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Source\Marine_Squad\ParentUnit.h(78): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+[2020.02.20-07.31.06:406][843]CompilerResultsLog:   Q:\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(242): note: see declaration of 'APawn::TakeDamage'
+[2020.02.20-07.31.06:407][843]CompilerResultsLog:   Q:\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\UserWidget.generated.h(18): note: see declaration of 'APawn'
+[2020.02.20-07.31.06:407][843]CompilerResultsLog:   [8/10] UE4Editor-Marine_Squad-8432.lib
+[2020.02.20-07.31.06:407][843]CompilerResultsLog:      Creating library C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Intermediate\Build\Win64\UE4Editor\Development\Marine_Squad\UE4Editor-Marine_Squad-8432.lib and object C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Intermediate\Build\Win64\UE4Editor\Development\Marine_Squad\UE4Editor-Marine_Squad-8432.exp
+[2020.02.20-07.31.06:408][843]CompilerResultsLog:   [9/10] UE4Editor-Marine_Squad-8432.dll
+[2020.02.20-07.31.06:408][843]CompilerResultsLog:      Creating library C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Intermediate\Build\Win64\UE4Editor\Development\Marine_Squad\UE4Editor-Marine_Squad-8432.suppressed.lib and object C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Intermediate\Build\Win64\UE4Editor\Development\Marine_Squad\UE4Editor-Marine_Squad-8432.suppressed.exp
+[2020.02.20-07.31.06:408][843]CompilerResultsLog: Error:   ParentUnit.gen.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) class UClass * __cdecl Z_Construct_UClass_UWidgetComponent_NoRegister(void)" (__imp_?Z_Construct_UClass_UWidgetComponent_NoRegister@@YAPEAVUClass@@XZ) referenced in function "void __cdecl `dynamic initializer for 'public: static struct UE4CodeGen_Private::FObjectPropertyParams const Z_Construct_UClass_AParentUnit_Statics::NewProp_SelectionCircle''(void)" (??__E?NewProp_SelectionCircle@Z_Construct_UClass_AParentUnit_Statics@@2UFObjectPropertyParams@UE4CodeGen_Private@@B@@YAXXZ)
+[2020.02.20-07.31.06:409][843]CompilerResultsLog: Error:   C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Binaries\Win64\UE4Editor-Marine_Squad-8432.dll : fatal error LNK1120: 1 unresolved externals
+[2020.02.20-07.31.06:409][843]LogMainFrame: MainFrame: Module compiling took 176.849 seconds
+[2020.02.20-07.31.06:409][843]Warning: HotReload failed, recompile failed
+[2020.02.20-07.31.24:770][897]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.20-07.33.20:951][308]Candidate modules for hot reload:
+[2020.02.20-07.33.20:952][308]  Marine_Squad
+[2020.02.20-07.33.20:952][308]Launching UnrealBuildTool... [Q:/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Marine_Squad,2042 Win64 Development -TargetType=Editor -Project="C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Marine_Squad.uproject" "C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Marine_Squad.uproject"  -IgnoreJunk]
+[2020.02.20-07.36.22:447][308]CompilerResultsLog: New page: Compilation - Feb 19, 2020, 7:36:22 PM
+[2020.02.20-07.36.22:448][308]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\ericf\Desktop\repos\Marine-Squad).
+[2020.02.20-07.36.22:448][308]CompilerResultsLog: Creating makefile for Marine_SquadEditor (.uproject file is newer)
+[2020.02.20-07.36.22:448][308]CompilerResultsLog: Parsing headers for Marine_SquadEditor
+[2020.02.20-07.36.22:448][308]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Marine_Squad.uproject" "C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Intermediate\Build\Win64\Marine_SquadEditor\Development\Marine_SquadEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.02.20-07.36.22:449][308]CompilerResultsLog: Reflection code generated for Marine_SquadEditor in 25.1194621 seconds
+[2020.02.20-07.36.22:449][308]CompilerResultsLog: Using Visual Studio 2019 14.21.27702 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.21.27702) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.02.20-07.36.22:450][308]CompilerResultsLog: Building 12 actions with 4 processes...
+[2020.02.20-07.36.22:450][308]CompilerResultsLog:   [1/12] Marine_Squad.init.gen.cpp
+[2020.02.20-07.36.22:450][308]CompilerResultsLog:   [2/12] UnitSelectorCircle.gen.cpp
+[2020.02.20-07.36.22:450][308]CompilerResultsLog:   [3/12] HUD_MarineSquad.gen.cpp
+[2020.02.20-07.36.22:450][308]CompilerResultsLog:   C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Source\Marine_Squad\ParentUnit.h(37): warning C4263: 'void AParentUnit::TakeDamage(float)': member function does not override any base class virtual member function
+[2020.02.20-07.36.22:451][308]CompilerResultsLog:   C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Source\Marine_Squad\ParentUnit.h(78): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+[2020.02.20-07.36.22:452][308]CompilerResultsLog:   Q:\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(242): note: see declaration of 'APawn::TakeDamage'
+[2020.02.20-07.36.22:452][308]CompilerResultsLog:   Q:\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\UserWidget.generated.h(18): note: see declaration of 'APawn'
+[2020.02.20-07.36.22:452][308]CompilerResultsLog:   [4/12] ParentUnit.gen.cpp
+[2020.02.20-07.36.22:452][308]CompilerResultsLog:   C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Source\Marine_Squad/ParentUnit.h(37): warning C4263: 'void AParentUnit::TakeDamage(float)': member function does not override any base class virtual member function
+[2020.02.20-07.36.22:453][308]CompilerResultsLog:   C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Source\Marine_Squad/ParentUnit.h(78): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+[2020.02.20-07.36.22:453][308]CompilerResultsLog:   Q:\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(242): note: see declaration of 'APawn::TakeDamage'
+[2020.02.20-07.36.22:453][308]CompilerResultsLog:   Q:\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\UserWidget.generated.h(18): note: see declaration of 'APawn'
+[2020.02.20-07.36.22:454][308]CompilerResultsLog:   [5/12] PlayerController_MarineSquad.gen.cpp
+[2020.02.20-07.36.22:454][308]CompilerResultsLog:   C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Source\Marine_Squad\ParentUnit.h(37): warning C4263: 'void AParentUnit::TakeDamage(float)': member function does not override any base class virtual member function
+[2020.02.20-07.36.22:455][308]CompilerResultsLog:   C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Source\Marine_Squad\ParentUnit.h(78): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+[2020.02.20-07.36.22:455][308]CompilerResultsLog:   Q:\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(242): note: see declaration of 'APawn::TakeDamage'
+[2020.02.20-07.36.22:456][308]CompilerResultsLog:   Q:\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\UserWidget.generated.h(18): note: see declaration of 'APawn'
+[2020.02.20-07.36.22:457][308]CompilerResultsLog:   [6/12] UnitSelectorCircle.cpp
+[2020.02.20-07.36.22:457][308]CompilerResultsLog:   [7/12] HUD_MarineSquad.cpp
+[2020.02.20-07.36.22:457][308]CompilerResultsLog:   C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Source\Marine_Squad\ParentUnit.h(37): warning C4263: 'void AParentUnit::TakeDamage(float)': member function does not override any base class virtual member function
+[2020.02.20-07.36.22:458][308]CompilerResultsLog:   C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Source\Marine_Squad\ParentUnit.h(78): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+[2020.02.20-07.36.22:458][308]CompilerResultsLog:   Q:\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(242): note: see declaration of 'APawn::TakeDamage'
+[2020.02.20-07.36.22:459][308]CompilerResultsLog:   Q:\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\UserWidget.generated.h(18): note: see declaration of 'APawn'
+[2020.02.20-07.36.22:459][308]CompilerResultsLog:   [8/12] ParentUnit.cpp
+[2020.02.20-07.36.22:460][308]CompilerResultsLog:   C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Source\Marine_Squad\ParentUnit.h(37): warning C4263: 'void AParentUnit::TakeDamage(float)': member function does not override any base class virtual member function
+[2020.02.20-07.36.22:460][308]CompilerResultsLog:   C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Source\Marine_Squad\ParentUnit.h(78): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+[2020.02.20-07.36.22:461][308]CompilerResultsLog:   Q:\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(242): note: see declaration of 'APawn::TakeDamage'
+[2020.02.20-07.36.22:461][308]CompilerResultsLog:   Q:\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\UserWidget.generated.h(18): note: see declaration of 'APawn'
+[2020.02.20-07.36.22:462][308]CompilerResultsLog:   [9/12] PlayerController_MarineSquad.cpp
+[2020.02.20-07.36.22:462][308]CompilerResultsLog:   C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Source\Marine_Squad\ParentUnit.h(37): warning C4263: 'void AParentUnit::TakeDamage(float)': member function does not override any base class virtual member function
+[2020.02.20-07.36.22:462][308]CompilerResultsLog:   C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Source\Marine_Squad\ParentUnit.h(78): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+[2020.02.20-07.36.22:463][308]CompilerResultsLog:   Q:\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(242): note: see declaration of 'APawn::TakeDamage'
+[2020.02.20-07.36.22:463][308]CompilerResultsLog:   Q:\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\UserWidget.generated.h(18): note: see declaration of 'APawn'
+[2020.02.20-07.36.22:463][308]CompilerResultsLog:   [10/12] UE4Editor-Marine_Squad-2042.lib
+[2020.02.20-07.36.22:463][308]CompilerResultsLog:      Creating library C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Intermediate\Build\Win64\UE4Editor\Development\Marine_Squad\UE4Editor-Marine_Squad-2042.lib and object C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Intermediate\Build\Win64\UE4Editor\Development\Marine_Squad\UE4Editor-Marine_Squad-2042.exp
+[2020.02.20-07.36.22:464][308]CompilerResultsLog:   [11/12] UE4Editor-Marine_Squad-2042.dll
+[2020.02.20-07.36.22:464][308]CompilerResultsLog:      Creating library C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Intermediate\Build\Win64\UE4Editor\Development\Marine_Squad\UE4Editor-Marine_Squad-2042.suppressed.lib and object C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Intermediate\Build\Win64\UE4Editor\Development\Marine_Squad\UE4Editor-Marine_Squad-2042.suppressed.exp
+[2020.02.20-07.36.22:465][308]CompilerResultsLog:   [12/12] Marine_SquadEditor.target
+[2020.02.20-07.36.22:465][308]CompilerResultsLog: Total time in Parallel executor: 150.49 seconds
+[2020.02.20-07.36.22:465][308]CompilerResultsLog: Total execution time: 180.98 seconds
+[2020.02.20-07.36.22:465][308]LogMainFrame: MainFrame: Module compiling took 181.519 seconds
+[2020.02.20-07.36.22:881][308]LogUObjectHash: Compacting FUObjectHashTables data took  24.09ms
+[2020.02.20-07.36.22:886][308]LogBlueprintActionDatabase: Requesting refresh due to module change: Marine_Squad (unloaded)
+[2020.02.20-07.36.23:141][308]LogClass: Could not find existing class UnitSelectorCircle in package /Script/Marine_Squad for HotReload, assuming new class
+[2020.02.20-07.36.23:144][308]LogClass: ECommandsEnum HotReload.
+[2020.02.20-07.36.23:162][308]LogBlueprintActionDatabase: Requesting refresh due to module change: Marine_Squad (loaded)
+[2020.02.20-07.36.23:164][308]LogContentBrowser: Native class hierarchy updated for 'Marine_Squad' in 0.0018 seconds. Added 8 classes and 2 folders.
+[2020.02.20-07.36.23:175][308]Display: HotReload successful (3 functions remapped  0 scriptstructs remapped)
+[2020.02.20-07.36.23:471][308]LogUObjectHash: Compacting FUObjectHashTables data took   4.44ms
+[2020.02.20-07.36.23:471][308]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2020.02.20-07.36.23:515][308]LogContentBrowser: Native class hierarchy populated in 0.0182 seconds. Added 2749 classes and 666 folders.
+[2020.02.20-07.36.23:517][308]Display: HotReload took 182.6s.
+[2020.02.20-07.36.23:519][308]Warning: HotReload operation took 182.6s.
+[2020.02.20-07.36.23:540][308]LogSlate: Window 'Add C++ Class' being destroyed
+[2020.02.20-07.36.24:041][308]LogHotReload: New module detected: UE4Editor-Marine_Squad-2042.dll
+[2020.02.20-07.36.24:144][309]LogHotReload: Starting Hot-Reload from IDE
+[2020.02.20-07.36.24:251][309]LogUObjectHash: Compacting FUObjectHashTables data took   7.26ms
+[2020.02.20-07.36.24:251][309]LogBlueprintActionDatabase: Requesting refresh due to module change: Marine_Squad (unloaded)
+[2020.02.20-07.36.24:256][309]LogBlueprintActionDatabase: Requesting refresh due to module change: Marine_Squad (loaded)
+[2020.02.20-07.36.24:257][309]LogContentBrowser: Native class hierarchy updated for 'Marine_Squad' in 0.0004 seconds. Added 8 classes and 2 folders.
+[2020.02.20-07.36.24:262][309]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.02.20-07.36.24:317][309]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2020.02.20-07.36.24:317][309]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2020.02.20-07.36.24:335][309]LogContentBrowser: Native class hierarchy populated in 0.0108 seconds. Added 2749 classes and 666 folders.
+[2020.02.20-07.36.24:340][309]Display: HotReload took  0.2s.
+[2020.02.20-07.36.24:347][309]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2020.02.20-07.36.24:347][309]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2020.02.20-07.36.53:767][395]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (29.420 sec). This should never happen. Something is wrong with the timer delegate!
+[2020.02.20-07.38.46:882][131]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BP/Units_BP/UnitsEffects/MyUnitSelectorCircle.MyUnitSelectorCircle
+[2020.02.20-07.38.46:913][131]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_976865d7f760a47e2a086b15bf7dcbd9>::operator ()(41)] Fog Controller is created for: World_3
+[2020.02.20-07.38.47:445][131]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2020.02.20-07.39.24:304][244]LogUObjectHash: Compacting FUObjectHashTables data took  13.21ms
+[2020.02.20-07.39.24:304][244]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Town' took 0.128
+[2020.02.20-07.39.24:307][244]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP/Units_BP/UnitsEffects/MyUnitSelectorCircle] ([1] browsable assets)...
+[2020.02.20-07.39.24:307][244]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP/Units_BP/UnitsEffects/MyUnitSelectorCircle]
+[2020.02.20-07.39.24:376][244]LogSavePackage: Moving 'C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/MyUnitSelectorCircle_Auto1F1DC73A344B62DCB34AB148415EB208C.tmp' to 'C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Autosaves/Game/BP/Units_BP/UnitsEffects/MyUnitSelectorCircle_Auto1.uasset'
+[2020.02.20-07.39.24:391][244]LogFileHelpers: Auto-saving content packages took 0.087
+[2020.02.20-07.39.35:318][277]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_144d8ffb0c7ca55232a4412d9c0c3636>::operator ()(31)] Fog Controller is removed for: World_3
+[2020.02.20-07.39.44:736][789]LogAssetEditorManager: Opening Asset editor for Class /Script/Marine_Squad.UnitSelectorCircle
+[2020.02.20-07.43.29:963][499]Candidate modules for hot reload:
+[2020.02.20-07.43.29:963][499]  Marine_Squad
+[2020.02.20-07.43.29:964][499]Launching UnrealBuildTool... [Q:/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Marine_Squad,4422 Win64 Development -TargetType=Editor -Project="C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Marine_Squad.uproject" "C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Marine_Squad.uproject"  -IgnoreJunk]
+[2020.02.20-07.43.29:966][499]Warning: Starting HotReload took  0.0s.
+[2020.02.20-07.45.11:658][904]CompilerResultsLog: New page: Compilation - Feb 19, 2020, 7:45:11 PM
+[2020.02.20-07.45.11:658][904]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\ericf\Desktop\repos\Marine-Squad).
+[2020.02.20-07.45.11:658][904]CompilerResultsLog: Creating makefile for Marine_SquadEditor (ini files are newer than makefile)
+[2020.02.20-07.45.11:658][904]CompilerResultsLog: Parsing headers for Marine_SquadEditor
+[2020.02.20-07.45.11:658][904]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Marine_Squad.uproject" "C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Intermediate\Build\Win64\Marine_SquadEditor\Development\Marine_SquadEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.02.20-07.45.11:659][904]CompilerResultsLog: Reflection code generated for Marine_SquadEditor in 26.9332569 seconds
+[2020.02.20-07.45.11:660][904]CompilerResultsLog: Using Visual Studio 2019 14.21.27702 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.21.27702) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.02.20-07.45.11:660][904]CompilerResultsLog: Building 6 actions with 4 processes...
+[2020.02.20-07.45.11:660][904]CompilerResultsLog:   [1/6] Marine_Squad.init.gen.cpp
+[2020.02.20-07.45.11:660][904]CompilerResultsLog:   [2/6] UnitSelectorCircle.cpp
+[2020.02.20-07.45.11:661][904]CompilerResultsLog:    C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Source\Marine_Squad\UnitSelectorCircle.cpp(8) : error C2653: 'UWidgetClassName': is not a class or namespace name
+[2020.02.20-07.45.11:661][904]CompilerResultsLog:    C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Source\Marine_Squad\UnitSelectorCircle.cpp(10) : error C2653: 'Super': is not a class or namespace name
+[2020.02.20-07.45.11:661][904]CompilerResultsLog:    C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Source\Marine_Squad\UnitSelectorCircle.cpp(13) : error C2065: 'MyCoolButton': undeclared identifier
+[2020.02.20-07.45.11:661][904]CompilerResultsLog:    C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Source\Marine_Squad\UnitSelectorCircle.cpp(14) : error C2065: 'MyCoolButton': undeclared identifier
+[2020.02.20-07.45.11:661][904]CompilerResultsLog:    C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Source\Marine_Squad\UnitSelectorCircle.cpp(14) : error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+[2020.02.20-07.45.11:662][904]CompilerResultsLog:    C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Source\Marine_Squad\UnitSelectorCircle.cpp(14) : error C2653: 'UWidgetClassName': is not a class or namespace name
+[2020.02.20-07.45.11:662][904]CompilerResultsLog:    C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Source\Marine_Squad\UnitSelectorCircle.cpp(14) : error C2065: 'DoAction': undeclared identifier
+[2020.02.20-07.45.11:662][904]CompilerResultsLog:    C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Source\Marine_Squad\UnitSelectorCircle.cpp(19) : error C2653: 'UWidgetClassName': is not a class or namespace name
+[2020.02.20-07.45.11:663][904]CompilerResultsLog:   [3/6] UnitSelectorCircle.gen.cpp
+[2020.02.20-07.45.11:663][904]LogMainFrame: MainFrame: Module compiling took 101.704 seconds
+[2020.02.20-07.45.11:663][904]Warning: HotReload failed, recompile failed
+[2020.02.20-07.45.15:860][983]LogSlate: Window 'BasicUnit' being destroyed
+[2020.02.20-07.45.15:865][983]LogSlate: Window 'BasicUnit' being destroyed
+[2020.02.20-07.45.15:888][983]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_144d8ffb0c7ca55232a4412d9c0c3636>::operator ()(31)] Fog Controller is removed for: World_1
+[2020.02.20-07.46.31:767][859]Candidate modules for hot reload:
+[2020.02.20-07.46.31:767][859]  Marine_Squad
+[2020.02.20-07.46.31:767][859]Launching UnrealBuildTool... [Q:/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Marine_Squad,4068 Win64 Development -TargetType=Editor -Project="C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Marine_Squad.uproject" "C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Marine_Squad.uproject"  -IgnoreJunk]
+[2020.02.20-07.46.31:769][859]Warning: Starting HotReload took  0.0s.
+[2020.02.20-07.47.07:844][ 43]CompilerResultsLog: New page: Compilation - Feb 19, 2020, 7:47:07 PM
+[2020.02.20-07.47.07:844][ 43]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\ericf\Desktop\repos\Marine-Squad).
+[2020.02.20-07.47.07:844][ 43]CompilerResultsLog: Creating makefile for Marine_SquadEditor (ini files are newer than makefile)
+[2020.02.20-07.47.07:844][ 43]CompilerResultsLog: Parsing headers for Marine_SquadEditor
+[2020.02.20-07.47.07:844][ 43]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Marine_Squad.uproject" "C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Intermediate\Build\Win64\Marine_SquadEditor\Development\Marine_SquadEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.02.20-07.47.07:845][ 43]CompilerResultsLog: Reflection code generated for Marine_SquadEditor in 24.3593587 seconds
+[2020.02.20-07.47.07:845][ 43]CompilerResultsLog: Using Visual Studio 2019 14.21.27702 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.21.27702) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.02.20-07.47.07:845][ 43]CompilerResultsLog: Building 4 actions with 4 processes...
+[2020.02.20-07.47.07:845][ 43]CompilerResultsLog:   [1/4] UnitSelectorCircle.cpp
+[2020.02.20-07.47.07:845][ 43]CompilerResultsLog:    C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Source\Marine_Squad\UnitSelectorCircle.cpp(14) : error C2039: 'DoAction': is not a member of 'UUnitSelectorCircle'
+[2020.02.20-07.47.07:846][ 43]CompilerResultsLog:   C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Source\Marine_Squad\UnitSelectorCircle.h(13): note: see declaration of 'UUnitSelectorCircle'
+[2020.02.20-07.47.07:846][ 43]CompilerResultsLog:    C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Source\Marine_Squad\UnitSelectorCircle.cpp(14) : error C2065: 'DoAction': undeclared identifier
+[2020.02.20-07.47.07:846][ 43]CompilerResultsLog:    C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Source\Marine_Squad\UnitSelectorCircle.cpp(19) : error C2039: 'DoAction': is not a member of 'UUnitSelectorCircle'
+[2020.02.20-07.47.07:846][ 43]CompilerResultsLog:   C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Source\Marine_Squad\UnitSelectorCircle.h(13): note: see declaration of 'UUnitSelectorCircle'
+[2020.02.20-07.47.07:847][ 43]LogMainFrame: MainFrame: Module compiling took 36.099 seconds
+[2020.02.20-07.47.07:847][ 43]Warning: HotReload failed, recompile failed
+[2020.02.20-07.48.58:678][579]Candidate modules for hot reload:
+[2020.02.20-07.48.58:678][579]  Marine_Squad
+[2020.02.20-07.48.58:679][579]Launching UnrealBuildTool... [Q:/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Marine_Squad,4677 Win64 Development -TargetType=Editor -Project="C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Marine_Squad.uproject" "C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Marine_Squad.uproject"  -IgnoreJunk]
+[2020.02.20-07.48.58:682][579]Warning: Starting HotReload took  0.0s.
+[2020.02.20-07.53.05:009][988]CompilerResultsLog: New page: Compilation - Feb 19, 2020, 7:53:05 PM
+[2020.02.20-07.53.05:009][988]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\ericf\Desktop\repos\Marine-Squad).
+[2020.02.20-07.53.05:009][988]CompilerResultsLog: Parsing headers for Marine_SquadEditor
+[2020.02.20-07.53.05:009][988]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Marine_Squad.uproject" "C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Intermediate\Build\Win64\Marine_SquadEditor\Development\Marine_SquadEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.02.20-07.53.05:010][988]CompilerResultsLog: Reflection code generated for Marine_SquadEditor in 8.3031309 seconds
+[2020.02.20-07.53.05:010][988]CompilerResultsLog: Using Visual Studio 2019 14.21.27702 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.21.27702) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.02.20-07.53.05:010][988]CompilerResultsLog: Building 5 actions with 4 processes...
+[2020.02.20-07.53.05:010][988]CompilerResultsLog:   [1/5] UnitSelectorCircle.cpp
+[2020.02.20-07.53.05:010][988]CompilerResultsLog:   [2/5] UnitSelectorCircle.gen.cpp
+[2020.02.20-07.53.05:010][988]CompilerResultsLog:   [3/5] UE4Editor-Marine_Squad-4677.lib
+[2020.02.20-07.53.05:010][988]CompilerResultsLog:      Creating library C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Intermediate\Build\Win64\UE4Editor\Development\Marine_Squad\UE4Editor-Marine_Squad-4677.lib and object C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Intermediate\Build\Win64\UE4Editor\Development\Marine_Squad\UE4Editor-Marine_Squad-4677.exp
+[2020.02.20-07.53.05:011][988]CompilerResultsLog:   [4/5] UE4Editor-Marine_Squad-4677.dll
+[2020.02.20-07.53.05:012][988]CompilerResultsLog:      Creating library C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Intermediate\Build\Win64\UE4Editor\Development\Marine_Squad\UE4Editor-Marine_Squad-4677.suppressed.lib and object C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Intermediate\Build\Win64\UE4Editor\Development\Marine_Squad\UE4Editor-Marine_Squad-4677.suppressed.exp
+[2020.02.20-07.53.05:013][988]CompilerResultsLog:   [5/5] Marine_SquadEditor.target
+[2020.02.20-07.53.05:013][988]CompilerResultsLog: Total time in Parallel executor: 234.53 seconds
+[2020.02.20-07.53.05:013][988]CompilerResultsLog: Total execution time: 245.88 seconds
+[2020.02.20-07.53.05:013][988]LogMainFrame: MainFrame: Module compiling took 246.344 seconds
+[2020.02.20-07.53.05:190][988]LogUObjectHash: Compacting FUObjectHashTables data took  10.56ms
+[2020.02.20-07.53.05:191][988]LogBlueprintActionDatabase: Requesting refresh due to module change: Marine_Squad (unloaded)
+[2020.02.20-07.53.05:332][988]LogClass: Could not find existing class UnitSelectorCircle in package /Script/Marine_Squad for HotReload, assuming new class
+[2020.02.20-07.53.05:332][988]LogClass: ECommandsEnum HotReload.
+[2020.02.20-07.53.05:353][988]LogHotReload: Re-instancing UnitSelectorCircle after hot-reload.
+[2020.02.20-07.53.05:614][988]LogBlueprintActionDatabase: Requesting refresh due to module change: Marine_Squad (loaded)
+[2020.02.20-07.53.05:615][988]LogContentBrowser: Native class hierarchy updated for 'Marine_Squad' in 0.0004 seconds. Added 8 classes and 2 folders.
+[2020.02.20-07.53.05:624][988]Display: HotReload successful (3 functions remapped  0 scriptstructs remapped)
+[2020.02.20-07.53.05:811][988]LogUObjectHash: Compacting FUObjectHashTables data took   4.51ms
+[2020.02.20-07.53.05:811][988]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2020.02.20-07.53.05:837][988]LogContentBrowser: Native class hierarchy populated in 0.0115 seconds. Added 2749 classes and 666 folders.
+[2020.02.20-07.53.05:837][988]Display: HotReload took 247.2s.
+[2020.02.20-07.54.21:143][212]LogAssetEditorManager: Opening Asset editor for Class /Script/Marine_Squad.ParentUnit
+[2020.02.20-07.54.26:664][735]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BP/Units_BP/BasicUnit.BasicUnit
+[2020.02.20-07.54.26:666][735]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_976865d7f760a47e2a086b15bf7dcbd9>::operator ()(41)] Fog Controller is created for: World_4
+[2020.02.20-07.54.52:140][432]LogUObjectHash: Compacting FUObjectHashTables data took   6.26ms
+[2020.02.20-07.54.54:995][432]LogSlate: Window 'Delete Assets' being destroyed
+[2020.02.20-07.54.55:114][432]LogUObjectHash: Compacting FUObjectHashTables data took   3.61ms
+[2020.02.20-07.55.15:158][733]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BP/Units_BP/UnitsEffects/MyUnitSelectorCircle.MyUnitSelectorCircle
+[2020.02.20-07.55.15:159][733]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_976865d7f760a47e2a086b15bf7dcbd9>::operator ()(41)] Fog Controller is created for: World_5
+[2020.02.20-07.55.15:447][733]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2020.02.20-07.55.21:624][190]LogUObjectHash: Compacting FUObjectHashTables data took   2.73ms
+[2020.02.20-07.55.21:633][190]LogMetaData: Removing '/Game/BP/Units_BP/UnitsEffects/MyUnitSelectorCircle_BP.SKEL_MyUnitSelectorCircle_BP_C' ref from Metadata '/Game/BP/Units_BP/UnitsEffects/MyUnitSelectorCircle.PackageMetaData'
+[2020.02.20-07.55.21:633][190]LogMetaData: Removing '/Game/BP/Units_BP/UnitsEffects/MyUnitSelectorCircle_BP.MyUnitSelectorCircle_BP_C' ref from Metadata '/Game/BP/Units_BP/UnitsEffects/MyUnitSelectorCircle.PackageMetaData'
+[2020.02.20-07.55.21:634][190]LogMetaData: Removing '/Game/BP/Units_BP/UnitsEffects/MyUnitSelectorCircle_BP.MyUnitSelectorCircle_BP:EventGraph.K2Node_Event_0' ref from Metadata '/Game/BP/Units_BP/UnitsEffects/MyUnitSelectorCircle.PackageMetaData'
+[2020.02.20-07.55.21:634][190]LogMetaData: Removing '/Game/BP/Units_BP/UnitsEffects/MyUnitSelectorCircle_BP.MyUnitSelectorCircle_BP:EventGraph.K2Node_Event_1' ref from Metadata '/Game/BP/Units_BP/UnitsEffects/MyUnitSelectorCircle.PackageMetaData'
+[2020.02.20-07.55.21:634][190]LogMetaData: Removing '/Game/BP/Units_BP/UnitsEffects/MyUnitSelectorCircle_BP.MyUnitSelectorCircle_BP:EventGraph.K2Node_Event_2' ref from Metadata '/Game/BP/Units_BP/UnitsEffects/MyUnitSelectorCircle.PackageMetaData'
+[2020.02.20-07.55.21:679][190]LogSavePackage: Moving 'C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/MyUnitSelectorCircle_BP6E5CEB17411BCB87E093C2915784C6AB.tmp' to 'C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Content/BP/Units_BP/UnitsEffects/MyUnitSelectorCircle_BP.uasset'
+[2020.02.20-07.55.21:873][190]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2020.02.20-07.55.21:913][190]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2020.02.20-07.55.21:944][190]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2020.02.20-07.55.28:061][625]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_144d8ffb0c7ca55232a4412d9c0c3636>::operator ()(31)] Fog Controller is removed for: World_5
+[2020.02.20-07.56.18:430][333]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2020.02.20-07.56.19:900][333]LogSlate: Window 'Delete Assets' being destroyed
+[2020.02.20-07.56.19:989][333]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2020.02.20-07.56.20:027][333]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2020.02.20-07.56.20:062][333]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2020.02.20-07.57.00:849][610]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.02.20-07.57.06:402][  8]BlueprintLog: New page: Compile BasicUnit
+[2020.02.20-07.57.06:673][  8]LogUObjectHash: Compacting FUObjectHashTables data took   3.65ms
+[2020.02.20-07.57.07:922][ 67]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/BP/Units_BP/UnitsEffects/MyCoolButton.MyCoolButton
+[2020.02.20-07.57.07:923][ 67]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_976865d7f760a47e2a086b15bf7dcbd9>::operator ()(41)] Fog Controller is created for: World_6
+[2020.02.20-07.57.07:929][ 67]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_976865d7f760a47e2a086b15bf7dcbd9>::operator ()(41)] Fog Controller is created for: World_7
+[2020.02.20-07.57.08:323][ 67]LogBlueprintActionDatabase: Requesting refresh due to module change: SequencerWidgets (loaded)
+[2020.02.20-07.57.21:846][142]LogEditorViewport: Clicking on Actor (LMB): InstancedFoliageActor (InstancedFoliageActor)
+[2020.02.20-07.57.22:085][153]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.20-07.57.22:185][162]BlueprintLog: New page: Compile MyCoolButton
+[2020.02.20-07.57.22:463][162]LogUObjectHash: Compacting FUObjectHashTables data took   4.94ms
+[2020.02.20-07.57.23:605][219]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.02.20-07.57.23:661][219]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2020.02.20-07.57.23:664][219]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.20-07.57.23:664][219]PIE: New page: PIE session: Town (Feb 19, 2020, 7:57:23 PM)
+[2020.02.20-07.57.23:667][219]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Town
+[2020.02.20-07.57.23:761][219]LogPlayLevel: PIE: StaticDuplicateObject took: (0.094000s)
+[2020.02.20-07.57.23:764][219]LogAIModule: Creating AISystem for world Town
+[2020.02.20-07.57.23:769][219]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_976865d7f760a47e2a086b15bf7dcbd9>::operator ()(41)] Fog Controller is created for: Town
+[2020.02.20-07.57.23:770][219]LogPlayLevel: PIE: World Init took: (0.007967s)
+[2020.02.20-07.57.23:770][219]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Town.Town to /Game/Maps/UEDPIE_0_Town.Town (0.102411s)
+[2020.02.20-07.57.23:812][219]LogUObjectHash: Compacting FUObjectHashTables data took   4.23ms
+[2020.02.20-07.57.23:860][219]LogInit: XAudio2 using 'HEAD SET (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.02.20-07.57.23:954][219]LogInit: FAudioDevice initialized.
+[2020.02.20-07.57.23:968][219]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.20-07.57.24:004][219]LogLoad: Game class is 'MyGameModeBase_MarineSquad_BP_C'
+[2020.02.20-07.57.24:032][219]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Town.Town up for play (max tick rate 0) at 2020.02.20-01.57.24
+[2020.02.20-07.57.24:041][219]LogWorld: Bringing up level for play took: 0.035850
+[2020.02.20-07.57.24:097][219]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Town 1.079
+[2020.02.20-07.57.24:097][219]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2020.02.20-07.57.25:337][300]LogTemp: Warning: Left Mouse Button Pressed
+[2020.02.20-07.57.25:454][309]LogTemp: Warning: Left Mouse Button Released
+[2020.02.20-07.57.25:977][348]LogTemp: Warning: Left Mouse Button Pressed
+[2020.02.20-07.57.26:093][357]LogTemp: Warning: Left Mouse Button Released
+[2020.02.20-07.57.27:980][495]LogTemp: Warning: Left Mouse Button Pressed
+[2020.02.20-07.57.28:320][520]LogTemp: Warning: Left Mouse Button Released
+[2020.02.20-07.57.28:527][535]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.20-07.57.28:660][545]LogTemp: Warning: Right Mouse Button Released
+[2020.02.20-07.57.29:013][571]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.20-07.57.29:131][580]LogTemp: Warning: Right Mouse Button Released
+[2020.02.20-07.57.30:192][661]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2020.02.20-07.57.30:193][661]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.20-07.57.30:211][661]LogSlate: Window 'Marine_Squad Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.02.20-07.57.30:223][661]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_144d8ffb0c7ca55232a4412d9c0c3636>::operator ()(31)] Fog Controller is removed for: Town
+[2020.02.20-07.57.30:265][661]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.20-07.57.30:265][661]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2020.02.20-07.57.30:321][661]LogUObjectHash: Compacting FUObjectHashTables data took   3.27ms
+[2020.02.20-07.57.30:338][662]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2020.02.20-07.57.42:955][537]BlueprintLog: New page: Compile BasicUnit
+[2020.02.20-07.57.43:217][537]LogUObjectHash: Compacting FUObjectHashTables data took   3.93ms
+[2020.02.20-07.57.43:993][581]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.02.20-07.57.44:023][581]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2020.02.20-07.57.44:024][581]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.20-07.57.44:024][581]PIE: New page: PIE session: Town (Feb 19, 2020, 7:57:44 PM)
+[2020.02.20-07.57.44:024][581]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Town
+[2020.02.20-07.57.44:070][581]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046078s)
+[2020.02.20-07.57.44:071][581]LogAIModule: Creating AISystem for world Town
+[2020.02.20-07.57.44:071][581]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_976865d7f760a47e2a086b15bf7dcbd9>::operator ()(41)] Fog Controller is created for: Town
+[2020.02.20-07.57.44:071][581]LogPlayLevel: PIE: World Init took: (0.000809s)
+[2020.02.20-07.57.44:072][581]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Town.Town to /Game/Maps/UEDPIE_0_Town.Town (0.047380s)
+[2020.02.20-07.57.44:112][581]LogUObjectHash: Compacting FUObjectHashTables data took   4.61ms
+[2020.02.20-07.57.44:150][581]LogInit: XAudio2 using 'HEAD SET (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.02.20-07.57.44:162][581]LogInit: FAudioDevice initialized.
+[2020.02.20-07.57.44:172][581]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.20-07.57.44:206][581]LogLoad: Game class is 'MyGameModeBase_MarineSquad_BP_C'
+[2020.02.20-07.57.44:215][581]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Town.Town up for play (max tick rate 0) at 2020.02.20-01.57.44
+[2020.02.20-07.57.44:216][581]LogWorld: Bringing up level for play took: 0.009207
+[2020.02.20-07.57.44:233][581]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Town 1.217
+[2020.02.20-07.57.44:234][581]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2020.02.20-07.57.47:813][834]LogTemp: Warning: Left Mouse Button Pressed
+[2020.02.20-07.57.47:947][844]LogTemp: Warning: Left Mouse Button Released
+[2020.02.20-07.57.48:608][895]LogTemp: Warning: Left Mouse Button Pressed
+[2020.02.20-07.57.48:674][900]LogTemp: Warning: Left Mouse Button Released
+[2020.02.20-07.57.49:107][933]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.20-07.57.54:657][388]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.20-07.58.03:732][118]LogTemp: Warning: Left Mouse Button Pressed
+[2020.02.20-07.58.03:850][127]LogTemp: Warning: Left Mouse Button Released
+[2020.02.20-07.58.04:146][151]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2020.02.20-07.58.04:147][151]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.20-07.58.04:165][151]LogSlate: Window 'Marine_Squad Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.02.20-07.58.04:180][151]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_144d8ffb0c7ca55232a4412d9c0c3636>::operator ()(31)] Fog Controller is removed for: Town
+[2020.02.20-07.58.04:208][151]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.20-07.58.04:209][151]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2020.02.20-07.58.04:268][151]LogUObjectHash: Compacting FUObjectHashTables data took   3.17ms
+[2020.02.20-07.58.04:316][152]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2020.02.20-07.58.10:041][567]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.02.20-07.58.10:065][567]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2020.02.20-07.58.10:065][567]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.20-07.58.10:065][567]PIE: New page: PIE session: Town (Feb 19, 2020, 7:58:10 PM)
+[2020.02.20-07.58.10:066][567]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Town
+[2020.02.20-07.58.10:113][567]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046678s)
+[2020.02.20-07.58.10:113][567]LogAIModule: Creating AISystem for world Town
+[2020.02.20-07.58.10:113][567]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_976865d7f760a47e2a086b15bf7dcbd9>::operator ()(41)] Fog Controller is created for: Town
+[2020.02.20-07.58.10:114][567]LogPlayLevel: PIE: World Init took: (0.000915s)
+[2020.02.20-07.58.10:114][567]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Town.Town to /Game/Maps/UEDPIE_0_Town.Town (0.048059s)
+[2020.02.20-07.58.10:153][567]LogUObjectHash: Compacting FUObjectHashTables data took   3.41ms
+[2020.02.20-07.58.10:193][567]LogInit: XAudio2 using 'HEAD SET (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.02.20-07.58.10:206][567]LogInit: FAudioDevice initialized.
+[2020.02.20-07.58.10:216][567]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.20-07.58.10:247][567]LogLoad: Game class is 'MyGameModeBase_MarineSquad_BP_C'
+[2020.02.20-07.58.10:255][567]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Town.Town up for play (max tick rate 0) at 2020.02.20-01.58.10
+[2020.02.20-07.58.10:257][567]LogWorld: Bringing up level for play took: 0.008676
+[2020.02.20-07.58.10:274][567]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Town -0.744
+[2020.02.20-07.58.10:274][567]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2020.02.20-07.58.13:763][820]LogTemp: Warning: Left Mouse Button Pressed
+[2020.02.20-07.58.13:842][826]LogTemp: Warning: Left Mouse Button Released
+[2020.02.20-07.58.14:866][904]LogTemp: Warning: Left Mouse Button Pressed
+[2020.02.20-07.58.14:985][913]LogTemp: Warning: Left Mouse Button Released
+[2020.02.20-07.58.15:253][934]LogTemp: Warning: Left Mouse Button Pressed
+[2020.02.20-07.58.15:365][942]LogTemp: Warning: Left Mouse Button Released
+[2020.02.20-07.58.15:889][980]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.20-07.58.17:202][ 80]LogTemp: Warning: Left Mouse Button Pressed
+[2020.02.20-07.58.17:985][139]LogTemp: Warning: Left Mouse Button Released
+[2020.02.20-07.58.18:259][160]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.20-07.58.19:245][234]LogTemp: Warning: Left Mouse Button Pressed
+[2020.02.20-07.58.19:350][242]LogTemp: Warning: Left Mouse Button Released
+[2020.02.20-07.58.20:923][359]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.20-07.58.21:518][404]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.20-07.58.21:634][413]LogTemp: Warning: Right Mouse Button Released
+[2020.02.20-07.58.22:056][445]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2020.02.20-07.58.22:057][445]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.20-07.58.22:077][445]LogSlate: Window 'Marine_Squad Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.02.20-07.58.22:088][445]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_144d8ffb0c7ca55232a4412d9c0c3636>::operator ()(31)] Fog Controller is removed for: Town
+[2020.02.20-07.58.22:120][445]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.20-07.58.22:121][445]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2020.02.20-07.58.22:174][445]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
+[2020.02.20-07.58.22:223][446]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2020.02.20-07.58.49:233][525]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2020.02.20-07.58.49:235][525]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Town" FILE="C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Autosaves/Game/Maps/Town_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2020.02.20-07.58.50:268][525]LogSavePackage: Moving 'C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Town_Auto28EA5AF4A442C3FE10496D587E43B1D80.tmp' to 'C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Autosaves/Game/Maps/Town_Auto2.umap'
+[2020.02.20-07.58.50:277][525]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Town' took 1.081
+[2020.02.20-07.58.50:278][525]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.081
+[2020.02.20-07.58.50:281][525]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BP/Units_BP/BasicUnit] ([1] browsable assets)...
+[2020.02.20-07.58.50:314][525]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BP/Units_BP/BasicUnit.BasicUnit]
+[2020.02.20-07.58.50:314][525]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP/Units_BP/BasicUnit]
+[2020.02.20-07.58.50:401][525]LogSavePackage: Moving 'C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/BasicUnit_Auto20F6DD85A45FB685E3CAA4BBE72BA019A.tmp' to 'C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Autosaves/Game/BP/Units_BP/BasicUnit_Auto2.uasset'
+[2020.02.20-07.58.50:408][525]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP/Units_BP/UnitsEffects/MyCoolButton] ([1] browsable assets)...
+[2020.02.20-07.58.50:409][525]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP/Units_BP/UnitsEffects/MyCoolButton]
+[2020.02.20-07.58.50:420][525]LogSavePackage: Moving 'C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/MyCoolButton_Auto28020EB714F736A31E40FD58DB525BD40.tmp' to 'C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Autosaves/Game/BP/Units_BP/UnitsEffects/MyCoolButton_Auto2.uasset'
+[2020.02.20-07.58.50:421][525]LogFileHelpers: Auto-saving content packages took 0.141
+[2020.02.20-07.59.23:181][996]BlueprintLog: New page: Compile BasicUnit
+[2020.02.20-07.59.23:443][996]LogUObjectHash: Compacting FUObjectHashTables data took   4.52ms
+[2020.02.20-07.59.24:839][103]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.02.20-07.59.24:870][103]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2020.02.20-07.59.24:871][103]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.20-07.59.24:871][103]PIE: New page: PIE session: Town (Feb 19, 2020, 7:59:24 PM)
+[2020.02.20-07.59.24:871][103]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Town
+[2020.02.20-07.59.24:918][103]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046734s)
+[2020.02.20-07.59.24:919][103]LogAIModule: Creating AISystem for world Town
+[2020.02.20-07.59.24:919][103]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_976865d7f760a47e2a086b15bf7dcbd9>::operator ()(41)] Fog Controller is created for: Town
+[2020.02.20-07.59.24:919][103]LogPlayLevel: PIE: World Init took: (0.000995s)
+[2020.02.20-07.59.24:919][103]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Town.Town to /Game/Maps/UEDPIE_0_Town.Town (0.048127s)
+[2020.02.20-07.59.24:959][103]LogUObjectHash: Compacting FUObjectHashTables data took   3.95ms
+[2020.02.20-07.59.25:001][103]LogInit: XAudio2 using 'HEAD SET (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.02.20-07.59.25:014][103]LogInit: FAudioDevice initialized.
+[2020.02.20-07.59.25:024][103]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.20-07.59.25:058][103]LogLoad: Game class is 'MyGameModeBase_MarineSquad_BP_C'
+[2020.02.20-07.59.25:067][103]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Town.Town up for play (max tick rate 0) at 2020.02.20-01.59.25
+[2020.02.20-07.59.25:068][103]LogWorld: Bringing up level for play took: 0.009240
+[2020.02.20-07.59.25:085][103]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Town 0.067
+[2020.02.20-07.59.25:085][103]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2020.02.20-07.59.25:533][136]LogTemp: Warning: Left Mouse Button Pressed
+[2020.02.20-07.59.25:641][146]LogTemp: Warning: Left Mouse Button Released
+[2020.02.20-07.59.26:491][225]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.20-07.59.32:527][802]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2020.02.20-07.59.32:528][802]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.20-07.59.32:546][802]LogSlate: Window 'Marine_Squad Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.02.20-07.59.32:557][802]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_144d8ffb0c7ca55232a4412d9c0c3636>::operator ()(31)] Fog Controller is removed for: Town
+[2020.02.20-07.59.32:590][802]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.20-07.59.32:591][802]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2020.02.20-07.59.32:644][802]LogUObjectHash: Compacting FUObjectHashTables data took   3.17ms
+[2020.02.20-07.59.32:671][803]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2020.02.20-07.59.42:876][654]LogAssetEditorManager: Opening Asset editor for Class /Script/Marine_Squad.PlayerController_MarineSquad
+[2020.02.20-08.00.44:448][928]LogAssetEditorManager: Opening Asset editor for Class /Script/Marine_Squad.UnitSelectorCircle
+[2020.02.20-08.00.56:852][ 10]Candidate modules for hot reload:
+[2020.02.20-08.00.56:853][ 10]  Marine_Squad
+[2020.02.20-08.00.56:853][ 10]Launching UnrealBuildTool... [Q:/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Marine_Squad,5672 Win64 Development -TargetType=Editor -Project="C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Marine_Squad.uproject" "C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Marine_Squad.uproject"  -IgnoreJunk]
+[2020.02.20-08.00.56:855][ 10]Warning: Starting HotReload took  0.0s.
+[2020.02.20-08.02.58:986][  4]CompilerResultsLog: New page: Compilation - Feb 19, 2020, 8:02:58 PM
+[2020.02.20-08.02.58:986][  4]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\ericf\Desktop\repos\Marine-Squad).
+[2020.02.20-08.02.58:986][  4]CompilerResultsLog: Creating makefile for Marine_SquadEditor (ini files are newer than makefile)
+[2020.02.20-08.02.58:987][  4]CompilerResultsLog: Parsing headers for Marine_SquadEditor
+[2020.02.20-08.02.58:987][  4]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Marine_Squad.uproject" "C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Intermediate\Build\Win64\Marine_SquadEditor\Development\Marine_SquadEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.02.20-08.02.58:987][  4]CompilerResultsLog: Reflection code generated for Marine_SquadEditor in 25.7036975 seconds
+[2020.02.20-08.02.58:988][  4]CompilerResultsLog: Using Visual Studio 2019 14.21.27702 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.21.27702) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.02.20-08.02.58:988][  4]CompilerResultsLog: Building 4 actions with 4 processes...
+[2020.02.20-08.02.58:988][  4]CompilerResultsLog:   [1/4] UnitSelectorCircle.cpp
+[2020.02.20-08.02.58:988][  4]CompilerResultsLog:   [2/4] UE4Editor-Marine_Squad-5672.lib
+[2020.02.20-08.02.58:988][  4]CompilerResultsLog:      Creating library C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Intermediate\Build\Win64\UE4Editor\Development\Marine_Squad\UE4Editor-Marine_Squad-5672.lib and object C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Intermediate\Build\Win64\UE4Editor\Development\Marine_Squad\UE4Editor-Marine_Squad-5672.exp
+[2020.02.20-08.02.58:989][  4]CompilerResultsLog:   [3/4] UE4Editor-Marine_Squad-5672.dll
+[2020.02.20-08.02.58:989][  4]CompilerResultsLog:      Creating library C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Intermediate\Build\Win64\UE4Editor\Development\Marine_Squad\UE4Editor-Marine_Squad-5672.suppressed.lib and object C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Intermediate\Build\Win64\UE4Editor\Development\Marine_Squad\UE4Editor-Marine_Squad-5672.suppressed.exp
+[2020.02.20-08.02.58:989][  4]CompilerResultsLog:   [4/4] Marine_SquadEditor.target
+[2020.02.20-08.02.58:989][  4]CompilerResultsLog: Total time in Parallel executor: 86.99 seconds
+[2020.02.20-08.02.58:989][  4]CompilerResultsLog: Total execution time: 121.63 seconds
+[2020.02.20-08.02.58:989][  4]LogMainFrame: MainFrame: Module compiling took 122.145 seconds
+[2020.02.20-08.02.59:038][  4]LogUObjectHash: Compacting FUObjectHashTables data took   4.90ms
+[2020.02.20-08.02.59:038][  4]LogBlueprintActionDatabase: Requesting refresh due to module change: Marine_Squad (unloaded)
+[2020.02.20-08.02.59:102][  4]LogClass: ECommandsEnum HotReload.
+[2020.02.20-08.02.59:108][  4]LogBlueprintActionDatabase: Requesting refresh due to module change: Marine_Squad (loaded)
+[2020.02.20-08.02.59:109][  4]LogContentBrowser: Native class hierarchy updated for 'Marine_Squad' in 0.0010 seconds. Added 8 classes and 2 folders.
+[2020.02.20-08.02.59:115][  4]Display: HotReload successful (3 functions remapped  0 scriptstructs remapped)
+[2020.02.20-08.02.59:234][  4]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2020.02.20-08.02.59:234][  4]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2020.02.20-08.02.59:251][  4]LogContentBrowser: Native class hierarchy populated in 0.0095 seconds. Added 2749 classes and 666 folders.
+[2020.02.20-08.02.59:251][  4]Display: HotReload took 122.4s.
+[2020.02.20-08.03.04:143][336]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.02.20-08.03.04:171][336]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2020.02.20-08.03.04:171][336]BlueprintLog: New page: Pre-Play auto-recompile
+[2020.02.20-08.03.04:172][336]LogPlayLevel: [PlayLevel] Compiling MyCoolButton before play...
+[2020.02.20-08.03.04:562][336]LogUObjectHash: Compacting FUObjectHashTables data took   5.23ms
+[2020.02.20-08.03.04:563][336]LogPlayLevel: PlayLevel: Blueprint regeneration took 391 ms (1 blueprints)
+[2020.02.20-08.03.04:563][336]PIE: New page: PIE session: Town (Feb 19, 2020, 8:03:04 PM)
+[2020.02.20-08.03.04:563][336]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Town
+[2020.02.20-08.03.04:627][336]LogPlayLevel: PIE: StaticDuplicateObject took: (0.062449s)
+[2020.02.20-08.03.04:628][336]LogAIModule: Creating AISystem for world Town
+[2020.02.20-08.03.04:628][336]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_976865d7f760a47e2a086b15bf7dcbd9>::operator ()(41)] Fog Controller is created for: Town
+[2020.02.20-08.03.04:629][336]LogPlayLevel: PIE: World Init took: (0.001785s)
+[2020.02.20-08.03.04:629][336]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Town.Town to /Game/Maps/UEDPIE_0_Town.Town (0.065405s)
+[2020.02.20-08.03.04:686][336]LogUObjectHash: Compacting FUObjectHashTables data took   3.37ms
+[2020.02.20-08.03.04:727][336]LogInit: XAudio2 using 'HEAD SET (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.02.20-08.03.04:740][336]LogInit: FAudioDevice initialized.
+[2020.02.20-08.03.04:751][336]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.20-08.03.04:784][336]LogLoad: Game class is 'MyGameModeBase_MarineSquad_BP_C'
+[2020.02.20-08.03.04:794][336]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Town.Town up for play (max tick rate 0) at 2020.02.20-02.03.04
+[2020.02.20-08.03.04:796][336]LogWorld: Bringing up level for play took: 0.010818
+[2020.02.20-08.03.04:816][336]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Town -0.201
+[2020.02.20-08.03.04:817][336]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2020.02.20-08.03.08:535][589]LogTemp: Warning: Left Mouse Button Pressed
+[2020.02.20-08.03.08:642][597]LogTemp: Warning: Left Mouse Button Released
+[2020.02.20-08.03.10:527][729]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.20-08.03.15:233][ 77]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2020.02.20-08.03.15:234][ 77]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.20-08.03.15:252][ 77]LogSlate: Window 'Marine_Squad Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.02.20-08.03.15:265][ 77]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_144d8ffb0c7ca55232a4412d9c0c3636>::operator ()(31)] Fog Controller is removed for: Town
+[2020.02.20-08.03.15:294][ 77]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.20-08.03.15:295][ 77]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2020.02.20-08.03.15:349][ 77]LogUObjectHash: Compacting FUObjectHashTables data took   3.50ms
+[2020.02.20-08.03.15:366][ 78]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2020.02.20-08.04.08:283][518]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.02.20-08.04.14:420][171]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2020.02.20-08.04.15:828][171]LogStats: FPlatformStackWalk::StackWalkAndDump -  1.407 s
+[2020.02.20-08.04.15:828][171]LogOutputDevice: Error: === Handled ensure: ===
+[2020.02.20-08.04.15:828][171]LogOutputDevice: Error: 
+[2020.02.20-08.04.15:828][171]LogOutputDevice: Error: Ensure condition failed: MyCoolButton [File:C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Source\Marine_Squad\UnitSelectorCircle.cpp] [Line: 13]
+[2020.02.20-08.04.15:829][171]LogOutputDevice: Error: 
+[2020.02.20-08.04.15:829][171]LogOutputDevice: Error: Stack: 
+[2020.02.20-08.04.15:829][171]LogOutputDevice: Error: [Callstack] 0x00007ffc15a3d4f8 UE4Editor-Marine_Squad-5672.dll!<lambda_d0492a1570bc9c276774895e136238bc>::operator()() [C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Source\Marine_Squad\UnitSelectorCircle.cpp:13]
+[2020.02.20-08.04.15:829][171]LogOutputDevice: Error: [Callstack] 0x00007ffc15a36303 UE4Editor-Marine_Squad-5672.dll!UUnitSelectorCircle::Initialize() [C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Source\Marine_Squad\UnitSelectorCircle.cpp:13]
+[2020.02.20-08.04.15:829][171]LogOutputDevice: Error: [Callstack] 0x00007ffc2253a6a5 UE4Editor-UMG.dll!UnknownFunction []
+[2020.02.20-08.04.15:829][171]LogOutputDevice: Error: [Callstack] 0x00007ffc224a8c77 UE4Editor-UMG.dll!UnknownFunction []
+[2020.02.20-08.04.15:829][171]LogOutputDevice: Error: [Callstack] 0x00007ffc225686e0 UE4Editor-UMG.dll!UnknownFunction []
+[2020.02.20-08.04.15:830][171]LogOutputDevice: Error: [Callstack] 0x00007ffc2258580b UE4Editor-UMG.dll!UnknownFunction []
+[2020.02.20-08.04.15:830][171]LogOutputDevice: Error: [Callstack] 0x00007ffc23b14cfd UE4Editor-Engine.dll!UnknownFunction []
+[2020.02.20-08.04.15:830][171]LogOutputDevice: Error: [Callstack] 0x00007ffc239a4605 UE4Editor-Engine.dll!UnknownFunction []
+[2020.02.20-08.04.15:830][171]LogOutputDevice: Error: [Callstack] 0x00007ffc23b0f30c UE4Editor-Engine.dll!UnknownFunction []
+[2020.02.20-08.04.15:830][171]LogOutputDevice: Error: [Callstack] 0x00007ffc23bedfab UE4Editor-Engine.dll!UnknownFunction []
+[2020.02.20-08.04.15:830][171]LogOutputDevice: Error: [Callstack] 0x00007ffc23b95daa UE4Editor-Engine.dll!UnknownFunction []
+[2020.02.20-08.04.15:830][171]LogOutputDevice: Error: [Callstack] 0x00007ffc2c63c0e9 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.02.20-08.04.15:830][171]LogOutputDevice: Error: [Callstack] 0x00007ffc23b36c66 UE4Editor-Engine.dll!UnknownFunction []
+[2020.02.20-08.04.15:830][171]LogOutputDevice: Error: [Callstack] 0x00007ffc23b94d6a UE4Editor-Engine.dll!UnknownFunction []
+[2020.02.20-08.04.15:831][171]LogOutputDevice: Error: [Callstack] 0x00007ffc23b94b47 UE4Editor-Engine.dll!UnknownFunction []
+[2020.02.20-08.04.15:831][171]LogOutputDevice: Error: [Callstack] 0x00007ffc2c63e297 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.02.20-08.04.15:831][171]LogOutputDevice: Error: [Callstack] 0x00007ffc2c63bdf7 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.02.20-08.04.15:831][171]LogOutputDevice: Error: [Callstack] 0x00007ffc23b36c66 UE4Editor-Engine.dll!UnknownFunction []
+[2020.02.20-08.04.15:831][171]LogOutputDevice: Error: [Callstack] 0x00007ffc23b94d6a UE4Editor-Engine.dll!UnknownFunction []
+[2020.02.20-08.04.15:831][171]LogOutputDevice: Error: [Callstack] 0x00007ffc23b94b47 UE4Editor-Engine.dll!UnknownFunction []
+[2020.02.20-08.04.15:831][171]LogOutputDevice: Error: [Callstack] 0x00007ffc1d5ccc43 UE4Editor-PropertyEditor.dll!UnknownFunction []
+[2020.02.20-08.04.15:831][171]LogOutputDevice: Error: [Callstack] 0x00007ffc1d5bde84 UE4Editor-PropertyEditor.dll!UnknownFunction []
+[2020.02.20-08.04.15:831][171]LogOutputDevice: Error: [Callstack] 0x00007ffc1d5be337 UE4Editor-PropertyEditor.dll!UnknownFunction []
+[2020.02.20-08.04.15:832][171]LogOutputDevice: Error: [Callstack] 0x00007ffc1d608069 UE4Editor-PropertyEditor.dll!UnknownFunction []
+[2020.02.20-08.04.15:832][171]LogOutputDevice: Error: [Callstack] 0x00007ffc1d6087eb UE4Editor-PropertyEditor.dll!UnknownFunction []
+[2020.02.20-08.04.15:832][171]LogOutputDevice: Error: [Callstack] 0x00007ffc1d6e528f UE4Editor-PropertyEditor.dll!UnknownFunction []
+[2020.02.20-08.04.15:832][171]LogOutputDevice: Error: [Callstack] 0x00007ffc1d6be375 UE4Editor-PropertyEditor.dll!UnknownFunction []
+[2020.02.20-08.04.15:832][171]LogOutputDevice: Error: [Callstack] 0x00007ffc1d698326 UE4Editor-PropertyEditor.dll!UnknownFunction []
+[2020.02.20-08.04.15:832][171]LogOutputDevice: Error: [Callstack] 0x00007ffc1b79a4a8 UE4Editor-ClassViewer.dll!UnknownFunction []
+[2020.02.20-08.04.15:832][171]LogOutputDevice: Error: [Callstack] 0x00007ffc1b789a44 UE4Editor-ClassViewer.dll!UnknownFunction []
+[2020.02.20-08.04.15:832][171]LogOutputDevice: Error: [Callstack] 0x00007ffc1b7a521a UE4Editor-ClassViewer.dll!UnknownFunction []
+[2020.02.20-08.04.15:833][171]LogOutputDevice: Error: [Callstack] 0x00007ffc1b79fb2e UE4Editor-ClassViewer.dll!UnknownFunction []
+[2020.02.20-08.04.15:833][171]LogOutputDevice: Error: [Callstack] 0x00007ffc276e4021 UE4Editor-Slate.dll!UnknownFunction []
+[2020.02.20-08.04.15:833][171]LogOutputDevice: Error: [Callstack] 0x00007ffc27760301 UE4Editor-Slate.dll!UnknownFunction []
+[2020.02.20-08.04.15:833][171]LogOutputDevice: Error: [Callstack] 0x00007ffc2774aaca UE4Editor-Slate.dll!UnknownFunction []
+[2020.02.20-08.04.15:833][171]LogOutputDevice: Error: [Callstack] 0x00007ffc27740414 UE4Editor-Slate.dll!UnknownFunction []
+[2020.02.20-08.04.15:833][171]LogOutputDevice: Error: [Callstack] 0x00007ffc4eabb8e0 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.02.20-08.04.15:833][171]LogOutputDevice: Error: [Callstack] 0x00007ffc4eaaef9f UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.02.20-08.04.15:833][171]LogOutputDevice: Error: [Callstack] 0x00007ffc4eabd77f UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.02.20-08.04.15:833][171]LogOutputDevice: Error: [Callstack] 0x00007ffc4eaac090 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.02.20-08.04.15:834][171]LogOutputDevice: Error: [Callstack] 0x00007ffc63285b6d USER32.dll!UnknownFunction []
+[2020.02.20-08.04.15:834][171]LogOutputDevice: Error: [Callstack] 0x00007ffc63285562 USER32.dll!UnknownFunction []
+[2020.02.20-08.04.15:834][171]LogOutputDevice: Error: [Callstack] 0x00007ffc4eabe946 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.02.20-08.04.15:834][171]LogOutputDevice: Error: [Callstack] 0x00007ff700bb5d3e UE4Editor.exe!UnknownFunction []
+[2020.02.20-08.04.15:834][171]LogOutputDevice: Error: [Callstack] 0x00007ff700bc554c UE4Editor.exe!UnknownFunction []
+[2020.02.20-08.04.15:834][171]LogOutputDevice: Error: [Callstack] 0x00007ff700bc55ca UE4Editor.exe!UnknownFunction []
+[2020.02.20-08.04.15:834][171]LogOutputDevice: Error: [Callstack] 0x00007ff700bd316c UE4Editor.exe!UnknownFunction []
+[2020.02.20-08.04.15:834][171]LogOutputDevice: Error: [Callstack] 0x00007ff700bd5b8e UE4Editor.exe!UnknownFunction []
+[2020.02.20-08.04.15:835][171]LogOutputDevice: Error: [Callstack] 0x00007ffc620d7bd4 KERNEL32.DLL!UnknownFunction []
+[2020.02.20-08.04.15:835][171]LogOutputDevice: Error: [Callstack] 0x00007ffc6392ced1 ntdll.dll!UnknownFunction []
+[2020.02.20-08.04.15:835][171]LogOutputDevice: Error: 
+[2020.02.20-08.04.15:838][171]LogStats:                SubmitErrorReport -  0.000 s
+[2020.02.20-08.04.17:849][171]LogStats:                    SendNewReport -  2.011 s
+[2020.02.20-08.04.17:849][171]LogStats:             FDebug::EnsureFailed -  3.429 s
+[2020.02.20-08.04.36:613][641]BlueprintLog: New page: Compile BasicUnit
+[2020.02.20-08.04.36:882][641]LogUObjectHash: Compacting FUObjectHashTables data took   4.10ms
+[2020.02.20-08.04.38:156][713]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.02.20-08.04.38:187][713]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2020.02.20-08.04.38:187][713]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.20-08.04.38:187][713]PIE: New page: PIE session: Town (Feb 19, 2020, 8:04:38 PM)
+[2020.02.20-08.04.38:187][713]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Town
+[2020.02.20-08.04.38:238][713]LogPlayLevel: PIE: StaticDuplicateObject took: (0.051230s)
+[2020.02.20-08.04.38:240][713]LogAIModule: Creating AISystem for world Town
+[2020.02.20-08.04.38:240][713]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_976865d7f760a47e2a086b15bf7dcbd9>::operator ()(41)] Fog Controller is created for: Town
+[2020.02.20-08.04.38:240][713]LogPlayLevel: PIE: World Init took: (0.000878s)
+[2020.02.20-08.04.38:240][713]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Town.Town to /Game/Maps/UEDPIE_0_Town.Town (0.052485s)
+[2020.02.20-08.04.38:277][713]LogUObjectHash: Compacting FUObjectHashTables data took   3.88ms
+[2020.02.20-08.04.38:316][713]LogInit: XAudio2 using 'HEAD SET (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.02.20-08.04.38:328][713]LogInit: FAudioDevice initialized.
+[2020.02.20-08.04.38:337][713]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.20-08.04.38:371][713]LogLoad: Game class is 'MyGameModeBase_MarineSquad_BP_C'
+[2020.02.20-08.04.38:380][713]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Town.Town up for play (max tick rate 0) at 2020.02.20-02.04.38
+[2020.02.20-08.04.38:381][713]LogWorld: Bringing up level for play took: 0.009734
+[2020.02.20-08.04.38:399][713]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Town -0.618
+[2020.02.20-08.04.38:400][713]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2020.02.20-08.04.39:360][770]LogTemp: Warning: Left Mouse Button Pressed
+[2020.02.20-08.04.39:659][792]LogTemp: Warning: Left Mouse Button Released
+[2020.02.20-08.04.39:922][811]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.20-08.04.40:053][821]LogTemp: Warning: Right Mouse Button Released
+[2020.02.20-08.04.42:115][979]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2020.02.20-08.04.42:116][979]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.20-08.04.42:134][979]LogSlate: Window 'Marine_Squad Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.02.20-08.04.42:143][979]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_144d8ffb0c7ca55232a4412d9c0c3636>::operator ()(31)] Fog Controller is removed for: Town
+[2020.02.20-08.04.42:178][979]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.20-08.04.42:179][979]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2020.02.20-08.04.42:230][979]LogUObjectHash: Compacting FUObjectHashTables data took   3.16ms
+[2020.02.20-08.04.42:277][980]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2020.02.20-08.04.46:864][299]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.02.20-08.05.00:656][583]BlueprintLog: New page: Compile BasicUnit
+[2020.02.20-08.05.00:921][583]LogUObjectHash: Compacting FUObjectHashTables data took   3.90ms
+[2020.02.20-08.05.02:496][681]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.02.20-08.05.02:527][681]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2020.02.20-08.05.02:528][681]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.20-08.05.02:528][681]PIE: New page: PIE session: Town (Feb 19, 2020, 8:05:02 PM)
+[2020.02.20-08.05.02:528][681]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Town
+[2020.02.20-08.05.02:576][681]LogPlayLevel: PIE: StaticDuplicateObject took: (0.047933s)
+[2020.02.20-08.05.02:577][681]LogAIModule: Creating AISystem for world Town
+[2020.02.20-08.05.02:577][681]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_976865d7f760a47e2a086b15bf7dcbd9>::operator ()(41)] Fog Controller is created for: Town
+[2020.02.20-08.05.02:577][681]LogPlayLevel: PIE: World Init took: (0.000918s)
+[2020.02.20-08.05.02:577][681]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Town.Town to /Game/Maps/UEDPIE_0_Town.Town (0.049252s)
+[2020.02.20-08.05.02:617][681]LogUObjectHash: Compacting FUObjectHashTables data took   3.89ms
+[2020.02.20-08.05.02:656][681]LogInit: XAudio2 using 'HEAD SET (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.02.20-08.05.02:667][681]LogInit: FAudioDevice initialized.
+[2020.02.20-08.05.02:676][681]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.20-08.05.02:708][681]LogLoad: Game class is 'MyGameModeBase_MarineSquad_BP_C'
+[2020.02.20-08.05.02:716][681]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Town.Town up for play (max tick rate 0) at 2020.02.20-02.05.02
+[2020.02.20-08.05.02:717][681]LogWorld: Bringing up level for play took: 0.008200
+[2020.02.20-08.05.02:734][681]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Town -0.284
+[2020.02.20-08.05.02:734][681]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2020.02.20-08.05.05:462][873]LogTemp: Warning: Left Mouse Button Pressed
+[2020.02.20-08.05.05:586][882]LogTemp: Warning: Left Mouse Button Released
+[2020.02.20-08.05.06:515][952]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2020.02.20-08.05.06:516][952]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.20-08.05.06:536][952]LogSlate: Window 'Marine_Squad Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.02.20-08.05.06:545][952]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_144d8ffb0c7ca55232a4412d9c0c3636>::operator ()(31)] Fog Controller is removed for: Town
+[2020.02.20-08.05.06:577][952]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.20-08.05.06:578][952]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2020.02.20-08.05.06:631][952]LogUObjectHash: Compacting FUObjectHashTables data took   3.28ms
+[2020.02.20-08.05.06:689][953]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2020.02.20-08.06.39:620][ 23]LogUObjectHash: Compacting FUObjectHashTables data took   3.75ms
+[2020.02.20-08.06.42:764][ 23]LogSlate: Window 'Delete Assets' being destroyed
+[2020.02.20-08.06.42:780][ 23]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_144d8ffb0c7ca55232a4412d9c0c3636>::operator ()(31)] Fog Controller is removed for: World_4
+[2020.02.20-08.06.42:866][ 23]LogSlate: Window 'MyCoolButton' being destroyed
+[2020.02.20-08.06.42:925][ 23]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_144d8ffb0c7ca55232a4412d9c0c3636>::operator ()(31)] Fog Controller is removed for: World_7
+[2020.02.20-08.06.42:930][ 23]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_144d8ffb0c7ca55232a4412d9c0c3636>::operator ()(31)] Fog Controller is removed for: World_6
+[2020.02.20-08.06.42:971][ 23]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/BP/Units_BP/UnitsEffects/MyCoolButton.MyCoolButton
+[2020.02.20-08.06.53:037][ 23]LogUObjectHash: Compacting FUObjectHashTables data took   5.15ms
+[2020.02.20-08.06.56:919][386]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/BP/Units_BP/UnitsEffects/SelectionCircle.SelectionCircle
+[2020.02.20-08.06.56:920][386]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_976865d7f760a47e2a086b15bf7dcbd9>::operator ()(41)] Fog Controller is created for: World_8
+[2020.02.20-08.06.56:927][386]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_976865d7f760a47e2a086b15bf7dcbd9>::operator ()(41)] Fog Controller is created for: World_9
+[2020.02.20-08.06.59:192][565]LogSlate: Window 'SelectionCircle' being destroyed
+[2020.02.20-08.06.59:196][565]LogSlate: Window 'SelectionCircle' being destroyed
+[2020.02.20-08.06.59:204][565]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_144d8ffb0c7ca55232a4412d9c0c3636>::operator ()(31)] Fog Controller is removed for: World_9
+[2020.02.20-08.06.59:208][565]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_144d8ffb0c7ca55232a4412d9c0c3636>::operator ()(31)] Fog Controller is removed for: World_8
+[2020.02.20-08.07.02:075][877]LogUObjectHash: Compacting FUObjectHashTables data took   3.75ms
+[2020.02.20-08.07.03:412][877]LogSlate: Took 0.007168 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.02.20-08.07.12:751][877]LogBlueprint: Warning: Timeline GoldMine_Timeline Track NewTrack_0 in /Engine/Transient.REINST_BP_GoldMine_C_91 has an invalid curve.  Please fix!
+[2020.02.20-08.07.15:592][877]LogSlate: Window 'Delete Assets' being destroyed
+[2020.02.20-08.07.15:597][877]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/BP/Units_BP/UnitsEffects/SelectionCircle.SelectionCircle
+[2020.02.20-08.07.17:491][877]LogUObjectHash: Compacting FUObjectHashTables data took   3.66ms
+[2020.02.20-08.07.17:527][877]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2020.02.20-08.07.17:556][877]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2020.02.20-08.07.21:745][330]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2020.02.20-08.07.22:710][423]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.20-08.07.24:849][648]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BP/Units_BP/BasicUnit.BasicUnit
+[2020.02.20-08.07.24:850][648]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_976865d7f760a47e2a086b15bf7dcbd9>::operator ()(41)] Fog Controller is created for: World_10
+[2020.02.20-08.07.32:593][114]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.02.20-08.07.33:307][183]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.02.20-08.07.33:329][183]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2020.02.20-08.07.33:330][183]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.20-08.07.33:330][183]PIE: New page: PIE session: Town (Feb 19, 2020, 8:07:33 PM)
+[2020.02.20-08.07.33:330][183]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Town
+[2020.02.20-08.07.33:377][183]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046524s)
+[2020.02.20-08.07.33:377][183]LogAIModule: Creating AISystem for world Town
+[2020.02.20-08.07.33:377][183]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_976865d7f760a47e2a086b15bf7dcbd9>::operator ()(41)] Fog Controller is created for: Town
+[2020.02.20-08.07.33:377][183]LogPlayLevel: PIE: World Init took: (0.000796s)
+[2020.02.20-08.07.33:378][183]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Town.Town to /Game/Maps/UEDPIE_0_Town.Town (0.047781s)
+[2020.02.20-08.07.33:410][183]LogUObjectHash: Compacting FUObjectHashTables data took   2.73ms
+[2020.02.20-08.07.33:453][183]LogInit: XAudio2 using 'HEAD SET (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.02.20-08.07.33:465][183]LogInit: FAudioDevice initialized.
+[2020.02.20-08.07.33:474][183]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.20-08.07.33:507][183]LogLoad: Game class is 'MyGameModeBase_MarineSquad_BP_C'
+[2020.02.20-08.07.33:515][183]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Town.Town up for play (max tick rate 0) at 2020.02.20-02.07.33
+[2020.02.20-08.07.33:516][183]LogWorld: Bringing up level for play took: 0.008706
+[2020.02.20-08.07.33:534][183]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Town 0.516
+[2020.02.20-08.07.33:534][183]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2020.02.20-08.07.34:326][236]LogTemp: Warning: Left Mouse Button Pressed
+[2020.02.20-08.07.34:509][249]LogTemp: Warning: Left Mouse Button Released
+[2020.02.20-08.07.34:672][261]LogTemp: Warning: Right Mouse Button Pressed
+[2020.02.20-08.07.34:796][271]LogTemp: Warning: Right Mouse Button Released
+[2020.02.20-08.07.35:741][347]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2020.02.20-08.07.35:744][347]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.20-08.07.35:763][347]LogSlate: Window 'Marine_Squad Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.02.20-08.07.35:772][347]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_144d8ffb0c7ca55232a4412d9c0c3636>::operator ()(31)] Fog Controller is removed for: Town
+[2020.02.20-08.07.35:812][347]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.20-08.07.35:812][347]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2020.02.20-08.07.35:858][347]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2020.02.20-08.07.35:904][348]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2020.02.20-08.07.38:158][505]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.20-08.08.13:092][269]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BP/Units_BP/UnitsEffects/MyUnitSelectorCircle_BP.MyUnitSelectorCircle_BP
+[2020.02.20-08.08.13:093][269]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_976865d7f760a47e2a086b15bf7dcbd9>::operator ()(41)] Fog Controller is created for: World_11
+[2020.02.20-08.08.13:379][269]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2020.02.20-08.09.19:984][753]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2020.02.20-08.09.19:986][753]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Town" FILE="C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Autosaves/Game/Maps/Town_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2020.02.20-08.09.20:762][753]LogSavePackage: Moving 'C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Town_Auto379008312472F7BDE492DA2966B65AC3A.tmp' to 'C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Autosaves/Game/Maps/Town_Auto3.umap'
+[2020.02.20-08.09.20:770][753]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Town' took 0.828
+[2020.02.20-08.09.20:770][753]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.828
+[2020.02.20-08.09.20:771][753]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BP/Units_BP/BasicUnit] ([1] browsable assets)...
+[2020.02.20-08.09.20:784][753]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BP/Units_BP/BasicUnit.BasicUnit]
+[2020.02.20-08.09.20:784][753]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP/Units_BP/BasicUnit]
+[2020.02.20-08.09.20:868][753]LogSavePackage: Moving 'C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/BasicUnit_Auto36A2CA145434032F44FFF9CB38D794F88.tmp' to 'C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Autosaves/Game/BP/Units_BP/BasicUnit_Auto3.uasset'
+[2020.02.20-08.09.20:871][753]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP/Units_BP/UnitsEffects/MyUnitSelectorCircle_BP] ([1] browsable assets)...
+[2020.02.20-08.09.20:871][753]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP/Units_BP/UnitsEffects/MyUnitSelectorCircle_BP]
+[2020.02.20-08.09.20:882][753]LogSavePackage: Moving 'C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/MyUnitSelectorCircle_BP_Auto38EC7E7934F376ACA05A62CBCABF26DCB.tmp' to 'C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Autosaves/Game/BP/Units_BP/UnitsEffects/MyUnitSelectorCircle_BP_Auto3.uasset'
+[2020.02.20-08.09.20:883][753]LogFileHelpers: Auto-saving content packages took 0.112
+[2020.02.20-08.09.47:166][459]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/BP/Units_BP/UnitsEffects/NewWidgetBlueprint.NewWidgetBlueprint
+[2020.02.20-08.09.47:167][459]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_976865d7f760a47e2a086b15bf7dcbd9>::operator ()(41)] Fog Controller is created for: World_12
+[2020.02.20-08.09.47:173][459]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_976865d7f760a47e2a086b15bf7dcbd9>::operator ()(41)] Fog Controller is created for: World_13
+[2020.02.20-08.13.23:748][484]LogUObjectHash: Compacting FUObjectHashTables data took   3.50ms
+[2020.02.20-08.13.25:459][484]LogSlate: Window 'Delete Assets' being destroyed
+[2020.02.20-08.13.25:470][484]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_144d8ffb0c7ca55232a4412d9c0c3636>::operator ()(31)] Fog Controller is removed for: World_11
+[2020.02.20-08.13.25:521][484]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_144d8ffb0c7ca55232a4412d9c0c3636>::operator ()(31)] Fog Controller is removed for: World_10
+[2020.02.20-08.13.25:602][484]LogSlate: Window 'NewWidgetBlueprint' being destroyed
+[2020.02.20-08.13.25:612][484]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_144d8ffb0c7ca55232a4412d9c0c3636>::operator ()(31)] Fog Controller is removed for: World_13
+[2020.02.20-08.13.25:616][484]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_144d8ffb0c7ca55232a4412d9c0c3636>::operator ()(31)] Fog Controller is removed for: World_12
+[2020.02.20-08.13.25:637][484]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/BP/Units_BP/UnitsEffects/MyUnitSelectorCircle_BP.MyUnitSelectorCircle_BP
+[2020.02.20-08.13.26:194][484]LogUObjectHash: Compacting FUObjectHashTables data took   3.07ms
+[2020.02.20-08.13.28:540][726]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2020.02.20-08.13.29:814][726]LogSlate: Window 'Delete Assets' being destroyed
+[2020.02.20-08.13.29:898][726]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2020.02.20-08.13.36:318][432]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2020.02.20-08.13.37:567][432]LogSlate: Window 'Delete Assets' being destroyed
+[2020.02.20-08.13.37:648][432]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2020.02.20-08.13.55:608][424]LogSlate: Window 'Add C++ Class' being destroyed
+[2020.02.20-08.15.01:754][230]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BP/Units_BP/UnitsEffects/MyUnitSelectorCircle_BP.MyUnitSelectorCircle_BP
+[2020.02.20-08.15.01:756][230]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_976865d7f760a47e2a086b15bf7dcbd9>::operator ()(41)] Fog Controller is created for: World_14
+[2020.02.20-08.15.02:048][230]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2020.02.20-08.16.45:060][758]LogSlate: Took 0.006214 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2020.02.20-08.19.21:416][130]LogUObjectHash: Compacting FUObjectHashTables data took   3.49ms
+[2020.02.20-08.19.21:416][130]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Town' took 0.041
+[2020.02.20-08.19.21:417][130]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP/Units_BP/UnitsEffects/MyUnitSelectorCircle_BP] ([1] browsable assets)...
+[2020.02.20-08.19.21:418][130]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP/Units_BP/UnitsEffects/MyUnitSelectorCircle_BP]
+[2020.02.20-08.19.21:428][130]LogSavePackage: Moving 'C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/MyUnitSelectorCircle_BP_Auto4E7EC55F641B4A9757653F684C6D0B6A8.tmp' to 'C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Autosaves/Game/BP/Units_BP/UnitsEffects/MyUnitSelectorCircle_BP_Auto4.uasset'
+[2020.02.20-08.19.21:430][130]LogFileHelpers: Auto-saving content packages took 0.013
+[2020.02.20-08.20.11:505][388]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2020.02.20-08.20.12:997][388]LogSlate: Window 'Delete Assets' being destroyed
+[2020.02.20-08.20.13:004][388]LogSlate: Window 'MyUnitSelectorCircle_BP' being destroyed
+[2020.02.20-08.20.13:011][388]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_144d8ffb0c7ca55232a4412d9c0c3636>::operator ()(31)] Fog Controller is removed for: World_14
+[2020.02.20-08.20.13:041][388]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/BP/Units_BP/UnitsEffects/MyUnitSelectorCircle_BP.MyUnitSelectorCircle_BP
+[2020.02.20-08.20.13:590][388]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2020.02.20-08.20.24:992][714]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/BP/Units_BP/UnitsEffects/UnitSelectorCircle.UnitSelectorCircle
+[2020.02.20-08.20.24:993][714]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_976865d7f760a47e2a086b15bf7dcbd9>::operator ()(41)] Fog Controller is created for: World_15
+[2020.02.20-08.20.25:000][714]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_976865d7f760a47e2a086b15bf7dcbd9>::operator ()(41)] Fog Controller is created for: World_16
+[2020.02.20-08.21.34:102][722]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.02.20-08.21.41:934][647]LogBlueprint: Warning: Reparenting blueprint WidgetBlueprint /Game/BP/Units_BP/UnitsEffects/UnitSelectorCircle.UnitSelectorCircle from UserWidget to UnitSelectorCircle...
+[2020.02.20-08.21.41:939][647]LogBlueprint: Error: [Compiler UnitSelectorCircle] A required widget binding "MyCoolButton" of type  Button  was not found.
+[2020.02.20-08.21.41:939][647]LogBlueprint: Warning: [Compiler UnitSelectorCircle] [5220.87] Compile of UnitSelectorCircle failed. 1 Fatal Issue(s) 0 Warning(s) [in 2 ms] (/Game/BP/Units_BP/UnitsEffects/UnitSelectorCircle.UnitSelectorCircle)
+[2020.02.20-08.21.41:947][647]BlueprintLog: New page: Compile UnitSelectorCircle
+[2020.02.20-08.21.41:948][647]LogBlueprint: Error: [Compiler UnitSelectorCircle] A required widget binding "MyCoolButton" of type  Button  was not found.
+[2020.02.20-08.21.42:149][647]LogUObjectHash: Compacting FUObjectHashTables data took   3.37ms
+[2020.02.20-08.21.42:157][647]LogBlueprint: Warning: [Compiler UnitSelectorCircle] [5221.09] Compile of UnitSelectorCircle failed. 1 Fatal Issue(s) 0 Warning(s) [in 209 ms] (/Game/BP/Units_BP/UnitsEffects/UnitSelectorCircle.UnitSelectorCircle)
+[2020.02.20-08.21.55:357][946]LogBlueprint: Error: [Compiler UnitSelectorCircle] A required widget binding "MyCoolButton" of type  Button  was not found.
+[2020.02.20-08.21.55:358][946]LogBlueprint: Warning: [Compiler UnitSelectorCircle] [5234.29] Compile of UnitSelectorCircle failed. 1 Fatal Issue(s) 0 Warning(s) [in 0 ms] (/Game/BP/Units_BP/UnitsEffects/UnitSelectorCircle.UnitSelectorCircle)
+[2020.02.20-08.22.02:532][514]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2020.02.20-08.22.02:541][514]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.009 s
+[2020.02.20-08.22.02:541][514]LogOutputDevice: Error: === Handled ensure: ===
+[2020.02.20-08.22.02:541][514]LogOutputDevice: Error: 
+[2020.02.20-08.22.02:541][514]LogOutputDevice: Error: Ensure condition failed: this->IsBound() [File:Q:\UE_4.22\Engine\Source\Runtime\Core\Public\Delegates/DelegateSignatureImpl.inl] [Line: 1098]
+[2020.02.20-08.22.02:541][514]LogOutputDevice: Error: Unable to bind delegate to 'DoAction' (function might not be marked as a UFUNCTION or object may be pending kill)
+[2020.02.20-08.22.02:541][514]LogOutputDevice: Error: Stack: 
+[2020.02.20-08.22.02:542][514]LogOutputDevice: Error: [Callstack] 0x00007ffc15a3d3f1 UE4Editor-Marine_Squad-5672.dll!DispatchCheckVerify<bool,<lambda_644f687e107c731737d0a1f9120d8b56> >() [Q:\UE_4.22\Engine\Source\Runtime\Core\Public\Misc\AssertionMacros.h:161]
+[2020.02.20-08.22.02:542][514]LogOutputDevice: Error: [Callstack] 0x00007ffc15a364a1 UE4Editor-Marine_Squad-5672.dll!UUnitSelectorCircle::Initialize() [C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Source\Marine_Squad\UnitSelectorCircle.cpp:14]
+[2020.02.20-08.22.02:542][514]LogOutputDevice: Error: [Callstack] 0x00007ffc1bb70647 UE4Editor-UMGEditor.dll!UnknownFunction []
+[2020.02.20-08.22.02:542][514]LogOutputDevice: Error: [Callstack] 0x00007ffc1bb4bec3 UE4Editor-UMGEditor.dll!UnknownFunction []
+[2020.02.20-08.22.02:542][514]LogOutputDevice: Error: [Callstack] 0x00007ffc1bb190db UE4Editor-UMGEditor.dll!UnknownFunction []
+[2020.02.20-08.22.02:542][514]LogOutputDevice: Error: [Callstack] 0x00007ffc21568849 UE4Editor-Kismet.dll!UnknownFunction []
+[2020.02.20-08.22.02:542][514]LogOutputDevice: Error: [Callstack] 0x00007ffc236e802e UE4Editor-Engine.dll!UnknownFunction []
+[2020.02.20-08.22.02:543][514]LogOutputDevice: Error: [Callstack] 0x00007ffc1ecd65d3 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.02.20-08.22.02:543][514]LogOutputDevice: Error: [Callstack] 0x00007ffc1bb570c8 UE4Editor-UMGEditor.dll!UnknownFunction []
+[2020.02.20-08.22.02:543][514]LogOutputDevice: Error: [Callstack] 0x00007ffc1bb32406 UE4Editor-UMGEditor.dll!UnknownFunction []
+[2020.02.20-08.22.02:543][514]LogOutputDevice: Error: [Callstack] 0x00007ffc1bb3249f UE4Editor-UMGEditor.dll!UnknownFunction []
+[2020.02.20-08.22.02:543][514]LogOutputDevice: Error: [Callstack] 0x00007ffc1babcfb9 UE4Editor-UMGEditor.dll!UnknownFunction []
+[2020.02.20-08.22.02:543][514]LogOutputDevice: Error: [Callstack] 0x00007ffc2792b61a UE4Editor-Slate.dll!UnknownFunction []
+[2020.02.20-08.22.02:543][514]LogOutputDevice: Error: [Callstack] 0x00007ffc278fee59 UE4Editor-Slate.dll!UnknownFunction []
+[2020.02.20-08.22.02:543][514]LogOutputDevice: Error: [Callstack] 0x00007ffc2795cc60 UE4Editor-Slate.dll!UnknownFunction []
+[2020.02.20-08.22.02:543][514]LogOutputDevice: Error: [Callstack] 0x00007ffc27765efe UE4Editor-Slate.dll!UnknownFunction []
+[2020.02.20-08.22.02:544][514]LogOutputDevice: Error: [Callstack] 0x00007ffc2775e8ff UE4Editor-Slate.dll!UnknownFunction []
+[2020.02.20-08.22.02:544][514]LogOutputDevice: Error: [Callstack] 0x00007ffc2774a506 UE4Editor-Slate.dll!UnknownFunction []
+[2020.02.20-08.22.02:544][514]LogOutputDevice: Error: [Callstack] 0x00007ffc2773ff82 UE4Editor-Slate.dll!UnknownFunction []
+[2020.02.20-08.22.02:544][514]LogOutputDevice: Error: [Callstack] 0x00007ffc4eabb932 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.02.20-08.22.02:544][514]LogOutputDevice: Error: [Callstack] 0x00007ffc4eaaef9f UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.02.20-08.22.02:544][514]LogOutputDevice: Error: [Callstack] 0x00007ffc4eabd77f UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.02.20-08.22.02:544][514]LogOutputDevice: Error: [Callstack] 0x00007ffc4eaac090 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.02.20-08.22.02:544][514]LogOutputDevice: Error: [Callstack] 0x00007ffc63285b6d USER32.dll!UnknownFunction []
+[2020.02.20-08.22.02:545][514]LogOutputDevice: Error: [Callstack] 0x00007ffc63285562 USER32.dll!UnknownFunction []
+[2020.02.20-08.22.02:545][514]LogOutputDevice: Error: [Callstack] 0x00007ffc4eabe946 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.02.20-08.22.02:545][514]LogOutputDevice: Error: [Callstack] 0x00007ff700bb5d3e UE4Editor.exe!UnknownFunction []
+[2020.02.20-08.22.02:545][514]LogOutputDevice: Error: [Callstack] 0x00007ff700bc554c UE4Editor.exe!UnknownFunction []
+[2020.02.20-08.22.02:545][514]LogOutputDevice: Error: [Callstack] 0x00007ff700bc55ca UE4Editor.exe!UnknownFunction []
+[2020.02.20-08.22.02:545][514]LogOutputDevice: Error: [Callstack] 0x00007ff700bd316c UE4Editor.exe!UnknownFunction []
+[2020.02.20-08.22.02:545][514]LogOutputDevice: Error: [Callstack] 0x00007ff700bd5b8e UE4Editor.exe!UnknownFunction []
+[2020.02.20-08.22.02:545][514]LogOutputDevice: Error: [Callstack] 0x00007ffc620d7bd4 KERNEL32.DLL!UnknownFunction []
+[2020.02.20-08.22.02:545][514]LogOutputDevice: Error: [Callstack] 0x00007ffc6392ced1 ntdll.dll!UnknownFunction []
+[2020.02.20-08.22.02:545][514]LogOutputDevice: Error: 
+[2020.02.20-08.22.02:547][514]LogStats:                SubmitErrorReport -  0.000 s

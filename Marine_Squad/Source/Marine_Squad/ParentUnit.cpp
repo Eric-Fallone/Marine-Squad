@@ -23,8 +23,10 @@ void AParentUnit::BeginPlay()
 		HealthCurrent = HealthMax;
 	}
 	HealthPercent = (HealthCurrent / HealthMax);
-	UE_LOG(LogTemp, Warning, TEXT("Setting HPPercent to %f"),HealthPercent)
+	//sets movement speed
 	GetCharacterMovement()->MaxWalkSpeed = MoveSpeed;
+	//sets widget component
+
 }
 
 // Called every frame
