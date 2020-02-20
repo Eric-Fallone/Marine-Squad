@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "Widget.h"
 #include "ParentUnit.generated.h"
 
 UCLASS()
@@ -71,4 +72,6 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=UnitTarget)
 	AParentUnit* CurrentTarget;
 
+	//unit selection unit
+    UWidget *SelectionCircle;
 };

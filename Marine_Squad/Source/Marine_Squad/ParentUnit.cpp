@@ -58,7 +58,7 @@ void AParentUnit::TakeDamage(float DamageTaken)
 {
 	HealthCurrent = HealthCurrent - DamageTaken;
 	HealthPercent = (HealthCurrent / HealthMax);
-	UE_LOG(LogTemp, Warning, TEXT("Setting HPPercent to %f"),HealthPercent)
+	//UE_LOG(LogTemp, Warning, TEXT("Setting HPPercent to %f"),HealthPercent)
 	if (HealthCurrent <= 0){
 		KillSelf();
 	}

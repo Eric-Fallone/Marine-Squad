@@ -10,5 +10,15 @@ Q:\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
 Q:\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
 Q:\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
 Q:\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+Q:\UE_4.22\Engine\Source\Runtime\UMG\Public\Components\Widget.h
+Q:\UE_4.22\Engine\Source\Runtime\UMG\Public\Components/Visual.h
+Q:\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\Visual.generated.h
+Q:\UE_4.22\Engine\Source\Runtime\UMG\Public\Components/SlateWrapperTypes.h
+Q:\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\SlateWrapperTypes.generated.h
+Q:\UE_4.22\Engine\Source\Runtime\UMG\Public\Slate/WidgetTransform.h
+Q:\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\WidgetTransform.generated.h
+Q:\UE_4.22\Engine\Source\Editor\UnrealEd\Public\Kismet2/CompilerResultsLog.h
+Q:\UE_4.22\Engine\Source\Editor\UnrealEd\Public\EdGraphToken.h
+Q:\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\Widget.generated.h
 C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Intermediate\Build\Win64\UE4Editor\Inc\Marine_Squad\ParentUnit.generated.h
 C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Intermediate\Build\Win64\UE4Editor\Inc\Marine_Squad\HUD_MarineSquad.generated.h

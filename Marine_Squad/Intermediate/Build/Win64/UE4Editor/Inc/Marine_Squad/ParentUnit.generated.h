@@ -14,7 +14,7 @@ class AParentUnit;
 #endif
 #define MARINE_SQUAD_ParentUnit_generated_h
 
-#define Marine_Squad_Source_Marine_Squad_ParentUnit_h_12_RPC_WRAPPERS \
+#define Marine_Squad_Source_Marine_Squad_ParentUnit_h_13_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execKillSelf) \
 	{ \
@@ -43,7 +43,7 @@ class AParentUnit;
 	}
 
 
-#define Marine_Squad_Source_Marine_Squad_ParentUnit_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+#define Marine_Squad_Source_Marine_Squad_ParentUnit_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execKillSelf) \
 	{ \
@@ -72,7 +72,7 @@ class AParentUnit;
 	}
 
 
-#define Marine_Squad_Source_Marine_Squad_ParentUnit_h_12_INCLASS_NO_PURE_DECLS \
+#define Marine_Squad_Source_Marine_Squad_ParentUnit_h_13_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAParentUnit(); \
 	friend struct Z_Construct_UClass_AParentUnit_Statics; \
@@ -81,7 +81,7 @@ public: \
 	DECLARE_SERIALIZER(AParentUnit)
 
 
-#define Marine_Squad_Source_Marine_Squad_ParentUnit_h_12_INCLASS \
+#define Marine_Squad_Source_Marine_Squad_ParentUnit_h_13_INCLASS \
 private: \
 	static void StaticRegisterNativesAParentUnit(); \
 	friend struct Z_Construct_UClass_AParentUnit_Statics; \
@@ -90,7 +90,7 @@ public: \
 	DECLARE_SERIALIZER(AParentUnit)
 
 
-#define Marine_Squad_Source_Marine_Squad_ParentUnit_h_12_STANDARD_CONSTRUCTORS \
+#define Marine_Squad_Source_Marine_Squad_ParentUnit_h_13_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AParentUnit(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AParentUnit) \
@@ -103,7 +103,7 @@ private: \
 public:
 
 
-#define Marine_Squad_Source_Marine_Squad_ParentUnit_h_12_ENHANCED_CONSTRUCTORS \
+#define Marine_Squad_Source_Marine_Squad_ParentUnit_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AParentUnit(AParentUnit&&); \
@@ -114,26 +114,26 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AParentUnit); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AParentUnit)
 
 
-#define Marine_Squad_Source_Marine_Squad_ParentUnit_h_12_PRIVATE_PROPERTY_OFFSET
-#define Marine_Squad_Source_Marine_Squad_ParentUnit_h_9_PROLOG
-#define Marine_Squad_Source_Marine_Squad_ParentUnit_h_12_GENERATED_BODY_LEGACY \
+#define Marine_Squad_Source_Marine_Squad_ParentUnit_h_13_PRIVATE_PROPERTY_OFFSET
+#define Marine_Squad_Source_Marine_Squad_ParentUnit_h_10_PROLOG
+#define Marine_Squad_Source_Marine_Squad_ParentUnit_h_13_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Marine_Squad_Source_Marine_Squad_ParentUnit_h_12_PRIVATE_PROPERTY_OFFSET \
-	Marine_Squad_Source_Marine_Squad_ParentUnit_h_12_RPC_WRAPPERS \
-	Marine_Squad_Source_Marine_Squad_ParentUnit_h_12_INCLASS \
-	Marine_Squad_Source_Marine_Squad_ParentUnit_h_12_STANDARD_CONSTRUCTORS \
+	Marine_Squad_Source_Marine_Squad_ParentUnit_h_13_PRIVATE_PROPERTY_OFFSET \
+	Marine_Squad_Source_Marine_Squad_ParentUnit_h_13_RPC_WRAPPERS \
+	Marine_Squad_Source_Marine_Squad_ParentUnit_h_13_INCLASS \
+	Marine_Squad_Source_Marine_Squad_ParentUnit_h_13_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Marine_Squad_Source_Marine_Squad_ParentUnit_h_12_GENERATED_BODY \
+#define Marine_Squad_Source_Marine_Squad_ParentUnit_h_13_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Marine_Squad_Source_Marine_Squad_ParentUnit_h_12_PRIVATE_PROPERTY_OFFSET \
-	Marine_Squad_Source_Marine_Squad_ParentUnit_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	Marine_Squad_Source_Marine_Squad_ParentUnit_h_12_INCLASS_NO_PURE_DECLS \
-	Marine_Squad_Source_Marine_Squad_ParentUnit_h_12_ENHANCED_CONSTRUCTORS \
+	Marine_Squad_Source_Marine_Squad_ParentUnit_h_13_PRIVATE_PROPERTY_OFFSET \
+	Marine_Squad_Source_Marine_Squad_ParentUnit_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+	Marine_Squad_Source_Marine_Squad_ParentUnit_h_13_INCLASS_NO_PURE_DECLS \
+	Marine_Squad_Source_Marine_Squad_ParentUnit_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
