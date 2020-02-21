@@ -71,3 +71,21 @@ void AParentUnit::KillSelf()
 {
 	Destroy();
 }
+
+
+void AParentUnit::StartSelect()
+{
+	if(SelectionCircle)
+	{
+		SelectionCircle->SetVisibility(true,true);
+	}
+}
+
+
+void AParentUnit::StopSelect()
+{
+	if(SelectionCircle)
+	{
+		SelectionCircle->SetVisibility(false,true);
+	}
+}

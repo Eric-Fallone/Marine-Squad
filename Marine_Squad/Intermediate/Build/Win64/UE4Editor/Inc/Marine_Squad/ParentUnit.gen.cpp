@@ -19,7 +19,10 @@ void EmptyLinkFunctionForGeneratedCodeParentUnit() {}
 	UPackage* Z_Construct_UPackage__Script_Marine_Squad();
 	MARINE_SQUAD_API UFunction* Z_Construct_UFunction_AParentUnit_Attack();
 	MARINE_SQUAD_API UFunction* Z_Construct_UFunction_AParentUnit_KillSelf();
+	MARINE_SQUAD_API UFunction* Z_Construct_UFunction_AParentUnit_StartSelect();
+	MARINE_SQUAD_API UFunction* Z_Construct_UFunction_AParentUnit_StopSelect();
 	MARINE_SQUAD_API UFunction* Z_Construct_UFunction_AParentUnit_TakeDamage();
+	UMG_API UClass* Z_Construct_UClass_UWidgetComponent_NoRegister();
 // End Cross Module References
 	void AParentUnit::StaticRegisterNativesAParentUnit()
 	{
@@ -27,6 +30,8 @@ void EmptyLinkFunctionForGeneratedCodeParentUnit() {}
 		static const FNameNativePtrPair Funcs[] = {
 			{ "Attack", &AParentUnit::execAttack },
 			{ "KillSelf", &AParentUnit::execKillSelf },
+			{ "StartSelect", &AParentUnit::execStartSelect },
+			{ "StopSelect", &AParentUnit::execStopSelect },
 			{ "TakeDamage", &AParentUnit::execTakeDamage },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
@@ -87,6 +92,52 @@ void EmptyLinkFunctionForGeneratedCodeParentUnit() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_AParentUnit_StartSelect_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AParentUnit_StartSelect_Statics::Function_MetaDataParams[] = {
+		{ "Category", "BasicFunction" },
+		{ "ModuleRelativePath", "ParentUnit.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AParentUnit_StartSelect_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AParentUnit, nullptr, "StartSelect", 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AParentUnit_StartSelect_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AParentUnit_StartSelect_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AParentUnit_StartSelect()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AParentUnit_StartSelect_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AParentUnit_StopSelect_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AParentUnit_StopSelect_Statics::Function_MetaDataParams[] = {
+		{ "Category", "BasicFunction" },
+		{ "ModuleRelativePath", "ParentUnit.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AParentUnit_StopSelect_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AParentUnit, nullptr, "StopSelect", 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AParentUnit_StopSelect_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AParentUnit_StopSelect_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AParentUnit_StopSelect()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AParentUnit_StopSelect_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	struct Z_Construct_UFunction_AParentUnit_TakeDamage_Statics
 	{
 		struct ParentUnit_eventTakeDamage_Parms
@@ -131,6 +182,10 @@ void EmptyLinkFunctionForGeneratedCodeParentUnit() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SelectionCircle_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_SelectionCircle;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CurrentTarget_MetaData[];
 #endif
@@ -190,6 +245,8 @@ void EmptyLinkFunctionForGeneratedCodeParentUnit() {}
 	const FClassFunctionLinkInfo Z_Construct_UClass_AParentUnit_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_AParentUnit_Attack, "Attack" }, // 3925236933
 		{ &Z_Construct_UFunction_AParentUnit_KillSelf, "KillSelf" }, // 71911389
+		{ &Z_Construct_UFunction_AParentUnit_StartSelect, "StartSelect" }, // 230434788
+		{ &Z_Construct_UFunction_AParentUnit_StopSelect, "StopSelect" }, // 2094125952
 		{ &Z_Construct_UFunction_AParentUnit_TakeDamage, "TakeDamage" }, // 879445681
 	};
 #if WITH_METADATA
@@ -199,6 +256,15 @@ void EmptyLinkFunctionForGeneratedCodeParentUnit() {}
 		{ "ModuleRelativePath", "ParentUnit.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AParentUnit_Statics::NewProp_SelectionCircle_MetaData[] = {
+		{ "Category", "UnitTarget" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "ParentUnit.h" },
+		{ "ToolTip", "unit selection unit" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AParentUnit_Statics::NewProp_SelectionCircle = { "SelectionCircle", nullptr, (EPropertyFlags)0x001000000008000d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AParentUnit, SelectionCircle), Z_Construct_UClass_UWidgetComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AParentUnit_Statics::NewProp_SelectionCircle_MetaData, ARRAY_COUNT(Z_Construct_UClass_AParentUnit_Statics::NewProp_SelectionCircle_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AParentUnit_Statics::NewProp_CurrentTarget_MetaData[] = {
 		{ "Category", "UnitTarget" },
@@ -287,6 +353,7 @@ void EmptyLinkFunctionForGeneratedCodeParentUnit() {}
 #endif
 	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AParentUnit_Statics::NewProp_TeamNumber = { "TeamNumber", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AParentUnit, TeamNumber), METADATA_PARAMS(Z_Construct_UClass_AParentUnit_Statics::NewProp_TeamNumber_MetaData, ARRAY_COUNT(Z_Construct_UClass_AParentUnit_Statics::NewProp_TeamNumber_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AParentUnit_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AParentUnit_Statics::NewProp_SelectionCircle,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AParentUnit_Statics::NewProp_CurrentTarget,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AParentUnit_Statics::NewProp_RotationSpeed,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AParentUnit_Statics::NewProp_MoveSpeed,
@@ -327,7 +394,7 @@ void EmptyLinkFunctionForGeneratedCodeParentUnit() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AParentUnit, 2886326583);
+	IMPLEMENT_CLASS(AParentUnit, 1780000376);
 	template<> MARINE_SQUAD_API UClass* StaticClass<AParentUnit>()
 	{
 		return AParentUnit::StaticClass();

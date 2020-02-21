@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
 #include "WidgetComponent.h"
+#include "FloatingSprite.h"
 #include "ParentUnit.generated.h"
 
 UCLASS()
@@ -39,6 +40,12 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "BasicFunction")
     void KillSelf();
 
+	UFUNCTION(BlueprintCallable, Category = "BasicFunction")
+    void StartSelect();
+
+	UFUNCTION(BlueprintCallable, Category = "BasicFunction")
+    void StopSelect();
+
 	// 0 non player controlled
 	// 1 or more is player number
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=PlayerTeam)
@@ -60,7 +67,9 @@ public:
 	float HealthMax = 100;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=UnitStats)
 	float HealthCurrent;
+
 	//used for the HP bar element
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=UnitStats)
 	float HealthPercent;
 
@@ -73,6 +82,8 @@ public:
 	AParentUnit* CurrentTarget;
 
 	//unit selection unit
-	
-    UWidgetComponent *SelectionCircle;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=UnitTarget)
+	UWidgetComponent* SelectionCircle;
+    
 };

@@ -27,7 +27,6 @@ void APlayerController_MarineSquad::BeginPlay()
 
 void APlayerController_MarineSquad::Tick(float DeltaTime)
 {
-    //MoveCommand();
     MoveCamera();    
 }
 
@@ -53,6 +52,10 @@ void APlayerController_MarineSquad::SetupInputComponent()
 
 void APlayerController_MarineSquad::SelectionStarted()
 {   
+    for(int32 i= 0 ; i < SelectedUnits.Num() ; i++)
+    {
+        SelectedUnits[i]->StopSelect();
+    }
     UE_LOG(LogTemp, Warning, TEXT("Left Mouse Button Pressed"))
     HUDPtr->InitialPoint = HUDPtr->GetMousePos2D();
     HUDPtr->bStartSelecting = true;
@@ -67,6 +70,10 @@ void APlayerController_MarineSquad::SelectionEnded()
 
     //set TArray to be same array from Hud
     SelectedUnits = HUDPtr->FoundUnits;
+    for(int32 i= 0 ; i < SelectedUnits.Num() ; i++)
+    {
+        SelectedUnits[i]->StartSelect();
+    }
 }
 
 

@@ -18,5 +18,5 @@ bool UUnitSelectorCircle::Initialize()
 
 void UUnitSelectorCircle::DoAction()
 {
-    UE_LOG(LogTemp, Warning, TEXT("I am silly"))
+    UE_LOG(LogTemp, Warning, TEXT("Button is pressed"))
 }
