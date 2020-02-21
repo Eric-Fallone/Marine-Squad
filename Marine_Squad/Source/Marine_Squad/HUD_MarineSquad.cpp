@@ -29,7 +29,7 @@ void AHUD_MarineSquad::DrawHUD()
             CurrentPoint.Y - InitialPoint.Y//Height
             );
         FoundUnits.Empty();
-        GetActorsInSelectionRectangle(
+        GetActorsInSelectionRectangle<AParentUnit>(
             InitialPoint,
             CurrentPoint,
             OUT FoundUnits,
