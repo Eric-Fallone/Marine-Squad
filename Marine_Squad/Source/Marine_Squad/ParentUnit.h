@@ -52,6 +52,8 @@ public:
 	int TeamNumber;
 	//Unit Stats
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=UnitStats)
+	float SightRange;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=UnitStats)
 	float AttackRange;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=UnitStats)
 	float AttackDamage;
