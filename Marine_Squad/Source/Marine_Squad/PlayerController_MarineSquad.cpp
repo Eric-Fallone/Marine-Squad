@@ -43,6 +43,25 @@ void APlayerController_MarineSquad::SetupInputComponent()
         InputComponent->BindAction("RightMouseClick", IE_Released, this, &APlayerController_MarineSquad::MoveCommandEnded);
 
         InputComponent->BindAction("Que_Command", IE_Pressed, this, &APlayerController_MarineSquad::QueCommandStarted);
+        InputComponent->BindAction("Que_Command", IE_Released, this, &APlayerController_MarineSquad::QueCommandStopped);
+        
+        InputComponent->BindAction("Stop_Command", IE_Pressed, this, &APlayerController_MarineSquad::StopCommand);
+        
+        InputComponent->BindAction("Attack_Command", IE_Pressed, this, &APlayerController_MarineSquad::AttackMoveCommand);
+
+        InputComponent->BindAction("Select_All_Units_Command", IE_Pressed, this, &APlayerController_MarineSquad::SelectAllUnitsCommand);
+        InputComponent->BindAction("Select_Unit_One_Command", IE_Pressed, this, &APlayerController_MarineSquad::SelectUnitOneCommand);
+        InputComponent->BindAction("Select_Unit_Two_Command", IE_Pressed, this, &APlayerController_MarineSquad::SelectUnitTwoCommand);
+        InputComponent->BindAction("Select_Unit_Three_Command", IE_Pressed, this, &APlayerController_MarineSquad::SelectUnitThreeCommand);
+        InputComponent->BindAction("Select_Unit_Four_Command", IE_Pressed, this, &APlayerController_MarineSquad::SelectUnitFourCommand);
+        InputComponent->BindAction("Select_Unit_Five_Command", IE_Pressed, this, &APlayerController_MarineSquad::SelectUnitFiveCommand);
+
+
+        InputComponent->BindAction("Ability_One_Command", IE_Pressed, this, &APlayerController_MarineSquad::AbilityOneCommand);
+        InputComponent->BindAction("Ability_Two_Command", IE_Pressed, this, &APlayerController_MarineSquad::AbilityTwoCommand);
+        InputComponent->BindAction("Ability_Three_Command", IE_Pressed, this, &APlayerController_MarineSquad::AbilityThreeCommand);
+        InputComponent->BindAction("Ability_Four_Command", IE_Pressed, this, &APlayerController_MarineSquad::AbilityFourCommand);
+
     }
     else{
         UE_LOG(LogTemp, Warning, TEXT("ErrorSetting Up inputs"))
@@ -111,10 +130,91 @@ void APlayerController_MarineSquad::MoveCommand()
         }
     }
 }
+
+
 void APlayerController_MarineSquad::QueCommandStarted()
 {
-    UE_LOG(LogTemp, Warning, TEXT("QUE Right Mouse Button Pressed"))
+    UE_LOG(LogTemp, Warning, TEXT("Queing started"))
 }
+
+
+void APlayerController_MarineSquad::QueCommandStopped()
+{
+    UE_LOG(LogTemp, Warning, TEXT("Queing ended"))
+}
+
+
+void APlayerController_MarineSquad::StopCommand()
+{
+    UE_LOG(LogTemp, Warning, TEXT("StopCommand Pressed"))
+}
+
+
+void APlayerController_MarineSquad::AttackMoveCommand()
+{
+    UE_LOG(LogTemp, Warning, TEXT("AttackMoveCommand Pressed"))
+}
+
+
+void APlayerController_MarineSquad::SelectAllUnitsCommand()
+{
+    UE_LOG(LogTemp, Warning, TEXT("SelectAllUnits Pressed"))
+}
+
+
+void APlayerController_MarineSquad::SelectUnitOneCommand()
+{
+    UE_LOG(LogTemp, Warning, TEXT("SelectUnitOne Pressed"))
+}
+
+
+void APlayerController_MarineSquad::SelectUnitTwoCommand()
+{
+    UE_LOG(LogTemp, Warning, TEXT("SelectUnitTwo Pressed"))
+}
+
+
+void APlayerController_MarineSquad::SelectUnitThreeCommand()
+{
+    UE_LOG(LogTemp, Warning, TEXT("SelectUnitThree Pressed"))
+}
+
+
+void APlayerController_MarineSquad::SelectUnitFourCommand()
+{
+    UE_LOG(LogTemp, Warning, TEXT("SelectUnitFour Pressed"))
+}
+
+
+void APlayerController_MarineSquad::SelectUnitFiveCommand()
+{
+    UE_LOG(LogTemp, Warning, TEXT("SelectUnitFive Pressed"))
+}
+
+
+void APlayerController_MarineSquad::AbilityOneCommand()
+{
+    UE_LOG(LogTemp, Warning, TEXT("AbilityOne Pressed"))
+}
+
+
+void APlayerController_MarineSquad::AbilityTwoCommand()
+{
+    UE_LOG(LogTemp, Warning, TEXT("AbilityTwo Pressed"))
+}
+
+
+void APlayerController_MarineSquad::AbilityThreeCommand()
+{
+    UE_LOG(LogTemp, Warning, TEXT("AbilityThree Pressed"))
+}
+
+
+void APlayerController_MarineSquad::AbilityFourCommand()
+{
+    UE_LOG(LogTemp, Warning, TEXT("AbilityFour Pressed"))
+}
+
 
 /*          CAMERA METHODS          */
 

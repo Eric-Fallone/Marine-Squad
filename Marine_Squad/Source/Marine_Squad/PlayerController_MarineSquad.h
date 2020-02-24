@@ -49,6 +49,21 @@ private:
 	void MoveCommandEnded();
 	void MoveCommand();
 	void QueCommandStarted();
+	void QueCommandStopped();
+	void StopCommand();
+	void AttackMoveCommand();
+
+	void SelectAllUnitsCommand();
+	void SelectUnitOneCommand();
+	void SelectUnitTwoCommand();
+	void SelectUnitThreeCommand();
+	void SelectUnitFourCommand();
+	void SelectUnitFiveCommand();
+
+	void AbilityOneCommand();
+	void AbilityTwoCommand();
+	void AbilityThreeCommand();
+	void AbilityFourCommand();
 
 //Selection
 	bool Moving;
@@ -63,4 +78,5 @@ private:
 	APlayerCamera_MarineSquad* CAMPtr;
 	int32 ScreenSizeX;
 	int32 ScreenSizeY;
+
 };
