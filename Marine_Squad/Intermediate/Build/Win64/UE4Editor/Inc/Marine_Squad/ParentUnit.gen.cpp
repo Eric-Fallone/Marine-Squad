@@ -18,8 +18,12 @@ void EmptyLinkFunctionForGeneratedCodeParentUnit() {}
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	UPackage* Z_Construct_UPackage__Script_Marine_Squad();
 	MARINE_SQUAD_API UFunction* Z_Construct_UFunction_AParentUnit_Attack();
+	MARINE_SQUAD_API UFunction* Z_Construct_UFunction_AParentUnit_AttackMove();
+	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	MARINE_SQUAD_API UFunction* Z_Construct_UFunction_AParentUnit_KillSelf();
+	MARINE_SQUAD_API UFunction* Z_Construct_UFunction_AParentUnit_Move();
 	MARINE_SQUAD_API UFunction* Z_Construct_UFunction_AParentUnit_StartSelect();
+	MARINE_SQUAD_API UFunction* Z_Construct_UFunction_AParentUnit_StopMoving();
 	MARINE_SQUAD_API UFunction* Z_Construct_UFunction_AParentUnit_StopSelect();
 	MARINE_SQUAD_API UFunction* Z_Construct_UFunction_AParentUnit_TakeDamage();
 	UMG_API UClass* Z_Construct_UClass_UWidgetComponent_NoRegister();
@@ -29,8 +33,11 @@ void EmptyLinkFunctionForGeneratedCodeParentUnit() {}
 		UClass* Class = AParentUnit::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "Attack", &AParentUnit::execAttack },
+			{ "AttackMove", &AParentUnit::execAttackMove },
 			{ "KillSelf", &AParentUnit::execKillSelf },
+			{ "Move", &AParentUnit::execMove },
 			{ "StartSelect", &AParentUnit::execStartSelect },
+			{ "StopMoving", &AParentUnit::execStopMoving },
 			{ "StopSelect", &AParentUnit::execStopSelect },
 			{ "TakeDamage", &AParentUnit::execTakeDamage },
 		};
@@ -69,6 +76,39 @@ void EmptyLinkFunctionForGeneratedCodeParentUnit() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_AParentUnit_AttackMove_Statics
+	{
+		struct ParentUnit_eventAttackMove_Parms
+		{
+			FVector MoveLocation;
+		};
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_MoveLocation;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_AParentUnit_AttackMove_Statics::NewProp_MoveLocation = { "MoveLocation", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ParentUnit_eventAttackMove_Parms, MoveLocation), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AParentUnit_AttackMove_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AParentUnit_AttackMove_Statics::NewProp_MoveLocation,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AParentUnit_AttackMove_Statics::Function_MetaDataParams[] = {
+		{ "Category", "MoveFunction" },
+		{ "ModuleRelativePath", "ParentUnit.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AParentUnit_AttackMove_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AParentUnit, nullptr, "AttackMove", sizeof(ParentUnit_eventAttackMove_Parms), Z_Construct_UFunction_AParentUnit_AttackMove_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AParentUnit_AttackMove_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04820401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AParentUnit_AttackMove_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AParentUnit_AttackMove_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AParentUnit_AttackMove()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AParentUnit_AttackMove_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	struct Z_Construct_UFunction_AParentUnit_KillSelf_Statics
 	{
 #if WITH_METADATA
@@ -92,6 +132,40 @@ void EmptyLinkFunctionForGeneratedCodeParentUnit() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_AParentUnit_Move_Statics
+	{
+		struct ParentUnit_eventMove_Parms
+		{
+			FVector MoveLocation;
+		};
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_MoveLocation;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_AParentUnit_Move_Statics::NewProp_MoveLocation = { "MoveLocation", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ParentUnit_eventMove_Parms, MoveLocation), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AParentUnit_Move_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AParentUnit_Move_Statics::NewProp_MoveLocation,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AParentUnit_Move_Statics::Function_MetaDataParams[] = {
+		{ "Category", "MoveFunction" },
+		{ "ModuleRelativePath", "ParentUnit.h" },
+		{ "ToolTip", "command methods" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AParentUnit_Move_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AParentUnit, nullptr, "Move", sizeof(ParentUnit_eventMove_Parms), Z_Construct_UFunction_AParentUnit_Move_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AParentUnit_Move_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04820401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AParentUnit_Move_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AParentUnit_Move_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AParentUnit_Move()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AParentUnit_Move_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	struct Z_Construct_UFunction_AParentUnit_StartSelect_Statics
 	{
 #if WITH_METADATA
@@ -112,6 +186,29 @@ void EmptyLinkFunctionForGeneratedCodeParentUnit() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AParentUnit_StartSelect_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AParentUnit_StopMoving_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AParentUnit_StopMoving_Statics::Function_MetaDataParams[] = {
+		{ "Category", "MoveFunction" },
+		{ "ModuleRelativePath", "ParentUnit.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AParentUnit_StopMoving_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AParentUnit, nullptr, "StopMoving", 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AParentUnit_StopMoving_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AParentUnit_StopMoving_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AParentUnit_StopMoving()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AParentUnit_StopMoving_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -248,8 +345,11 @@ void EmptyLinkFunctionForGeneratedCodeParentUnit() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AParentUnit_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_AParentUnit_Attack, "Attack" }, // 3925236933
+		{ &Z_Construct_UFunction_AParentUnit_AttackMove, "AttackMove" }, // 3564913698
 		{ &Z_Construct_UFunction_AParentUnit_KillSelf, "KillSelf" }, // 71911389
+		{ &Z_Construct_UFunction_AParentUnit_Move, "Move" }, // 2883667559
 		{ &Z_Construct_UFunction_AParentUnit_StartSelect, "StartSelect" }, // 230434788
+		{ &Z_Construct_UFunction_AParentUnit_StopMoving, "StopMoving" }, // 1891109490
 		{ &Z_Construct_UFunction_AParentUnit_StopSelect, "StopSelect" }, // 2094125952
 		{ &Z_Construct_UFunction_AParentUnit_TakeDamage, "TakeDamage" }, // 879445681
 	};
@@ -406,7 +506,7 @@ void EmptyLinkFunctionForGeneratedCodeParentUnit() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AParentUnit, 3513785189);
+	IMPLEMENT_CLASS(AParentUnit, 476129332);
 	template<> MARINE_SQUAD_API UClass* StaticClass<AParentUnit>()
 	{
 		return AParentUnit::StaticClass();

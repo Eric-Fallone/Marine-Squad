@@ -147,6 +147,13 @@ void APlayerController_MarineSquad::QueCommandStopped()
 void APlayerController_MarineSquad::StopCommand()
 {
     UE_LOG(LogTemp, Warning, TEXT("StopCommand Pressed"))
+    if(SelectedUnits.Num() > 0)
+    {
+    for(int32 i= 0 ; i < SelectedUnits.Num() ; i++)
+        {
+        SelectedUnits[i]->StopMoving();
+        }
+    }
 }
 
 

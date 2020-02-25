@@ -29,7 +29,14 @@ public:
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
 	//command methods
+	UFUNCTION(BlueprintCallable, Category = "MoveFunction")
 	void Move(FVector MoveLocation);
+
+	UFUNCTION(BlueprintCallable, Category = "MoveFunction")
+	void AttackMove(FVector MoveLocation);
+
+	UFUNCTION(BlueprintCallable, Category = "MoveFunction")
+	void StopMoving();
 
 	UFUNCTION(BlueprintCallable, Category = "AttackFunction")
     void Attack(class AParentUnit* target);

@@ -50,6 +50,20 @@ void AParentUnit::Move(FVector MoveLocation)
 }
 
 
+void AParentUnit::AttackMove(FVector MoveLocation)
+{
+	AAIController * ai = Cast<AAIController>(GetController());
+	ai->MoveToLocation(MoveLocation,-1.0f,true,true,false,true,0,true);
+}
+
+
+void AParentUnit::StopMoving()
+{
+	AAIController * ai = Cast<AAIController>(GetController());
+	ai->MoveToLocation(GetActorLocation(),-1.0f,true,true,false,true,0,true);
+}
+
+
 void AParentUnit::Attack(AParentUnit* target)
 {
 	

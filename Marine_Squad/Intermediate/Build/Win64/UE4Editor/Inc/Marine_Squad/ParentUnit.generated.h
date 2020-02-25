@@ -9,6 +9,7 @@
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 class AParentUnit;
+struct FVector;
 #ifdef MARINE_SQUAD_ParentUnit_generated_h
 #error "ParentUnit.generated.h already included, missing '#pragma once' in ParentUnit.h"
 #endif
@@ -56,6 +57,32 @@ class AParentUnit;
 		P_NATIVE_BEGIN; \
 		P_THIS->Attack(Z_Param_target); \
 		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execStopMoving) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->StopMoving(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execAttackMove) \
+	{ \
+		P_GET_STRUCT(FVector,Z_Param_MoveLocation); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->AttackMove(Z_Param_MoveLocation); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execMove) \
+	{ \
+		P_GET_STRUCT(FVector,Z_Param_MoveLocation); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Move(Z_Param_MoveLocation); \
+		P_NATIVE_END; \
 	}
 
 
@@ -100,6 +127,32 @@ class AParentUnit;
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		P_THIS->Attack(Z_Param_target); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execStopMoving) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->StopMoving(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execAttackMove) \
+	{ \
+		P_GET_STRUCT(FVector,Z_Param_MoveLocation); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->AttackMove(Z_Param_MoveLocation); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execMove) \
+	{ \
+		P_GET_STRUCT(FVector,Z_Param_MoveLocation); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Move(Z_Param_MoveLocation); \
 		P_NATIVE_END; \
 	}
 
