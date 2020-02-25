@@ -8,6 +8,7 @@
 #include "HUD_MarineSquad.h"
 #include "PlayerCamera_MarineSquad.h"
 #include "MoveIndicator.h"
+#include "ParentUnit.h"
 #include "PlayerController_MarineSquad.generated.h"
 
 UENUM(BlueprintType)
@@ -36,6 +37,20 @@ public:
 	TSubclassOf<AMoveIndicator> IndicatorToSpawn;
 	AMoveIndicator* MoveIndicator;
 
+	//unit spawns classes 
+	UPROPERTY(EditAnywhere)
+	TSubclassOf<AParentUnit> UnitOneType;
+	UPROPERTY(EditAnywhere)
+	TSubclassOf<AParentUnit> UnitTwoType;
+	UPROPERTY(EditAnywhere)
+	TSubclassOf<AParentUnit> UnitThreeType;
+	UPROPERTY(EditAnywhere)
+	TSubclassOf<AParentUnit> UnitFourType;
+	UPROPERTY(EditAnywhere)
+	TSubclassOf<AParentUnit> UnitFiveType;
+
+
+
 protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;
@@ -62,13 +77,14 @@ private:
 	void SelectionStarted();
 	void SelectionEnded();
 
+	void SelectUnit(int UnitNum);
+	
 	void SelectAllUnitsCommand();
 	void SelectUnitOneCommand();
 	void SelectUnitTwoCommand();
 	void SelectUnitThreeCommand();
 	void SelectUnitFourCommand();
 	void SelectUnitFiveCommand();
-
 //Unit Abilities
 
 	void AbilityOneCommand();
@@ -81,6 +97,8 @@ private:
 	bool Moving;
 	UPROPERTY(VisibleAnywhere)
 	TArray<AParentUnit*> SelectedUnits;
+	UPROPERTY(VisibleAnywhere)
+	TArray<AParentUnit*> AllUnits;
 
 //Player Camera
 

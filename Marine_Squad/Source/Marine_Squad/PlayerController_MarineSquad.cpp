@@ -31,6 +31,37 @@ void APlayerController_MarineSquad::BeginPlay()
         FRotator rot = FRotator(0);
         MoveIndicator = (AMoveIndicator*) GetWorld()->SpawnActor(IndicatorToSpawn,&loc, &rot);
     }
+    //spawn in the party units and add them to the 
+    if(UnitOneType)
+    {
+        FVector loc = FVector(-950.0,-1000,-112);
+        FRotator rot = FRotator(0);
+        AllUnits.Add((AParentUnit*) GetWorld()->SpawnActor(UnitOneType,&loc, &rot));
+    }
+    if(UnitTwoType)
+    {
+        FVector loc = FVector(-950.0,-750,-112);
+        FRotator rot = FRotator(0);
+        AllUnits.Add((AParentUnit*) GetWorld()->SpawnActor(UnitTwoType,&loc, &rot));
+    }
+    if(UnitThreeType)
+    {
+        FVector loc = FVector(-950.0,-500,-112);
+        FRotator rot = FRotator(0);
+        AllUnits.Add((AParentUnit*) GetWorld()->SpawnActor(UnitThreeType,&loc, &rot));
+    }
+    if(UnitFourType)
+    {
+        FVector loc = FVector(-950.0,-250,-112);
+        FRotator rot = FRotator(0);
+        AllUnits.Add((AParentUnit*) GetWorld()->SpawnActor(UnitFourType,&loc, &rot));
+    }
+    if(UnitFiveType)
+    {
+        FVector loc = FVector(-950.0,0,-112);
+        FRotator rot = FRotator(0);
+        AllUnits.Add((AParentUnit*) GetWorld()->SpawnActor(UnitFiveType,&loc, &rot));
+    }
     
 }
 
@@ -176,40 +207,86 @@ void APlayerController_MarineSquad::SelectionEnded()
     }
 }
 
+//-1 to select all else select from all units array by input
+void APlayerController_MarineSquad::SelectUnit(int UnitNum)
+{
+    //stop selecting units 
+    for(int32 i= 0 ; i < SelectedUnits.Num() ; i++)
+    {
+        SelectedUnits[i]->StopSelect();
+    }
+
+    //emptys the array 
+    SelectedUnits.Empty();
+
+    //adds units to selection dependent on keypress
+    if( AllUnits.IsValidIndex(0) && ( UnitNum == 0  || UnitNum == -1 ))
+    {
+        AllUnits[0]->StartSelect();
+        SelectedUnits.Add(AllUnits[0]);
+    }
+    if( AllUnits.IsValidIndex(1) && ( UnitNum == 1  || UnitNum == -1 ))
+    {
+        AllUnits[1]->StartSelect();
+        SelectedUnits.Add(AllUnits[1]);
+    }
+    if( AllUnits.IsValidIndex(2) && ( UnitNum == 2  || UnitNum == -1 ))
+    {
+        AllUnits[2]->StartSelect();
+        SelectedUnits.Add(AllUnits[2]);
+    }
+    if( AllUnits.IsValidIndex(3) && ( UnitNum == 3  || UnitNum == -1 ))
+    {
+        AllUnits[3]->StartSelect();
+        SelectedUnits.Add(AllUnits[3]);
+    }
+    if( AllUnits.IsValidIndex(4) && ( UnitNum == 4  || UnitNum == -1 ))
+    {
+        AllUnits[4]->StartSelect();
+        SelectedUnits.Add(AllUnits[4]);
+    }
+}
+
 
 void APlayerController_MarineSquad::SelectAllUnitsCommand()
 {
     UE_LOG(LogTemp, Warning, TEXT("SelectAllUnits Pressed"))
+    SelectUnit(-1);
 }
 
 
 void APlayerController_MarineSquad::SelectUnitOneCommand()
 {
     UE_LOG(LogTemp, Warning, TEXT("SelectUnitOne Pressed"))
+    SelectUnit(0);
 }
 
 
 void APlayerController_MarineSquad::SelectUnitTwoCommand()
 {
     UE_LOG(LogTemp, Warning, TEXT("SelectUnitTwo Pressed"))
+    SelectUnit(1);
 }
 
 
 void APlayerController_MarineSquad::SelectUnitThreeCommand()
 {
     UE_LOG(LogTemp, Warning, TEXT("SelectUnitThree Pressed"))
+    SelectUnit(2);
 }
 
 
 void APlayerController_MarineSquad::SelectUnitFourCommand()
 {
     UE_LOG(LogTemp, Warning, TEXT("SelectUnitFour Pressed"))
+    SelectUnit(3);
 }
 
 
 void APlayerController_MarineSquad::SelectUnitFiveCommand()
 {
     UE_LOG(LogTemp, Warning, TEXT("SelectUnitFive Pressed"))
+    SelectUnit(4);
 }
 
 
