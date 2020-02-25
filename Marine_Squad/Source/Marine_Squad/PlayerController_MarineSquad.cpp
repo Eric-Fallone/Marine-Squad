@@ -3,6 +3,7 @@
 
 #include "PlayerController_MarineSquad.h"
 #include "NavigationSystem.h"
+#include "Engine/World.h"
 #include "AIController.h"
 
 #define out
@@ -22,6 +23,15 @@ void APlayerController_MarineSquad::BeginPlay()
     CAMPtr = Cast<APlayerCamera_MarineSquad>(GetPawn());
 
 	GetViewportSize(OUT ScreenSizeX, OUT ScreenSizeY);
+
+    //spawns in a move indicator 
+    if(IndicatorToSpawn)
+    {
+        FVector loc = FVector(0,0,0);
+        FRotator rot = FRotator(0);
+        MoveIndicator = (AMoveIndicator*) GetWorld()->SpawnActor(IndicatorToSpawn,&loc, &rot);
+    }
+    
 }
 
 
@@ -69,33 +79,6 @@ void APlayerController_MarineSquad::SetupInputComponent()
 }
 
 
-void APlayerController_MarineSquad::SelectionStarted()
-{   
-    for(int32 i= 0 ; i < SelectedUnits.Num() ; i++)
-    {
-        SelectedUnits[i]->StopSelect();
-    }
-    UE_LOG(LogTemp, Warning, TEXT("Left Mouse Button Pressed"))
-    HUDPtr->InitialPoint = HUDPtr->GetMousePos2D();
-    HUDPtr->bStartSelecting = true;
-}
-
-
-void APlayerController_MarineSquad::SelectionEnded()
-{    
-    UE_LOG(LogTemp, Warning, TEXT("Left Mouse Button Released"))
-    
-    HUDPtr->bStartSelecting = false;
-
-    //set TArray to be same array from Hud
-    SelectedUnits = HUDPtr->FoundUnits;
-    for(int32 i= 0 ; i < SelectedUnits.Num() ; i++)
-    {
-        SelectedUnits[i]->StartSelect();
-    }
-}
-
-
 /*          Move Commands          */
 
 
@@ -125,8 +108,12 @@ void APlayerController_MarineSquad::MoveCommand()
 
         //set move action
         SelectedUnits[i]->Move(MoveLocation);
-        
-        DrawDebugSphere(GetWorld(), MoveLocation, 25,10, FColor::Red,false, 1.f);
+        if(MoveIndicator)
+        {
+            MoveIndicator->ShowIndicatorAt(MoveLocation);
+        }
+        //debug sphere for mouse cursor
+        //DrawDebugSphere(GetWorld(), MoveLocation, 25,10, FColor::Red,false, 1.f);
         }
     }
 }
@@ -160,6 +147,33 @@ void APlayerController_MarineSquad::StopCommand()
 void APlayerController_MarineSquad::AttackMoveCommand()
 {
     UE_LOG(LogTemp, Warning, TEXT("AttackMoveCommand Pressed"))
+}
+
+
+void APlayerController_MarineSquad::SelectionStarted()
+{   
+    for(int32 i= 0 ; i < SelectedUnits.Num() ; i++)
+    {
+        SelectedUnits[i]->StopSelect();
+    }
+    UE_LOG(LogTemp, Warning, TEXT("Left Mouse Button Pressed"))
+    HUDPtr->InitialPoint = HUDPtr->GetMousePos2D();
+    HUDPtr->bStartSelecting = true;
+}
+
+
+void APlayerController_MarineSquad::SelectionEnded()
+{    
+    UE_LOG(LogTemp, Warning, TEXT("Left Mouse Button Released"))
+    
+    HUDPtr->bStartSelecting = false;
+
+    //set TArray to be same array from Hud
+    SelectedUnits = HUDPtr->FoundUnits;
+    for(int32 i= 0 ; i < SelectedUnits.Num() ; i++)
+    {
+        SelectedUnits[i]->StartSelect();
+    }
 }
 
 

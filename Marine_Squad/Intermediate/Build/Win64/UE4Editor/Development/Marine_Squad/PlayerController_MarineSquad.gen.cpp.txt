@@ -133,4 +133,6 @@ C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Intermediate\Build\Win64\
 C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Intermediate\Build\Win64\UE4Editor\Inc\Marine_Squad\HUD_MarineSquad.generated.h
 C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Source\Marine_Squad\PlayerCamera_MarineSquad.h
 C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Intermediate\Build\Win64\UE4Editor\Inc\Marine_Squad\PlayerCamera_MarineSquad.generated.h
+C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Source\Marine_Squad\MoveIndicator.h
+C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Intermediate\Build\Win64\UE4Editor\Inc\Marine_Squad\MoveIndicator.generated.h
 C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Intermediate\Build\Win64\UE4Editor\Inc\Marine_Squad\PlayerController_MarineSquad.generated.h

@@ -7,6 +7,7 @@
 #include "DrawDebugHelpers.h"
 #include "HUD_MarineSquad.h"
 #include "PlayerCamera_MarineSquad.h"
+#include "MoveIndicator.h"
 #include "PlayerController_MarineSquad.generated.h"
 
 UENUM(BlueprintType)
@@ -27,9 +28,13 @@ class MARINE_SQUAD_API APlayerController_MarineSquad : public APlayerController
 
 public:
 	APlayerController_MarineSquad();
-
+	
 	UPROPERTY(EditAnywhere)//, BlueprintReadWrite, Category="Enum")
 	ECommandsEnum CommandEnum;
+
+	UPROPERTY(EditAnywhere)
+	TSubclassOf<AMoveIndicator> IndicatorToSpawn;
+	AMoveIndicator* MoveIndicator;
 
 protected:
 	// Called when the game starts
@@ -40,18 +45,22 @@ protected:
 private:
 	void SetupInputComponent();
 	AHUD_MarineSquad* HUDPtr;
-//unit selection
-	void SelectionStarted();
-	void SelectionEnded();
 
 //Player Input
+
 	void MoveCommandStarted();
 	void MoveCommandEnded();
 	void MoveCommand();
+
 	void QueCommandStarted();
 	void QueCommandStopped();
 	void StopCommand();
 	void AttackMoveCommand();
+
+//unit selection
+
+	void SelectionStarted();
+	void SelectionEnded();
 
 	void SelectAllUnitsCommand();
 	void SelectUnitOneCommand();
@@ -60,17 +69,21 @@ private:
 	void SelectUnitFourCommand();
 	void SelectUnitFiveCommand();
 
+//Unit Abilities
+
 	void AbilityOneCommand();
 	void AbilityTwoCommand();
 	void AbilityThreeCommand();
 	void AbilityFourCommand();
 
 //Selection
+
 	bool Moving;
 	UPROPERTY(VisibleAnywhere)
 	TArray<AParentUnit*> SelectedUnits;
 
 //Player Camera
+
 	void MoveCamera();
 	UPROPERTY(EditAnywhere)
 	float Margin = 15.0f;
