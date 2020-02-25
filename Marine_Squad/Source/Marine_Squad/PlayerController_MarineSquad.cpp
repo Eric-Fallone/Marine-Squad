@@ -121,7 +121,7 @@ void APlayerController_MarineSquad::MoveCommand()
         {
         FHitResult Hit;
         GetHitResultUnderCursor(ECollisionChannel::ECC_Visibility, false, OUT Hit);
-        FVector MoveLocation = Hit.Location + FVector(i / 2 * 300 - 150 , i % 2 *200 -100 , 0);
+        FVector MoveLocation = Hit.Location + FVector(0,0,0);//old formation //i / 2 * 300 - 150 , i % 2 *200 -100 , 0);
 
         //set move action
         SelectedUnits[i]->Move(MoveLocation);

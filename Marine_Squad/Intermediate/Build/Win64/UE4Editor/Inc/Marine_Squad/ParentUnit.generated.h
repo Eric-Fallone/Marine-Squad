@@ -17,6 +17,14 @@ struct FVector;
 
 #define Marine_Squad_Source_Marine_Squad_ParentUnit_h_14_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execGetAttackDamage) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(float*)Z_Param__Result=P_THIS->GetAttackDamage(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execStopSelect) \
 	{ \
 		P_FINISH; \
@@ -52,10 +60,10 @@ struct FVector;
  \
 	DECLARE_FUNCTION(execAttack) \
 	{ \
-		P_GET_OBJECT(AParentUnit,Z_Param_target); \
+		P_GET_OBJECT(AParentUnit,Z_Param_BasicTarget); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->Attack(Z_Param_target); \
+		P_THIS->Attack(Z_Param_BasicTarget); \
 		P_NATIVE_END; \
 	} \
  \
@@ -88,6 +96,14 @@ struct FVector;
 
 #define Marine_Squad_Source_Marine_Squad_ParentUnit_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execGetAttackDamage) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(float*)Z_Param__Result=P_THIS->GetAttackDamage(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execStopSelect) \
 	{ \
 		P_FINISH; \
@@ -123,10 +139,10 @@ struct FVector;
  \
 	DECLARE_FUNCTION(execAttack) \
 	{ \
-		P_GET_OBJECT(AParentUnit,Z_Param_target); \
+		P_GET_OBJECT(AParentUnit,Z_Param_BasicTarget); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->Attack(Z_Param_target); \
+		P_THIS->Attack(Z_Param_BasicTarget); \
 		P_NATIVE_END; \
 	} \
  \

@@ -39,7 +39,7 @@ public:
 	void StopMoving();
 
 	UFUNCTION(BlueprintCallable, Category = "AttackFunction")
-    void Attack(class AParentUnit* target);
+    void Attack(class AParentUnit* BasicTarget);
 
 	UFUNCTION(BlueprintCallable, Category = "AttackFunction")
     void TakeDamage(float DamageTaken);
@@ -57,7 +57,9 @@ public:
 	// 1 or more is player number
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=PlayerTeam)
 	int TeamNumber;
+
 	//Unit Stats
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=UnitStats)
 	float SightRange;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=UnitStats)
@@ -83,7 +85,7 @@ public:
 	float HealthPercent;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=UnitStats)
-	float MoveSpeed = 300;
+	float MoveSpeed =600;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=UnitStats)
 	float RotationSpeed;
 
@@ -94,5 +96,11 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=UnitTarget)
 	UWidgetComponent* SelectionCircle;
+
+
+	//GetValueFuntions
+
+	UFUNCTION(BlueprintCallable, Category = "BasicUnitGetMethod")
+    float GetAttackDamage();
     
 };

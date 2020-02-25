@@ -64,9 +64,11 @@ void AParentUnit::StopMoving()
 }
 
 
-void AParentUnit::Attack(AParentUnit* target)
+void AParentUnit::Attack(AParentUnit* BasicTarget)
 {
-	
+	//get unit damage
+	//deal damage to target 
+	BasicTarget->TakeDamage(GetAttackDamage());
 }
 
 
@@ -102,4 +104,11 @@ void AParentUnit::StopSelect()
 	{
 		SelectionCircle->SetVisibility(false,true);
 	}
+}
+
+
+float AParentUnit::GetAttackDamage()
+{
+	float DamageOut = AttackDamage;
+	return DamageOut;
 }
