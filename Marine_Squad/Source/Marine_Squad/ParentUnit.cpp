@@ -3,6 +3,7 @@
 
 #include "ParentUnit.h"
 #include "AIController.h"
+#include "BehaviorTree/BlackboardComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
 
 // Sets default values
@@ -45,6 +46,9 @@ void AParentUnit::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 
 void AParentUnit::Move(FVector MoveLocation)
 {
+	if(isDead){
+		return;
+	}
 	AAIController * ai = Cast<AAIController>(GetController());
 	ai->MoveToLocation(MoveLocation,-1.0f,true,true,false,true,0,true);
 }
@@ -83,14 +87,11 @@ void AParentUnit::TakeDamage(float DamageTaken)
 }
 
 
-void AParentUnit::KillSelf()
-{
-	Destroy();
-}
-
-
 void AParentUnit::StartSelect()
 {
+	if(isDead){
+		return;
+	}
 	if(SelectionCircle)
 	{
 		SelectionCircle->SetVisibility(true,true);
@@ -104,6 +105,32 @@ void AParentUnit::StopSelect()
 	{
 		SelectionCircle->SetVisibility(false,true);
 	}
+}
+
+
+void AParentUnit::KillSelf()
+{	
+	StopSelect();
+	isDead = true;
+	//set blackboard controller isDead to true
+	AAIController * ai = Cast<AAIController>(GetController());
+	if(ai){
+		UBlackboardComponent * BB = Cast<UBlackboardComponent>(ai->GetBlackboardComponent());	
+
+		if(BB)
+		{
+			BB->SetValueAsBool("IsUnitDead",true);
+		}	
+	}
+	//play animation of charater dying (todo)
+
+
+	//show grave marker
+	if(GraveMarkerModel)
+	{
+		GraveMarkerModel->SetVisibility(true);
+	}
+	
 }
 
 

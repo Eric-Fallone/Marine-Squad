@@ -27,6 +27,7 @@ void EmptyLinkFunctionForGeneratedCodeParentUnit() {}
 	MARINE_SQUAD_API UFunction* Z_Construct_UFunction_AParentUnit_StopMoving();
 	MARINE_SQUAD_API UFunction* Z_Construct_UFunction_AParentUnit_StopSelect();
 	MARINE_SQUAD_API UFunction* Z_Construct_UFunction_AParentUnit_TakeDamage();
+	ENGINE_API UClass* Z_Construct_UClass_USceneComponent_NoRegister();
 	UMG_API UClass* Z_Construct_UClass_UWidgetComponent_NoRegister();
 // End Cross Module References
 	void AParentUnit::StaticRegisterNativesAParentUnit()
@@ -156,6 +157,7 @@ void EmptyLinkFunctionForGeneratedCodeParentUnit() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AParentUnit_KillSelf_Statics::Function_MetaDataParams[] = {
 		{ "Category", "BasicFunction" },
 		{ "ModuleRelativePath", "ParentUnit.h" },
+		{ "ToolTip", "set from blueprint" },
 	};
 #endif
 	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AParentUnit_KillSelf_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AParentUnit, nullptr, "KillSelf", 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AParentUnit_KillSelf_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AParentUnit_KillSelf_Statics::Function_MetaDataParams)) };
@@ -316,6 +318,15 @@ void EmptyLinkFunctionForGeneratedCodeParentUnit() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_GraveMarkerModel_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_GraveMarkerModel;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_isDead_MetaData[];
+#endif
+		static void NewProp_isDead_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_isDead;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SelectionCircle_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_SelectionCircle;
@@ -383,7 +394,7 @@ void EmptyLinkFunctionForGeneratedCodeParentUnit() {}
 		{ &Z_Construct_UFunction_AParentUnit_Attack, "Attack" }, // 885613421
 		{ &Z_Construct_UFunction_AParentUnit_AttackMove, "AttackMove" }, // 3564913698
 		{ &Z_Construct_UFunction_AParentUnit_GetAttackDamage, "GetAttackDamage" }, // 320627026
-		{ &Z_Construct_UFunction_AParentUnit_KillSelf, "KillSelf" }, // 71911389
+		{ &Z_Construct_UFunction_AParentUnit_KillSelf, "KillSelf" }, // 500280134
 		{ &Z_Construct_UFunction_AParentUnit_Move, "Move" }, // 2883667559
 		{ &Z_Construct_UFunction_AParentUnit_StartSelect, "StartSelect" }, // 230434788
 		{ &Z_Construct_UFunction_AParentUnit_StopMoving, "StopMoving" }, // 1891109490
@@ -397,6 +408,26 @@ void EmptyLinkFunctionForGeneratedCodeParentUnit() {}
 		{ "ModuleRelativePath", "ParentUnit.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AParentUnit_Statics::NewProp_GraveMarkerModel_MetaData[] = {
+		{ "Category", "UnitDeath" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "ParentUnit.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AParentUnit_Statics::NewProp_GraveMarkerModel = { "GraveMarkerModel", nullptr, (EPropertyFlags)0x001000000008000d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AParentUnit, GraveMarkerModel), Z_Construct_UClass_USceneComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AParentUnit_Statics::NewProp_GraveMarkerModel_MetaData, ARRAY_COUNT(Z_Construct_UClass_AParentUnit_Statics::NewProp_GraveMarkerModel_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AParentUnit_Statics::NewProp_isDead_MetaData[] = {
+		{ "Category", "UnitDeath" },
+		{ "ModuleRelativePath", "ParentUnit.h" },
+		{ "ToolTip", "unit dealth" },
+	};
+#endif
+	void Z_Construct_UClass_AParentUnit_Statics::NewProp_isDead_SetBit(void* Obj)
+	{
+		((AParentUnit*)Obj)->isDead = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AParentUnit_Statics::NewProp_isDead = { "isDead", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AParentUnit), &Z_Construct_UClass_AParentUnit_Statics::NewProp_isDead_SetBit, METADATA_PARAMS(Z_Construct_UClass_AParentUnit_Statics::NewProp_isDead_MetaData, ARRAY_COUNT(Z_Construct_UClass_AParentUnit_Statics::NewProp_isDead_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AParentUnit_Statics::NewProp_SelectionCircle_MetaData[] = {
 		{ "Category", "UnitTarget" },
@@ -501,6 +532,8 @@ void EmptyLinkFunctionForGeneratedCodeParentUnit() {}
 #endif
 	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AParentUnit_Statics::NewProp_TeamNumber = { "TeamNumber", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AParentUnit, TeamNumber), METADATA_PARAMS(Z_Construct_UClass_AParentUnit_Statics::NewProp_TeamNumber_MetaData, ARRAY_COUNT(Z_Construct_UClass_AParentUnit_Statics::NewProp_TeamNumber_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AParentUnit_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AParentUnit_Statics::NewProp_GraveMarkerModel,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AParentUnit_Statics::NewProp_isDead,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AParentUnit_Statics::NewProp_SelectionCircle,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AParentUnit_Statics::NewProp_CurrentTarget,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AParentUnit_Statics::NewProp_RotationSpeed,
@@ -543,7 +576,7 @@ void EmptyLinkFunctionForGeneratedCodeParentUnit() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AParentUnit, 1999356727);
+	IMPLEMENT_CLASS(AParentUnit, 2906639446);
 	template<> MARINE_SQUAD_API UClass* StaticClass<AParentUnit>()
 	{
 		return AParentUnit::StaticClass();

@@ -45,9 +45,6 @@ public:
     void TakeDamage(float DamageTaken);
 
 	UFUNCTION(BlueprintCallable, Category = "BasicFunction")
-    void KillSelf();
-
-	UFUNCTION(BlueprintCallable, Category = "BasicFunction")
     void StartSelect();
 
 	UFUNCTION(BlueprintCallable, Category = "BasicFunction")
@@ -95,8 +92,17 @@ public:
 	//unit selection unit
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=UnitTarget)
-	UWidgetComponent* SelectionCircle;
+	UWidgetComponent* SelectionCircle; //set from blueprint
 
+	//unit dealth 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=UnitDeath)
+	bool isDead;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=UnitDeath)
+	USceneComponent* GraveMarkerModel; //set from blueprint
+
+	UFUNCTION(BlueprintCallable, Category = "BasicFunction")
+    void KillSelf();
 
 	//GetValueFuntions
 

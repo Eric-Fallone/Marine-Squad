@@ -25,6 +25,14 @@ struct FVector;
 		P_NATIVE_END; \
 	} \
  \
+	DECLARE_FUNCTION(execKillSelf) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->KillSelf(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execStopSelect) \
 	{ \
 		P_FINISH; \
@@ -38,14 +46,6 @@ struct FVector;
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		P_THIS->StartSelect(); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execKillSelf) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->KillSelf(); \
 		P_NATIVE_END; \
 	} \
  \
@@ -104,6 +104,14 @@ struct FVector;
 		P_NATIVE_END; \
 	} \
  \
+	DECLARE_FUNCTION(execKillSelf) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->KillSelf(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execStopSelect) \
 	{ \
 		P_FINISH; \
@@ -117,14 +125,6 @@ struct FVector;
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		P_THIS->StartSelect(); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execKillSelf) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->KillSelf(); \
 		P_NATIVE_END; \
 	} \
  \
