@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeMarine_Squad_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xE22B5B40,
+				0x94E095DC,
 				0x4BE12767,
 				METADATA_PARAMS(nullptr, 0)
 			};

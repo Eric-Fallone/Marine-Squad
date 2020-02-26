@@ -20,6 +20,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerController_MarineSquad() {}
 	ENGINE_API UClass* Z_Construct_UClass_APlayerController();
 	MARINE_SQUAD_API UClass* Z_Construct_UClass_APlayerCamera_MarineSquad_NoRegister();
 	MARINE_SQUAD_API UClass* Z_Construct_UClass_AParentUnit_NoRegister();
+	INPUTCORE_API UScriptStruct* Z_Construct_UScriptStruct_FKey();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	MARINE_SQUAD_API UClass* Z_Construct_UClass_AMoveIndicator_NoRegister();
 // End Cross Module References
@@ -110,6 +111,10 @@ void EmptyLinkFunctionForGeneratedCodePlayerController_MarineSquad() {}
 		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_SelectedUnits;
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_SelectedUnits_Inner;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SelectionKeyTimeDown_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_SelectionKeyTimeDown;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_UnitFiveType_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FClassPropertyParams NewProp_UnitFiveType;
@@ -184,6 +189,13 @@ void EmptyLinkFunctionForGeneratedCodePlayerController_MarineSquad() {}
 	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_APlayerController_MarineSquad_Statics::NewProp_SelectedUnits = { "SelectedUnits", nullptr, (EPropertyFlags)0x0040000000020001, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APlayerController_MarineSquad, SelectedUnits), METADATA_PARAMS(Z_Construct_UClass_APlayerController_MarineSquad_Statics::NewProp_SelectedUnits_MetaData, ARRAY_COUNT(Z_Construct_UClass_APlayerController_MarineSquad_Statics::NewProp_SelectedUnits_MetaData)) };
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APlayerController_MarineSquad_Statics::NewProp_SelectedUnits_Inner = { "SelectedUnits", nullptr, (EPropertyFlags)0x0000000000020000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_AParentUnit_NoRegister, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayerController_MarineSquad_Statics::NewProp_SelectionKeyTimeDown_MetaData[] = {
+		{ "Category", "TimeIsAfter" },
+		{ "ModuleRelativePath", "PlayerController_MarineSquad.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_APlayerController_MarineSquad_Statics::NewProp_SelectionKeyTimeDown = { "SelectionKeyTimeDown", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APlayerController_MarineSquad, SelectionKeyTimeDown), Z_Construct_UScriptStruct_FKey, METADATA_PARAMS(Z_Construct_UClass_APlayerController_MarineSquad_Statics::NewProp_SelectionKeyTimeDown_MetaData, ARRAY_COUNT(Z_Construct_UClass_APlayerController_MarineSquad_Statics::NewProp_SelectionKeyTimeDown_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayerController_MarineSquad_Statics::NewProp_UnitFiveType_MetaData[] = {
 		{ "Category", "PlayerController_MarineSquad" },
 		{ "ModuleRelativePath", "PlayerController_MarineSquad.h" },
@@ -242,6 +254,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerController_MarineSquad() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerController_MarineSquad_Statics::NewProp_AllUnits_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerController_MarineSquad_Statics::NewProp_SelectedUnits,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerController_MarineSquad_Statics::NewProp_SelectedUnits_Inner,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerController_MarineSquad_Statics::NewProp_SelectionKeyTimeDown,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerController_MarineSquad_Statics::NewProp_UnitFiveType,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerController_MarineSquad_Statics::NewProp_UnitFourType,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerController_MarineSquad_Statics::NewProp_UnitThreeType,
@@ -278,7 +291,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerController_MarineSquad() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APlayerController_MarineSquad, 2968725106);
+	IMPLEMENT_CLASS(APlayerController_MarineSquad, 1920119985);
 	template<> MARINE_SQUAD_API UClass* StaticClass<APlayerController_MarineSquad>()
 	{
 		return APlayerController_MarineSquad::StaticClass();

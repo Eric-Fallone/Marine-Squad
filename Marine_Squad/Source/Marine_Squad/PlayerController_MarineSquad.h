@@ -9,6 +9,7 @@
 #include "PlayerCamera_MarineSquad.h"
 #include "MoveIndicator.h"
 #include "ParentUnit.h"
+#include "InputCoreTypes.h"
 #include "PlayerController_MarineSquad.generated.h"
 
 UENUM(BlueprintType)
@@ -49,7 +50,8 @@ public:
 	UPROPERTY(EditAnywhere)
 	TSubclassOf<AParentUnit> UnitFiveType;
 
-
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=TimeIsAfter)
+	FKey SelectionKeyTimeDown;
 
 protected:
 	// Called when the game starts
@@ -85,6 +87,7 @@ private:
 	void SelectUnitThreeCommand();
 	void SelectUnitFourCommand();
 	void SelectUnitFiveCommand();
+
 //Unit Abilities
 
 	void AbilityOneCommand();

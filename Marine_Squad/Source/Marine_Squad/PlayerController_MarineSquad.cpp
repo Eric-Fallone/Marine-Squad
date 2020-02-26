@@ -68,7 +68,10 @@ void APlayerController_MarineSquad::BeginPlay()
 
 void APlayerController_MarineSquad::Tick(float DeltaTime)
 {
-    MoveCamera();    
+    MoveCamera();  
+    float tem = GetInputKeyTimeDown("Left Mouse Button");
+    UE_LOG(LogTemp, Warning, TEXT("%f"),GetInputKeyTimeDown(SelectionKeyTimeDown))
+    UE_LOG(LogTemp, Warning, TEXT("meow %f"),GetInputKeyTimeDown("LeftMouseClick"))
 }
 
 
@@ -193,13 +196,15 @@ void APlayerController_MarineSquad::SelectionStarted()
     //reset timer
 }
 
-
+// Selects units based on how long the key was pressed own
+// short click clost unit within range
+// long click select all in range 
 void APlayerController_MarineSquad::SelectionEnded()
 {    
-    UE_LOG(LogTemp, Warning, TEXT("Left Mouse Button Released"))
+    
     
     HUDPtr->bStartSelecting = false;
-
+    
     //set TArray to be same array from Hud
     SelectedUnits = HUDPtr->FoundUnits;
     for(int32 i= 0 ; i < SelectedUnits.Num() ; i++)
