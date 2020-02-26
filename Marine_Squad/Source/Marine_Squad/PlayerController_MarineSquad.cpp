@@ -12,7 +12,7 @@
 APlayerController_MarineSquad::APlayerController_MarineSquad()
 {
     bShowMouseCursor = true;
-    DefaultMouseCursor = EMouseCursor::Crosshairs;
+    DefaultMouseCursor = EMouseCursor::Hand;
     Moving = false;
 }
 
@@ -190,6 +190,7 @@ void APlayerController_MarineSquad::SelectionStarted()
     UE_LOG(LogTemp, Warning, TEXT("Left Mouse Button Pressed"))
     HUDPtr->InitialPoint = HUDPtr->GetMousePos2D();
     HUDPtr->bStartSelecting = true;
+    //reset timer
 }
 
 
