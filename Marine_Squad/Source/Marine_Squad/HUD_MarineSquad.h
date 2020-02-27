@@ -27,5 +27,4 @@ public:
 
 	UPROPERTY(VisibleAnywhere)
 	TArray <AParentUnit*> FoundUnits;
-
 };

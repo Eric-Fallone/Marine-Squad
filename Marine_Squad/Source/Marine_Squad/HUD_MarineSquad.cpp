@@ -19,6 +19,8 @@ FVector2D AHUD_MarineSquad::GetMousePos2D()
 //Same as tick from actors
 void AHUD_MarineSquad::DrawHUD()
 {
+    //when true it draws the selection rectangle 
+    //when false it snap shots 
     if(bStartSelecting)
     {
         CurrentPoint = GetMousePos2D();

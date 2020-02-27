@@ -69,9 +69,11 @@ void APlayerController_MarineSquad::BeginPlay()
 void APlayerController_MarineSquad::Tick(float DeltaTime)
 {
     MoveCamera();  
-    float tem = GetInputKeyTimeDown("Left Mouse Button");
-    UE_LOG(LogTemp, Warning, TEXT("%f"),GetInputKeyTimeDown(SelectionKeyTimeDown))
-    UE_LOG(LogTemp, Warning, TEXT("meow %f"),GetInputKeyTimeDown("LeftMouseClick"))
+    float TimeDownLeftClickHelper = GetInputKeyTimeDown(SelectionKeyTimeDown);
+    if (TimeDownLeftClickHelper != 0)
+    {
+        TimeDownLeftClick = TimeDownLeftClickHelper;
+    }
 }
 
 
@@ -196,21 +198,34 @@ void APlayerController_MarineSquad::SelectionStarted()
     //reset timer
 }
 
-// Selects units based on how long the key was pressed own
+// Selects units based on how far apart the mouse was at the start or the end
 // short click clost unit within range
 // long click select all in range 
 void APlayerController_MarineSquad::SelectionEnded()
-{    
+{   
+    UE_LOG(LogTemp, Warning, TEXT("Left Mouse Button pressed for : %f"),TimeDownLeftClick) 
     
+    float DistanceBetwenMouse = FVector2D::Distance(HUDPtr->InitialPoint , HUDPtr->CurrentPoint);
     
+    //by setting this false it gets all the units in the selection area
     HUDPtr->bStartSelecting = false;
-    
-    //set TArray to be same array from Hud
-    SelectedUnits = HUDPtr->FoundUnits;
-    for(int32 i= 0 ; i < SelectedUnits.Num() ; i++)
+
+    // checks to see how far away after the mouse was moved
+    // if greater then this number then it assumed tried to drag select
+    if(DistanceBetwenMouse < 15)
     {
-        SelectedUnits[i]->StartSelect();
+        //selects hovered unit
     }
+    else
+    {
+        //selects all in the range
+        SelectedUnits = HUDPtr->FoundUnits;
+        for(int32 i= 0 ; i < SelectedUnits.Num() ; i++)
+        {
+            SelectedUnits[i]->StartSelect();
+        }
+    }
+    
 }
 
 //-1 to select all else select from all units array by input

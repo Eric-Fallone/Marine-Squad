@@ -52,6 +52,7 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=TimeIsAfter)
 	FKey SelectionKeyTimeDown;
+	float TimeDownLeftClick;
 
 protected:
 	// Called when the game starts
