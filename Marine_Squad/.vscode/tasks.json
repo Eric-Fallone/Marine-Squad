@@ -542,6 +542,276 @@
 			}
 		},
 		{
+			"label": "Marine_Squad Android Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Marine_Squad",
+				"Android",
+				"Debug",
+				"C:\\Users\\ericf\\Desktop\\repos\\Marine-Squad\\Marine_Squad\\Marine_Squad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "Q:\\UE_4.22"
+			}
+		},
+		{
+			"label": "Marine_Squad Android Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Marine_Squad",
+				"Android",
+				"Debug",
+				"C:\\Users\\ericf\\Desktop\\repos\\Marine-Squad\\Marine_Squad\\Marine_Squad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Marine_Squad Android Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "Q:\\UE_4.22"
+			}
+		},
+		{
+			"label": "Marine_Squad Android Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Marine_Squad",
+				"Android",
+				"Debug",
+				"C:\\Users\\ericf\\Desktop\\repos\\Marine-Squad\\Marine_Squad\\Marine_Squad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "Q:\\UE_4.22"
+			}
+		},
+		{
+			"label": "Marine_Squad Android DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Marine_Squad",
+				"Android",
+				"DebugGame",
+				"C:\\Users\\ericf\\Desktop\\repos\\Marine-Squad\\Marine_Squad\\Marine_Squad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "Q:\\UE_4.22"
+			}
+		},
+		{
+			"label": "Marine_Squad Android DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Marine_Squad",
+				"Android",
+				"DebugGame",
+				"C:\\Users\\ericf\\Desktop\\repos\\Marine-Squad\\Marine_Squad\\Marine_Squad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Marine_Squad Android DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "Q:\\UE_4.22"
+			}
+		},
+		{
+			"label": "Marine_Squad Android DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Marine_Squad",
+				"Android",
+				"DebugGame",
+				"C:\\Users\\ericf\\Desktop\\repos\\Marine-Squad\\Marine_Squad\\Marine_Squad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "Q:\\UE_4.22"
+			}
+		},
+		{
+			"label": "Marine_Squad Android Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Marine_Squad",
+				"Android",
+				"Development",
+				"C:\\Users\\ericf\\Desktop\\repos\\Marine-Squad\\Marine_Squad\\Marine_Squad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "Q:\\UE_4.22"
+			}
+		},
+		{
+			"label": "Marine_Squad Android Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Marine_Squad",
+				"Android",
+				"Development",
+				"C:\\Users\\ericf\\Desktop\\repos\\Marine-Squad\\Marine_Squad\\Marine_Squad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Marine_Squad Android Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "Q:\\UE_4.22"
+			}
+		},
+		{
+			"label": "Marine_Squad Android Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Marine_Squad",
+				"Android",
+				"Development",
+				"C:\\Users\\ericf\\Desktop\\repos\\Marine-Squad\\Marine_Squad\\Marine_Squad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "Q:\\UE_4.22"
+			}
+		},
+		{
+			"label": "Marine_Squad Android Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Marine_Squad",
+				"Android",
+				"Shipping",
+				"C:\\Users\\ericf\\Desktop\\repos\\Marine-Squad\\Marine_Squad\\Marine_Squad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "Q:\\UE_4.22"
+			}
+		},
+		{
+			"label": "Marine_Squad Android Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Marine_Squad",
+				"Android",
+				"Shipping",
+				"C:\\Users\\ericf\\Desktop\\repos\\Marine-Squad\\Marine_Squad\\Marine_Squad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Marine_Squad Android Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "Q:\\UE_4.22"
+			}
+		},
+		{
+			"label": "Marine_Squad Android Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Marine_Squad",
+				"Android",
+				"Shipping",
+				"C:\\Users\\ericf\\Desktop\\repos\\Marine-Squad\\Marine_Squad\\Marine_Squad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "Q:\\UE_4.22"
+			}
+		},
+		{
+			"label": "Marine_Squad Android Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Marine_Squad",
+				"Android",
+				"Test",
+				"C:\\Users\\ericf\\Desktop\\repos\\Marine-Squad\\Marine_Squad\\Marine_Squad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "Q:\\UE_4.22"
+			}
+		},
+		{
+			"label": "Marine_Squad Android Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Marine_Squad",
+				"Android",
+				"Test",
+				"C:\\Users\\ericf\\Desktop\\repos\\Marine-Squad\\Marine_Squad\\Marine_Squad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Marine_Squad Android Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "Q:\\UE_4.22"
+			}
+		},
+		{
+			"label": "Marine_Squad Android Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Marine_Squad",
+				"Android",
+				"Test",
+				"C:\\Users\\ericf\\Desktop\\repos\\Marine-Squad\\Marine_Squad\\Marine_Squad.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "Q:\\UE_4.22"
+			}
+		},
+		{
 			"label": "Marine_Squad HTML5 Debug Build",
 			"group": "build",
 			"command": "Engine\\Build\\BatchFiles\\Build.bat",

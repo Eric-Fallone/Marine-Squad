@@ -426,9 +426,18 @@
 /I ThirdParty
 /I ThirdParty\libSampleRate\Public
 /I ThirdParty\libSampleRate
+/I ..\Plugins\Runtime\GameplayAbilities\Intermediate\Build\Win64\UE4Editor\Inc\GameplayAbilities
+/I ..\Plugins\Runtime\GameplayAbilities\Source
+/I ..\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public
+/I ..\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities
+/I ..\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public\Abilities
+/I ..\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public\Abilities\Tasks
 /I C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Intermediate\Build\Win64\UE4Editor\Inc\Marine_Squad
 /I C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Source
 /I C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Source\Marine_Squad
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\AugmentedReality
+/I Runtime\AugmentedReality\Public
+/I Runtime\AugmentedReality
 /I "C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.21.27702\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"
