@@ -108,6 +108,21 @@ void AParentUnit::StopSelect()
 }
 
 
+void AParentUnit::FocusUnit( bool isFocused )
+{
+	if(isFocused == true)
+	{
+		isFocused = false;
+		//change selection indicator to default selector
+	}
+	else
+	{
+		isFocused = true;
+		//change selection indicator to focused selector
+	}
+}
+
+
 void AParentUnit::KillSelf()
 {	
 	StopSelect();
@@ -131,6 +146,12 @@ void AParentUnit::KillSelf()
 		GraveMarkerModel->SetVisibility(true);
 	}
 	
+}
+
+
+void AParentUnit::CastAbility(int ability)
+{
+	 UE_LOG(LogTemp, Warning, TEXT("Unit casted - %i"), ability)
 }
 
 

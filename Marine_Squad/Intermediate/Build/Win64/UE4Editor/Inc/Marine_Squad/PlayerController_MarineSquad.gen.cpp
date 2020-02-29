@@ -101,6 +101,10 @@ void EmptyLinkFunctionForGeneratedCodePlayerController_MarineSquad() {}
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_Margin;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_FocusedUnit_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_FocusedUnit;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_AllUnits_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_AllUnits;
@@ -172,6 +176,14 @@ void EmptyLinkFunctionForGeneratedCodePlayerController_MarineSquad() {}
 	};
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_APlayerController_MarineSquad_Statics::NewProp_Margin = { "Margin", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APlayerController_MarineSquad, Margin), METADATA_PARAMS(Z_Construct_UClass_APlayerController_MarineSquad_Statics::NewProp_Margin_MetaData, ARRAY_COUNT(Z_Construct_UClass_APlayerController_MarineSquad_Statics::NewProp_Margin_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayerController_MarineSquad_Statics::NewProp_FocusedUnit_MetaData[] = {
+		{ "Category", "PlayerController_MarineSquad" },
+		{ "ModuleRelativePath", "PlayerController_MarineSquad.h" },
+		{ "ToolTip", "this is used to determ which unit\n-1 is no unit selected\n0-4 is number of unit in the array" },
+	};
+#endif
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_APlayerController_MarineSquad_Statics::NewProp_FocusedUnit = { "FocusedUnit", nullptr, (EPropertyFlags)0x0040000000020001, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APlayerController_MarineSquad, FocusedUnit), METADATA_PARAMS(Z_Construct_UClass_APlayerController_MarineSquad_Statics::NewProp_FocusedUnit_MetaData, ARRAY_COUNT(Z_Construct_UClass_APlayerController_MarineSquad_Statics::NewProp_FocusedUnit_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayerController_MarineSquad_Statics::NewProp_AllUnits_MetaData[] = {
 		{ "Category", "PlayerController_MarineSquad" },
@@ -250,6 +262,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerController_MarineSquad() {}
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_APlayerController_MarineSquad_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerController_MarineSquad_Statics::NewProp_CAMPtr,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerController_MarineSquad_Statics::NewProp_Margin,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerController_MarineSquad_Statics::NewProp_FocusedUnit,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerController_MarineSquad_Statics::NewProp_AllUnits,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerController_MarineSquad_Statics::NewProp_AllUnits_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerController_MarineSquad_Statics::NewProp_SelectedUnits,
@@ -291,7 +304,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerController_MarineSquad() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APlayerController_MarineSquad, 1920119985);
+	IMPLEMENT_CLASS(APlayerController_MarineSquad, 613699629);
 	template<> MARINE_SQUAD_API UClass* StaticClass<APlayerController_MarineSquad>()
 	{
 		return APlayerController_MarineSquad::StaticClass();

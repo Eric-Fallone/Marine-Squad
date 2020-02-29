@@ -102,6 +102,7 @@ void APlayerController_MarineSquad::SetupInputComponent()
         InputComponent->BindAction("Select_Unit_Four_Command", IE_Pressed, this, &APlayerController_MarineSquad::SelectUnitFourCommand);
         InputComponent->BindAction("Select_Unit_Five_Command", IE_Pressed, this, &APlayerController_MarineSquad::SelectUnitFiveCommand);
 
+        InputComponent->BindAction("Change_Focused_Unit", IE_Pressed, this, &APlayerController_MarineSquad::ChangeFocusedUnit);
 
         InputComponent->BindAction("Ability_One_Command", IE_Pressed, this, &APlayerController_MarineSquad::AbilityOneCommand);
         InputComponent->BindAction("Ability_Two_Command", IE_Pressed, this, &APlayerController_MarineSquad::AbilityTwoCommand);
@@ -195,7 +196,7 @@ void APlayerController_MarineSquad::SelectionStarted()
     UE_LOG(LogTemp, Warning, TEXT("Left Mouse Button Pressed"))
     HUDPtr->InitialPoint = HUDPtr->GetMousePos2D();
     HUDPtr->bStartSelecting = true;
-    //reset timer
+    FocusedUnit = -1;
 }
 
 // Selects units based on how far apart the mouse was at the start or the end
@@ -206,7 +207,6 @@ void APlayerController_MarineSquad::SelectionEnded()
     UE_LOG(LogTemp, Warning, TEXT("Left Mouse Button pressed for : %f"),TimeDownLeftClick) 
     
     float DistanceBetwenMouse = FVector2D::Distance(HUDPtr->InitialPoint , HUDPtr->CurrentPoint);
-    
     //by setting this false it gets all the units in the selection area
     HUDPtr->bStartSelecting = false;
 
@@ -220,7 +220,13 @@ void APlayerController_MarineSquad::SelectionEnded()
     {
         //selects all in the range
         SelectedUnits = HUDPtr->FoundUnits;
-        for(int32 i= 0 ; i < SelectedUnits.Num() ; i++)
+        if( SelectedUnits.Num() > 0 ) 
+        {
+            // Focuses the first unit from the selected groups. 
+            SelectedUnits[0]->FocusUnit( true ); 
+            FocusedUnit = AllUnits.Find( SelectedUnits[0] );
+        }
+        for(int32 i = 0 ; i < SelectedUnits.Num() ; i++ )
         {
             SelectedUnits[i]->StartSelect();
         }
@@ -238,6 +244,7 @@ void APlayerController_MarineSquad::SelectUnit(int UnitNum)
     }
 
     //emptys the array 
+    FocusedUnit = UnitNum;
     SelectedUnits.Empty();
 
     //adds units to selection dependent on keypress
@@ -314,24 +321,61 @@ void APlayerController_MarineSquad::SelectUnitFiveCommand()
 void APlayerController_MarineSquad::AbilityOneCommand()
 {
     UE_LOG(LogTemp, Warning, TEXT("AbilityOne Pressed"))
+    if(FocusedUnit != -1 && AllUnits.IsValidIndex(FocusedUnit))
+    {
+        AllUnits[FocusedUnit]->CastAbility(0);
+    }
 }
 
 
 void APlayerController_MarineSquad::AbilityTwoCommand()
 {
     UE_LOG(LogTemp, Warning, TEXT("AbilityTwo Pressed"))
+    if(FocusedUnit != -1 && AllUnits.IsValidIndex(FocusedUnit))
+    {
+        AllUnits[FocusedUnit]->CastAbility(1);
+    }
 }
 
 
 void APlayerController_MarineSquad::AbilityThreeCommand()
 {
     UE_LOG(LogTemp, Warning, TEXT("AbilityThree Pressed"))
+    if(FocusedUnit != -1 && AllUnits.IsValidIndex(FocusedUnit))
+    {
+        AllUnits[FocusedUnit]->CastAbility(2);
+    }
 }
 
 
 void APlayerController_MarineSquad::AbilityFourCommand()
 {
     UE_LOG(LogTemp, Warning, TEXT("AbilityFour Pressed"))
+    if(FocusedUnit != -1 && AllUnits.IsValidIndex(FocusedUnit))
+    {
+        AllUnits[FocusedUnit]->CastAbility(3);
+    }
+}
+
+
+void APlayerController_MarineSquad::ChangeFocusedUnit(){
+
+    //exits if none or 1 unit are selected
+    if(FocusedUnit == -1 || SelectedUnits.Num() == 1 || SelectedUnits.Num() )
+    {
+        return;
+    }
+
+    //FocusedUnit = AllUnits.Find( SelectedUnits[0] );
+
+    int32 helper = ( SelectedUnits.Find( AllUnits[FocusedUnit] ) ) + 1;
+    UE_LOG(LogTemp, Warning, TEXT("%i"), SelectedUnits.Num() )
+    if(SelectedUnits.Num()-1 < helper )
+    {
+        helper = 0;
+    }
+    
+    FocusedUnit = AllUnits.Find( SelectedUnits[helper] );
 }
 
 

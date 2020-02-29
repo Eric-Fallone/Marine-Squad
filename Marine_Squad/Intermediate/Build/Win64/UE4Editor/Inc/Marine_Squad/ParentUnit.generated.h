@@ -25,6 +25,15 @@ struct FVector;
 		P_NATIVE_END; \
 	} \
  \
+	DECLARE_FUNCTION(execCastAbility) \
+	{ \
+		P_GET_PROPERTY(UIntProperty,Z_Param_ability); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->CastAbility(Z_Param_ability); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execKillSelf) \
 	{ \
 		P_FINISH; \
@@ -101,6 +110,15 @@ struct FVector;
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		*(float*)Z_Param__Result=P_THIS->GetAttackDamage(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execCastAbility) \
+	{ \
+		P_GET_PROPERTY(UIntProperty,Z_Param_ability); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->CastAbility(Z_Param_ability); \
 		P_NATIVE_END; \
 	} \
  \

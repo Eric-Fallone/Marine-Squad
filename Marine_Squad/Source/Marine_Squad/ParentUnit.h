@@ -89,10 +89,14 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=UnitTarget)
 	AParentUnit* CurrentTarget;
 
-	//unit selection unit
+	//unit selection
 
+	void FocusUnit( bool isFocused );
+	bool isFocusedUnit;
+	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=UnitTarget)
 	UWidgetComponent* SelectionCircle; //set from blueprint
+
 
 	//unit dealth 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=UnitDeath)
@@ -105,6 +109,12 @@ public:
     void KillSelf();
 
 	//GetValueFuntions
+	// 0 - q 
+	// 1 - w
+	// 2 - e
+	// 4 - r
+	UFUNCTION(BlueprintCallable, Category = "BasicFunction")
+	void CastAbility(int ability);
 
 	UFUNCTION(BlueprintCallable, Category = "BasicUnitGetMethod")
     float GetAttackDamage();

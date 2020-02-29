@@ -89,6 +89,8 @@ private:
 	void SelectUnitFourCommand();
 	void SelectUnitFiveCommand();
 
+	void ChangeFocusedUnit();
+
 //Unit Abilities
 
 	void AbilityOneCommand();
@@ -103,6 +105,12 @@ private:
 	TArray<AParentUnit*> SelectedUnits;
 	UPROPERTY(VisibleAnywhere)
 	TArray<AParentUnit*> AllUnits;
+	
+	//this is used to determ which unit 
+	//-1 is no unit selected
+	//0-4 is number of unit in the array
+	UPROPERTY(VisibleAnywhere)
+	int32 FocusedUnit = -1;
 
 //Player Camera
 

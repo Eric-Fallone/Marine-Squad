@@ -60,6 +60,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APlayerController_MarineSquad); \
 #define Marine_Squad_Source_Marine_Squad_PlayerController_MarineSquad_h_29_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__SelectedUnits() { return STRUCT_OFFSET(APlayerController_MarineSquad, SelectedUnits); } \
 	FORCEINLINE static uint32 __PPO__AllUnits() { return STRUCT_OFFSET(APlayerController_MarineSquad, AllUnits); } \
+	FORCEINLINE static uint32 __PPO__FocusedUnit() { return STRUCT_OFFSET(APlayerController_MarineSquad, FocusedUnit); } \
 	FORCEINLINE static uint32 __PPO__Margin() { return STRUCT_OFFSET(APlayerController_MarineSquad, Margin); } \
 	FORCEINLINE static uint32 __PPO__CAMPtr() { return STRUCT_OFFSET(APlayerController_MarineSquad, CAMPtr); }
 
