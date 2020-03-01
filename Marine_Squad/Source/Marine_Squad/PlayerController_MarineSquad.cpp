@@ -357,11 +357,10 @@ void APlayerController_MarineSquad::AbilityFourCommand()
     }
 }
 
-
+//changed focused unit to the next 
 void APlayerController_MarineSquad::ChangeFocusedUnit(){
-
     //exits if none or 1 unit are selected
-    if(FocusedUnit == -1 || SelectedUnits.Num() == 1 || SelectedUnits.Num() )
+    if(FocusedUnit == -1 || SelectedUnits.Num() == 1 || SelectedUnits.Num() ==0 )
     {
         return;
     }
@@ -369,13 +368,15 @@ void APlayerController_MarineSquad::ChangeFocusedUnit(){
     //FocusedUnit = AllUnits.Find( SelectedUnits[0] );
 
     int32 helper = ( SelectedUnits.Find( AllUnits[FocusedUnit] ) ) + 1;
-    UE_LOG(LogTemp, Warning, TEXT("%i"), SelectedUnits.Num() )
-    if(SelectedUnits.Num()-1 < helper )
+    
+    if(SelectedUnits.Num() - 1 < helper )
     {
         helper = 0;
     }
     
     FocusedUnit = AllUnits.Find( SelectedUnits[helper] );
+
+    UE_LOG(LogTemp, Warning, TEXT(" Focusing unit: %i"), FocusedUnit )
 }
 
 
