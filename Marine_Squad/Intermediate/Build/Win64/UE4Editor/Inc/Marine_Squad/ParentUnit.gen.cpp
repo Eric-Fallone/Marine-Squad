@@ -30,8 +30,6 @@ void EmptyLinkFunctionForGeneratedCodeParentUnit() {}
 	MARINE_SQUAD_API UFunction* Z_Construct_UFunction_AParentUnit_TakeDamage();
 	ENGINE_API UClass* Z_Construct_UClass_USceneComponent_NoRegister();
 	UMG_API UClass* Z_Construct_UClass_UWidgetComponent_NoRegister();
-	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
-	MARINE_SQUAD_API UClass* Z_Construct_UClass_UBaseGameplayAbility_NoRegister();
 // End Cross Module References
 	void AParentUnit::StaticRegisterNativesAParentUnit()
 	{
@@ -137,7 +135,7 @@ void EmptyLinkFunctionForGeneratedCodeParentUnit() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AParentUnit_CastAbility_Statics::Function_MetaDataParams[] = {
 		{ "Category", "BasicFunction" },
 		{ "ModuleRelativePath", "ParentUnit.h" },
-		{ "ToolTip", "0 - q\n1 - w\n2 - e\n4 - r" },
+		{ "ToolTip", "GetValueFuntions\n 0 - q\n 1 - w\n 2 - e\n 4 - r" },
 	};
 #endif
 	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AParentUnit_CastAbility_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AParentUnit, nullptr, "CastAbility", sizeof(ParentUnit_eventCastAbility_Parms), Z_Construct_UFunction_AParentUnit_CastAbility_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AParentUnit_CastAbility_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AParentUnit_CastAbility_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AParentUnit_CastAbility_Statics::Function_MetaDataParams)) };
@@ -419,11 +417,6 @@ void EmptyLinkFunctionForGeneratedCodeParentUnit() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TeamNumber_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_TeamNumber;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_GameplayAbilities_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_GameplayAbilities;
-		static const UE4CodeGen_Private::FClassPropertyParams NewProp_GameplayAbilities_Inner;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -435,7 +428,7 @@ void EmptyLinkFunctionForGeneratedCodeParentUnit() {}
 	const FClassFunctionLinkInfo Z_Construct_UClass_AParentUnit_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_AParentUnit_Attack, "Attack" }, // 885613421
 		{ &Z_Construct_UFunction_AParentUnit_AttackMove, "AttackMove" }, // 3564913698
-		{ &Z_Construct_UFunction_AParentUnit_CastAbility, "CastAbility" }, // 290854041
+		{ &Z_Construct_UFunction_AParentUnit_CastAbility, "CastAbility" }, // 1338971344
 		{ &Z_Construct_UFunction_AParentUnit_GetAttackDamage, "GetAttackDamage" }, // 1074421272
 		{ &Z_Construct_UFunction_AParentUnit_KillSelf, "KillSelf" }, // 500280134
 		{ &Z_Construct_UFunction_AParentUnit_Move, "Move" }, // 2883667559
@@ -573,15 +566,6 @@ void EmptyLinkFunctionForGeneratedCodeParentUnit() {}
 	};
 #endif
 	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AParentUnit_Statics::NewProp_TeamNumber = { "TeamNumber", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AParentUnit, TeamNumber), METADATA_PARAMS(Z_Construct_UClass_AParentUnit_Statics::NewProp_TeamNumber_MetaData, ARRAY_COUNT(Z_Construct_UClass_AParentUnit_Statics::NewProp_TeamNumber_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AParentUnit_Statics::NewProp_GameplayAbilities_MetaData[] = {
-		{ "Category", "Abilities" },
-		{ "ModuleRelativePath", "ParentUnit.h" },
-		{ "ToolTip", "Abilities to grant to this character on creation. These will be activated by tag or event and are not bound to specific inputs" },
-	};
-#endif
-	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AParentUnit_Statics::NewProp_GameplayAbilities = { "GameplayAbilities", nullptr, (EPropertyFlags)0x0014000000000015, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AParentUnit, GameplayAbilities), METADATA_PARAMS(Z_Construct_UClass_AParentUnit_Statics::NewProp_GameplayAbilities_MetaData, ARRAY_COUNT(Z_Construct_UClass_AParentUnit_Statics::NewProp_GameplayAbilities_MetaData)) };
-	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AParentUnit_Statics::NewProp_GameplayAbilities_Inner = { "GameplayAbilities", nullptr, (EPropertyFlags)0x0004000000000000, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_UBaseGameplayAbility_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AParentUnit_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AParentUnit_Statics::NewProp_GraveMarkerModel,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AParentUnit_Statics::NewProp_isDead,
@@ -599,8 +583,6 @@ void EmptyLinkFunctionForGeneratedCodeParentUnit() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AParentUnit_Statics::NewProp_AttackRange,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AParentUnit_Statics::NewProp_SightRange,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AParentUnit_Statics::NewProp_TeamNumber,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AParentUnit_Statics::NewProp_GameplayAbilities,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AParentUnit_Statics::NewProp_GameplayAbilities_Inner,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AParentUnit_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AParentUnit>::IsAbstract,
@@ -629,7 +611,7 @@ void EmptyLinkFunctionForGeneratedCodeParentUnit() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AParentUnit, 2233552142);
+	IMPLEMENT_CLASS(AParentUnit, 3706955456);
 	template<> MARINE_SQUAD_API UClass* StaticClass<AParentUnit>()
 	{
 		return AParentUnit::StaticClass();

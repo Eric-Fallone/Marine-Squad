@@ -4,16 +4,13 @@
 #include "ParentUnit.h"
 #include "AIController.h"
 #include "BehaviorTree/BlackboardComponent.h"
-#include "AbilitySystemGlobals.h"
 #include "GameFramework/CharacterMovementComponent.h"
-#include "Abilities/BaseGameplayAbility.h"
 
 // Sets default values
 AParentUnit::AParentUnit()
 {
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
-
 
 }
 
@@ -46,46 +43,6 @@ void AParentUnit::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
 }
-
-
-UAbilitySystemComponent* AParentUnit::GetAbilityComponent()
-{
-	return AbilitySystemComponent;
-}
-
-
-void AParentUnit::AquireAbilities()
-{
-	check(AbilitySystemComponent);
-	
-	if (Role == ROLE_Authority && !bAbilitiesInitialized)
-	{
-		// Grant abilities, but only on the server	
-		for (TSubclassOf<UBaseGameplayAbility>& StartupAbility : GameplayAbilities)
-		{
-		//	AbilitySystemComponent->GiveAbility(FGameplayAbilitySpec(StartupAbility, 1, INDEX_NONE, this));
-		}
-
-		// Now apply passives
-		/*for (TSubclassOf<UGameplayEffect>& GameplayEffect : PassiveGameplayEffects)
-		{
-			FGameplayEffectContextHandle EffectContext = AbilitySystemComponent->MakeEffectContext();
-			EffectContext.AddSourceObject(this);
-
-			FGameplayEffectSpecHandle NewHandle = AbilitySystemComponent->MakeOutgoingSpec(GameplayEffect, GetCharacterLevel(), EffectContext);
-			if (NewHandle.IsValid())
-			{
-				FActiveGameplayEffectHandle ActiveGEHandle = AbilitySystemComponent->ApplyGameplayEffectSpecToTarget(*NewHandle.Data.Get(), AbilitySystemComponent);
-			}
-		}
-		*/
-
-		//AddSlottedGameplayAbilities();
-
-		bAbilitiesInitialized = true;
-	}
-}
-
 
 void AParentUnit::Move(FVector MoveLocation)
 {

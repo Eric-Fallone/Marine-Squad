@@ -6,10 +6,6 @@
 #include "GameFramework/Character.h"
 #include "WidgetComponent.h"
 #include "FloatingSprite.h"
-#include "Abilities/Marine_AbilitySystemComponent.h"
-#include "Abilities/BaseGameplayAbility.h"
-#include "AbilitySystemInterface.h"
-#include "GameplayAbility.h"
 #include "ParentUnit.generated.h"
 
 UCLASS()
@@ -31,30 +27,6 @@ public:
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
-
-	//ability system 
-
-	//UPROPERTY(VisibleAnywhere, BlueprintReadWrite, category = "BaseUnit")
-	UMarine_AbilitySystemComponent* AbilitySystemComponent;
-
-	/** Abilities to grant to this character on creation.
-	 * 0-3 is set to q,w,e,r
-	 * 4+ is passives 
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Abilities)
-	TArray<TSubclassOf<UBaseGameplayAbility>> GameplayAbilities;
-
-	UAbilitySystemComponent* GetAbilityComponent();
-	
-	void AquireAbilities();
-	int32 bAbilitiesInitialized;
-
-	// 0 - q 
-	// 1 - w
-	// 2 - e
-	// 4 - r
-	UFUNCTION(BlueprintCallable, Category = "BasicFunction")
-	void CastAbility(int ability);
-
 
 	//command methods
 	UFUNCTION(BlueprintCallable, Category = "MoveFunction")
@@ -135,6 +107,14 @@ public:
 
 	UFUNCTION(BlueprintCallable, Category = "BasicFunction")
     void KillSelf();
+
+	//GetValueFuntions
+	// 0 - q 
+	// 1 - w
+	// 2 - e
+	// 4 - r
+	UFUNCTION(BlueprintCallable, Category = "BasicFunction")
+	void CastAbility(int ability);
 
 	UFUNCTION(BlueprintCallable, Category = "BasicUnitGetMethod")
     float GetAttackDamage();
