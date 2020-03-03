@@ -6,18 +6,43 @@
 #include "GameFramework/Character.h"
 #include "WidgetComponent.h"
 #include "FloatingSprite.h"
+#include "AbilitySystemInterface.h"
+#include "Abilities/Marine_AbilitySystemComponent.h"
+#include "Abilities/BaseGameplayAbility.h"
 #include "ParentUnit.generated.h"
 
 UCLASS()
-class MARINE_SQUAD_API AParentUnit : public ACharacter
+class MARINE_SQUAD_API AParentUnit : public ACharacter , public IAbilitySystemInterface
 {
 	GENERATED_BODY()
 
 public:
 	// Sets default values for this character's properties
 	AParentUnit();
+	//ability system variables and functions
 
+	virtual void PossessedBy(AController* NewController) override;
+	virtual void UnPossessed() override;
+	virtual void OnRep_Controller() override;
+
+	UMarine_AbilitySystemComponent* GetAbilitySystemComponent() const override;
+	
+	//
 protected:
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Inventory)
+	UMarine_AbilitySystemComponent* AbilitySystemComponent;
+
+	/** Apply the startup gameplay abilities and effects */
+	void AddStartupGameplayAbilities();
+
+	/** Abilities to grant to this character on creation. These will be activated by tag or event and are not bound to specific inputs */
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Abilities)
+	TArray<TSubclassOf<UBaseGameplayAbility>> GameplayAbilities;
+
+	UPROPERTY()
+	int32 bAbilitiesInitialized;
+
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 

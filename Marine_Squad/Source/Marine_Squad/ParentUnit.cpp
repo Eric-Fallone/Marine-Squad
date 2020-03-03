@@ -2,6 +2,7 @@
 
 
 #include "ParentUnit.h"
+#include "AbilitySystemGlobals.h"
 #include "AIController.h"
 #include "BehaviorTree/BlackboardComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
@@ -12,7 +13,86 @@ AParentUnit::AParentUnit()
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
+	AbilitySystemComponent = CreateDefaultSubobject<UMarine_AbilitySystemComponent>(TEXT("AbilitySystemComponent"));
+	//AbilitySystemComponent->SetIsReplicated(true);
+
+
+	bAbilitiesInitialized = false;
 }
+
+
+///game play abilites 
+UMarine_AbilitySystemComponent* AParentUnit::GetAbilitySystemComponent() const
+{
+	return AbilitySystemComponent;
+}
+
+
+void AParentUnit::PossessedBy(AController* NewController)
+{
+	Super::PossessedBy(NewController);
+
+	// Initialize our abilities
+	if (AbilitySystemComponent)
+	{
+		AbilitySystemComponent->InitAbilityActorInfo(this, this);
+		AddStartupGameplayAbilities();
+	}
+}
+
+void AParentUnit::UnPossessed()
+{
+
+}
+
+
+void AParentUnit::OnRep_Controller()
+{
+	Super::OnRep_Controller();
+
+	// Our controller changed, must update ActorInfo on AbilitySystemComponent
+	if (AbilitySystemComponent)
+	{
+		AbilitySystemComponent->RefreshAbilityActorInfo();
+	}
+}
+
+
+void AParentUnit::AddStartupGameplayAbilities()
+{
+	check(AbilitySystemComponent);
+	
+	if (Role == ROLE_Authority && !bAbilitiesInitialized)
+	{
+		// Grant abilities, but only on the server	
+		for (TSubclassOf<UBaseGameplayAbility>& StartupAbility : GameplayAbilities)
+		{
+			FGameplayAbilitySpecDef SpecDef = FGameplayAbilitySpecDef();
+			SpecDef.Ability = StartupAbility;
+			FGameplayAbilitySpec AbilitySpec = FGameplayAbilitySpec(SpecDef, 1);
+			AbilitySystemComponent->GiveAbility( AbilitySpec );
+		}
+		AbilitySystemComponent->InitAbilityActorInfo(this, this);
+		/*
+		// Now apply passives
+		for (TSubclassOf<UGameplayEffect>& GameplayEffect : PassiveGameplayEffects)
+		{
+			FGameplayEffectContextHandle EffectContext = AbilitySystemComponent->MakeEffectContext();
+			EffectContext.AddSourceObject(this);
+
+			FGameplayEffectSpecHandle NewHandle = AbilitySystemComponent->MakeOutgoingSpec(GameplayEffect, GetCharacterLevel(), EffectContext);
+			if (NewHandle.IsValid())
+			{
+				FActiveGameplayEffectHandle ActiveGEHandle = AbilitySystemComponent->ApplyGameplayEffectSpecToTarget(*NewHandle.Data.Get(), AbilitySystemComponent);
+			}
+		}
+
+		AddSlottedGameplayAbilities(); */
+
+		bAbilitiesInitialized = true;
+	}
+}
+///////
 
 // Called when the game starts or when spawned
 void AParentUnit::BeginPlay()
@@ -41,7 +121,6 @@ void AParentUnit::Tick(float DeltaTime)
 void AParentUnit::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
-
 }
 
 void AParentUnit::Move(FVector MoveLocation)
