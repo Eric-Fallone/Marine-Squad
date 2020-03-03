@@ -151,11 +151,11 @@ void AParentUnit::Attack(AParentUnit* BasicTarget)
 {
 	//get unit damage
 	//deal damage to target 
-	BasicTarget->TakeDamage(GetAttackDamage());
+	BasicTarget->ChangeHealth(GetAttackDamage());
 }
 
 
-void AParentUnit::TakeDamage(float DamageTaken)
+void AParentUnit::ChangeHealth(float DamageTaken)
 {
 	HealthCurrent = HealthCurrent - DamageTaken;
 	HealthPercent = (HealthCurrent / HealthMax);

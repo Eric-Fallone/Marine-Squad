@@ -67,7 +67,7 @@ public:
     void Attack(class AParentUnit* BasicTarget);
 
 	UFUNCTION(BlueprintCallable, Category = "AttackFunction")
-    void TakeDamage(float DamageTaken);
+    void ChangeHealth(float DamageTaken);
 
 	UFUNCTION(BlueprintCallable, Category = "BasicFunction")
     void StartSelect();

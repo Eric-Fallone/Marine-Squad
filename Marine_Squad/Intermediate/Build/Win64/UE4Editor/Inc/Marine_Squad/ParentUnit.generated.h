@@ -58,12 +58,12 @@ struct FVector;
 		P_NATIVE_END; \
 	} \
  \
-	DECLARE_FUNCTION(execTakeDamage) \
+	DECLARE_FUNCTION(execChangeHealth) \
 	{ \
 		P_GET_PROPERTY(UFloatProperty,Z_Param_DamageTaken); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->TakeDamage(Z_Param_DamageTaken); \
+		P_THIS->ChangeHealth(Z_Param_DamageTaken); \
 		P_NATIVE_END; \
 	} \
  \
@@ -146,12 +146,12 @@ struct FVector;
 		P_NATIVE_END; \
 	} \
  \
-	DECLARE_FUNCTION(execTakeDamage) \
+	DECLARE_FUNCTION(execChangeHealth) \
 	{ \
 		P_GET_PROPERTY(UFloatProperty,Z_Param_DamageTaken); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->TakeDamage(Z_Param_DamageTaken); \
+		P_THIS->ChangeHealth(Z_Param_DamageTaken); \
 		P_NATIVE_END; \
 	} \
  \
