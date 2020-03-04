@@ -13,10 +13,11 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeMarineAttributeSet() {}
 // Cross Module References
+	MARINE_SQUAD_API UFunction* Z_Construct_UDelegateFunction_Marine_Squad_OnHealthChangeDelegate__DelegateSignature();
+	UPackage* Z_Construct_UPackage__Script_Marine_Squad();
 	MARINE_SQUAD_API UClass* Z_Construct_UClass_UMarineAttributeSet_NoRegister();
 	MARINE_SQUAD_API UClass* Z_Construct_UClass_UMarineAttributeSet();
 	GAMEPLAYABILITIES_API UClass* Z_Construct_UClass_UAttributeSet();
-	UPackage* Z_Construct_UPackage__Script_Marine_Squad();
 	MARINE_SQUAD_API UFunction* Z_Construct_UFunction_UMarineAttributeSet_OnRep_AttackPower();
 	MARINE_SQUAD_API UFunction* Z_Construct_UFunction_UMarineAttributeSet_OnRep_AttackRange();
 	MARINE_SQUAD_API UFunction* Z_Construct_UFunction_UMarineAttributeSet_OnRep_DefensePower();
@@ -28,6 +29,42 @@ void EmptyLinkFunctionForGeneratedCodeMarineAttributeSet() {}
 	MARINE_SQUAD_API UFunction* Z_Construct_UFunction_UMarineAttributeSet_OnRep_SightRange();
 	GAMEPLAYABILITIES_API UScriptStruct* Z_Construct_UScriptStruct_FGameplayAttributeData();
 // End Cross Module References
+	struct Z_Construct_UDelegateFunction_Marine_Squad_OnHealthChangeDelegate__DelegateSignature_Statics
+	{
+		struct _Script_Marine_Squad_eventOnHealthChangeDelegate_Parms
+		{
+			float Health;
+			float MaxHealth;
+		};
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_MaxHealth;
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_Health;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UDelegateFunction_Marine_Squad_OnHealthChangeDelegate__DelegateSignature_Statics::NewProp_MaxHealth = { "MaxHealth", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(_Script_Marine_Squad_eventOnHealthChangeDelegate_Parms, MaxHealth), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UDelegateFunction_Marine_Squad_OnHealthChangeDelegate__DelegateSignature_Statics::NewProp_Health = { "Health", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(_Script_Marine_Squad_eventOnHealthChangeDelegate_Parms, Health), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UDelegateFunction_Marine_Squad_OnHealthChangeDelegate__DelegateSignature_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_Marine_Squad_OnHealthChangeDelegate__DelegateSignature_Statics::NewProp_MaxHealth,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_Marine_Squad_OnHealthChangeDelegate__DelegateSignature_Statics::NewProp_Health,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_Marine_Squad_OnHealthChangeDelegate__DelegateSignature_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Abilities/MarineAttributeSet.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_Marine_Squad_OnHealthChangeDelegate__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_Marine_Squad, nullptr, "OnHealthChangeDelegate__DelegateSignature", sizeof(_Script_Marine_Squad_eventOnHealthChangeDelegate_Parms), Z_Construct_UDelegateFunction_Marine_Squad_OnHealthChangeDelegate__DelegateSignature_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UDelegateFunction_Marine_Squad_OnHealthChangeDelegate__DelegateSignature_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(Z_Construct_UDelegateFunction_Marine_Squad_OnHealthChangeDelegate__DelegateSignature_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UDelegateFunction_Marine_Squad_OnHealthChangeDelegate__DelegateSignature_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UDelegateFunction_Marine_Squad_OnHealthChangeDelegate__DelegateSignature()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UDelegateFunction_Marine_Squad_OnHealthChangeDelegate__DelegateSignature_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	void UMarineAttributeSet::StaticRegisterNativesUMarineAttributeSet()
 	{
 		UClass* Class = UMarineAttributeSet::StaticClass();

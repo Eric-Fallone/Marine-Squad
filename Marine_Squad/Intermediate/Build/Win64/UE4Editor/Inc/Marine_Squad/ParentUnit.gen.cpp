@@ -22,6 +22,7 @@ void EmptyLinkFunctionForGeneratedCodeParentUnit() {}
 	MARINE_SQUAD_API UFunction* Z_Construct_UFunction_AParentUnit_CastAbility();
 	MARINE_SQUAD_API UFunction* Z_Construct_UFunction_AParentUnit_KillSelf();
 	MARINE_SQUAD_API UFunction* Z_Construct_UFunction_AParentUnit_Move();
+	MARINE_SQUAD_API UFunction* Z_Construct_UFunction_AParentUnit_OnHealthChange();
 	MARINE_SQUAD_API UFunction* Z_Construct_UFunction_AParentUnit_StartSelect();
 	MARINE_SQUAD_API UFunction* Z_Construct_UFunction_AParentUnit_StopMoving();
 	MARINE_SQUAD_API UFunction* Z_Construct_UFunction_AParentUnit_StopSelect();
@@ -41,6 +42,7 @@ void EmptyLinkFunctionForGeneratedCodeParentUnit() {}
 			{ "CastAbility", &AParentUnit::execCastAbility },
 			{ "KillSelf", &AParentUnit::execKillSelf },
 			{ "Move", &AParentUnit::execMove },
+			{ "OnHealthChange", &AParentUnit::execOnHealthChange },
 			{ "StartSelect", &AParentUnit::execStartSelect },
 			{ "StopMoving", &AParentUnit::execStopMoving },
 			{ "StopSelect", &AParentUnit::execStopSelect },
@@ -169,6 +171,43 @@ void EmptyLinkFunctionForGeneratedCodeParentUnit() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AParentUnit_Move_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AParentUnit_OnHealthChange_Statics
+	{
+		struct ParentUnit_eventOnHealthChange_Parms
+		{
+			float Health;
+			float MaxHealth;
+		};
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_MaxHealth;
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_Health;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_AParentUnit_OnHealthChange_Statics::NewProp_MaxHealth = { "MaxHealth", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ParentUnit_eventOnHealthChange_Parms, MaxHealth), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_AParentUnit_OnHealthChange_Statics::NewProp_Health = { "Health", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ParentUnit_eventOnHealthChange_Parms, Health), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AParentUnit_OnHealthChange_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AParentUnit_OnHealthChange_Statics::NewProp_MaxHealth,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AParentUnit_OnHealthChange_Statics::NewProp_Health,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AParentUnit_OnHealthChange_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "ParentUnit.h" },
+		{ "ToolTip", "UFUNCTION(BlueprintCallable, Category = \"BasicUnitGetMethod\")\nfloat GetAttackDamage();" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AParentUnit_OnHealthChange_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AParentUnit, nullptr, "OnHealthChange", sizeof(ParentUnit_eventOnHealthChange_Parms), Z_Construct_UFunction_AParentUnit_OnHealthChange_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AParentUnit_OnHealthChange_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AParentUnit_OnHealthChange_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AParentUnit_OnHealthChange_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AParentUnit_OnHealthChange()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AParentUnit_OnHealthChange_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -305,6 +344,7 @@ void EmptyLinkFunctionForGeneratedCodeParentUnit() {}
 		{ &Z_Construct_UFunction_AParentUnit_CastAbility, "CastAbility" }, // 1338971344
 		{ &Z_Construct_UFunction_AParentUnit_KillSelf, "KillSelf" }, // 500280134
 		{ &Z_Construct_UFunction_AParentUnit_Move, "Move" }, // 2883667559
+		{ &Z_Construct_UFunction_AParentUnit_OnHealthChange, "OnHealthChange" }, // 1740266412
 		{ &Z_Construct_UFunction_AParentUnit_StartSelect, "StartSelect" }, // 542494766
 		{ &Z_Construct_UFunction_AParentUnit_StopMoving, "StopMoving" }, // 1891109490
 		{ &Z_Construct_UFunction_AParentUnit_StopSelect, "StopSelect" }, // 2094125952
@@ -348,7 +388,6 @@ void EmptyLinkFunctionForGeneratedCodeParentUnit() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AParentUnit_Statics::NewProp_CurrentTarget_MetaData[] = {
 		{ "Category", "UnitTarget" },
 		{ "ModuleRelativePath", "ParentUnit.h" },
-		{ "ToolTip", "used for the HP bar element" },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AParentUnit_Statics::NewProp_CurrentTarget = { "CurrentTarget", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AParentUnit, CurrentTarget), Z_Construct_UClass_AParentUnit_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AParentUnit_Statics::NewProp_CurrentTarget_MetaData, ARRAY_COUNT(Z_Construct_UClass_AParentUnit_Statics::NewProp_CurrentTarget_MetaData)) };
@@ -433,7 +472,7 @@ void EmptyLinkFunctionForGeneratedCodeParentUnit() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AParentUnit, 2517401694);
+	IMPLEMENT_CLASS(AParentUnit, 4183073699);
 	template<> MARINE_SQUAD_API UClass* StaticClass<AParentUnit>()
 	{
 		return AParentUnit::StaticClass();

@@ -99,6 +99,8 @@ void AParentUnit::AddStartupGameplayAbilities()
 void AParentUnit::BeginPlay()
 {
 	Super::BeginPlay();
+	AttributeSet->OnHealthChange.AddDynamic(this, &AParentUnit::OnHealthChange);
+
 }
 
 // Called every frame
@@ -224,6 +226,18 @@ void AParentUnit::CastAbility(int ability)
 	 UE_LOG(LogTemp, Warning, TEXT("Unit casted - %i"), ability)
 }
 
+void AParentUnit::OnHealthChange(float Health, float MaxHealth)
+{
+	if(MaxHealth == 0)
+	{
+		MaxHealth = 1;
+	}
+	HealthPercent = Health / MaxHealth ; 
+	if(Health == 0)
+	{
+		KillSelf();
+	}
+}
 /*
 float AParentUnit::GetAttackDamage()
 {

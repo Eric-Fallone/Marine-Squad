@@ -13,7 +13,22 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define MARINE_SQUAD_MarineAttributeSet_generated_h
 
-#define Marine_Squad_Source_Marine_Squad_Abilities_MarineAttributeSet_h_25_RPC_WRAPPERS \
+#define Marine_Squad_Source_Marine_Squad_Abilities_MarineAttributeSet_h_21_DELEGATE \
+struct _Script_Marine_Squad_eventOnHealthChangeDelegate_Parms \
+{ \
+	float Health; \
+	float MaxHealth; \
+}; \
+static inline void FOnHealthChangeDelegate_DelegateWrapper(const FMulticastScriptDelegate& OnHealthChangeDelegate, float Health, float MaxHealth) \
+{ \
+	_Script_Marine_Squad_eventOnHealthChangeDelegate_Parms Parms; \
+	Parms.Health=Health; \
+	Parms.MaxHealth=MaxHealth; \
+	OnHealthChangeDelegate.ProcessMulticastDelegate<UObject>(&Parms); \
+}
+
+
+#define Marine_Squad_Source_Marine_Squad_Abilities_MarineAttributeSet_h_26_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execOnRep_AttackRange) \
 	{ \
@@ -88,7 +103,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	}
 
 
-#define Marine_Squad_Source_Marine_Squad_Abilities_MarineAttributeSet_h_25_RPC_WRAPPERS_NO_PURE_DECLS \
+#define Marine_Squad_Source_Marine_Squad_Abilities_MarineAttributeSet_h_26_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execOnRep_AttackRange) \
 	{ \
@@ -163,7 +178,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	}
 
 
-#define Marine_Squad_Source_Marine_Squad_Abilities_MarineAttributeSet_h_25_INCLASS_NO_PURE_DECLS \
+#define Marine_Squad_Source_Marine_Squad_Abilities_MarineAttributeSet_h_26_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUMarineAttributeSet(); \
 	friend struct Z_Construct_UClass_UMarineAttributeSet_Statics; \
@@ -172,7 +187,7 @@ public: \
 	DECLARE_SERIALIZER(UMarineAttributeSet)
 
 
-#define Marine_Squad_Source_Marine_Squad_Abilities_MarineAttributeSet_h_25_INCLASS \
+#define Marine_Squad_Source_Marine_Squad_Abilities_MarineAttributeSet_h_26_INCLASS \
 private: \
 	static void StaticRegisterNativesUMarineAttributeSet(); \
 	friend struct Z_Construct_UClass_UMarineAttributeSet_Statics; \
@@ -181,7 +196,7 @@ public: \
 	DECLARE_SERIALIZER(UMarineAttributeSet)
 
 
-#define Marine_Squad_Source_Marine_Squad_Abilities_MarineAttributeSet_h_25_STANDARD_CONSTRUCTORS \
+#define Marine_Squad_Source_Marine_Squad_Abilities_MarineAttributeSet_h_26_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UMarineAttributeSet(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMarineAttributeSet) \
@@ -194,7 +209,7 @@ private: \
 public:
 
 
-#define Marine_Squad_Source_Marine_Squad_Abilities_MarineAttributeSet_h_25_ENHANCED_CONSTRUCTORS \
+#define Marine_Squad_Source_Marine_Squad_Abilities_MarineAttributeSet_h_26_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UMarineAttributeSet(UMarineAttributeSet&&); \
@@ -205,26 +220,26 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMarineAttributeSet); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UMarineAttributeSet)
 
 
-#define Marine_Squad_Source_Marine_Squad_Abilities_MarineAttributeSet_h_25_PRIVATE_PROPERTY_OFFSET
-#define Marine_Squad_Source_Marine_Squad_Abilities_MarineAttributeSet_h_22_PROLOG
-#define Marine_Squad_Source_Marine_Squad_Abilities_MarineAttributeSet_h_25_GENERATED_BODY_LEGACY \
+#define Marine_Squad_Source_Marine_Squad_Abilities_MarineAttributeSet_h_26_PRIVATE_PROPERTY_OFFSET
+#define Marine_Squad_Source_Marine_Squad_Abilities_MarineAttributeSet_h_23_PROLOG
+#define Marine_Squad_Source_Marine_Squad_Abilities_MarineAttributeSet_h_26_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Marine_Squad_Source_Marine_Squad_Abilities_MarineAttributeSet_h_25_PRIVATE_PROPERTY_OFFSET \
-	Marine_Squad_Source_Marine_Squad_Abilities_MarineAttributeSet_h_25_RPC_WRAPPERS \
-	Marine_Squad_Source_Marine_Squad_Abilities_MarineAttributeSet_h_25_INCLASS \
-	Marine_Squad_Source_Marine_Squad_Abilities_MarineAttributeSet_h_25_STANDARD_CONSTRUCTORS \
+	Marine_Squad_Source_Marine_Squad_Abilities_MarineAttributeSet_h_26_PRIVATE_PROPERTY_OFFSET \
+	Marine_Squad_Source_Marine_Squad_Abilities_MarineAttributeSet_h_26_RPC_WRAPPERS \
+	Marine_Squad_Source_Marine_Squad_Abilities_MarineAttributeSet_h_26_INCLASS \
+	Marine_Squad_Source_Marine_Squad_Abilities_MarineAttributeSet_h_26_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Marine_Squad_Source_Marine_Squad_Abilities_MarineAttributeSet_h_25_GENERATED_BODY \
+#define Marine_Squad_Source_Marine_Squad_Abilities_MarineAttributeSet_h_26_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Marine_Squad_Source_Marine_Squad_Abilities_MarineAttributeSet_h_25_PRIVATE_PROPERTY_OFFSET \
-	Marine_Squad_Source_Marine_Squad_Abilities_MarineAttributeSet_h_25_RPC_WRAPPERS_NO_PURE_DECLS \
-	Marine_Squad_Source_Marine_Squad_Abilities_MarineAttributeSet_h_25_INCLASS_NO_PURE_DECLS \
-	Marine_Squad_Source_Marine_Squad_Abilities_MarineAttributeSet_h_25_ENHANCED_CONSTRUCTORS \
+	Marine_Squad_Source_Marine_Squad_Abilities_MarineAttributeSet_h_26_PRIVATE_PROPERTY_OFFSET \
+	Marine_Squad_Source_Marine_Squad_Abilities_MarineAttributeSet_h_26_RPC_WRAPPERS_NO_PURE_DECLS \
+	Marine_Squad_Source_Marine_Squad_Abilities_MarineAttributeSet_h_26_INCLASS_NO_PURE_DECLS \
+	Marine_Squad_Source_Marine_Squad_Abilities_MarineAttributeSet_h_26_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

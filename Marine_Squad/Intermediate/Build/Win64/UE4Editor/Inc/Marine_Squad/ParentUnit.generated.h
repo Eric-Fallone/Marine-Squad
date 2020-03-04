@@ -16,6 +16,16 @@ struct FVector;
 
 #define Marine_Squad_Source_Marine_Squad_ParentUnit_h_18_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execOnHealthChange) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_Health); \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_MaxHealth); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnHealthChange(Z_Param_Health,Z_Param_MaxHealth); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execCastAbility) \
 	{ \
 		P_GET_PROPERTY(UIntProperty,Z_Param_ability); \
@@ -77,6 +87,16 @@ struct FVector;
 
 
 #define Marine_Squad_Source_Marine_Squad_ParentUnit_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execOnHealthChange) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_Health); \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_MaxHealth); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnHealthChange(Z_Param_Health,Z_Param_MaxHealth); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execCastAbility) \
 	{ \

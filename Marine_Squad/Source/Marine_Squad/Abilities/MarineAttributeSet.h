@@ -18,6 +18,7 @@
 	GAMEPLAYATTRIBUTE_VALUE_SETTER(PropertyName) \
 	GAMEPLAYATTRIBUTE_VALUE_INITTER(PropertyName)
 
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FOnHealthChangeDelegate, float, Health, float, MaxHealth);
 
 UCLASS()
 class MARINE_SQUAD_API UMarineAttributeSet : public UAttributeSet
@@ -80,6 +81,9 @@ public:
 	UPROPERTY(BlueprintReadOnly, Category = "Mana", meta = (HideFromLevelInfos))
 	FGameplayAttributeData Damage;
 	ATTRIBUTE_ACCESSORS(UMarineAttributeSet, Damage)
+
+	//broadcast method
+	FOnHealthChangeDelegate OnHealthChange;
 
 protected:
 	/** Helper function to proportionally adjust the value of an attribute when it's associated max attribute changes. (i.e. When MaxHealth increases, Health increases by an amount that maintains the same percentage as before) */

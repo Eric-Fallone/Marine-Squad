@@ -11,18 +11,22 @@
 #endif
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeMarine_Squad_init() {}
+	MARINE_SQUAD_API UFunction* Z_Construct_UDelegateFunction_Marine_Squad_OnHealthChangeDelegate__DelegateSignature();
 	UPackage* Z_Construct_UPackage__Script_Marine_Squad()
 	{
 		static UPackage* ReturnPackage = nullptr;
 		if (!ReturnPackage)
 		{
+			static UObject* (*const SingletonFuncArray[])() = {
+				(UObject* (*)())Z_Construct_UDelegateFunction_Marine_Squad_OnHealthChangeDelegate__DelegateSignature,
+			};
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/Marine_Squad",
-				nullptr,
-				0,
+				SingletonFuncArray,
+				ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
-				0x5449EA5F,
-				0x5E2B2EA1,
+				0x3FE4AB82,
+				0xB93E0D12,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

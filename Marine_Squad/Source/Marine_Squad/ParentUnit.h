@@ -88,7 +88,7 @@ public:
 
 
 	//used for the HP bar element
-
+	float HealthPercent; 
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=UnitTarget)
 	AParentUnit* CurrentTarget;
@@ -112,6 +112,7 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "BasicFunction")
     void KillSelf();
 
+	
 	//GetValueFuntions
 	// 0 - q 
 	// 1 - w
@@ -122,5 +123,6 @@ public:
 
 	//UFUNCTION(BlueprintCallable, Category = "BasicUnitGetMethod")
     //float GetAttackDamage();
-    
+    UFUNCTION()
+	void OnHealthChange(float Health, float MaxHealth);
 };
