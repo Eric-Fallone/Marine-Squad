@@ -189,6 +189,8 @@ Q:\UE_4.22\Engine\Plugins\Runtime\GameplayAbilities\Intermediate\Build\Win64\UE4
 C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Intermediate\Build\Win64\UE4Editor\Inc\Marine_Squad\Marine_AbilitySystemComponent.generated.h
 C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Source\Marine_Squad\Abilities/BaseGameplayAbility.h
 C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Intermediate\Build\Win64\UE4Editor\Inc\Marine_Squad\BaseGameplayAbility.generated.h
+C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Source\Marine_Squad\Abilities/MarineAttributeSet.h
+C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Intermediate\Build\Win64\UE4Editor\Inc\Marine_Squad\MarineAttributeSet.generated.h
 C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Intermediate\Build\Win64\UE4Editor\Inc\Marine_Squad\ParentUnit.generated.h
 C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Intermediate\Build\Win64\UE4Editor\Inc\Marine_Squad\HUD_MarineSquad.generated.h
 C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Source\Marine_Squad\PlayerCamera_MarineSquad.h

@@ -21,8 +21,8 @@ void EmptyLinkFunctionForGeneratedCodeMarine_Squad_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x3D52DA50,
-				0x6FA6BF8C,
+				0x5449EA5F,
+				0x5E2B2EA1,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

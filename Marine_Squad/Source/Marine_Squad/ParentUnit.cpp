@@ -16,6 +16,7 @@ AParentUnit::AParentUnit()
 	AbilitySystemComponent = CreateDefaultSubobject<UMarine_AbilitySystemComponent>(TEXT("AbilitySystemComponent"));
 	//AbilitySystemComponent->SetIsReplicated(true);
 
+	AttributeSet = CreateDefaultSubobject<UMarineAttributeSet>(TEXT("AttributeSet"));
 
 	bAbilitiesInitialized = false;
 }
@@ -98,16 +99,6 @@ void AParentUnit::AddStartupGameplayAbilities()
 void AParentUnit::BeginPlay()
 {
 	Super::BeginPlay();
-	//sets current health to max hp if not set from editor
-	if(HealthCurrent == 0)
-	{
-		HealthCurrent = HealthMax;
-	}
-	HealthPercent = (HealthCurrent / HealthMax);
-	//sets movement speed
-	GetCharacterMovement()->MaxWalkSpeed = MoveSpeed;
-	//sets widget component
-
 }
 
 // Called every frame
@@ -146,15 +137,15 @@ void AParentUnit::StopMoving()
 	ai->MoveToLocation(GetActorLocation(),-1.0f,true,true,false,true,0,true);
 }
 
-
+/*
 void AParentUnit::Attack(AParentUnit* BasicTarget)
 {
 	//get unit damage
 	//deal damage to target 
 	BasicTarget->ChangeHealth(GetAttackDamage());
 }
-
-
+*/
+/*
 void AParentUnit::ChangeHealth(float DamageTaken)
 {
 	HealthCurrent = HealthCurrent - DamageTaken;
@@ -164,7 +155,7 @@ void AParentUnit::ChangeHealth(float DamageTaken)
 		KillSelf();
 	}
 }
-
+*/
 
 void AParentUnit::StartSelect()
 {
@@ -233,9 +224,10 @@ void AParentUnit::CastAbility(int ability)
 	 UE_LOG(LogTemp, Warning, TEXT("Unit casted - %i"), ability)
 }
 
-
+/*
 float AParentUnit::GetAttackDamage()
 {
 	float DamageOut = AttackDamage;
 	return DamageOut;
 }
+*/

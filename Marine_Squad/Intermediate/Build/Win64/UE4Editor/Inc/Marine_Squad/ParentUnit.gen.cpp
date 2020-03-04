@@ -17,12 +17,9 @@ void EmptyLinkFunctionForGeneratedCodeParentUnit() {}
 	MARINE_SQUAD_API UClass* Z_Construct_UClass_AParentUnit();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	UPackage* Z_Construct_UPackage__Script_Marine_Squad();
-	MARINE_SQUAD_API UFunction* Z_Construct_UFunction_AParentUnit_Attack();
 	MARINE_SQUAD_API UFunction* Z_Construct_UFunction_AParentUnit_AttackMove();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	MARINE_SQUAD_API UFunction* Z_Construct_UFunction_AParentUnit_CastAbility();
-	MARINE_SQUAD_API UFunction* Z_Construct_UFunction_AParentUnit_ChangeHealth();
-	MARINE_SQUAD_API UFunction* Z_Construct_UFunction_AParentUnit_GetAttackDamage();
 	MARINE_SQUAD_API UFunction* Z_Construct_UFunction_AParentUnit_KillSelf();
 	MARINE_SQUAD_API UFunction* Z_Construct_UFunction_AParentUnit_Move();
 	MARINE_SQUAD_API UFunction* Z_Construct_UFunction_AParentUnit_StartSelect();
@@ -32,6 +29,7 @@ void EmptyLinkFunctionForGeneratedCodeParentUnit() {}
 	UMG_API UClass* Z_Construct_UClass_UWidgetComponent_NoRegister();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	MARINE_SQUAD_API UClass* Z_Construct_UClass_UBaseGameplayAbility_NoRegister();
+	MARINE_SQUAD_API UClass* Z_Construct_UClass_UMarineAttributeSet_NoRegister();
 	MARINE_SQUAD_API UClass* Z_Construct_UClass_UMarine_AbilitySystemComponent_NoRegister();
 	GAMEPLAYABILITIES_API UClass* Z_Construct_UClass_UAbilitySystemInterface_NoRegister();
 // End Cross Module References
@@ -39,11 +37,8 @@ void EmptyLinkFunctionForGeneratedCodeParentUnit() {}
 	{
 		UClass* Class = AParentUnit::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
-			{ "Attack", &AParentUnit::execAttack },
 			{ "AttackMove", &AParentUnit::execAttackMove },
 			{ "CastAbility", &AParentUnit::execCastAbility },
-			{ "ChangeHealth", &AParentUnit::execChangeHealth },
-			{ "GetAttackDamage", &AParentUnit::execGetAttackDamage },
 			{ "KillSelf", &AParentUnit::execKillSelf },
 			{ "Move", &AParentUnit::execMove },
 			{ "StartSelect", &AParentUnit::execStartSelect },
@@ -51,39 +46,6 @@ void EmptyLinkFunctionForGeneratedCodeParentUnit() {}
 			{ "StopSelect", &AParentUnit::execStopSelect },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
-	}
-	struct Z_Construct_UFunction_AParentUnit_Attack_Statics
-	{
-		struct ParentUnit_eventAttack_Parms
-		{
-			AParentUnit* BasicTarget;
-		};
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_BasicTarget;
-		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
-#endif
-		static const UE4CodeGen_Private::FFunctionParams FuncParams;
-	};
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AParentUnit_Attack_Statics::NewProp_BasicTarget = { "BasicTarget", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ParentUnit_eventAttack_Parms, BasicTarget), Z_Construct_UClass_AParentUnit_NoRegister, METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AParentUnit_Attack_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AParentUnit_Attack_Statics::NewProp_BasicTarget,
-	};
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AParentUnit_Attack_Statics::Function_MetaDataParams[] = {
-		{ "Category", "AttackFunction" },
-		{ "ModuleRelativePath", "ParentUnit.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AParentUnit_Attack_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AParentUnit, nullptr, "Attack", sizeof(ParentUnit_eventAttack_Parms), Z_Construct_UFunction_AParentUnit_Attack_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AParentUnit_Attack_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AParentUnit_Attack_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AParentUnit_Attack_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_AParentUnit_Attack()
-	{
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AParentUnit_Attack_Statics::FuncParams);
-		}
-		return ReturnFunction;
 	}
 	struct Z_Construct_UFunction_AParentUnit_AttackMove_Statics
 	{
@@ -149,72 +111,6 @@ void EmptyLinkFunctionForGeneratedCodeParentUnit() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AParentUnit_CastAbility_Statics::FuncParams);
-		}
-		return ReturnFunction;
-	}
-	struct Z_Construct_UFunction_AParentUnit_ChangeHealth_Statics
-	{
-		struct ParentUnit_eventChangeHealth_Parms
-		{
-			float DamageTaken;
-		};
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_DamageTaken;
-		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
-#endif
-		static const UE4CodeGen_Private::FFunctionParams FuncParams;
-	};
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_AParentUnit_ChangeHealth_Statics::NewProp_DamageTaken = { "DamageTaken", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ParentUnit_eventChangeHealth_Parms, DamageTaken), METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AParentUnit_ChangeHealth_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AParentUnit_ChangeHealth_Statics::NewProp_DamageTaken,
-	};
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AParentUnit_ChangeHealth_Statics::Function_MetaDataParams[] = {
-		{ "Category", "AttackFunction" },
-		{ "ModuleRelativePath", "ParentUnit.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AParentUnit_ChangeHealth_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AParentUnit, nullptr, "ChangeHealth", sizeof(ParentUnit_eventChangeHealth_Parms), Z_Construct_UFunction_AParentUnit_ChangeHealth_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AParentUnit_ChangeHealth_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AParentUnit_ChangeHealth_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AParentUnit_ChangeHealth_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_AParentUnit_ChangeHealth()
-	{
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AParentUnit_ChangeHealth_Statics::FuncParams);
-		}
-		return ReturnFunction;
-	}
-	struct Z_Construct_UFunction_AParentUnit_GetAttackDamage_Statics
-	{
-		struct ParentUnit_eventGetAttackDamage_Parms
-		{
-			float ReturnValue;
-		};
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_ReturnValue;
-		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
-#endif
-		static const UE4CodeGen_Private::FFunctionParams FuncParams;
-	};
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_AParentUnit_GetAttackDamage_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ParentUnit_eventGetAttackDamage_Parms, ReturnValue), METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AParentUnit_GetAttackDamage_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AParentUnit_GetAttackDamage_Statics::NewProp_ReturnValue,
-	};
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AParentUnit_GetAttackDamage_Statics::Function_MetaDataParams[] = {
-		{ "Category", "BasicUnitGetMethod" },
-		{ "ModuleRelativePath", "ParentUnit.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AParentUnit_GetAttackDamage_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AParentUnit, nullptr, "GetAttackDamage", sizeof(ParentUnit_eventGetAttackDamage_Parms), Z_Construct_UFunction_AParentUnit_GetAttackDamage_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AParentUnit_GetAttackDamage_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AParentUnit_GetAttackDamage_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AParentUnit_GetAttackDamage_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_AParentUnit_GetAttackDamage()
-	{
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AParentUnit_GetAttackDamage_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -287,6 +183,7 @@ void EmptyLinkFunctionForGeneratedCodeParentUnit() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AParentUnit_StartSelect_Statics::Function_MetaDataParams[] = {
 		{ "Category", "BasicFunction" },
 		{ "ModuleRelativePath", "ParentUnit.h" },
+		{ "ToolTip", "UFUNCTION(BlueprintCallable, Category = \"AttackFunction\")\nvoid ChangeHealth(float DamageTaken);" },
 	};
 #endif
 	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AParentUnit_StartSelect_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AParentUnit, nullptr, "StartSelect", 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AParentUnit_StartSelect_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AParentUnit_StartSelect_Statics::Function_MetaDataParams)) };
@@ -374,50 +271,6 @@ void EmptyLinkFunctionForGeneratedCodeParentUnit() {}
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_CurrentTarget;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_RotationSpeed_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_RotationSpeed;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MoveSpeed_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_MoveSpeed;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_HealthPercent_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_HealthPercent;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_HealthCurrent_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_HealthCurrent;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_HealthMax_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_HealthMax;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MagCurrent_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_MagCurrent;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MagTotal_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_MagTotal;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MagSize_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_MagSize;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_AttackDamage_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_AttackDamage;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_AttackRange_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_AttackRange;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SightRange_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_SightRange;
-#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TeamNumber_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_TeamNumber;
@@ -430,6 +283,10 @@ void EmptyLinkFunctionForGeneratedCodeParentUnit() {}
 #endif
 		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_GameplayAbilities;
 		static const UE4CodeGen_Private::FClassPropertyParams NewProp_GameplayAbilities_Inner;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_AttributeSet_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_AttributeSet;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_AbilitySystemComponent_MetaData[];
 #endif
@@ -444,14 +301,11 @@ void EmptyLinkFunctionForGeneratedCodeParentUnit() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_Marine_Squad,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AParentUnit_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_AParentUnit_Attack, "Attack" }, // 885613421
 		{ &Z_Construct_UFunction_AParentUnit_AttackMove, "AttackMove" }, // 3564913698
 		{ &Z_Construct_UFunction_AParentUnit_CastAbility, "CastAbility" }, // 1338971344
-		{ &Z_Construct_UFunction_AParentUnit_ChangeHealth, "ChangeHealth" }, // 3825634889
-		{ &Z_Construct_UFunction_AParentUnit_GetAttackDamage, "GetAttackDamage" }, // 1074421272
 		{ &Z_Construct_UFunction_AParentUnit_KillSelf, "KillSelf" }, // 500280134
 		{ &Z_Construct_UFunction_AParentUnit_Move, "Move" }, // 2883667559
-		{ &Z_Construct_UFunction_AParentUnit_StartSelect, "StartSelect" }, // 230434788
+		{ &Z_Construct_UFunction_AParentUnit_StartSelect, "StartSelect" }, // 542494766
 		{ &Z_Construct_UFunction_AParentUnit_StopMoving, "StopMoving" }, // 1891109490
 		{ &Z_Construct_UFunction_AParentUnit_StopSelect, "StopSelect" }, // 2094125952
 	};
@@ -494,88 +348,10 @@ void EmptyLinkFunctionForGeneratedCodeParentUnit() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AParentUnit_Statics::NewProp_CurrentTarget_MetaData[] = {
 		{ "Category", "UnitTarget" },
 		{ "ModuleRelativePath", "ParentUnit.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AParentUnit_Statics::NewProp_CurrentTarget = { "CurrentTarget", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AParentUnit, CurrentTarget), Z_Construct_UClass_AParentUnit_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AParentUnit_Statics::NewProp_CurrentTarget_MetaData, ARRAY_COUNT(Z_Construct_UClass_AParentUnit_Statics::NewProp_CurrentTarget_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AParentUnit_Statics::NewProp_RotationSpeed_MetaData[] = {
-		{ "Category", "UnitStats" },
-		{ "ModuleRelativePath", "ParentUnit.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AParentUnit_Statics::NewProp_RotationSpeed = { "RotationSpeed", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AParentUnit, RotationSpeed), METADATA_PARAMS(Z_Construct_UClass_AParentUnit_Statics::NewProp_RotationSpeed_MetaData, ARRAY_COUNT(Z_Construct_UClass_AParentUnit_Statics::NewProp_RotationSpeed_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AParentUnit_Statics::NewProp_MoveSpeed_MetaData[] = {
-		{ "Category", "UnitStats" },
-		{ "ModuleRelativePath", "ParentUnit.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AParentUnit_Statics::NewProp_MoveSpeed = { "MoveSpeed", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AParentUnit, MoveSpeed), METADATA_PARAMS(Z_Construct_UClass_AParentUnit_Statics::NewProp_MoveSpeed_MetaData, ARRAY_COUNT(Z_Construct_UClass_AParentUnit_Statics::NewProp_MoveSpeed_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AParentUnit_Statics::NewProp_HealthPercent_MetaData[] = {
-		{ "Category", "UnitStats" },
-		{ "ModuleRelativePath", "ParentUnit.h" },
 		{ "ToolTip", "used for the HP bar element" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AParentUnit_Statics::NewProp_HealthPercent = { "HealthPercent", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AParentUnit, HealthPercent), METADATA_PARAMS(Z_Construct_UClass_AParentUnit_Statics::NewProp_HealthPercent_MetaData, ARRAY_COUNT(Z_Construct_UClass_AParentUnit_Statics::NewProp_HealthPercent_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AParentUnit_Statics::NewProp_HealthCurrent_MetaData[] = {
-		{ "Category", "UnitStats" },
-		{ "ModuleRelativePath", "ParentUnit.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AParentUnit_Statics::NewProp_HealthCurrent = { "HealthCurrent", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AParentUnit, HealthCurrent), METADATA_PARAMS(Z_Construct_UClass_AParentUnit_Statics::NewProp_HealthCurrent_MetaData, ARRAY_COUNT(Z_Construct_UClass_AParentUnit_Statics::NewProp_HealthCurrent_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AParentUnit_Statics::NewProp_HealthMax_MetaData[] = {
-		{ "Category", "UnitStats" },
-		{ "ModuleRelativePath", "ParentUnit.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AParentUnit_Statics::NewProp_HealthMax = { "HealthMax", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AParentUnit, HealthMax), METADATA_PARAMS(Z_Construct_UClass_AParentUnit_Statics::NewProp_HealthMax_MetaData, ARRAY_COUNT(Z_Construct_UClass_AParentUnit_Statics::NewProp_HealthMax_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AParentUnit_Statics::NewProp_MagCurrent_MetaData[] = {
-		{ "Category", "UnitStats" },
-		{ "ModuleRelativePath", "ParentUnit.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AParentUnit_Statics::NewProp_MagCurrent = { "MagCurrent", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AParentUnit, MagCurrent), METADATA_PARAMS(Z_Construct_UClass_AParentUnit_Statics::NewProp_MagCurrent_MetaData, ARRAY_COUNT(Z_Construct_UClass_AParentUnit_Statics::NewProp_MagCurrent_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AParentUnit_Statics::NewProp_MagTotal_MetaData[] = {
-		{ "Category", "UnitStats" },
-		{ "ModuleRelativePath", "ParentUnit.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AParentUnit_Statics::NewProp_MagTotal = { "MagTotal", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AParentUnit, MagTotal), METADATA_PARAMS(Z_Construct_UClass_AParentUnit_Statics::NewProp_MagTotal_MetaData, ARRAY_COUNT(Z_Construct_UClass_AParentUnit_Statics::NewProp_MagTotal_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AParentUnit_Statics::NewProp_MagSize_MetaData[] = {
-		{ "Category", "UnitStats" },
-		{ "ModuleRelativePath", "ParentUnit.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AParentUnit_Statics::NewProp_MagSize = { "MagSize", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AParentUnit, MagSize), METADATA_PARAMS(Z_Construct_UClass_AParentUnit_Statics::NewProp_MagSize_MetaData, ARRAY_COUNT(Z_Construct_UClass_AParentUnit_Statics::NewProp_MagSize_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AParentUnit_Statics::NewProp_AttackDamage_MetaData[] = {
-		{ "Category", "UnitStats" },
-		{ "ModuleRelativePath", "ParentUnit.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AParentUnit_Statics::NewProp_AttackDamage = { "AttackDamage", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AParentUnit, AttackDamage), METADATA_PARAMS(Z_Construct_UClass_AParentUnit_Statics::NewProp_AttackDamage_MetaData, ARRAY_COUNT(Z_Construct_UClass_AParentUnit_Statics::NewProp_AttackDamage_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AParentUnit_Statics::NewProp_AttackRange_MetaData[] = {
-		{ "Category", "UnitStats" },
-		{ "ModuleRelativePath", "ParentUnit.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AParentUnit_Statics::NewProp_AttackRange = { "AttackRange", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AParentUnit, AttackRange), METADATA_PARAMS(Z_Construct_UClass_AParentUnit_Statics::NewProp_AttackRange_MetaData, ARRAY_COUNT(Z_Construct_UClass_AParentUnit_Statics::NewProp_AttackRange_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AParentUnit_Statics::NewProp_SightRange_MetaData[] = {
-		{ "Category", "UnitStats" },
-		{ "ModuleRelativePath", "ParentUnit.h" },
-		{ "ToolTip", "Unit Stats" },
-	};
-#endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AParentUnit_Statics::NewProp_SightRange = { "SightRange", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AParentUnit, SightRange), METADATA_PARAMS(Z_Construct_UClass_AParentUnit_Statics::NewProp_SightRange_MetaData, ARRAY_COUNT(Z_Construct_UClass_AParentUnit_Statics::NewProp_SightRange_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AParentUnit_Statics::NewProp_CurrentTarget = { "CurrentTarget", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AParentUnit, CurrentTarget), Z_Construct_UClass_AParentUnit_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AParentUnit_Statics::NewProp_CurrentTarget_MetaData, ARRAY_COUNT(Z_Construct_UClass_AParentUnit_Statics::NewProp_CurrentTarget_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AParentUnit_Statics::NewProp_TeamNumber_MetaData[] = {
 		{ "Category", "PlayerTeam" },
@@ -600,8 +376,16 @@ void EmptyLinkFunctionForGeneratedCodeParentUnit() {}
 	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AParentUnit_Statics::NewProp_GameplayAbilities = { "GameplayAbilities", nullptr, (EPropertyFlags)0x0024080000000015, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AParentUnit, GameplayAbilities), METADATA_PARAMS(Z_Construct_UClass_AParentUnit_Statics::NewProp_GameplayAbilities_MetaData, ARRAY_COUNT(Z_Construct_UClass_AParentUnit_Statics::NewProp_GameplayAbilities_MetaData)) };
 	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AParentUnit_Statics::NewProp_GameplayAbilities_Inner = { "GameplayAbilities", nullptr, (EPropertyFlags)0x0004000000000000, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_UBaseGameplayAbility_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AParentUnit_Statics::NewProp_AttributeSet_MetaData[] = {
+		{ "Category", "Abilities" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "ParentUnit.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AParentUnit_Statics::NewProp_AttributeSet = { "AttributeSet", nullptr, (EPropertyFlags)0x00200800000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AParentUnit, AttributeSet), Z_Construct_UClass_UMarineAttributeSet_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AParentUnit_Statics::NewProp_AttributeSet_MetaData, ARRAY_COUNT(Z_Construct_UClass_AParentUnit_Statics::NewProp_AttributeSet_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AParentUnit_Statics::NewProp_AbilitySystemComponent_MetaData[] = {
-		{ "Category", "Inventory" },
+		{ "Category", "Abilities" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "ParentUnit.h" },
 	};
@@ -612,21 +396,11 @@ void EmptyLinkFunctionForGeneratedCodeParentUnit() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AParentUnit_Statics::NewProp_isDead,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AParentUnit_Statics::NewProp_SelectionCircle,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AParentUnit_Statics::NewProp_CurrentTarget,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AParentUnit_Statics::NewProp_RotationSpeed,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AParentUnit_Statics::NewProp_MoveSpeed,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AParentUnit_Statics::NewProp_HealthPercent,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AParentUnit_Statics::NewProp_HealthCurrent,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AParentUnit_Statics::NewProp_HealthMax,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AParentUnit_Statics::NewProp_MagCurrent,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AParentUnit_Statics::NewProp_MagTotal,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AParentUnit_Statics::NewProp_MagSize,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AParentUnit_Statics::NewProp_AttackDamage,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AParentUnit_Statics::NewProp_AttackRange,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AParentUnit_Statics::NewProp_SightRange,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AParentUnit_Statics::NewProp_TeamNumber,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AParentUnit_Statics::NewProp_bAbilitiesInitialized,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AParentUnit_Statics::NewProp_GameplayAbilities,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AParentUnit_Statics::NewProp_GameplayAbilities_Inner,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AParentUnit_Statics::NewProp_AttributeSet,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AParentUnit_Statics::NewProp_AbilitySystemComponent,
 	};
 		const UE4CodeGen_Private::FImplementedInterfaceParams Z_Construct_UClass_AParentUnit_Statics::InterfaceParams[] = {
@@ -659,7 +433,7 @@ void EmptyLinkFunctionForGeneratedCodeParentUnit() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AParentUnit, 2765389458);
+	IMPLEMENT_CLASS(AParentUnit, 2517401694);
 	template<> MARINE_SQUAD_API UClass* StaticClass<AParentUnit>()
 	{
 		return AParentUnit::StaticClass();

@@ -9,6 +9,7 @@
 #include "AbilitySystemInterface.h"
 #include "Abilities/Marine_AbilitySystemComponent.h"
 #include "Abilities/BaseGameplayAbility.h"
+#include "Abilities/MarineAttributeSet.h"
 #include "ParentUnit.generated.h"
 
 UCLASS()
@@ -30,8 +31,11 @@ public:
 	//
 protected:
 
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Inventory)
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Abilities)
 	UMarine_AbilitySystemComponent* AbilitySystemComponent;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Abilities)
+	UMarineAttributeSet* AttributeSet;
 
 	/** Apply the startup gameplay abilities and effects */
 	void AddStartupGameplayAbilities();
@@ -63,11 +67,11 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "MoveFunction")
 	void StopMoving();
 
-	UFUNCTION(BlueprintCallable, Category = "AttackFunction")
-    void Attack(class AParentUnit* BasicTarget);
+	//UFUNCTION(BlueprintCallable, Category = "AttackFunction")
+    //void Attack(class AParentUnit* BasicTarget);
 
-	UFUNCTION(BlueprintCallable, Category = "AttackFunction")
-    void ChangeHealth(float DamageTaken);
+	//UFUNCTION(BlueprintCallable, Category = "AttackFunction")
+    //void ChangeHealth(float DamageTaken);
 
 	UFUNCTION(BlueprintCallable, Category = "BasicFunction")
     void StartSelect();
@@ -82,34 +86,9 @@ public:
 
 	//Unit Stats
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=UnitStats)
-	float SightRange;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=UnitStats)
-	float AttackRange;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=UnitStats)
-	float AttackDamage;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=UnitStats)
-	float MagSize;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=UnitStats)
-	float MagTotal;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=UnitStats)
-	float MagCurrent;
-
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=UnitStats)
-	float HealthMax = 100;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=UnitStats)
-	float HealthCurrent;
 
 	//used for the HP bar element
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=UnitStats)
-	float HealthPercent;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=UnitStats)
-	float MoveSpeed =600;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=UnitStats)
-	float RotationSpeed;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=UnitTarget)
 	AParentUnit* CurrentTarget;
@@ -141,7 +120,7 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "BasicFunction")
 	void CastAbility(int ability);
 
-	UFUNCTION(BlueprintCallable, Category = "BasicUnitGetMethod")
-    float GetAttackDamage();
+	//UFUNCTION(BlueprintCallable, Category = "BasicUnitGetMethod")
+    //float GetAttackDamage();
     
 };
