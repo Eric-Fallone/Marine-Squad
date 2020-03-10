@@ -10,7 +10,7 @@ UMarineAttributeSet::UMarineAttributeSet()
 	: Health(1.f)
 	, MaxHealth(1.f)
 	, Mana(0.f)
-	, MaxMana(0.f)
+	, MaxMana(1.f)
 	, AttackPower(1.0f)
 	, DefensePower(1.0f)
 	, MoveSpeed(1.0f)
@@ -116,8 +116,6 @@ void UMarineAttributeSet::PostGameplayEffectExecute(const FGameplayEffectModCall
 	{
 		Health.SetCurrentValue( FMath::Clamp( Health.GetCurrentValue(), 0.0f , MaxHealth.GetCurrentValue() ));
 		Health.SetBaseValue( FMath::Clamp(Health.GetBaseValue(), 0.f, MaxHealth.GetCurrentValue() ));
-		UE_LOG(LogTemp, Warning, TEXT("Current Health: %f"), Health.GetCurrentValue() );
-		
 		OnHealthChange.Broadcast( Health.GetCurrentValue(), MaxHealth.GetCurrentValue() );
 	}
 }

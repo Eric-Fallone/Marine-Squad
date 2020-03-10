@@ -402,6 +402,7 @@ void EmptyLinkFunctionForGeneratedCodeParentUnit() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AParentUnit_Statics::NewProp_bAbilitiesInitialized_MetaData[] = {
 		{ "ModuleRelativePath", "ParentUnit.h" },
+		{ "ToolTip", "UBaseGameplayAbility QAbility;\nUBaseGameplayAbility WAbility;\nUBaseGameplayAbility EAbility;\nUBaseGameplayAbility RAbility;" },
 	};
 #endif
 	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_AParentUnit_Statics::NewProp_bAbilitiesInitialized = { "bAbilitiesInitialized", nullptr, (EPropertyFlags)0x0020080000000000, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AParentUnit, bAbilitiesInitialized), METADATA_PARAMS(Z_Construct_UClass_AParentUnit_Statics::NewProp_bAbilitiesInitialized_MetaData, ARRAY_COUNT(Z_Construct_UClass_AParentUnit_Statics::NewProp_bAbilitiesInitialized_MetaData)) };
@@ -472,7 +473,7 @@ void EmptyLinkFunctionForGeneratedCodeParentUnit() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AParentUnit, 4183073699);
+	IMPLEMENT_CLASS(AParentUnit, 786674822);
 	template<> MARINE_SQUAD_API UClass* StaticClass<AParentUnit>()
 	{
 		return AParentUnit::StaticClass();

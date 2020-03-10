@@ -44,6 +44,11 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Abilities)
 	TArray<TSubclassOf<UBaseGameplayAbility>> GameplayAbilities;
 
+	//UBaseGameplayAbility QAbility;
+	//UBaseGameplayAbility WAbility;
+	//UBaseGameplayAbility EAbility;
+	//UBaseGameplayAbility RAbility;
+
 	UPROPERTY()
 	int32 bAbilitiesInitialized;
 

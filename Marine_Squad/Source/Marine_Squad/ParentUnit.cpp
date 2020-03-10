@@ -197,6 +197,7 @@ void AParentUnit::FocusUnit( bool isFocused )
 
 void AParentUnit::KillSelf()
 {	
+	StopMoving();
 	StopSelect();
 	isDead = true;
 	//set blackboard controller isDead to true
@@ -230,6 +231,7 @@ void AParentUnit::OnHealthChange(float Health, float MaxHealth)
 {
 	if(MaxHealth == 0)
 	{
+		UE_LOG(LogTemp, Warning, TEXT("Warning max health was set to 0"))
 		MaxHealth = 1;
 	}
 	HealthPercent = Health / MaxHealth ; 

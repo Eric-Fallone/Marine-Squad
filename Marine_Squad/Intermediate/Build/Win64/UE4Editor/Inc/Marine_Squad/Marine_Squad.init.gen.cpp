@@ -25,7 +25,7 @@ void EmptyLinkFunctionForGeneratedCodeMarine_Squad_init() {}
 				SingletonFuncArray,
 				ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
-				0x3FE4AB82,
+				0xE73C3A09,
 				0xB93E0D12,
 				METADATA_PARAMS(nullptr, 0)
 			};
