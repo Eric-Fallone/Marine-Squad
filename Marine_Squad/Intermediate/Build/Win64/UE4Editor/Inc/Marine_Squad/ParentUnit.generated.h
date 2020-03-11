@@ -26,15 +26,6 @@ struct FVector;
 		P_NATIVE_END; \
 	} \
  \
-	DECLARE_FUNCTION(execCastAbility) \
-	{ \
-		P_GET_PROPERTY(UIntProperty,Z_Param_ability); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->CastAbility(Z_Param_ability); \
-		P_NATIVE_END; \
-	} \
- \
 	DECLARE_FUNCTION(execKillSelf) \
 	{ \
 		P_FINISH; \
@@ -98,15 +89,6 @@ struct FVector;
 		P_NATIVE_END; \
 	} \
  \
-	DECLARE_FUNCTION(execCastAbility) \
-	{ \
-		P_GET_PROPERTY(UIntProperty,Z_Param_ability); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->CastAbility(Z_Param_ability); \
-		P_NATIVE_END; \
-	} \
- \
 	DECLARE_FUNCTION(execKillSelf) \
 	{ \
 		P_FINISH; \
@@ -158,6 +140,18 @@ struct FVector;
 	}
 
 
+#define Marine_Squad_Source_Marine_Squad_ParentUnit_h_18_EVENT_PARMS \
+	struct ParentUnit_eventCastAbility_Parms \
+	{ \
+		int32 abilityslot; \
+	}; \
+	struct ParentUnit_eventCastAbilityHelper_Parms \
+	{ \
+		int32 ability; \
+	};
+
+
+#define Marine_Squad_Source_Marine_Squad_ParentUnit_h_18_CALLBACK_WRAPPERS
 #define Marine_Squad_Source_Marine_Squad_ParentUnit_h_18_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAParentUnit(); \
@@ -206,15 +200,20 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AParentUnit); \
 	FORCEINLINE static uint32 __PPO__AbilitySystemComponent() { return STRUCT_OFFSET(AParentUnit, AbilitySystemComponent); } \
 	FORCEINLINE static uint32 __PPO__AttributeSet() { return STRUCT_OFFSET(AParentUnit, AttributeSet); } \
 	FORCEINLINE static uint32 __PPO__GameplayAbilities() { return STRUCT_OFFSET(AParentUnit, GameplayAbilities); } \
+	FORCEINLINE static uint32 __PPO__KeyBoundAbilities() { return STRUCT_OFFSET(AParentUnit, KeyBoundAbilities); } \
 	FORCEINLINE static uint32 __PPO__bAbilitiesInitialized() { return STRUCT_OFFSET(AParentUnit, bAbilitiesInitialized); }
 
 
-#define Marine_Squad_Source_Marine_Squad_ParentUnit_h_15_PROLOG
+#define Marine_Squad_Source_Marine_Squad_ParentUnit_h_15_PROLOG \
+	Marine_Squad_Source_Marine_Squad_ParentUnit_h_18_EVENT_PARMS
+
+
 #define Marine_Squad_Source_Marine_Squad_ParentUnit_h_18_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	Marine_Squad_Source_Marine_Squad_ParentUnit_h_18_PRIVATE_PROPERTY_OFFSET \
 	Marine_Squad_Source_Marine_Squad_ParentUnit_h_18_RPC_WRAPPERS \
+	Marine_Squad_Source_Marine_Squad_ParentUnit_h_18_CALLBACK_WRAPPERS \
 	Marine_Squad_Source_Marine_Squad_ParentUnit_h_18_INCLASS \
 	Marine_Squad_Source_Marine_Squad_ParentUnit_h_18_STANDARD_CONSTRUCTORS \
 public: \
@@ -226,6 +225,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	Marine_Squad_Source_Marine_Squad_ParentUnit_h_18_PRIVATE_PROPERTY_OFFSET \
 	Marine_Squad_Source_Marine_Squad_ParentUnit_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+	Marine_Squad_Source_Marine_Squad_ParentUnit_h_18_CALLBACK_WRAPPERS \
 	Marine_Squad_Source_Marine_Squad_ParentUnit_h_18_INCLASS_NO_PURE_DECLS \
 	Marine_Squad_Source_Marine_Squad_ParentUnit_h_18_ENHANCED_CONSTRUCTORS \
 private: \

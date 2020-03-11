@@ -44,6 +44,11 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Abilities)
 	TArray<TSubclassOf<UBaseGameplayAbility>> GameplayAbilities;
 
+	//Abilties set to a specifc key q,w,e,r
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Abilities)
+	TArray<TSubclassOf<UBaseGameplayAbility>> KeyBoundAbilities;
+
+
 	//UBaseGameplayAbility QAbility;
 	//UBaseGameplayAbility WAbility;
 	//UBaseGameplayAbility EAbility;
@@ -123,8 +128,12 @@ public:
 	// 1 - w
 	// 2 - e
 	// 4 - r
-	UFUNCTION(BlueprintCallable, Category = "BasicFunction")
-	void CastAbility(int ability);
+	UFUNCTION(BlueprintImplementableEvent ,Category = "BasicFunction")
+	void CastAbility(int abilityslot);
+
+	UFUNCTION(BlueprintCallable, BlueprintImplementableEvent ,Category = "BasicFunction")
+	void CastAbilityHelper(int ability);
+
 
 	//UFUNCTION(BlueprintCallable, Category = "BasicUnitGetMethod")
     //float GetAttackDamage();

@@ -20,6 +20,7 @@ void EmptyLinkFunctionForGeneratedCodeParentUnit() {}
 	MARINE_SQUAD_API UFunction* Z_Construct_UFunction_AParentUnit_AttackMove();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	MARINE_SQUAD_API UFunction* Z_Construct_UFunction_AParentUnit_CastAbility();
+	MARINE_SQUAD_API UFunction* Z_Construct_UFunction_AParentUnit_CastAbilityHelper();
 	MARINE_SQUAD_API UFunction* Z_Construct_UFunction_AParentUnit_KillSelf();
 	MARINE_SQUAD_API UFunction* Z_Construct_UFunction_AParentUnit_Move();
 	MARINE_SQUAD_API UFunction* Z_Construct_UFunction_AParentUnit_OnHealthChange();
@@ -34,12 +35,25 @@ void EmptyLinkFunctionForGeneratedCodeParentUnit() {}
 	MARINE_SQUAD_API UClass* Z_Construct_UClass_UMarine_AbilitySystemComponent_NoRegister();
 	GAMEPLAYABILITIES_API UClass* Z_Construct_UClass_UAbilitySystemInterface_NoRegister();
 // End Cross Module References
+	static FName NAME_AParentUnit_CastAbility = FName(TEXT("CastAbility"));
+	void AParentUnit::CastAbility(int32 abilityslot)
+	{
+		ParentUnit_eventCastAbility_Parms Parms;
+		Parms.abilityslot=abilityslot;
+		ProcessEvent(FindFunctionChecked(NAME_AParentUnit_CastAbility),&Parms);
+	}
+	static FName NAME_AParentUnit_CastAbilityHelper = FName(TEXT("CastAbilityHelper"));
+	void AParentUnit::CastAbilityHelper(int32 ability)
+	{
+		ParentUnit_eventCastAbilityHelper_Parms Parms;
+		Parms.ability=ability;
+		ProcessEvent(FindFunctionChecked(NAME_AParentUnit_CastAbilityHelper),&Parms);
+	}
 	void AParentUnit::StaticRegisterNativesAParentUnit()
 	{
 		UClass* Class = AParentUnit::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "AttackMove", &AParentUnit::execAttackMove },
-			{ "CastAbility", &AParentUnit::execCastAbility },
 			{ "KillSelf", &AParentUnit::execKillSelf },
 			{ "Move", &AParentUnit::execMove },
 			{ "OnHealthChange", &AParentUnit::execOnHealthChange },
@@ -84,20 +98,16 @@ void EmptyLinkFunctionForGeneratedCodeParentUnit() {}
 	}
 	struct Z_Construct_UFunction_AParentUnit_CastAbility_Statics
 	{
-		struct ParentUnit_eventCastAbility_Parms
-		{
-			int32 ability;
-		};
-		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_ability;
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_abilityslot;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
 #endif
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UFunction_AParentUnit_CastAbility_Statics::NewProp_ability = { "ability", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ParentUnit_eventCastAbility_Parms, ability), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UFunction_AParentUnit_CastAbility_Statics::NewProp_abilityslot = { "abilityslot", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ParentUnit_eventCastAbility_Parms, abilityslot), METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AParentUnit_CastAbility_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AParentUnit_CastAbility_Statics::NewProp_ability,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AParentUnit_CastAbility_Statics::NewProp_abilityslot,
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AParentUnit_CastAbility_Statics::Function_MetaDataParams[] = {
@@ -106,13 +116,42 @@ void EmptyLinkFunctionForGeneratedCodeParentUnit() {}
 		{ "ToolTip", "GetValueFuntions\n 0 - q\n 1 - w\n 2 - e\n 4 - r" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AParentUnit_CastAbility_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AParentUnit, nullptr, "CastAbility", sizeof(ParentUnit_eventCastAbility_Parms), Z_Construct_UFunction_AParentUnit_CastAbility_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AParentUnit_CastAbility_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AParentUnit_CastAbility_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AParentUnit_CastAbility_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AParentUnit_CastAbility_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AParentUnit, nullptr, "CastAbility", sizeof(ParentUnit_eventCastAbility_Parms), Z_Construct_UFunction_AParentUnit_CastAbility_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AParentUnit_CastAbility_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AParentUnit_CastAbility_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AParentUnit_CastAbility_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_AParentUnit_CastAbility()
 	{
 		static UFunction* ReturnFunction = nullptr;
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AParentUnit_CastAbility_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AParentUnit_CastAbilityHelper_Statics
+	{
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_ability;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UFunction_AParentUnit_CastAbilityHelper_Statics::NewProp_ability = { "ability", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ParentUnit_eventCastAbilityHelper_Parms, ability), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AParentUnit_CastAbilityHelper_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AParentUnit_CastAbilityHelper_Statics::NewProp_ability,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AParentUnit_CastAbilityHelper_Statics::Function_MetaDataParams[] = {
+		{ "Category", "BasicFunction" },
+		{ "ModuleRelativePath", "ParentUnit.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AParentUnit_CastAbilityHelper_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AParentUnit, nullptr, "CastAbilityHelper", sizeof(ParentUnit_eventCastAbilityHelper_Parms), Z_Construct_UFunction_AParentUnit_CastAbilityHelper_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AParentUnit_CastAbilityHelper_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x0C020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AParentUnit_CastAbilityHelper_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AParentUnit_CastAbilityHelper_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AParentUnit_CastAbilityHelper()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AParentUnit_CastAbilityHelper_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -318,6 +357,11 @@ void EmptyLinkFunctionForGeneratedCodeParentUnit() {}
 #endif
 		static const UE4CodeGen_Private::FIntPropertyParams NewProp_bAbilitiesInitialized;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_KeyBoundAbilities_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_KeyBoundAbilities;
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_KeyBoundAbilities_Inner;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_GameplayAbilities_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_GameplayAbilities;
@@ -341,7 +385,8 @@ void EmptyLinkFunctionForGeneratedCodeParentUnit() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AParentUnit_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_AParentUnit_AttackMove, "AttackMove" }, // 3564913698
-		{ &Z_Construct_UFunction_AParentUnit_CastAbility, "CastAbility" }, // 1338971344
+		{ &Z_Construct_UFunction_AParentUnit_CastAbility, "CastAbility" }, // 881688636
+		{ &Z_Construct_UFunction_AParentUnit_CastAbilityHelper, "CastAbilityHelper" }, // 3024926561
 		{ &Z_Construct_UFunction_AParentUnit_KillSelf, "KillSelf" }, // 500280134
 		{ &Z_Construct_UFunction_AParentUnit_Move, "Move" }, // 2883667559
 		{ &Z_Construct_UFunction_AParentUnit_OnHealthChange, "OnHealthChange" }, // 1740266412
@@ -407,6 +452,15 @@ void EmptyLinkFunctionForGeneratedCodeParentUnit() {}
 #endif
 	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_AParentUnit_Statics::NewProp_bAbilitiesInitialized = { "bAbilitiesInitialized", nullptr, (EPropertyFlags)0x0020080000000000, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AParentUnit, bAbilitiesInitialized), METADATA_PARAMS(Z_Construct_UClass_AParentUnit_Statics::NewProp_bAbilitiesInitialized_MetaData, ARRAY_COUNT(Z_Construct_UClass_AParentUnit_Statics::NewProp_bAbilitiesInitialized_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AParentUnit_Statics::NewProp_KeyBoundAbilities_MetaData[] = {
+		{ "Category", "Abilities" },
+		{ "ModuleRelativePath", "ParentUnit.h" },
+		{ "ToolTip", "Abilties set to a specifc key q,w,e,r" },
+	};
+#endif
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AParentUnit_Statics::NewProp_KeyBoundAbilities = { "KeyBoundAbilities", nullptr, (EPropertyFlags)0x0024080000000015, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AParentUnit, KeyBoundAbilities), METADATA_PARAMS(Z_Construct_UClass_AParentUnit_Statics::NewProp_KeyBoundAbilities_MetaData, ARRAY_COUNT(Z_Construct_UClass_AParentUnit_Statics::NewProp_KeyBoundAbilities_MetaData)) };
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AParentUnit_Statics::NewProp_KeyBoundAbilities_Inner = { "KeyBoundAbilities", nullptr, (EPropertyFlags)0x0004000000000000, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_UBaseGameplayAbility_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AParentUnit_Statics::NewProp_GameplayAbilities_MetaData[] = {
 		{ "Category", "Abilities" },
 		{ "ModuleRelativePath", "ParentUnit.h" },
@@ -438,6 +492,8 @@ void EmptyLinkFunctionForGeneratedCodeParentUnit() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AParentUnit_Statics::NewProp_CurrentTarget,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AParentUnit_Statics::NewProp_TeamNumber,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AParentUnit_Statics::NewProp_bAbilitiesInitialized,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AParentUnit_Statics::NewProp_KeyBoundAbilities,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AParentUnit_Statics::NewProp_KeyBoundAbilities_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AParentUnit_Statics::NewProp_GameplayAbilities,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AParentUnit_Statics::NewProp_GameplayAbilities_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AParentUnit_Statics::NewProp_AttributeSet,
@@ -473,7 +529,7 @@ void EmptyLinkFunctionForGeneratedCodeParentUnit() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AParentUnit, 786674822);
+	IMPLEMENT_CLASS(AParentUnit, 128278237);
 	template<> MARINE_SQUAD_API UClass* StaticClass<AParentUnit>()
 	{
 		return AParentUnit::StaticClass();

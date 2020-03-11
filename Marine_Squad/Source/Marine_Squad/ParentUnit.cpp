@@ -66,6 +66,8 @@ void AParentUnit::AddStartupGameplayAbilities()
 	if (Role == ROLE_Authority && !bAbilitiesInitialized)
 	{
 		// Grant abilities, but only on the server	
+
+		//grants passives and basic abilities - ie attacks
 		for (TSubclassOf<UBaseGameplayAbility>& StartupAbility : GameplayAbilities)
 		{
 			FGameplayAbilitySpecDef SpecDef = FGameplayAbilitySpecDef();
@@ -73,6 +75,20 @@ void AParentUnit::AddStartupGameplayAbilities()
 			FGameplayAbilitySpec AbilitySpec = FGameplayAbilitySpec(SpecDef, 1);
 			AbilitySystemComponent->GiveAbility( AbilitySpec );
 		}
+
+		//grants key bound abilities
+		for (TSubclassOf<UBaseGameplayAbility>& StartupAbility : KeyBoundAbilities)
+		{
+			FGameplayAbilitySpecDef SpecDef = FGameplayAbilitySpecDef();
+			SpecDef.Ability = StartupAbility;
+			FGameplayAbilitySpec AbilitySpec = FGameplayAbilitySpec(SpecDef, 1);
+			AbilitySystemComponent->GiveAbility( AbilitySpec );
+		}
+
+
+
+
+
 		AbilitySystemComponent->InitAbilityActorInfo(this, this);
 		/*
 		// Now apply passives
@@ -221,11 +237,12 @@ void AParentUnit::KillSelf()
 	
 }
 
-
+/*
 void AParentUnit::CastAbility(int ability)
 {
 	 UE_LOG(LogTemp, Warning, TEXT("Unit casted - %i"), ability)
 }
+*/
 
 void AParentUnit::OnHealthChange(float Health, float MaxHealth)
 {

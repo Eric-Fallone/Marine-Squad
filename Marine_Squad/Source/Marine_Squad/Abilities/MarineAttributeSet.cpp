@@ -9,7 +9,7 @@
 UMarineAttributeSet::UMarineAttributeSet()
 	: Health(1.f)
 	, MaxHealth(1.f)
-	, Mana(0.f)
+	, Mana(1.f)
 	, MaxMana(1.f)
 	, AttackPower(1.0f)
 	, DefensePower(1.0f)
