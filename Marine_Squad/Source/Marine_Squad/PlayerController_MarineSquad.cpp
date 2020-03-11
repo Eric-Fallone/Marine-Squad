@@ -242,9 +242,16 @@ void APlayerController_MarineSquad::SelectUnit(int UnitNum)
     {
         SelectedUnits[i]->StopSelect();
     }
-
-    //emptys the array 
-    FocusedUnit = UnitNum;
+ 
+    //focuses the unit if all are selected, selects 0
+    if(UnitNum == -1){
+        FocusedUnit = 0;
+    }
+    else
+    {
+        FocusedUnit = UnitNum;
+    }
+    //empties the unit array
     SelectedUnits.Empty();
 
     //adds units to selection dependent on keypress
