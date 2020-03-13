@@ -37,6 +37,7 @@ void APlayerController_MarineSquad::BeginPlay()
         FVector loc = FVector(-950.0,-1000,-112);
         FRotator rot = FRotator(0);
         AllUnits.Add((AParentUnit*) GetWorld()->SpawnActor(UnitOneType,&loc, &rot));
+        
     }
     if(UnitTwoType)
     {
@@ -215,6 +216,7 @@ void APlayerController_MarineSquad::SelectionEnded()
     if(DistanceBetwenMouse < 15)
     {
         //selects hovered unit
+        HUDPtr->GetMouseWorldPos();
     }
     else
     {

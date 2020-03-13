@@ -2,6 +2,7 @@
 
 
 #include "HUD_MarineSquad.h"
+#include "DrawDebugHelpers.h"
 
 #define OUT
 
@@ -13,6 +14,36 @@ FVector2D AHUD_MarineSquad::GetMousePos2D()
     GetOwningPlayerController()->GetMousePosition(OUT PosX, OUT PosY);
 
     return FVector2D(PosX, PosY);
+}
+
+FVector AHUD_MarineSquad::GetMouseWorldPos()
+{
+    FHitResult HitResult; 
+
+    bool TryTrace = GetOwningPlayerController()->GetHitResultUnderCursor(ECC_Visibility, true, OUT HitResult);
+
+    if(TryTrace)
+    {        
+        DrawDebugSphere(GetWorld(), HitResult.ImpactPoint, 200, 12, FColor(20, 100, 240), true, -1, 0, 2);
+        UE_LOG(LogTemp, Warning, TEXT("Found Unit: %s"), *HitResult.Actor->GetName())
+        WorldPositionOfMouse.Broadcast(HitResult.ImpactPoint.X, HitResult.ImpactPoint.Y, HitResult.ImpactPoint.Z);
+    }
+
+    return FVector( HitResult.ImpactPoint );
+}
+
+
+void AHUD_MarineSquad::GetActorAtMousePos()
+{
+    FHitResult HitResult; 
+
+    bool TryTrace = GetOwningPlayerController()->GetHitResultUnderCursor(ECC_Visibility, true, OUT HitResult);
+
+    if(TryTrace)
+    {        
+        DrawDebugSphere(GetWorld(), HitResult.ImpactPoint, 50, 12, FColor(20, 100, 240), true, 1, 0, 2);
+        UE_LOG(LogTemp, Warning, TEXT("Found Unit: %s"), *HitResult.Actor->GetName())
+    }
 }
 
 

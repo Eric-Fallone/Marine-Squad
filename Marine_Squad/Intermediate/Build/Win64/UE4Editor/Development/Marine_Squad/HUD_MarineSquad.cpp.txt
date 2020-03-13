@@ -189,3 +189,4 @@ C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Source\Marine_Squad\Abili
 C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Intermediate\Build\Win64\UE4Editor\Inc\Marine_Squad\MarineAttributeSet.generated.h
 C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Intermediate\Build\Win64\UE4Editor\Inc\Marine_Squad\ParentUnit.generated.h
 C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Intermediate\Build\Win64\UE4Editor\Inc\Marine_Squad\HUD_MarineSquad.generated.h
+Q:\UE_4.22\Engine\Source\Runtime\Engine\Public\DrawDebugHelpers.h

@@ -54,6 +54,9 @@ public:
 	FKey SelectionKeyTimeDown;
 	float TimeDownLeftClick;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=Hud)
+	AHUD_MarineSquad* HUDPtr;
+
 protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;
@@ -62,7 +65,6 @@ protected:
 
 private:
 	void SetupInputComponent();
-	AHUD_MarineSquad* HUDPtr;
 
 //Player Input
 

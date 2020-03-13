@@ -10,6 +10,7 @@
 #include "Abilities/Marine_AbilitySystemComponent.h"
 #include "Abilities/BaseGameplayAbility.h"
 #include "Abilities/MarineAttributeSet.h"
+
 #include "ParentUnit.generated.h"
 
 UCLASS()
@@ -29,6 +30,9 @@ public:
 	UMarine_AbilitySystemComponent* GetAbilitySystemComponent() const override;
 	
 	//
+	//this is needed to pass to baseability choose location
+	//APlayerController controller;
+	
 protected:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Abilities)

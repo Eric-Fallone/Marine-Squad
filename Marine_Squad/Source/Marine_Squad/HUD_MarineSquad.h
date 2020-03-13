@@ -7,6 +7,8 @@
 #include "ParentUnit.h"
 #include "HUD_MarineSquad.generated.h"
 
+
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_ThreeParams(FWorldPositionOfMouseDelegate, float, x, float, y, float, z);
 /**
  * 
  */
@@ -16,7 +18,16 @@ class MARINE_SQUAD_API AHUD_MarineSquad : public AHUD
 	GENERATED_BODY()
 
 public:
+	UPROPERTY(BlueprintAssignable)
+	FWorldPositionOfMouseDelegate WorldPositionOfMouse;
+
 	virtual void DrawHUD() override;
+
+	UFUNCTION(BlueprintCallable, Category = "HUD")
+	FVector GetMouseWorldPos();
+
+	UFUNCTION(BlueprintCallable, Category = "HUD")
+	void GetActorAtMousePos();
 
 	FVector2D InitialPoint;
 	FVector2D CurrentPoint;

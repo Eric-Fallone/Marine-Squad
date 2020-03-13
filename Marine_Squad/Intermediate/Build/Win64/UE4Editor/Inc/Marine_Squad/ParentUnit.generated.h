@@ -14,7 +14,7 @@ struct FVector;
 #endif
 #define MARINE_SQUAD_ParentUnit_generated_h
 
-#define Marine_Squad_Source_Marine_Squad_ParentUnit_h_18_RPC_WRAPPERS \
+#define Marine_Squad_Source_Marine_Squad_ParentUnit_h_19_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execOnHealthChange) \
 	{ \
@@ -77,7 +77,7 @@ struct FVector;
 	}
 
 
-#define Marine_Squad_Source_Marine_Squad_ParentUnit_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+#define Marine_Squad_Source_Marine_Squad_ParentUnit_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execOnHealthChange) \
 	{ \
@@ -140,7 +140,7 @@ struct FVector;
 	}
 
 
-#define Marine_Squad_Source_Marine_Squad_ParentUnit_h_18_EVENT_PARMS \
+#define Marine_Squad_Source_Marine_Squad_ParentUnit_h_19_EVENT_PARMS \
 	struct ParentUnit_eventCastAbility_Parms \
 	{ \
 		int32 abilityslot; \
@@ -151,8 +151,8 @@ struct FVector;
 	};
 
 
-#define Marine_Squad_Source_Marine_Squad_ParentUnit_h_18_CALLBACK_WRAPPERS
-#define Marine_Squad_Source_Marine_Squad_ParentUnit_h_18_INCLASS_NO_PURE_DECLS \
+#define Marine_Squad_Source_Marine_Squad_ParentUnit_h_19_CALLBACK_WRAPPERS
+#define Marine_Squad_Source_Marine_Squad_ParentUnit_h_19_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAParentUnit(); \
 	friend struct Z_Construct_UClass_AParentUnit_Statics; \
@@ -162,7 +162,7 @@ public: \
 	virtual UObject* _getUObject() const override { return const_cast<AParentUnit*>(this); }
 
 
-#define Marine_Squad_Source_Marine_Squad_ParentUnit_h_18_INCLASS \
+#define Marine_Squad_Source_Marine_Squad_ParentUnit_h_19_INCLASS \
 private: \
 	static void StaticRegisterNativesAParentUnit(); \
 	friend struct Z_Construct_UClass_AParentUnit_Statics; \
@@ -172,7 +172,7 @@ public: \
 	virtual UObject* _getUObject() const override { return const_cast<AParentUnit*>(this); }
 
 
-#define Marine_Squad_Source_Marine_Squad_ParentUnit_h_18_STANDARD_CONSTRUCTORS \
+#define Marine_Squad_Source_Marine_Squad_ParentUnit_h_19_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AParentUnit(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AParentUnit) \
@@ -185,7 +185,7 @@ private: \
 public:
 
 
-#define Marine_Squad_Source_Marine_Squad_ParentUnit_h_18_ENHANCED_CONSTRUCTORS \
+#define Marine_Squad_Source_Marine_Squad_ParentUnit_h_19_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AParentUnit(AParentUnit&&); \
@@ -196,7 +196,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AParentUnit); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AParentUnit)
 
 
-#define Marine_Squad_Source_Marine_Squad_ParentUnit_h_18_PRIVATE_PROPERTY_OFFSET \
+#define Marine_Squad_Source_Marine_Squad_ParentUnit_h_19_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__AbilitySystemComponent() { return STRUCT_OFFSET(AParentUnit, AbilitySystemComponent); } \
 	FORCEINLINE static uint32 __PPO__AttributeSet() { return STRUCT_OFFSET(AParentUnit, AttributeSet); } \
 	FORCEINLINE static uint32 __PPO__GameplayAbilities() { return STRUCT_OFFSET(AParentUnit, GameplayAbilities); } \
@@ -204,30 +204,30 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AParentUnit); \
 	FORCEINLINE static uint32 __PPO__bAbilitiesInitialized() { return STRUCT_OFFSET(AParentUnit, bAbilitiesInitialized); }
 
 
-#define Marine_Squad_Source_Marine_Squad_ParentUnit_h_15_PROLOG \
-	Marine_Squad_Source_Marine_Squad_ParentUnit_h_18_EVENT_PARMS
+#define Marine_Squad_Source_Marine_Squad_ParentUnit_h_16_PROLOG \
+	Marine_Squad_Source_Marine_Squad_ParentUnit_h_19_EVENT_PARMS
 
 
-#define Marine_Squad_Source_Marine_Squad_ParentUnit_h_18_GENERATED_BODY_LEGACY \
+#define Marine_Squad_Source_Marine_Squad_ParentUnit_h_19_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Marine_Squad_Source_Marine_Squad_ParentUnit_h_18_PRIVATE_PROPERTY_OFFSET \
-	Marine_Squad_Source_Marine_Squad_ParentUnit_h_18_RPC_WRAPPERS \
-	Marine_Squad_Source_Marine_Squad_ParentUnit_h_18_CALLBACK_WRAPPERS \
-	Marine_Squad_Source_Marine_Squad_ParentUnit_h_18_INCLASS \
-	Marine_Squad_Source_Marine_Squad_ParentUnit_h_18_STANDARD_CONSTRUCTORS \
+	Marine_Squad_Source_Marine_Squad_ParentUnit_h_19_PRIVATE_PROPERTY_OFFSET \
+	Marine_Squad_Source_Marine_Squad_ParentUnit_h_19_RPC_WRAPPERS \
+	Marine_Squad_Source_Marine_Squad_ParentUnit_h_19_CALLBACK_WRAPPERS \
+	Marine_Squad_Source_Marine_Squad_ParentUnit_h_19_INCLASS \
+	Marine_Squad_Source_Marine_Squad_ParentUnit_h_19_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Marine_Squad_Source_Marine_Squad_ParentUnit_h_18_GENERATED_BODY \
+#define Marine_Squad_Source_Marine_Squad_ParentUnit_h_19_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Marine_Squad_Source_Marine_Squad_ParentUnit_h_18_PRIVATE_PROPERTY_OFFSET \
-	Marine_Squad_Source_Marine_Squad_ParentUnit_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
-	Marine_Squad_Source_Marine_Squad_ParentUnit_h_18_CALLBACK_WRAPPERS \
-	Marine_Squad_Source_Marine_Squad_ParentUnit_h_18_INCLASS_NO_PURE_DECLS \
-	Marine_Squad_Source_Marine_Squad_ParentUnit_h_18_ENHANCED_CONSTRUCTORS \
+	Marine_Squad_Source_Marine_Squad_ParentUnit_h_19_PRIVATE_PROPERTY_OFFSET \
+	Marine_Squad_Source_Marine_Squad_ParentUnit_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
+	Marine_Squad_Source_Marine_Squad_ParentUnit_h_19_CALLBACK_WRAPPERS \
+	Marine_Squad_Source_Marine_Squad_ParentUnit_h_19_INCLASS_NO_PURE_DECLS \
+	Marine_Squad_Source_Marine_Squad_ParentUnit_h_19_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

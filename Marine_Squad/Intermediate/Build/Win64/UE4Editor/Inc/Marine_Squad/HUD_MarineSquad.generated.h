@@ -8,14 +8,68 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+struct FVector;
 #ifdef MARINE_SQUAD_HUD_MarineSquad_generated_h
 #error "HUD_MarineSquad.generated.h already included, missing '#pragma once' in HUD_MarineSquad.h"
 #endif
 #define MARINE_SQUAD_HUD_MarineSquad_generated_h
 
-#define Marine_Squad_Source_Marine_Squad_HUD_MarineSquad_h_16_RPC_WRAPPERS
-#define Marine_Squad_Source_Marine_Squad_HUD_MarineSquad_h_16_RPC_WRAPPERS_NO_PURE_DECLS
-#define Marine_Squad_Source_Marine_Squad_HUD_MarineSquad_h_16_INCLASS_NO_PURE_DECLS \
+#define Marine_Squad_Source_Marine_Squad_HUD_MarineSquad_h_11_DELEGATE \
+struct _Script_Marine_Squad_eventWorldPositionOfMouseDelegate_Parms \
+{ \
+	float x; \
+	float y; \
+	float z; \
+}; \
+static inline void FWorldPositionOfMouseDelegate_DelegateWrapper(const FMulticastScriptDelegate& WorldPositionOfMouseDelegate, float x, float y, float z) \
+{ \
+	_Script_Marine_Squad_eventWorldPositionOfMouseDelegate_Parms Parms; \
+	Parms.x=x; \
+	Parms.y=y; \
+	Parms.z=z; \
+	WorldPositionOfMouseDelegate.ProcessMulticastDelegate<UObject>(&Parms); \
+}
+
+
+#define Marine_Squad_Source_Marine_Squad_HUD_MarineSquad_h_18_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execGetActorAtMousePos) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->GetActorAtMousePos(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetMouseWorldPos) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(FVector*)Z_Param__Result=P_THIS->GetMouseWorldPos(); \
+		P_NATIVE_END; \
+	}
+
+
+#define Marine_Squad_Source_Marine_Squad_HUD_MarineSquad_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGetActorAtMousePos) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->GetActorAtMousePos(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetMouseWorldPos) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(FVector*)Z_Param__Result=P_THIS->GetMouseWorldPos(); \
+		P_NATIVE_END; \
+	}
+
+
+#define Marine_Squad_Source_Marine_Squad_HUD_MarineSquad_h_18_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAHUD_MarineSquad(); \
 	friend struct Z_Construct_UClass_AHUD_MarineSquad_Statics; \
@@ -24,7 +78,7 @@ public: \
 	DECLARE_SERIALIZER(AHUD_MarineSquad)
 
 
-#define Marine_Squad_Source_Marine_Squad_HUD_MarineSquad_h_16_INCLASS \
+#define Marine_Squad_Source_Marine_Squad_HUD_MarineSquad_h_18_INCLASS \
 private: \
 	static void StaticRegisterNativesAHUD_MarineSquad(); \
 	friend struct Z_Construct_UClass_AHUD_MarineSquad_Statics; \
@@ -33,7 +87,7 @@ public: \
 	DECLARE_SERIALIZER(AHUD_MarineSquad)
 
 
-#define Marine_Squad_Source_Marine_Squad_HUD_MarineSquad_h_16_STANDARD_CONSTRUCTORS \
+#define Marine_Squad_Source_Marine_Squad_HUD_MarineSquad_h_18_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AHUD_MarineSquad(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AHUD_MarineSquad) \
@@ -46,7 +100,7 @@ private: \
 public:
 
 
-#define Marine_Squad_Source_Marine_Squad_HUD_MarineSquad_h_16_ENHANCED_CONSTRUCTORS \
+#define Marine_Squad_Source_Marine_Squad_HUD_MarineSquad_h_18_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AHUD_MarineSquad(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -59,26 +113,26 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AHUD_MarineSquad); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AHUD_MarineSquad)
 
 
-#define Marine_Squad_Source_Marine_Squad_HUD_MarineSquad_h_16_PRIVATE_PROPERTY_OFFSET
-#define Marine_Squad_Source_Marine_Squad_HUD_MarineSquad_h_13_PROLOG
-#define Marine_Squad_Source_Marine_Squad_HUD_MarineSquad_h_16_GENERATED_BODY_LEGACY \
+#define Marine_Squad_Source_Marine_Squad_HUD_MarineSquad_h_18_PRIVATE_PROPERTY_OFFSET
+#define Marine_Squad_Source_Marine_Squad_HUD_MarineSquad_h_15_PROLOG
+#define Marine_Squad_Source_Marine_Squad_HUD_MarineSquad_h_18_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Marine_Squad_Source_Marine_Squad_HUD_MarineSquad_h_16_PRIVATE_PROPERTY_OFFSET \
-	Marine_Squad_Source_Marine_Squad_HUD_MarineSquad_h_16_RPC_WRAPPERS \
-	Marine_Squad_Source_Marine_Squad_HUD_MarineSquad_h_16_INCLASS \
-	Marine_Squad_Source_Marine_Squad_HUD_MarineSquad_h_16_STANDARD_CONSTRUCTORS \
+	Marine_Squad_Source_Marine_Squad_HUD_MarineSquad_h_18_PRIVATE_PROPERTY_OFFSET \
+	Marine_Squad_Source_Marine_Squad_HUD_MarineSquad_h_18_RPC_WRAPPERS \
+	Marine_Squad_Source_Marine_Squad_HUD_MarineSquad_h_18_INCLASS \
+	Marine_Squad_Source_Marine_Squad_HUD_MarineSquad_h_18_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Marine_Squad_Source_Marine_Squad_HUD_MarineSquad_h_16_GENERATED_BODY \
+#define Marine_Squad_Source_Marine_Squad_HUD_MarineSquad_h_18_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Marine_Squad_Source_Marine_Squad_HUD_MarineSquad_h_16_PRIVATE_PROPERTY_OFFSET \
-	Marine_Squad_Source_Marine_Squad_HUD_MarineSquad_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
-	Marine_Squad_Source_Marine_Squad_HUD_MarineSquad_h_16_INCLASS_NO_PURE_DECLS \
-	Marine_Squad_Source_Marine_Squad_HUD_MarineSquad_h_16_ENHANCED_CONSTRUCTORS \
+	Marine_Squad_Source_Marine_Squad_HUD_MarineSquad_h_18_PRIVATE_PROPERTY_OFFSET \
+	Marine_Squad_Source_Marine_Squad_HUD_MarineSquad_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+	Marine_Squad_Source_Marine_Squad_HUD_MarineSquad_h_18_INCLASS_NO_PURE_DECLS \
+	Marine_Squad_Source_Marine_Squad_HUD_MarineSquad_h_18_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
