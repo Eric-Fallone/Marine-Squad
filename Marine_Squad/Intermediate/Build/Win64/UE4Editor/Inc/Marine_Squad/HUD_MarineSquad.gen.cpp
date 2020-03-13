@@ -13,56 +13,15 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeHUD_MarineSquad() {}
 // Cross Module References
-	MARINE_SQUAD_API UFunction* Z_Construct_UDelegateFunction_Marine_Squad_WorldPositionOfMouseDelegate__DelegateSignature();
-	UPackage* Z_Construct_UPackage__Script_Marine_Squad();
 	MARINE_SQUAD_API UClass* Z_Construct_UClass_AHUD_MarineSquad_NoRegister();
 	MARINE_SQUAD_API UClass* Z_Construct_UClass_AHUD_MarineSquad();
 	ENGINE_API UClass* Z_Construct_UClass_AHUD();
+	UPackage* Z_Construct_UPackage__Script_Marine_Squad();
 	MARINE_SQUAD_API UFunction* Z_Construct_UFunction_AHUD_MarineSquad_GetActorAtMousePos();
 	MARINE_SQUAD_API UFunction* Z_Construct_UFunction_AHUD_MarineSquad_GetMouseWorldPos();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	MARINE_SQUAD_API UClass* Z_Construct_UClass_AParentUnit_NoRegister();
 // End Cross Module References
-	struct Z_Construct_UDelegateFunction_Marine_Squad_WorldPositionOfMouseDelegate__DelegateSignature_Statics
-	{
-		struct _Script_Marine_Squad_eventWorldPositionOfMouseDelegate_Parms
-		{
-			float x;
-			float y;
-			float z;
-		};
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_z;
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_y;
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_x;
-		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
-#endif
-		static const UE4CodeGen_Private::FFunctionParams FuncParams;
-	};
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UDelegateFunction_Marine_Squad_WorldPositionOfMouseDelegate__DelegateSignature_Statics::NewProp_z = { "z", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(_Script_Marine_Squad_eventWorldPositionOfMouseDelegate_Parms, z), METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UDelegateFunction_Marine_Squad_WorldPositionOfMouseDelegate__DelegateSignature_Statics::NewProp_y = { "y", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(_Script_Marine_Squad_eventWorldPositionOfMouseDelegate_Parms, y), METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UDelegateFunction_Marine_Squad_WorldPositionOfMouseDelegate__DelegateSignature_Statics::NewProp_x = { "x", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(_Script_Marine_Squad_eventWorldPositionOfMouseDelegate_Parms, x), METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UDelegateFunction_Marine_Squad_WorldPositionOfMouseDelegate__DelegateSignature_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_Marine_Squad_WorldPositionOfMouseDelegate__DelegateSignature_Statics::NewProp_z,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_Marine_Squad_WorldPositionOfMouseDelegate__DelegateSignature_Statics::NewProp_y,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_Marine_Squad_WorldPositionOfMouseDelegate__DelegateSignature_Statics::NewProp_x,
-	};
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_Marine_Squad_WorldPositionOfMouseDelegate__DelegateSignature_Statics::Function_MetaDataParams[] = {
-		{ "ModuleRelativePath", "HUD_MarineSquad.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_Marine_Squad_WorldPositionOfMouseDelegate__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_Marine_Squad, nullptr, "WorldPositionOfMouseDelegate__DelegateSignature", sizeof(_Script_Marine_Squad_eventWorldPositionOfMouseDelegate_Parms), Z_Construct_UDelegateFunction_Marine_Squad_WorldPositionOfMouseDelegate__DelegateSignature_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UDelegateFunction_Marine_Squad_WorldPositionOfMouseDelegate__DelegateSignature_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(Z_Construct_UDelegateFunction_Marine_Squad_WorldPositionOfMouseDelegate__DelegateSignature_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UDelegateFunction_Marine_Squad_WorldPositionOfMouseDelegate__DelegateSignature_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UDelegateFunction_Marine_Squad_WorldPositionOfMouseDelegate__DelegateSignature()
-	{
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UDelegateFunction_Marine_Squad_WorldPositionOfMouseDelegate__DelegateSignature_Statics::FuncParams);
-		}
-		return ReturnFunction;
-	}
 	void AHUD_MarineSquad::StaticRegisterNativesAHUD_MarineSquad()
 	{
 		UClass* Class = AHUD_MarineSquad::StaticClass();
@@ -144,10 +103,6 @@ void EmptyLinkFunctionForGeneratedCodeHUD_MarineSquad() {}
 #endif
 		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_FoundUnits;
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_FoundUnits_Inner;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_WorldPositionOfMouse_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FMulticastDelegatePropertyParams NewProp_WorldPositionOfMouse;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -176,16 +131,9 @@ void EmptyLinkFunctionForGeneratedCodeHUD_MarineSquad() {}
 #endif
 	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AHUD_MarineSquad_Statics::NewProp_FoundUnits = { "FoundUnits", nullptr, (EPropertyFlags)0x0010000000020001, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AHUD_MarineSquad, FoundUnits), METADATA_PARAMS(Z_Construct_UClass_AHUD_MarineSquad_Statics::NewProp_FoundUnits_MetaData, ARRAY_COUNT(Z_Construct_UClass_AHUD_MarineSquad_Statics::NewProp_FoundUnits_MetaData)) };
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AHUD_MarineSquad_Statics::NewProp_FoundUnits_Inner = { "FoundUnits", nullptr, (EPropertyFlags)0x0000000000020000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_AParentUnit_NoRegister, METADATA_PARAMS(nullptr, 0) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AHUD_MarineSquad_Statics::NewProp_WorldPositionOfMouse_MetaData[] = {
-		{ "ModuleRelativePath", "HUD_MarineSquad.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_AHUD_MarineSquad_Statics::NewProp_WorldPositionOfMouse = { "WorldPositionOfMouse", nullptr, (EPropertyFlags)0x0010000010080000, UE4CodeGen_Private::EPropertyGenFlags::MulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AHUD_MarineSquad, WorldPositionOfMouse), Z_Construct_UDelegateFunction_Marine_Squad_WorldPositionOfMouseDelegate__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_AHUD_MarineSquad_Statics::NewProp_WorldPositionOfMouse_MetaData, ARRAY_COUNT(Z_Construct_UClass_AHUD_MarineSquad_Statics::NewProp_WorldPositionOfMouse_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AHUD_MarineSquad_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHUD_MarineSquad_Statics::NewProp_FoundUnits,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHUD_MarineSquad_Statics::NewProp_FoundUnits_Inner,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHUD_MarineSquad_Statics::NewProp_WorldPositionOfMouse,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AHUD_MarineSquad_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AHUD_MarineSquad>::IsAbstract,
@@ -214,7 +162,7 @@ void EmptyLinkFunctionForGeneratedCodeHUD_MarineSquad() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AHUD_MarineSquad, 417719354);
+	IMPLEMENT_CLASS(AHUD_MarineSquad, 1723314067);
 	template<> MARINE_SQUAD_API UClass* StaticClass<AHUD_MarineSquad>()
 	{
 		return AHUD_MarineSquad::StaticClass();

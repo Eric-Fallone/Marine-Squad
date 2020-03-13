@@ -1,0 +1,1612 @@
+﻿Log file open, 03/13/20 00:36:33
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: Marine_Squad
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.216112
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -6:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin VaFogOfWar
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GameplayAbilities
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.22-CL-7053642
+LogInit: Engine Version: 4.22.3-7053642+++UE4+Release-4.22
+LogInit: Compatible Engine Version: 4.22.0-5660361+++UE4+Release-4.22
+LogInit: Net CL: 5660361
+LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Core(TM) i5-4690K CPU @ 3.50GHz, GPU: NVIDIA GeForce GTX 970
+LogInit: Compiled (64-bit): Jun 18 2019 03:09:11
+LogInit: Compiled with Visual C++: 19.16.27025.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.22
+LogInit: Command Line: 
+LogInit: Base Directory: Q:/UE_4.22/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 30
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 28
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 25
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 2
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.03.13-05.36.34:766][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.03.13-05.36.34:766][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.03.13-05.36.34:766][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Config/Windows/Engine.ini]
+[2020.03.13-05.36.34:766][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.03.13-05.36.34:766][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2020.03.13-05.36.34:766][  0]LogConfig: Setting CVar [[r.AllowGlobalClipPlane:1]]
+[2020.03.13-05.36.34:766][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Config/Windows/Engine.ini]
+[2020.03.13-05.36.34:766][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Config/Windows/Engine.ini]
+[2020.03.13-05.36.34:766][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.03.13-05.36.34:766][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.03.13-05.36.34:766][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.03.13-05.36.34:767][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.03.13-05.36.34:767][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.03.13-05.36.34:767][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.03.13-05.36.34:767][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.03.13-05.36.34:767][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.03.13-05.36.34:767][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.03.13-05.36.34:767][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.03.13-05.36.34:767][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.03.13-05.36.34:767][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.03.13-05.36.34:767][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.03.13-05.36.34:767][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Config/Windows/Engine.ini]
+[2020.03.13-05.36.34:767][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.03.13-05.36.34:767][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.03.13-05.36.34:767][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.03.13-05.36.34:767][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.03.13-05.36.34:767][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.03.13-05.36.34:767][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.03.13-05.36.34:767][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2020.03.13-05.36.34:767][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.03.13-05.36.34:767][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.03.13-05.36.34:767][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.03.13-05.36.34:767][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.03.13-05.36.34:767][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.03.13-05.36.34:767][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.03.13-05.36.34:767][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Config/Windows/Engine.ini]
+[2020.03.13-05.36.34:767][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Config/Windows/Engine.ini]
+[2020.03.13-05.36.34:776][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Config/Windows/Scalability.ini]
+[2020.03.13-05.36.34:776][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.03.13-05.36.34:776][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.03.13-05.36.34:776][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Config/Windows/Scalability.ini]
+[2020.03.13-05.36.34:776][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.03.13-05.36.34:776][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Config/Windows/Scalability.ini]
+[2020.03.13-05.36.34:776][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.03.13-05.36.34:776][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.03.13-05.36.34:776][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.03.13-05.36.34:776][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.03.13-05.36.34:776][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.03.13-05.36.34:776][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.03.13-05.36.34:777][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.03.13-05.36.34:777][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.03.13-05.36.34:777][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.03.13-05.36.34:777][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.03.13-05.36.34:777][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.03.13-05.36.34:777][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.03.13-05.36.34:777][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.03.13-05.36.34:777][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.03.13-05.36.34:777][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.03.13-05.36.34:777][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.03.13-05.36.34:777][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.03.13-05.36.34:777][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.03.13-05.36.34:777][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Config/Windows/Scalability.ini]
+[2020.03.13-05.36.34:777][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.03.13-05.36.34:777][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.03.13-05.36.34:777][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.03.13-05.36.34:777][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.03.13-05.36.34:777][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.03.13-05.36.34:777][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.03.13-05.36.34:777][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.03.13-05.36.34:777][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.03.13-05.36.34:777][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.03.13-05.36.34:777][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.03.13-05.36.34:777][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.03.13-05.36.34:777][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.03.13-05.36.34:777][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.03.13-05.36.34:777][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.03.13-05.36.34:777][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.03.13-05.36.34:777][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.03.13-05.36.34:777][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.03.13-05.36.34:777][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.03.13-05.36.34:777][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.03.13-05.36.34:777][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.03.13-05.36.34:777][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.03.13-05.36.34:777][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.03.13-05.36.34:777][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.03.13-05.36.34:777][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.03.13-05.36.34:777][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.03.13-05.36.34:777][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.03.13-05.36.34:777][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.03.13-05.36.34:777][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.03.13-05.36.34:777][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.03.13-05.36.34:777][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.03.13-05.36.34:777][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Config/Windows/Scalability.ini]
+[2020.03.13-05.36.34:777][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.03.13-05.36.34:777][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.03.13-05.36.34:777][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.03.13-05.36.34:777][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.03.13-05.36.34:777][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.03.13-05.36.34:777][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.03.13-05.36.34:777][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.03.13-05.36.34:777][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.03.13-05.36.34:777][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Config/Windows/Scalability.ini]
+[2020.03.13-05.36.34:777][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.03.13-05.36.34:777][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.03.13-05.36.34:777][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.03.13-05.36.34:777][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.03.13-05.36.34:777][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.03.13-05.36.34:777][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.03.13-05.36.34:777][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.03.13-05.36.34:777][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.03.13-05.36.34:777][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.03.13-05.36.34:777][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.03.13-05.36.34:777][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.03.13-05.36.34:777][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.03.13-05.36.34:777][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.03.13-05.36.34:777][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Config/Windows/Scalability.ini]
+[2020.03.13-05.36.34:777][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.03.13-05.36.34:777][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.03.13-05.36.34:777][  0]LogInit: Selected Device Profile: [Windows]
+[2020.03.13-05.36.34:777][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.03.13-05.36.34:798][  0]LogHAL: Display: Platform has ~ 8 GB [8444633088 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.03.13-05.36.34:798][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2020.03.13-05.36.34:798][  0]LogInit: Going up to parent DeviceProfile []
+[2020.03.13-05.36.34:798][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Config/Windows/Scalability.ini]
+[2020.03.13-05.36.34:798][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.03.13-05.36.34:798][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.03.13-05.36.34:798][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Config/Windows/Scalability.ini]
+[2020.03.13-05.36.34:798][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.03.13-05.36.34:798][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Config/Windows/Scalability.ini]
+[2020.03.13-05.36.34:798][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.03.13-05.36.34:798][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.03.13-05.36.34:798][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.03.13-05.36.34:798][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.03.13-05.36.34:798][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.03.13-05.36.34:798][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.03.13-05.36.34:798][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.03.13-05.36.34:798][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.03.13-05.36.34:798][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.03.13-05.36.34:798][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.03.13-05.36.34:798][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.03.13-05.36.34:798][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.03.13-05.36.34:798][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.03.13-05.36.34:798][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.03.13-05.36.34:798][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.03.13-05.36.34:798][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.03.13-05.36.34:798][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.03.13-05.36.34:798][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.03.13-05.36.34:798][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Config/Windows/Scalability.ini]
+[2020.03.13-05.36.34:798][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.03.13-05.36.34:798][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.03.13-05.36.34:798][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.03.13-05.36.34:798][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.03.13-05.36.34:798][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.03.13-05.36.34:798][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.03.13-05.36.34:798][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.03.13-05.36.34:798][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.03.13-05.36.34:798][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.03.13-05.36.34:798][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.03.13-05.36.34:798][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.03.13-05.36.34:798][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.03.13-05.36.34:798][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.03.13-05.36.34:798][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.03.13-05.36.34:798][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.03.13-05.36.34:798][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.03.13-05.36.34:798][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.03.13-05.36.34:798][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.03.13-05.36.34:798][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.03.13-05.36.34:798][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.03.13-05.36.34:798][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.03.13-05.36.34:798][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.03.13-05.36.34:798][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.03.13-05.36.34:798][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.03.13-05.36.34:798][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.03.13-05.36.34:798][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.03.13-05.36.34:798][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.03.13-05.36.34:798][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.03.13-05.36.34:798][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.03.13-05.36.34:798][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.03.13-05.36.34:798][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Config/Windows/Scalability.ini]
+[2020.03.13-05.36.34:798][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.03.13-05.36.34:798][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.03.13-05.36.34:798][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.03.13-05.36.34:798][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.03.13-05.36.34:798][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.03.13-05.36.34:798][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.03.13-05.36.34:798][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.03.13-05.36.34:798][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.03.13-05.36.34:798][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Config/Windows/Scalability.ini]
+[2020.03.13-05.36.34:798][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.03.13-05.36.34:798][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.03.13-05.36.34:798][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.03.13-05.36.34:799][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.03.13-05.36.34:799][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.03.13-05.36.34:799][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.03.13-05.36.34:799][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.03.13-05.36.34:799][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.03.13-05.36.34:799][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.03.13-05.36.34:799][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.03.13-05.36.34:799][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.03.13-05.36.34:799][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.03.13-05.36.34:799][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.03.13-05.36.34:799][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Config/Windows/Scalability.ini]
+[2020.03.13-05.36.34:799][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.03.13-05.36.34:799][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.03.13-05.36.34:799][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.03.13-05.36.34:799][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.03.13-05.36.34:799][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.03.13-05.36.34:799][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Config/Windows/Engine.ini]
+[2020.03.13-05.36.34:799][  0]LogInit: Computer: FALL-PC
+[2020.03.13-05.36.34:799][  0]LogInit: User: ericf
+[2020.03.13-05.36.34:799][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.03.13-05.36.34:799][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.03.13-05.36.34:799][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2020.03.13-05.36.34:799][  0]LogMemory: Platform Memory Stats for Windows
+[2020.03.13-05.36.34:799][  0]LogMemory: Process Physical Memory: 99.00 MB used, 99.00 MB peak
+[2020.03.13-05.36.34:799][  0]LogMemory: Process Virtual Memory: 98.70 MB used, 98.70 MB peak
+[2020.03.13-05.36.34:799][  0]LogMemory: Physical Memory: 3004.15 MB used,  5049.28 MB free, 8053.43 MB total
+[2020.03.13-05.36.34:799][  0]LogMemory: Virtual Memory: 4639.42 MB used,  134213088.00 MB free, 134217728.00 MB total
+[2020.03.13-05.36.34:830][  0]LogInit: Using OS detected language (en-US).
+[2020.03.13-05.36.34:830][  0]LogInit: Using OS detected locale (en-US).
+[2020.03.13-05.36.34:831][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.03.13-05.36.35:161][  0]LogInit: Setting process to per monitor DPI aware
+[2020.03.13-05.36.35:248][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.03.13-05.36.35:248][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.03.13-05.36.37:751][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.03.13-05.36.37:751][  0]LogD3D11RHI: D3D11 adapters:
+[2020.03.13-05.36.38:161][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2020.03.13-05.36.38:161][  0]LogD3D11RHI:       4043/0/4026 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.03.13-05.36.38:621][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2020.03.13-05.36.38:621][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.03.13-05.36.38:630][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.03.13-05.36.38:630][  0]LogD3D11RHI:       0/0/4026 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.03.13-05.36.38:630][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.03.13-05.36.38:636][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.03.13-05.36.38:637][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2020.03.13-05.36.38:637][  0]LogWindows: EnumDisplayDevices:
+[2020.03.13-05.36.38:637][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2020.03.13-05.36.38:637][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2020.03.13-05.36.38:637][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2020.03.13-05.36.38:638][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2020.03.13-05.36.38:638][  0]LogWindows:    4. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2020.03.13-05.36.38:638][  0]LogWindows:    5. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2020.03.13-05.36.38:639][  0]LogWindows:    6. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2020.03.13-05.36.38:639][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2020.03.13-05.36.38:639][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2020.03.13-05.36.38:639][  0]LogD3D11RHI:   Driver Version: 436.02 (internal:26.21.14.3602, unified:436.02)
+[2020.03.13-05.36.38:639][  0]LogD3D11RHI:      Driver Date: 8-16-2019
+[2020.03.13-05.36.38:639][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
+[2020.03.13-05.36.38:683][  0]LogD3D11RHI: Async texture creation enabled
+[2020.03.13-05.36.38:695][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2020.03.13-05.36.38:696][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2020.03.13-05.36.38:696][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2020.03.13-05.36.38:704][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.03.13-05.36.39:111][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2020.03.13-05.36.39:124][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2020.03.13-05.36.39:138][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2020.03.13-05.36.39:151][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2020.03.13-05.36.39:169][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2020.03.13-05.36.39:182][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2020.03.13-05.36.39:195][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2020.03.13-05.36.39:209][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2020.03.13-05.36.39:215][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2020.03.13-05.36.39:299][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2020.03.13-05.36.39:299][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2020.03.13-05.36.39:299][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2020.03.13-05.36.39:299][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2020.03.13-05.36.39:299][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2020.03.13-05.36.39:299][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2020.03.13-05.36.39:299][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2020.03.13-05.36.39:299][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2020.03.13-05.36.39:299][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2020.03.13-05.36.39:299][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2020.03.13-05.36.39:299][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2020.03.13-05.36.39:299][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2020.03.13-05.36.39:299][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2020.03.13-05.36.39:299][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2020.03.13-05.36.39:299][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2020.03.13-05.36.39:299][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2020.03.13-05.36.39:299][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2020.03.13-05.36.39:299][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2020.03.13-05.36.39:301][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2020.03.13-05.36.39:358][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2020.03.13-05.36.39:358][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2020.03.13-05.36.39:382][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2020.03.13-05.36.39:382][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2020.03.13-05.36.39:394][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2020.03.13-05.36.39:407][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2020.03.13-05.36.39:420][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2020.03.13-05.36.39:441][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2020.03.13-05.36.39:490][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2020.03.13-05.36.39:490][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2020.03.13-05.36.39:490][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.03.13-05.36.39:499][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.03.13-05.36.39:692][  0]LogShaderCompilers: Guid format shader working directory is -9 characters bigger than the processId version (C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Intermediate/Shaders/WorkingDirectory/12556/).
+[2020.03.13-05.36.39:693][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ericf/AppData/Local/Temp/UnrealShaderWorkingDir/422F970442B7C74CB638208CC5029323/'.
+[2020.03.13-05.36.39:694][  0]LogXGEController: Cleaning working directory: C:/Users/ericf/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.03.13-05.36.39:695][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.03.13-05.36.39:695][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.03.13-05.36.39:695][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.03.13-05.36.41:962][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.03.13-05.36.53:926][  0]LogDerivedDataCache: Loaded boot cache 11.96s 71MB C:/Users/ericf/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2020.03.13-05.36.53:927][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/ericf/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2020.03.13-05.36.53:927][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.03.13-05.36.53:927][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.03.13-05.36.53:927][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.03.13-05.36.53:927][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.03.13-05.36.53:968][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.03.13-05.36.53:968][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.03.13-05.36.53:968][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.03.13-05.36.53:981][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ericf/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.03.13-05.36.53:981][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.03.13-05.36.53:981][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.03.13-05.36.54:030][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.03.13-05.36.54:032][  0]LogSlate: Using FreeType 2.6.0
+[2020.03.13-05.36.54:060][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.03.13-05.36.54:287][  0]LogAssetRegistry: FAssetRegistry took 0.0334 seconds to start up
+[2020.03.13-05.36.54:587][  0]LogInit: Selected Device Profile: [Windows]
+[2020.03.13-05.36.54:732][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.03.13-05.36.54:733][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.03.13-05.36.54:733][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.03.13-05.36.54:733][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.03.13-05.36.54:733][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.03.13-05.36.54:742][  0]LogNetVersion: Marine_Squad 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 4148284594)
+[2020.03.13-05.36.55:389][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.072109 seconds
+[2020.03.13-05.36.55:394][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2020.03.13-05.36.55:395][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2020.03.13-05.36.55:395][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.03.13-05.36.57:666][  0]LogVaFog: [FVaFogOfWarModule::StartupModule(44)] VaFogOfWar module started
+[2020.03.13-05.36.57:672][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.03.13-05.36.57:687][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.03.13-05.36.57:761][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.03.13-05.36.58:206][  0]SourceControl: Source control is disabled
+[2020.03.13-05.36.58:206][  0]SourceControl: Source control is disabled
+[2020.03.13-05.36.58:209][  0]SourceControl: Source control is disabled
+[2020.03.13-05.36.58:211][  0]SourceControl: Source control is disabled
+[2020.03.13-05.36.58:327][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.03.13-05.36.58:528][  0]LogOcInput: OculusInput pre-init called
+[2020.03.13-05.36.59:106][  0]LogEngine: Initializing Engine...
+[2020.03.13-05.36.59:106][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.03.13-05.36.59:308][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.03.13-05.36.59:321][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.03.13-05.36.59:322][  0]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_976865d7f760a47e2a086b15bf7dcbd9>::operator ()(41)] Fog Controller is created for: Untitled
+[2020.03.13-05.36.59:391][  0]LogInit: XAudio2 using 'HEAD SET (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.03.13-05.36.59:419][  0]LogInit: FAudioDevice initialized.
+[2020.03.13-05.36.59:419][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.03.13-05.37.00:720][  0]LogDerivedDataCache: Saved boot cache 1.30s 71MB C:/Users/ericf/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2020.03.13-05.37.00:732][  0]LogInit: Texture streaming: Enabled
+[2020.03.13-05.37.00:750][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.03.13-05.37.00:768][  0]LogInit: Transaction tracking system initialized
+[2020.03.13-05.37.00:793][  0]BlueprintLog: New page: Editor Load
+[2020.03.13-05.37.00:883][  0]LocalizationService: Localization service is disabled
+[2020.03.13-05.37.01:557][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.03.13-05.37.01:557][  0]LogCook: Display: Mobile HDR setting 1
+[2020.03.13-05.37.01:598][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Content/' took 0.03s
+[2020.03.13-05.37.01:598][  0]LogStats: FGameplayAbilitiesEditorModule::GameplayTagTreeChanged -  0.000 s
+[2020.03.13-05.37.02:182][  0]SourceControl: Source control is disabled
+[2020.03.13-05.37.02:182][  0]Cmd: MAP LOAD FILE="C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.03.13-05.37.02:182][  0]LightingResults: New page: Lighting Build
+[2020.03.13-05.37.02:185][  0]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_144d8ffb0c7ca55232a4412d9c0c3636>::operator ()(31)] Fog Controller is removed for: Untitled
+[2020.03.13-05.37.02:185][  0]MapCheck: New page: Map Check
+[2020.03.13-05.37.02:185][  0]LightingResults: New page: Lighting Build
+[2020.03.13-05.37.02:210][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2020.03.13-05.37.02:384][  0]LogLinker: Error: HOTRELOADED_ParentUnit_0 has an inappropriate outermost, it was probably saved with a deprecated outer (file: C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Content/BP/Units_BP/UnitsEffects/HPBAR.uasset)
+[2020.03.13-05.37.02:384][  0]LogLinker: Error: HOTRELOADED_ParentUnit_0 has an inappropriate outermost, it was probably saved with a deprecated outer (file: C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Content/BP/Units_BP/UnitsEffects/HPBAR.uasset)
+[2020.03.13-05.37.02:385][  0]LogLinker: Error: HOTRELOADED_ParentUnit_0 has an inappropriate outermost, it was probably saved with a deprecated outer (file: C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Content/BP/Units_BP/UnitsEffects/HPBAR.uasset)
+[2020.03.13-05.37.02:385][  0]LogLinker: Error: HOTRELOADED_ParentUnit_0 has an inappropriate outermost, it was probably saved with a deprecated outer (file: C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Content/BP/Units_BP/UnitsEffects/HPBAR.uasset)
+[2020.03.13-05.37.05:859][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.03.13-05.37.05:859][  0]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_976865d7f760a47e2a086b15bf7dcbd9>::operator ()(41)] Fog Controller is created for: Minimal_Default
+[2020.03.13-05.37.06:100][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.03.13-05.37.06:134][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.94ms
+[2020.03.13-05.37.06:134][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.03.13-05.37.06:134][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.196ms to complete.
+[2020.03.13-05.37.06:134][  0]LogFileHelpers: Loading map 'Minimal_Default' took 3.953
+[2020.03.13-05.37.06:269][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.13-05.37.06:277][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.13-05.37.06:284][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.13-05.37.06:291][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.13-05.37.06:330][  0]LogCollectionManager: Loaded 0 collections in 0.000762 seconds
+[2020.03.13-05.37.06:344][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Collections/' took 0.01s
+[2020.03.13-05.37.06:344][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Content/Developers/ericf/Collections/' took 0.00s
+[2020.03.13-05.37.06:344][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Content/Collections/' took 0.00s
+[2020.03.13-05.37.06:344][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2020.03.13-05.37.06:353][  0]LogContentBrowser: Native class hierarchy populated in 0.0088 seconds. Added 2839 classes and 674 folders.
+[2020.03.13-05.37.06:359][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.03.13-05.37.06:366][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.13-05.37.06:372][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.13-05.37.06:387][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.13-05.37.06:394][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.13-05.37.06:400][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.13-05.37.06:407][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.13-05.37.06:413][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.13-05.37.06:419][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.13-05.37.06:426][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.13-05.37.06:434][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.13-05.37.06:440][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.13-05.37.06:446][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.13-05.37.06:453][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.13-05.37.06:459][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.13-05.37.06:465][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.13-05.37.06:471][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.13-05.37.06:499][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.13-05.37.06:505][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.13-05.37.06:511][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.13-05.37.06:517][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.13-05.37.06:524][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.13-05.37.06:530][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.13-05.37.06:536][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.13-05.37.06:542][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.13-05.37.06:549][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.13-05.37.06:555][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.13-05.37.06:686][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.03.13-05.37.06:764][  0]LogSlate: Took 0.006954 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.03.13-05.37.06:773][  0]LogSlate: Took 0.005510 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.03.13-05.37.06:781][  0]LogSlate: Took 0.005874 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.03.13-05.37.06:787][  0]LogSlate: Took 0.005685 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.03.13-05.37.06:888][  0]LogRenderer: Reallocating scene render targets to support 1968x896 Format 10 NumSamples 1 (Frame:1).
+[2020.03.13-05.37.07:114][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.03.13-05.37.07:114][  0]LogLoad: (Engine Initialization) Total time: 34.68 seconds
+[2020.03.13-05.37.07:114][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.03.13-05.37.07:152][  0]LogAssetRegistry: Asset discovery search completed in 12.8871 seconds
+[2020.03.13-05.37.07:154][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2020.03.13-05.37.07:155][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000205 seconds (updated 0 objects)
+[2020.03.13-05.37.07:156][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.03.13-05.37.43:567][713]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.13-05.37.48:168][235]Candidate modules for hot reload:
+[2020.03.13-05.37.48:168][235]  Marine_Squad
+[2020.03.13-05.37.48:168][235]Launching UnrealBuildTool... [Q:/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Marine_Squad,2796 Win64 Development -TargetType=Editor -Project="C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Marine_Squad.uproject" "C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Marine_Squad.uproject"  -IgnoreJunk]
+[2020.03.13-05.37.49:486][235]Warning: Starting HotReload took  1.3s.
+[2020.03.13-05.38.44:258][776]CompilerResultsLog: New page: Compilation - Mar 12, 2020, 7:38:44 PM
+[2020.03.13-05.38.44:259][776]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\ericf\Desktop\repos\Marine-Squad).
+[2020.03.13-05.38.44:259][776]CompilerResultsLog: Creating makefile for Marine_SquadEditor (ini files are newer than makefile)
+[2020.03.13-05.38.44:259][776]CompilerResultsLog: Parsing headers for Marine_SquadEditor
+[2020.03.13-05.38.44:259][776]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Marine_Squad.uproject" "C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Intermediate\Build\Win64\Marine_SquadEditor\Development\Marine_SquadEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.03.13-05.38.44:260][776]CompilerResultsLog: Reflection code generated for Marine_SquadEditor in 7.358958 seconds
+[2020.03.13-05.38.44:260][776]CompilerResultsLog: Using Visual Studio 2019 14.21.27702 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.21.27702) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.03.13-05.38.44:260][776]CompilerResultsLog: Building 4 actions with 4 processes...
+[2020.03.13-05.38.44:260][776]CompilerResultsLog:   [1/4] HUD_MarineSquad.cpp
+[2020.03.13-05.38.44:260][776]CompilerResultsLog:   [2/4] UE4Editor-Marine_Squad-2796.lib
+[2020.03.13-05.38.44:260][776]CompilerResultsLog:      Creating library C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Intermediate\Build\Win64\UE4Editor\Development\Marine_Squad\UE4Editor-Marine_Squad-2796.lib and object C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Intermediate\Build\Win64\UE4Editor\Development\Marine_Squad\UE4Editor-Marine_Squad-2796.exp
+[2020.03.13-05.38.44:260][776]CompilerResultsLog:   [3/4] UE4Editor-Marine_Squad-2796.dll
+[2020.03.13-05.38.44:261][776]CompilerResultsLog:      Creating library C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Intermediate\Build\Win64\UE4Editor\Development\Marine_Squad\UE4Editor-Marine_Squad-2796.suppressed.lib and object C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Intermediate\Build\Win64\UE4Editor\Development\Marine_Squad\UE4Editor-Marine_Squad-2796.suppressed.exp
+[2020.03.13-05.38.44:261][776]CompilerResultsLog:   [4/4] Marine_SquadEditor.target
+[2020.03.13-05.38.44:261][776]CompilerResultsLog: Total time in Parallel executor: 44.82 seconds
+[2020.03.13-05.38.44:261][776]CompilerResultsLog: Total execution time: 54.62 seconds
+[2020.03.13-05.38.44:261][776]LogMainFrame: MainFrame: Module compiling took 56.097 seconds
+[2020.03.13-05.38.44:284][776]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2020.03.13-05.38.44:321][776]LogClass: ECommandsEnum HotReload.
+[2020.03.13-05.38.44:328][776]LogContentBrowser: Native class hierarchy updated for 'Marine_Squad' in 0.0005 seconds. Added 14 classes and 3 folders.
+[2020.03.13-05.38.44:330][776]Display: HotReload successful (19 functions remapped  0 scriptstructs remapped)
+[2020.03.13-05.38.44:421][776]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2020.03.13-05.38.44:434][776]LogContentBrowser: Native class hierarchy populated in 0.0086 seconds. Added 2839 classes and 674 folders.
+[2020.03.13-05.38.44:434][776]Display: HotReload took 56.3s.
+[2020.03.13-05.40.02:750][153]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.03.13-05.40.02:774][153]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.13-05.40.02:775][153]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.13-05.40.02:775][153]PIE: New page: PIE session: Minimal_Default (Mar 12, 2020, 7:40:02 PM)
+[2020.03.13-05.40.02:788][153]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.03.13-05.40.02:808][153]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019643s)
+[2020.03.13-05.40.02:809][153]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.03.13-05.40.02:809][153]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_976865d7f760a47e2a086b15bf7dcbd9>::operator ()(41)] Fog Controller is created for: Minimal_Default
+[2020.03.13-05.40.02:809][153]LogPlayLevel: PIE: World Init took: (0.001284s)
+[2020.03.13-05.40.02:809][153]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.021558s)
+[2020.03.13-05.40.02:832][153]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2020.03.13-05.40.02:871][153]LogInit: XAudio2 using 'HEAD SET (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.03.13-05.40.02:883][153]LogInit: FAudioDevice initialized.
+[2020.03.13-05.40.02:893][153]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.13-05.40.02:934][153]LogLoad: Game class is 'MyGameModeBase_MarineSquad_BP_C'
+[2020.03.13-05.40.02:939][153]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2020.03.13-00.40.02
+[2020.03.13-05.40.02:941][153]LogWorld: Bringing up level for play took: 0.005951
+[2020.03.13-05.40.02:968][153]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 20 classes and 0 folders.
+[2020.03.13-05.40.02:981][153]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.021
+[2020.03.13-05.40.02:981][153]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.13-05.40.03:694][233]LogTemp: Warning: Left Mouse Button Pressed
+[2020.03.13-05.40.03:768][242]LogTemp: Warning: Left Mouse Button pressed for : 0.075155
+[2020.03.13-05.40.03:768][242]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.40.05:102][402]LogTemp: Warning: SelectUnitOne Pressed
+[2020.03.13-05.40.05:928][501]LogTemp: Warning: Right Mouse Button Pressed
+[2020.03.13-05.40.06:052][516]LogTemp: Warning: Right Mouse Button Released
+[2020.03.13-05.40.07:310][667]LogTemp: Warning: AbilityTwo Pressed
+[2020.03.13-05.40.07:310][667]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.40.07:311][667]LogBlueprintUserMessages: [GA_Base_Choose_Location_C_0] X=-986.276 Y=-2066.449 Z=-310.000
+[2020.03.13-05.40.07:312][667]LogTemp: Warning: was this triggered?
+[2020.03.13-05.40.09:530][932]LogTemp: Warning: Right Mouse Button Pressed
+[2020.03.13-05.40.09:648][946]LogTemp: Warning: Right Mouse Button Released
+[2020.03.13-05.40.09:920][978]LogTemp: Warning: Right Mouse Button Pressed
+[2020.03.13-05.40.10:044][993]LogTemp: Warning: Right Mouse Button Released
+[2020.03.13-05.40.10:972][104]LogTemp: Warning: Right Mouse Button Pressed
+[2020.03.13-05.40.11:096][119]LogTemp: Warning: Right Mouse Button Released
+[2020.03.13-05.40.12:549][293]LogTemp: Warning: Right Mouse Button Pressed
+[2020.03.13-05.40.12:689][310]LogTemp: Warning: Right Mouse Button Released
+[2020.03.13-05.40.13:998][467]LogTemp: Warning: AbilityTwo Pressed
+[2020.03.13-05.40.13:998][467]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.40.13:998][467]LogBlueprintUserMessages: [GA_Base_Choose_Location_C_1] X=-557.604 Y=-2282.317 Z=-310.000
+[2020.03.13-05.40.13:998][467]LogTemp: Warning: was this triggered?
+[2020.03.13-05.40.15:682][667]LogTemp: Warning: AbilityTwo Pressed
+[2020.03.13-05.40.15:683][667]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.40.15:683][667]LogBlueprintUserMessages: [GA_Base_Choose_Location_C_2] X=-1225.449 Y=-1589.104 Z=-310.000
+[2020.03.13-05.40.15:683][667]LogTemp: Warning: was this triggered?
+[2020.03.13-05.40.16:401][744]LogTemp: Warning: AbilityTwo Pressed
+[2020.03.13-05.40.16:401][744]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.40.16:401][744]LogBlueprintUserMessages: [GA_Base_Choose_Location_C_3] X=-391.963 Y=-1446.977 Z=-310.000
+[2020.03.13-05.40.16:402][744]LogTemp: Warning: was this triggered?
+[2020.03.13-05.40.17:101][805]LogTemp: Warning: Right Mouse Button Pressed
+[2020.03.13-05.40.17:214][815]LogTemp: Warning: Right Mouse Button Released
+[2020.03.13-05.40.17:662][854]LogTemp: Warning: AbilityTwo Pressed
+[2020.03.13-05.40.17:662][854]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.40.17:662][854]LogBlueprintUserMessages: [GA_Base_Choose_Location_C_4] X=136.868 Y=-2107.219 Z=-310.000
+[2020.03.13-05.40.17:662][854]LogTemp: Warning: was this triggered?
+[2020.03.13-05.40.18:020][880]LogTemp: Warning: Right Mouse Button Pressed
+[2020.03.13-05.40.18:152][890]LogTemp: Warning: Right Mouse Button Released
+[2020.03.13-05.40.18:886][944]LogTemp: Warning: Right Mouse Button Pressed
+[2020.03.13-05.40.19:002][953]LogTemp: Warning: Right Mouse Button Released
+[2020.03.13-05.40.19:523][992]LogTemp: Warning: Right Mouse Button Pressed
+[2020.03.13-05.40.19:640][  1]LogTemp: Warning: Right Mouse Button Released
+[2020.03.13-05.40.19:921][ 22]LogTemp: Warning: Right Mouse Button Pressed
+[2020.03.13-05.40.20:053][ 32]LogTemp: Warning: Right Mouse Button Released
+[2020.03.13-05.40.20:438][ 61]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.13-05.40.20:439][ 61]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.13-05.40.20:462][ 61]LogSlate: Window 'Marine_Squad Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.03.13-05.40.20:467][ 61]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_144d8ffb0c7ca55232a4412d9c0c3636>::operator ()(31)] Fog Controller is removed for: Minimal_Default
+[2020.03.13-05.40.20:495][ 61]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.13-05.40.20:496][ 61]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.13-05.40.20:529][ 61]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2020.03.13-05.40.20:537][ 62]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2020.03.13-05.40.24:847][572]LogSlate: Took 0.006672 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.03.13-05.40.24:858][572]LogAssetEditorManager: Opening Asset editor for Class /Script/Marine_Squad.BaseAbilityChooseLocation
+[2020.03.13-05.40.34:608][798]LogAssetEditorManager: Opening Asset editor for Class /Script/Marine_Squad.ParentUnit
+[2020.03.13-05.40.59:302][905]Candidate modules for hot reload:
+[2020.03.13-05.40.59:303][905]  Marine_Squad
+[2020.03.13-05.40.59:303][905]Launching UnrealBuildTool... [Q:/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Marine_Squad,6378 Win64 Development -TargetType=Editor -Project="C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Marine_Squad.uproject" "C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Marine_Squad.uproject"  -IgnoreJunk]
+[2020.03.13-05.40.59:420][905]Warning: Starting HotReload took  0.1s.
+[2020.03.13-05.47.02:000][797]CompilerResultsLog: New page: Compilation - Mar 12, 2020, 7:47:02 PM
+[2020.03.13-05.47.02:000][797]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\ericf\Desktop\repos\Marine-Squad).
+[2020.03.13-05.47.02:000][797]CompilerResultsLog: Creating makefile for Marine_SquadEditor (ini files are newer than makefile)
+[2020.03.13-05.47.02:000][797]CompilerResultsLog: Parsing headers for Marine_SquadEditor
+[2020.03.13-05.47.02:001][797]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Marine_Squad.uproject" "C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Intermediate\Build\Win64\Marine_SquadEditor\Development\Marine_SquadEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.03.13-05.47.02:001][797]CompilerResultsLog: Reflection code generated for Marine_SquadEditor in 7.7236099 seconds
+[2020.03.13-05.47.02:001][797]CompilerResultsLog: Using Visual Studio 2019 14.21.27702 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.21.27702) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.03.13-05.47.02:001][797]CompilerResultsLog: Building 6 actions with 4 processes...
+[2020.03.13-05.47.02:001][797]CompilerResultsLog:   [1/6] Marine_Squad.init.gen.cpp
+[2020.03.13-05.47.02:001][797]CompilerResultsLog:   [2/6] BaseAbilityChooseLocation.gen.cpp
+[2020.03.13-05.47.02:002][797]CompilerResultsLog:   [3/6] BaseAbilityChooseLocation.cpp
+[2020.03.13-05.47.02:002][797]CompilerResultsLog:   [4/6] UE4Editor-Marine_Squad-6378.lib
+[2020.03.13-05.47.02:002][797]CompilerResultsLog:      Creating library C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Intermediate\Build\Win64\UE4Editor\Development\Marine_Squad\UE4Editor-Marine_Squad-6378.lib and object C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Intermediate\Build\Win64\UE4Editor\Development\Marine_Squad\UE4Editor-Marine_Squad-6378.exp
+[2020.03.13-05.47.02:002][797]CompilerResultsLog:   [5/6] UE4Editor-Marine_Squad-6378.dll
+[2020.03.13-05.47.02:002][797]CompilerResultsLog:      Creating library C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Intermediate\Build\Win64\UE4Editor\Development\Marine_Squad\UE4Editor-Marine_Squad-6378.suppressed.lib and object C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Intermediate\Build\Win64\UE4Editor\Development\Marine_Squad\UE4Editor-Marine_Squad-6378.suppressed.exp
+[2020.03.13-05.47.02:003][797]CompilerResultsLog:   [6/6] Marine_SquadEditor.target
+[2020.03.13-05.47.02:003][797]CompilerResultsLog: Total time in Parallel executor: 351.72 seconds
+[2020.03.13-05.47.02:003][797]CompilerResultsLog: Total execution time: 362.06 seconds
+[2020.03.13-05.47.02:003][797]LogMainFrame: MainFrame: Module compiling took 362.703 seconds
+[2020.03.13-05.47.02:028][797]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2020.03.13-05.47.02:051][797]LogClass: Could not find existing class BaseAbilityChooseLocation in package /Script/Marine_Squad for HotReload, assuming new class
+[2020.03.13-05.47.02:064][797]LogClass: ECommandsEnum HotReload.
+[2020.03.13-05.47.02:069][797]LogHotReload: Re-instancing BaseAbilityChooseLocation after hot-reload.
+[2020.03.13-05.47.02:149][797]LogContentBrowser: Native class hierarchy updated for 'Marine_Squad' in 0.0005 seconds. Added 14 classes and 3 folders.
+[2020.03.13-05.47.02:152][797]Display: HotReload successful (19 functions remapped  0 scriptstructs remapped)
+[2020.03.13-05.47.02:209][797]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2020.03.13-05.47.02:223][797]LogContentBrowser: Native class hierarchy populated in 0.0086 seconds. Added 2839 classes and 674 folders.
+[2020.03.13-05.47.02:223][797]Display: HotReload took 362.9s.
+[2020.03.13-05.49.27:570][189]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.03.13-05.49.36:449][189]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2020.03.13-05.49.36:579][189]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.13-05.49.36:581][189]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.13-05.49.36:582][189]PIE: New page: PIE session: Minimal_Default (Mar 12, 2020, 7:49:36 PM)
+[2020.03.13-05.49.36:583][189]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.03.13-05.49.36:625][189]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043045s)
+[2020.03.13-05.49.36:627][189]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.03.13-05.49.36:627][189]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_976865d7f760a47e2a086b15bf7dcbd9>::operator ()(41)] Fog Controller is created for: Minimal_Default
+[2020.03.13-05.49.36:628][189]LogPlayLevel: PIE: World Init took: (0.001818s)
+[2020.03.13-05.49.36:628][189]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.046273s)
+[2020.03.13-05.49.36:657][189]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2020.03.13-05.49.36:697][189]LogInit: XAudio2 using 'HEAD SET (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.03.13-05.49.36:709][189]LogInit: FAudioDevice initialized.
+[2020.03.13-05.49.36:713][189]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.03.13-05.49.36:721][189]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.13-05.49.36:754][189]LogLoad: Game class is 'MyGameModeBase_MarineSquad_BP_C'
+[2020.03.13-05.49.36:759][189]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2020.03.13-00.49.36
+[2020.03.13-05.49.36:761][189]LogWorld: Bringing up level for play took: 0.006210
+[2020.03.13-05.49.36:787][189]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.215
+[2020.03.13-05.49.36:787][189]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.13-05.49.37:491][262]LogTemp: Warning: Left Mouse Button Pressed
+[2020.03.13-05.49.37:581][273]LogTemp: Warning: Left Mouse Button pressed for : 0.092422
+[2020.03.13-05.49.37:581][273]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.49.40:975][678]LogTemp: Warning: SelectUnitOne Pressed
+[2020.03.13-05.49.41:697][764]LogTemp: Warning: Right Mouse Button Pressed
+[2020.03.13-05.49.41:804][777]LogTemp: Warning: Right Mouse Button Released
+[2020.03.13-05.49.42:098][811]LogTemp: Warning: AbilityTwo Pressed
+[2020.03.13-05.49.42:098][811]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.49.42:098][811]LogBlueprintUserMessages: [GA_Base_Choose_Location_C_0] X=-989.686 Y=-1429.912 Z=-310.000
+[2020.03.13-05.49.42:098][811]LogTemp: Warning: was this triggered?
+[2020.03.13-05.49.44:609][103]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.13-05.49.44:610][103]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.13-05.49.44:631][103]LogSlate: Window 'Marine_Squad Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.03.13-05.49.44:648][103]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_144d8ffb0c7ca55232a4412d9c0c3636>::operator ()(31)] Fog Controller is removed for: Minimal_Default
+[2020.03.13-05.49.44:677][103]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.13-05.49.44:678][103]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.13-05.49.44:708][103]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2020.03.13-05.49.44:717][104]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2020.03.13-05.49.51:936][965]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.13-05.50.03:234][715]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_976865d7f760a47e2a086b15bf7dcbd9>::operator ()(41)] Fog Controller is created for: World_0
+[2020.03.13-05.50.07:768][199]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BP/Units_BP/Abilities/AOE_choose_location/BP_MyBaseAbilityChooseLocation.BP_MyBaseAbilityChooseLocation
+[2020.03.13-05.50.07:769][199]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_976865d7f760a47e2a086b15bf7dcbd9>::operator ()(41)] Fog Controller is created for: World_1
+[2020.03.13-05.50.08:008][199]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 121 classes and 0 folders.
+[2020.03.13-05.50.11:378][419]LogSlate: Window 'BP_MyBaseAbilityChooseLocation' being destroyed
+[2020.03.13-05.50.11:387][419]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_144d8ffb0c7ca55232a4412d9c0c3636>::operator ()(31)] Fog Controller is removed for: World_1
+[2020.03.13-05.50.11:464][419]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BP/Units_BP/Abilities/AOE_choose_location/BP_MyBaseAbilityChooseLocation.BP_MyBaseAbilityChooseLocation
+[2020.03.13-05.50.11:465][419]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_976865d7f760a47e2a086b15bf7dcbd9>::operator ()(41)] Fog Controller is created for: World_2
+[2020.03.13-05.50.11:816][419]LogSlate: Took 0.006502 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.03.13-05.50.14:889][721]LogSlate: Window 'BP_MyBaseAbilityChooseLocation' being destroyed
+[2020.03.13-05.50.14:893][721]LogSlate: Window 'BP_MyBaseAbilityChooseLocation' being destroyed
+[2020.03.13-05.50.14:897][721]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_144d8ffb0c7ca55232a4412d9c0c3636>::operator ()(31)] Fog Controller is removed for: World_2
+[2020.03.13-05.50.16:651][921]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BP/Units_BP/Abilities/AOE_choose_location/GA_Base_Choose_Location.GA_Base_Choose_Location
+[2020.03.13-05.50.16:652][921]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_976865d7f760a47e2a086b15bf7dcbd9>::operator ()(41)] Fog Controller is created for: World_3
+[2020.03.13-05.50.17:022][922]LogSlate: Took 0.005485 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.03.13-05.51.22:312][424]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BP/Units_BP/Abilities/AOE_choose_location/BP_MyBaseAbilityChooseLocation.BP_MyBaseAbilityChooseLocation
+[2020.03.13-05.51.22:314][424]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_976865d7f760a47e2a086b15bf7dcbd9>::operator ()(41)] Fog Controller is created for: World_4
+[2020.03.13-05.52.19:442][748]LogEditorTransaction: Undo Paste clipboard contents
+[2020.03.13-05.52.37:772][771]BlueprintLog: New page: Compile BP_MyBaseAbilityChooseLocation
+[2020.03.13-05.52.37:941][771]LogUObjectHash: Compacting FUObjectHashTables data took   3.60ms
+[2020.03.13-05.52.39:174][910]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.03.13-05.52.57:410][910]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.13-05.52.57:411][910]BlueprintLog: New page: Pre-Play auto-recompile
+[2020.03.13-05.52.57:412][910]LogPlayLevel: [PlayLevel] Compiling GA_Base_Choose_Location before play...
+[2020.03.13-05.52.57:465][910]LogUObjectHash: Compacting FUObjectHashTables data took   3.31ms
+[2020.03.13-05.52.57:465][910]LogPlayLevel: PlayLevel: Blueprint regeneration took 53 ms (1 blueprints)
+[2020.03.13-05.52.57:465][910]PIE: New page: PIE session: Minimal_Default (Mar 12, 2020, 7:52:57 PM)
+[2020.03.13-05.52.57:465][910]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.03.13-05.52.57:485][910]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019094s)
+[2020.03.13-05.52.57:485][910]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.03.13-05.52.57:486][910]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_976865d7f760a47e2a086b15bf7dcbd9>::operator ()(41)] Fog Controller is created for: Minimal_Default
+[2020.03.13-05.52.57:486][910]LogPlayLevel: PIE: World Init took: (0.001312s)
+[2020.03.13-05.52.57:486][910]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.020838s)
+[2020.03.13-05.52.57:520][910]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2020.03.13-05.52.57:561][910]LogInit: XAudio2 using 'HEAD SET (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.03.13-05.52.57:572][910]LogInit: FAudioDevice initialized.
+[2020.03.13-05.52.57:580][910]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.13-05.52.57:613][910]LogLoad: Game class is 'MyGameModeBase_MarineSquad_BP_C'
+[2020.03.13-05.52.57:616][910]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2020.03.13-00.52.57
+[2020.03.13-05.52.57:618][910]LogWorld: Bringing up level for play took: 0.004171
+[2020.03.13-05.52.57:643][910]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.641
+[2020.03.13-05.52.57:643][910]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.13-05.52.58:644][991]LogTemp: Warning: Left Mouse Button Pressed
+[2020.03.13-05.52.58:727][999]LogTemp: Warning: Left Mouse Button pressed for : 0.084261
+[2020.03.13-05.52.58:727][999]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.52.59:555][ 77]LogTemp: Warning: SelectUnitOne Pressed
+[2020.03.13-05.52.59:851][104]LogTemp: Warning: Right Mouse Button Pressed
+[2020.03.13-05.52.59:958][114]LogTemp: Warning: Right Mouse Button Released
+[2020.03.13-05.53.00:414][157]LogTemp: Warning: AbilityTwo Pressed
+[2020.03.13-05.53.00:414][157]LogTemp: Warning: was this triggered?
+[2020.03.13-05.53.00:415][157]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.00:415][157]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-852.062 Y=-1869.568 Z=-310.000
+[2020.03.13-05.53.00:429][158]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.00:429][158]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-852.062 Y=-1872.998 Z=-310.000
+[2020.03.13-05.53.00:443][159]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.00:443][159]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-848.755 Y=-1880.277 Z=-310.000
+[2020.03.13-05.53.00:456][160]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.00:457][160]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-845.437 Y=-1884.139 Z=-310.000
+[2020.03.13-05.53.00:472][161]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.00:472][161]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-845.437 Y=-1887.574 Z=-310.000
+[2020.03.13-05.53.00:487][162]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.00:487][162]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-845.437 Y=-1887.574 Z=-310.000
+[2020.03.13-05.53.00:501][163]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.00:501][163]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-845.437 Y=-1887.574 Z=-310.000
+[2020.03.13-05.53.00:514][164]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.00:514][164]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-845.437 Y=-1887.574 Z=-310.000
+[2020.03.13-05.53.00:526][165]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.00:526][165]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-845.437 Y=-1887.574 Z=-310.000
+[2020.03.13-05.53.00:538][166]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.00:538][166]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-845.437 Y=-1887.574 Z=-310.000
+[2020.03.13-05.53.00:552][167]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.00:552][167]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-845.437 Y=-1887.574 Z=-310.000
+[2020.03.13-05.53.00:567][168]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.00:568][168]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-845.437 Y=-1887.574 Z=-310.000
+[2020.03.13-05.53.00:583][169]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.00:583][169]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-845.437 Y=-1887.574 Z=-310.000
+[2020.03.13-05.53.00:598][170]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.00:598][170]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-845.437 Y=-1887.574 Z=-310.000
+[2020.03.13-05.53.00:613][171]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.00:613][171]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-845.437 Y=-1887.574 Z=-310.000
+[2020.03.13-05.53.00:628][172]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.00:629][172]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-845.437 Y=-1887.574 Z=-310.000
+[2020.03.13-05.53.00:642][173]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.00:642][173]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-845.437 Y=-1887.574 Z=-310.000
+[2020.03.13-05.53.00:655][174]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.00:656][174]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-842.098 Y=-1891.467 Z=-310.000
+[2020.03.13-05.53.00:670][175]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.00:670][175]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-835.469 Y=-1899.297 Z=-310.000
+[2020.03.13-05.53.00:685][176]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.00:685][176]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-822.121 Y=-1908.133 Z=-310.000
+[2020.03.13-05.53.00:700][177]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.00:700][177]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-805.259 Y=-1921.029 Z=-310.000
+[2020.03.13-05.53.00:714][178]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.00:714][178]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-781.498 Y=-1938.479 Z=-310.000
+[2020.03.13-05.53.00:728][179]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.00:729][179]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-747.093 Y=-1954.357 Z=-310.000
+[2020.03.13-05.53.00:743][180]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.00:743][180]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-719.187 Y=-1962.288 Z=-310.000
+[2020.03.13-05.53.00:757][181]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.00:757][181]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-673.046 Y=-1973.202 Z=-310.000
+[2020.03.13-05.53.00:771][182]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.00:771][182]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-625.940 Y=-1980.761 Z=-310.000
+[2020.03.13-05.53.00:786][183]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.00:786][183]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-589.083 Y=-1979.485 Z=-310.000
+[2020.03.13-05.53.00:801][184]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.00:801][184]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-566.606 Y=-1975.794 Z=-310.000
+[2020.03.13-05.53.00:818][185]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.00:818][185]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-547.769 Y=-1971.472 Z=-310.000
+[2020.03.13-05.53.00:834][186]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.00:834][186]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-532.539 Y=-1970.241 Z=-310.000
+[2020.03.13-05.53.00:851][187]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.00:851][187]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-521.094 Y=-1964.649 Z=-310.000
+[2020.03.13-05.53.00:866][188]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.00:866][188]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-505.733 Y=-1963.314 Z=-310.000
+[2020.03.13-05.53.00:882][189]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.00:882][189]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-498.020 Y=-1964.494 Z=-310.000
+[2020.03.13-05.53.00:897][190]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.00:898][190]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-490.214 Y=-1961.998 Z=-310.000
+[2020.03.13-05.53.00:912][191]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.00:912][191]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-486.337 Y=-1958.883 Z=-310.000
+[2020.03.13-05.53.00:928][192]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.00:929][192]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-474.631 Y=-1953.291 Z=-310.000
+[2020.03.13-05.53.00:943][193]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.00:943][193]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-462.899 Y=-1943.904 Z=-310.000
+[2020.03.13-05.53.00:959][194]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.00:959][194]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-455.032 Y=-1937.638 Z=-310.000
+[2020.03.13-05.53.00:975][195]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.00:975][195]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-443.202 Y=-1928.145 Z=-310.000
+[2020.03.13-05.53.00:990][196]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.00:991][196]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-435.269 Y=-1918.094 Z=-310.000
+[2020.03.13-05.53.01:006][197]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.01:006][197]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-423.300 Y=-1908.549 Z=-310.000
+[2020.03.13-05.53.01:022][198]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.01:022][198]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-411.276 Y=-1891.471 Z=-310.000
+[2020.03.13-05.53.01:038][199]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.01:038][199]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-395.191 Y=-1874.850 Z=-310.000
+[2020.03.13-05.53.01:055][200]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.01:055][200]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-387.062 Y=-1857.049 Z=-310.000
+[2020.03.13-05.53.01:073][201]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.01:073][201]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-374.865 Y=-1843.480 Z=-310.000
+[2020.03.13-05.53.01:089][202]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.01:089][202]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-370.784 Y=-1832.574 Z=-310.000
+[2020.03.13-05.53.01:105][203]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.01:105][203]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-366.754 Y=-1821.766 Z=-310.000
+[2020.03.13-05.53.01:121][204]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.01:121][204]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-358.491 Y=-1807.554 Z=-310.000
+[2020.03.13-05.53.01:138][205]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.01:138][205]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-354.365 Y=-1789.010 Z=-310.000
+[2020.03.13-05.53.01:155][206]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.01:155][206]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-350.338 Y=-1766.701 Z=-310.000
+[2020.03.13-05.53.01:176][207]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.01:177][207]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-346.173 Y=-1721.519 Z=-310.000
+[2020.03.13-05.53.01:195][208]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.01:195][208]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-346.173 Y=-1675.890 Z=-310.000
+[2020.03.13-05.53.01:214][209]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.01:214][209]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-346.173 Y=-1630.233 Z=-310.000
+[2020.03.13-05.53.01:235][210]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.01:235][210]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-346.173 Y=-1573.198 Z=-310.000
+[2020.03.13-05.53.01:256][211]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.01:256][211]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-350.338 Y=-1519.763 Z=-310.000
+[2020.03.13-05.53.01:276][212]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.01:276][212]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-358.491 Y=-1462.420 Z=-310.000
+[2020.03.13-05.53.01:295][213]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.01:296][213]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-366.755 Y=-1412.776 Z=-310.000
+[2020.03.13-05.53.01:317][214]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.01:317][214]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-374.865 Y=-1370.953 Z=-310.000
+[2020.03.13-05.53.01:337][215]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.01:337][215]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-378.939 Y=-1333.086 Z=-310.000
+[2020.03.13-05.53.01:358][216]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.01:359][216]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-383.059 Y=-1295.280 Z=-310.000
+[2020.03.13-05.53.01:378][217]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.01:379][217]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-391.169 Y=-1257.535 Z=-310.000
+[2020.03.13-05.53.01:399][218]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.01:399][218]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-399.214 Y=-1216.156 Z=-310.000
+[2020.03.13-05.53.01:419][219]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.01:420][219]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-407.268 Y=-1171.162 Z=-310.000
+[2020.03.13-05.53.01:441][220]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.01:441][220]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-411.288 Y=-1133.689 Z=-310.000
+[2020.03.13-05.53.01:462][221]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.01:463][221]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-415.329 Y=-1096.307 Z=-310.000
+[2020.03.13-05.53.01:491][222]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.01:491][222]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-423.300 Y=-1081.658 Z=-310.000
+[2020.03.13-05.53.01:513][223]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.01:514][223]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-423.300 Y=-1081.658 Z=-310.000
+[2020.03.13-05.53.01:536][224]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.01:536][224]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-423.300 Y=-1081.658 Z=-310.000
+[2020.03.13-05.53.01:558][225]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.01:559][225]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-423.300 Y=-1081.658 Z=-310.000
+[2020.03.13-05.53.01:580][226]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.01:581][226]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-423.300 Y=-1081.658 Z=-310.000
+[2020.03.13-05.53.01:603][227]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.01:604][227]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-423.300 Y=-1081.658 Z=-310.000
+[2020.03.13-05.53.01:627][228]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.01:627][228]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-423.300 Y=-1081.658 Z=-310.000
+[2020.03.13-05.53.01:649][229]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.01:649][229]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-423.300 Y=-1081.658 Z=-310.000
+[2020.03.13-05.53.01:676][230]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.01:676][230]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-423.300 Y=-1081.658 Z=-310.000
+[2020.03.13-05.53.01:699][231]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.01:699][231]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-423.300 Y=-1081.658 Z=-310.000
+[2020.03.13-05.53.01:723][232]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.01:723][232]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-423.300 Y=-1081.658 Z=-310.000
+[2020.03.13-05.53.01:747][233]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.01:748][233]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-423.300 Y=-1081.658 Z=-310.000
+[2020.03.13-05.53.01:772][234]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.01:772][234]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-423.300 Y=-1081.658 Z=-310.000
+[2020.03.13-05.53.01:801][235]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.01:801][235]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-423.300 Y=-1081.658 Z=-310.000
+[2020.03.13-05.53.01:825][236]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.01:826][236]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-423.300 Y=-1081.658 Z=-310.000
+[2020.03.13-05.53.01:850][237]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.01:851][237]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-423.300 Y=-1081.658 Z=-310.000
+[2020.03.13-05.53.01:876][238]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.01:876][238]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-423.300 Y=-1081.658 Z=-310.000
+[2020.03.13-05.53.01:901][239]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.01:902][239]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-423.300 Y=-1081.658 Z=-310.000
+[2020.03.13-05.53.01:928][240]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.01:928][240]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-423.300 Y=-1081.658 Z=-310.000
+[2020.03.13-05.53.01:959][241]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.01:959][241]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-407.268 Y=-1081.090 Z=-310.000
+[2020.03.13-05.53.01:986][242]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.01:986][242]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-346.173 Y=-1101.710 Z=-310.000
+[2020.03.13-05.53.02:017][243]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.02:018][243]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-270.803 Y=-1149.597 Z=-310.000
+[2020.03.13-05.53.02:045][244]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.02:046][244]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-197.324 Y=-1202.966 Z=-310.000
+[2020.03.13-05.53.02:074][245]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.02:075][245]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-121.720 Y=-1277.854 Z=-310.000
+[2020.03.13-05.53.02:103][246]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.02:103][246]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-34.434 Y=-1387.657 Z=-310.000
+[2020.03.13-05.53.02:131][247]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.02:131][247]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=55.955 Y=-1521.884 Z=-310.000
+[2020.03.13-05.53.02:160][248]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.02:160][248]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=129.539 Y=-1642.662 Z=-310.000
+[2020.03.13-05.53.02:190][249]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.02:190][249]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=179.773 Y=-1734.926 Z=-310.000
+[2020.03.13-05.53.02:220][250]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.02:220][250]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=205.232 Y=-1813.479 Z=-310.000
+[2020.03.13-05.53.02:260][251]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.02:260][251]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=215.587 Y=-1873.995 Z=-310.000
+[2020.03.13-05.53.02:289][252]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.02:290][252]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=215.587 Y=-1920.685 Z=-310.000
+[2020.03.13-05.53.02:320][253]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.02:320][253]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=195.070 Y=-1981.598 Z=-310.000
+[2020.03.13-05.53.02:350][254]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.02:351][254]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=149.558 Y=-2042.442 Z=-310.000
+[2020.03.13-05.53.02:386][255]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.02:386][255]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=65.619 Y=-2124.893 Z=-310.000
+[2020.03.13-05.53.02:416][256]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.02:416][256]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-20.369 Y=-2187.667 Z=-310.000
+[2020.03.13-05.53.02:450][257]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.02:450][257]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-144.238 Y=-2216.633 Z=-310.000
+[2020.03.13-05.53.02:482][258]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.02:482][258]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-249.391 Y=-2177.031 Z=-310.000
+[2020.03.13-05.53.02:514][259]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.02:514][259]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-329.645 Y=-2062.731 Z=-310.000
+[2020.03.13-05.53.02:545][260]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.02:546][260]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-407.268 Y=-1839.469 Z=-310.000
+[2020.03.13-05.53.02:578][261]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.02:579][261]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-427.264 Y=-1579.015 Z=-310.000
+[2020.03.13-05.53.02:611][262]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.02:611][262]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-374.865 Y=-1374.704 Z=-310.000
+[2020.03.13-05.53.02:643][263]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.02:644][263]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-249.391 Y=-1312.058 Z=-310.000
+[2020.03.13-05.53.02:679][264]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.02:679][264]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-25.051 Y=-1383.790 Z=-310.000
+[2020.03.13-05.53.02:712][265]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.02:712][265]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=225.839 Y=-1585.967 Z=-310.000
+[2020.03.13-05.53.02:745][266]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.02:745][266]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=363.383 Y=-1808.240 Z=-310.000
+[2020.03.13-05.53.02:777][267]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.02:777][267]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=341.795 Y=-1910.283 Z=-310.000
+[2020.03.13-05.53.02:811][268]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.02:811][268]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=139.476 Y=-1948.910 Z=-310.000
+[2020.03.13-05.53.02:844][269]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.02:844][269]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-112.715 Y=-1907.779 Z=-310.000
+[2020.03.13-05.53.02:878][270]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.02:878][270]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-210.470 Y=-1789.502 Z=-310.000
+[2020.03.13-05.53.02:914][271]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.02:915][271]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-184.170 Y=-1627.297 Z=-310.000
+[2020.03.13-05.53.02:949][272]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.02:949][272]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-76.183 Y=-1575.240 Z=-310.000
+[2020.03.13-05.53.02:982][273]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.02:983][273]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=17.462 Y=-1617.980 Z=-310.000
+[2020.03.13-05.53.03:018][274]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.03:018][274]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=36.612 Y=-1676.820 Z=-310.000
+[2020.03.13-05.53.03:053][275]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.03:053][275]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=8.006 Y=-1760.184 Z=-310.000
+[2020.03.13-05.53.03:088][276]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.03:089][276]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-29.755 Y=-1796.977 Z=-310.000
+[2020.03.13-05.53.03:128][277]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.03:129][277]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-29.755 Y=-1796.977 Z=-310.000
+[2020.03.13-05.53.03:166][278]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.03:166][278]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-29.755 Y=-1796.977 Z=-310.000
+[2020.03.13-05.53.03:202][279]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.03:202][279]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-29.755 Y=-1796.977 Z=-310.000
+[2020.03.13-05.53.03:238][280]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.03:238][280]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-29.755 Y=-1796.977 Z=-310.000
+[2020.03.13-05.53.03:273][281]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.03:274][281]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-29.755 Y=-1796.977 Z=-310.000
+[2020.03.13-05.53.03:310][282]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.03:310][282]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-29.755 Y=-1796.977 Z=-310.000
+[2020.03.13-05.53.03:347][283]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.03:347][283]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-29.755 Y=-1796.977 Z=-310.000
+[2020.03.13-05.53.03:383][284]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.03:384][284]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-29.755 Y=-1796.977 Z=-310.000
+[2020.03.13-05.53.03:421][285]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.03:421][285]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-29.755 Y=-1796.977 Z=-310.000
+[2020.03.13-05.53.03:468][286]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.03:468][286]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-29.755 Y=-1796.977 Z=-310.000
+[2020.03.13-05.53.03:507][287]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.03:508][287]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-29.755 Y=-1796.977 Z=-310.000
+[2020.03.13-05.53.03:547][288]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.03:548][288]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-29.755 Y=-1796.977 Z=-310.000
+[2020.03.13-05.53.03:586][289]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.03:587][289]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-29.755 Y=-1796.977 Z=-310.000
+[2020.03.13-05.53.03:625][290]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.03:626][290]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-29.755 Y=-1796.977 Z=-310.000
+[2020.03.13-05.53.03:665][291]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.03:665][291]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-29.755 Y=-1796.977 Z=-310.000
+[2020.03.13-05.53.03:704][292]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.03:704][292]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-29.755 Y=-1796.977 Z=-310.000
+[2020.03.13-05.53.03:753][293]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.03:754][293]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-29.755 Y=-1796.977 Z=-310.000
+[2020.03.13-05.53.03:794][294]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.03:795][294]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-20.369 Y=-1826.364 Z=-310.000
+[2020.03.13-05.53.03:836][295]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.03:837][295]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-1.547 Y=-1897.717 Z=-310.000
+[2020.03.13-05.53.03:878][296]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.03:878][296]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=22.254 Y=-2015.350 Z=-310.000
+[2020.03.13-05.53.03:919][297]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.03:920][297]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=51.101 Y=-2126.588 Z=-310.000
+[2020.03.13-05.53.03:963][298]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.03:963][298]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=65.619 Y=-2190.917 Z=-310.000
+[2020.03.13-05.53.04:004][299]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.04:005][299]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=70.551 Y=-2228.985 Z=-310.000
+[2020.03.13-05.53.04:048][300]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.04:049][300]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=70.552 Y=-2270.290 Z=-310.000
+[2020.03.13-05.53.04:090][301]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.04:091][301]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=70.552 Y=-2319.855 Z=-310.000
+[2020.03.13-05.53.04:131][302]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.04:132][302]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=70.552 Y=-2385.943 Z=-310.000
+[2020.03.13-05.53.04:175][303]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.04:176][303]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=70.552 Y=-2443.769 Z=-310.000
+[2020.03.13-05.53.04:218][304]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.04:219][304]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=65.619 Y=-2500.409 Z=-310.000
+[2020.03.13-05.53.04:261][305]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.04:261][305]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=60.766 Y=-2532.274 Z=-310.000
+[2020.03.13-05.53.04:303][306]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.04:304][306]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=55.955 Y=-2547.541 Z=-310.000
+[2020.03.13-05.53.04:350][307]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.04:351][307]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=46.307 Y=-2569.844 Z=-310.000
+[2020.03.13-05.53.04:394][308]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.04:394][308]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=41.451 Y=-2584.997 Z=-310.000
+[2020.03.13-05.53.04:438][309]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.04:438][309]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=27.086 Y=-2601.822 Z=-310.000
+[2020.03.13-05.53.04:482][310]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.04:482][310]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=17.462 Y=-2611.617 Z=-310.000
+[2020.03.13-05.53.04:526][311]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.04:527][311]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=3.259 Y=-2620.106 Z=-310.000
+[2020.03.13-05.53.04:571][312]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.04:571][312]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-6.232 Y=-2633.874 Z=-310.000
+[2020.03.13-05.53.04:615][313]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.04:615][313]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-20.369 Y=-2638.205 Z=-310.000
+[2020.03.13-05.53.04:661][314]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.04:661][314]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-20.369 Y=-2638.205 Z=-310.000
+[2020.03.13-05.53.04:704][315]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.04:704][315]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-20.369 Y=-2638.205 Z=-310.000
+[2020.03.13-05.53.04:748][316]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.04:749][316]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-20.369 Y=-2638.205 Z=-310.000
+[2020.03.13-05.53.04:793][317]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.04:794][317]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-20.369 Y=-2638.205 Z=-310.000
+[2020.03.13-05.53.04:838][318]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.04:838][318]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-20.369 Y=-2638.205 Z=-310.000
+[2020.03.13-05.53.04:886][319]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.04:887][319]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-62.329 Y=-2622.891 Z=-310.000
+[2020.03.13-05.53.04:942][320]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.04:943][320]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-121.720 Y=-2579.090 Z=-310.000
+[2020.03.13-05.53.04:990][321]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.04:990][321]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-162.054 Y=-2544.840 Z=-310.000
+[2020.03.13-05.53.05:035][322]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.05:036][322]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-201.764 Y=-2507.139 Z=-310.000
+[2020.03.13-05.53.05:082][323]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.05:083][323]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-232.132 Y=-2476.072 Z=-310.000
+[2020.03.13-05.53.05:129][324]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.05:130][324]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-257.976 Y=-2450.316 Z=-310.000
+[2020.03.13-05.53.05:178][325]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.05:178][325]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-275.041 Y=-2430.767 Z=-310.000
+[2020.03.13-05.53.05:225][326]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.05:225][326]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-283.505 Y=-2405.553 Z=-310.000
+[2020.03.13-05.53.05:282][327]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.05:282][327]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-253.680 Y=-2323.517 Z=-310.000
+[2020.03.13-05.53.05:330][328]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.05:330][328]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=-48.404 Y=-2226.972 Z=-310.000
+[2020.03.13-05.53.05:381][329]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.05:382][329]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=159.559 Y=-2174.187 Z=-310.000
+[2020.03.13-05.53.05:429][330]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.05:430][330]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=325.769 Y=-2163.956 Z=-310.000
+[2020.03.13-05.53.05:479][331]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.05:480][331]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=474.044 Y=-2144.107 Z=-310.000
+[2020.03.13-05.53.05:530][332]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.05:530][332]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=636.629 Y=-2105.808 Z=-310.000
+[2020.03.13-05.53.05:650][333]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.05:650][333]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=733.893 Y=-2082.887 Z=-310.000
+[2020.03.13-05.53.05:669][334]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.05:669][334]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=821.562 Y=-2062.174 Z=-310.000
+[2020.03.13-05.53.05:713][335]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.05:714][335]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=834.473 Y=-2059.196 Z=-310.000
+[2020.03.13-05.53.05:763][336]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.05:763][336]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=885.911 Y=-2056.526 Z=-310.000
+[2020.03.13-05.53.05:812][337]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.05:812][337]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=938.348 Y=-2053.962 Z=-310.000
+[2020.03.13-05.53.05:865][338]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.05:866][338]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=1025.627 Y=-2065.444 Z=-310.000
+[2020.03.13-05.53.05:915][339]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.05:916][339]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=1045.992 Y=-2068.115 Z=-310.000
+[2020.03.13-05.53.05:968][340]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.05:969][340]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=1066.571 Y=-2080.622 Z=-310.000
+[2020.03.13-05.53.06:019][341]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.06:020][341]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=1094.260 Y=-2113.963 Z=-310.000
+[2020.03.13-05.53.06:083][342]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.06:083][342]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=1115.199 Y=-2191.150 Z=-310.000
+[2020.03.13-05.53.06:133][343]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.06:134][343]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=1115.199 Y=-2295.124 Z=-310.000
+[2020.03.13-05.53.06:187][344]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.06:187][344]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=1087.284 Y=-2379.272 Z=-310.000
+[2020.03.13-05.53.06:238][345]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.06:239][345]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=1025.626 Y=-2446.275 Z=-310.000
+[2020.03.13-05.53.06:293][346]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.06:293][346]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=964.908 Y=-2507.094 Z=-310.000
+[2020.03.13-05.53.06:348][347]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.06:349][347]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=918.569 Y=-2521.591 Z=-310.000
+[2020.03.13-05.53.06:402][348]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.06:402][348]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=840.680 Y=-2538.509 Z=-310.000
+[2020.03.13-05.53.06:455][349]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.06:456][349]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=752.458 Y=-2542.956 Z=-310.000
+[2020.03.13-05.53.06:517][350]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.06:518][350]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=630.738 Y=-2539.262 Z=-310.000
+[2020.03.13-05.53.06:571][351]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.06:571][351]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=536.869 Y=-2527.404 Z=-310.000
+[2020.03.13-05.53.06:626][352]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.06:626][352]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=474.044 Y=-2513.336 Z=-310.000
+[2020.03.13-05.53.06:681][353]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.06:682][353]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=423.754 Y=-2480.063 Z=-310.000
+[2020.03.13-05.53.06:736][354]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.06:736][354]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=363.382 Y=-2423.173 Z=-310.000
+[2020.03.13-05.53.06:792][355]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.06:793][355]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=293.763 Y=-2309.388 Z=-310.000
+[2020.03.13-05.53.06:847][356]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.06:848][356]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=246.550 Y=-2138.043 Z=-310.000
+[2020.03.13-05.53.06:915][357]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.06:916][357]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=215.587 Y=-1878.239 Z=-310.000
+[2020.03.13-05.53.06:976][358]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.06:976][358]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=200.197 Y=-1711.382 Z=-310.000
+[2020.03.13-05.53.07:033][359]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.07:034][359]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=189.965 Y=-1545.709 Z=-310.000
+[2020.03.13-05.53.07:093][360]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.07:093][360]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=189.987 Y=-1397.890 Z=-310.000
+[2020.03.13-05.53.07:150][361]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.07:150][361]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=189.987 Y=-1283.797 Z=-310.000
+[2020.03.13-05.53.07:207][362]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.07:207][362]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=179.773 Y=-1216.269 Z=-310.000
+[2020.03.13-05.53.07:264][363]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.07:265][363]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=174.806 Y=-1165.751 Z=-310.000
+[2020.03.13-05.53.07:326][364]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.07:327][364]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=174.806 Y=-1094.105 Z=-310.000
+[2020.03.13-05.53.07:385][365]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.07:385][365]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=164.596 Y=-917.846 Z=-310.000
+[2020.03.13-05.53.07:443][366]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.07:444][366]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=139.476 Y=-772.913 Z=-310.000
+[2020.03.13-05.53.07:501][367]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.07:501][367]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=134.551 Y=-769.177 Z=-310.000
+[2020.03.13-05.53.07:558][368]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.07:558][368]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=134.551 Y=-769.177 Z=-310.000
+[2020.03.13-05.53.07:615][369]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.07:616][369]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=134.551 Y=-769.177 Z=-310.000
+[2020.03.13-05.53.07:686][370]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.07:686][370]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=134.551 Y=-769.177 Z=-310.000
+[2020.03.13-05.53.07:744][371]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.07:744][371]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=134.551 Y=-769.177 Z=-310.000
+[2020.03.13-05.53.07:816][372]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.07:817][372]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=134.551 Y=-769.177 Z=-310.000
+[2020.03.13-05.53.07:879][373]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.07:879][373]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=134.551 Y=-769.177 Z=-310.000
+[2020.03.13-05.53.07:938][374]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.13-05.53.07:939][374]LogBlueprintUserMessages: [BP_MyBaseAbilityChooseLocation_C_0] X=134.551 Y=-769.177 Z=-310.000
+[2020.03.13-05.53.07:947][374]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.13-05.53.07:948][374]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.13-05.53.19:804][374]LogSlate: Window 'Marine_Squad Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.03.13-05.53.19:822][374]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_144d8ffb0c7ca55232a4412d9c0c3636>::operator ()(31)] Fog Controller is removed for: Minimal_Default
+[2020.03.13-05.53.19:855][374]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.13-05.53.19:856][374]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.13-05.53.19:911][374]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2020.03.13-05.53.19:932][375]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2020.03.13-05.53.39:776][653]BlueprintLog: New page: Compile BP_MyBaseAbilityChooseLocation
+[2020.03.13-05.53.39:932][653]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2020.03.13-05.53.47:439][527]LogUObjectHash: Compacting FUObjectHashTables data took   3.02ms
+[2020.03.13-05.53.48:954][527]LogSlate: Window 'Save Content' being destroyed
+[2020.03.13-05.53.49:026][527]LogSavePackage: Moving 'C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/BP_MyBaseAbilityChooseLocation138ECFA64D1537C461B49481F436ED82.tmp' to 'C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Content/BP/Units_BP/Abilities/AOE_choose_location/BP_MyBaseAbilityChooseLocation.uasset'
+[2020.03.13-05.53.49:091][527]LogSavePackage: Moving 'C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/GA_Base_Choose_Location98E81EE84F1F362CE736AE96B25B821B.tmp' to 'C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Content/BP/Units_BP/Abilities/AOE_choose_location/GA_Base_Choose_Location.uasset'
+[2020.03.13-05.53.49:209][527]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_144d8ffb0c7ca55232a4412d9c0c3636>::operator ()(31)] Fog Controller is removed for: World_3
+[2020.03.13-05.53.49:233][527]LogSlate: Window 'BP_MyBaseAbilityChooseLocation' being destroyed
+[2020.03.13-05.53.49:240][527]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_144d8ffb0c7ca55232a4412d9c0c3636>::operator ()(31)] Fog Controller is removed for: World_4
+[2020.03.13-05.53.49:295][527]LogSlate: Window 'Marine_Squad - Unreal Editor' being destroyed
+[2020.03.13-05.53.49:515][528]Cmd: QUIT_EDITOR
+[2020.03.13-05.53.51:727][528]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.03.13-05.53.52:720][528]LogExit: Preparing to exit.
+[2020.03.13-05.53.53:242][528]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_144d8ffb0c7ca55232a4412d9c0c3636>::operator ()(31)] Fog Controller is removed for: World_0
+[2020.03.13-05.53.53:282][528]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_144d8ffb0c7ca55232a4412d9c0c3636>::operator ()(31)] Fog Controller is removed for: None
+[2020.03.13-05.53.53:282][528]LogExit: Editor shut down
+[2020.03.13-05.53.53:282][528]LogExit: Transaction tracking system shut down
+[2020.03.13-05.53.53:544][528]LogExit: Object subsystem successfully closed.
+[2020.03.13-05.53.53:567][528]LogShaderCompilers: Display: Shaders left to compile 0
+[2020.03.13-05.53.53:571][528]LogD3D11RHI: Shutdown
+[2020.03.13-05.53.53:571][528]LogD3D11RHI: CleanupD3DDevice
+[2020.03.13-05.53.53:572][528]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2020.03.13-05.53.53:572][528]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2020.03.13-05.53.53:572][528]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2020.03.13-05.53.53:572][528]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2020.03.13-05.53.53:572][528]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2020.03.13-05.53.53:572][528]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2020.03.13-05.53.53:698][528]LogD3D11RHI: ~FD3D11DynamicRHI
+[2020.03.13-05.53.53:706][528]LogModuleManager: Shutting down and abandoning module BlueprintGraph (658)
+[2020.03.13-05.53.53:707][528]LogModuleManager: Shutting down and abandoning module Marine_Squad (656)
+[2020.03.13-05.53.53:707][528]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (655)
+[2020.03.13-05.53.53:707][528]LogModuleManager: Shutting down and abandoning module Voice (653)
+[2020.03.13-05.53.53:707][528]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (650)
+[2020.03.13-05.53.53:707][528]LogModuleManager: Shutting down and abandoning module AddContentDialog (648)
+[2020.03.13-05.53.53:707][528]LogModuleManager: Shutting down and abandoning module WidgetCarousel (647)
+[2020.03.13-05.53.53:707][528]LogModuleManager: Shutting down and abandoning module EditorWidgets (644)
+[2020.03.13-05.53.53:707][528]LogModuleManager: Shutting down and abandoning module CollectionManager (642)
+[2020.03.13-05.53.53:707][528]LogModuleManager: Shutting down and abandoning module SceneOutliner (640)
+[2020.03.13-05.53.53:707][528]LogModuleManager: Shutting down and abandoning module StatsViewer (638)
+[2020.03.13-05.53.53:708][528]LogModuleManager: Shutting down and abandoning module FoliageEdit (636)
+[2020.03.13-05.53.53:708][528]LogModuleManager: Shutting down and abandoning module LandscapeEditor (634)
+[2020.03.13-05.53.53:708][528]LogModuleManager: Shutting down and abandoning module MeshPaintMode (632)
+[2020.03.13-05.53.53:708][528]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (630)
+[2020.03.13-05.53.53:708][528]LogModuleManager: Shutting down and abandoning module ActorPickerMode (628)
+[2020.03.13-05.53.53:708][528]LogModuleManager: Shutting down and abandoning module GeometryMode (626)
+[2020.03.13-05.53.53:708][528]LogModuleManager: Shutting down and abandoning module TextureAlignMode (624)
+[2020.03.13-05.53.53:708][528]LogModuleManager: Shutting down and abandoning module BspMode (622)
+[2020.03.13-05.53.53:708][528]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (620)
+[2020.03.13-05.53.53:708][528]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (618)
+[2020.03.13-05.53.53:708][528]LogModuleManager: Shutting down and abandoning module AutomationWorker (616)
+[2020.03.13-05.53.53:708][528]LogModuleManager: Shutting down and abandoning module OculusMR (614)
+[2020.03.13-05.53.53:708][528]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (612)
+[2020.03.13-05.53.53:708][528]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (610)
+[2020.03.13-05.53.53:708][528]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (608)
+[2020.03.13-05.53.53:708][528]LogModuleManager: Shutting down and abandoning module PlacementMode (607)
+[2020.03.13-05.53.53:708][528]LogModuleManager: Shutting down and abandoning module MaterialEditor (606)
+[2020.03.13-05.53.53:708][528]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (602)
+[2020.03.13-05.53.53:708][528]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (600)
+[2020.03.13-05.53.53:708][528]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (598)
+[2020.03.13-05.53.53:708][528]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (596)
+[2020.03.13-05.53.53:708][528]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (594)
+[2020.03.13-05.53.53:708][528]LogModuleManager: Shutting down and abandoning module WebMMedia (592)
+[2020.03.13-05.53.53:708][528]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (590)
+[2020.03.13-05.53.53:708][528]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (588)
+[2020.03.13-05.53.53:708][528]LogModuleManager: Shutting down and abandoning module SequenceRecorder (587)
+[2020.03.13-05.53.53:708][528]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (584)
+[2020.03.13-05.53.53:708][528]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (582)
+[2020.03.13-05.53.53:708][528]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (580)
+[2020.03.13-05.53.53:708][528]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (578)
+[2020.03.13-05.53.53:708][528]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (576)
+[2020.03.13-05.53.53:708][528]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (574)
+[2020.03.13-05.53.53:708][528]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (572)
+[2020.03.13-05.53.53:708][528]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (570)
+[2020.03.13-05.53.53:708][528]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (568)
+[2020.03.13-05.53.53:708][528]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (566)
+[2020.03.13-05.53.53:708][528]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (564)
+[2020.03.13-05.53.53:708][528]LogModuleManager: Shutting down and abandoning module CharacterAI (562)
+[2020.03.13-05.53.53:708][528]LogModuleManager: Shutting down and abandoning module SmartSnapping (560)
+[2020.03.13-05.53.53:708][528]LogModuleManager: Shutting down and abandoning module SessionServices (558)
+[2020.03.13-05.53.53:708][528]LogModuleManager: Shutting down and abandoning module MeshPaint (556)
+[2020.03.13-05.53.53:708][528]LogModuleManager: Shutting down and abandoning module ViewportSnapping (554)
+[2020.03.13-05.53.53:708][528]LogModuleManager: Shutting down and abandoning module ViewportInteraction (552)
+[2020.03.13-05.53.53:708][528]LogModuleManager: Shutting down and abandoning module ClothPainter (550)
+[2020.03.13-05.53.53:708][528]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (549)
+[2020.03.13-05.53.53:709][528]LogModuleManager: Shutting down and abandoning module LogVisualizer (546)
+[2020.03.13-05.53.53:709][528]LogModuleManager: Shutting down and abandoning module IntroTutorials (544)
+[2020.03.13-05.53.53:709][528]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (543)
+[2020.03.13-05.53.53:709][528]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (540)
+[2020.03.13-05.53.53:709][528]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (538)
+[2020.03.13-05.53.53:709][528]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (536)
+[2020.03.13-05.53.53:709][528]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (534)
+[2020.03.13-05.53.53:709][528]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (533)
+[2020.03.13-05.53.55:533][528]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (530)
+[2020.03.13-05.53.55:533][528]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (528)
+[2020.03.13-05.53.55:533][528]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (526)
+[2020.03.13-05.53.55:533][528]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (524)
+[2020.03.13-05.53.55:533][528]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (522)
+[2020.03.13-05.53.55:533][528]LogModuleManager: Shutting down and abandoning module InputBindingEditor (520)
+[2020.03.13-05.53.55:533][528]LogModuleManager: Shutting down and abandoning module MergeActors (518)
+[2020.03.13-05.53.55:534][528]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (516)
+[2020.03.13-05.53.55:534][528]LogModuleManager: Shutting down and abandoning module LocalizationService (515)
+[2020.03.13-05.53.55:534][528]LogModuleManager: Shutting down and abandoning module HardwareTargeting (512)
+[2020.03.13-05.53.55:534][528]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (510)
+[2020.03.13-05.53.55:534][528]LogModuleManager: Shutting down and abandoning module UndoHistory (508)
+[2020.03.13-05.53.55:534][528]LogModuleManager: Shutting down and abandoning module XmlParser (506)
+[2020.03.13-05.53.55:534][528]LogModuleManager: Shutting down and abandoning module Blutility (504)
+[2020.03.13-05.53.55:534][528]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (502)
+[2020.03.13-05.53.55:534][528]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (501)
+[2020.03.13-05.53.55:534][528]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (498)
+[2020.03.13-05.53.55:534][528]LogModuleManager: Shutting down and abandoning module SettingsEditor (496)
+[2020.03.13-05.53.55:534][528]LogModuleManager: Shutting down and abandoning module ProjectLauncher (494)
+[2020.03.13-05.53.55:534][528]LogModuleManager: Shutting down and abandoning module SessionFrontend (492)
+[2020.03.13-05.53.55:534][528]LogModuleManager: Shutting down and abandoning module ProfilerClient (490)
+[2020.03.13-05.53.55:534][528]LogModuleManager: Shutting down and abandoning module DeviceManager (488)
+[2020.03.13-05.53.55:534][528]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (487)
+[2020.03.13-05.53.55:578][528]LogModuleManager: Shutting down and abandoning module AutomationController (484)
+[2020.03.13-05.53.55:578][528]LogModuleManager: Shutting down and abandoning module AutomationWindow (482)
+[2020.03.13-05.53.55:578][528]LogModuleManager: Shutting down and abandoning module Layers (480)
+[2020.03.13-05.53.55:578][528]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (478)
+[2020.03.13-05.53.55:578][528]LogModuleManager: Shutting down and abandoning module DetailCustomizations (476)
+[2020.03.13-05.53.55:578][528]LogModuleManager: Shutting down and abandoning module PackagesDialog (474)
+[2020.03.13-05.53.55:578][528]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (472)
+[2020.03.13-05.53.55:578][528]LogModuleManager: Shutting down and abandoning module Persona (470)
+[2020.03.13-05.53.55:578][528]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (469)
+[2020.03.13-05.53.55:578][528]LogModuleManager: Shutting down and abandoning module AnimGraph (467)
+[2020.03.13-05.53.55:578][528]LogModuleManager: Shutting down and abandoning module Kismet (464)
+[2020.03.13-05.53.55:582][528]LogModuleManager: Shutting down and abandoning module GraphEditor (462)
+[2020.03.13-05.53.55:583][528]LogModuleManager: Shutting down and abandoning module ClassViewer (460)
+[2020.03.13-05.53.55:583][528]LogModuleManager: Shutting down and abandoning module Toolbox (458)
+[2020.03.13-05.53.55:583][528]LogModuleManager: Shutting down and abandoning module DesktopPlatform (457)
+[2020.03.13-05.53.55:583][528]LogModuleManager: Shutting down and abandoning module ModuleUI (454)
+[2020.03.13-05.53.55:583][528]LogModuleManager: Shutting down and abandoning module MovieSceneTools (452)
+[2020.03.13-05.53.55:583][528]LogModuleManager: Shutting down and abandoning module OutputLog (450)
+[2020.03.13-05.53.55:583][528]LogModuleManager: Shutting down and abandoning module GammaUI (448)
+[2020.03.13-05.53.55:583][528]LogModuleManager: Shutting down and abandoning module Documentation (446)
+[2020.03.13-05.53.55:583][528]LogModuleManager: Shutting down and abandoning module LiveCoding (444)
+[2020.03.13-05.53.55:583][528]LogModuleManager: Shutting down and abandoning module LevelSequence (442)
+[2020.03.13-05.53.55:583][528]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (440)
+[2020.03.13-05.53.55:583][528]LogModuleManager: Shutting down and abandoning module MovieScene (438)
+[2020.03.13-05.53.55:583][528]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (436)
+[2020.03.13-05.53.55:583][528]LogModuleManager: Shutting down and abandoning module LauncherPlatform (434)
+[2020.03.13-05.53.55:583][528]LogModuleManager: Shutting down and abandoning module AnalyticsET (432)
+[2020.03.13-05.53.55:583][528]LogModuleManager: Shutting down and abandoning module PortalServices (430)
+[2020.03.13-05.53.55:583][528]LogModuleManager: Shutting down and abandoning module PortalRpc (428)
+[2020.03.13-05.53.55:583][528]LogModuleManager: Shutting down and abandoning module MessagingRpc (426)
+[2020.03.13-05.53.55:583][528]LogModuleManager: Shutting down and abandoning module AIModule (424)
+[2020.03.13-05.53.55:583][528]LogModuleManager: Shutting down and abandoning module AITestSuite (423)
+[2020.03.13-05.53.55:583][528]LogModuleManager: Shutting down and abandoning module NavigationSystem (421)
+[2020.03.13-05.53.55:583][528]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (418)
+[2020.03.13-05.53.55:586][528]LogModuleManager: Shutting down and abandoning module ProfilerService (416)
+[2020.03.13-05.53.55:753][528]LogModuleManager: Shutting down and abandoning module TaskGraph (414)
+[2020.03.13-05.53.55:754][528]LogModuleManager: Shutting down and abandoning module SteamVRController (412)
+[2020.03.13-05.53.55:754][528]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (410)
+[2020.03.13-05.53.55:754][528]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (408)
+[2020.03.13-05.53.55:754][528]LogModuleManager: Shutting down and abandoning module OculusEditor (406)
+[2020.03.13-05.53.55:754][528]LogModuleManager: Shutting down and abandoning module OculusInput (404)
+[2020.03.13-05.53.55:754][528]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (402)
+[2020.03.13-05.53.55:754][528]LogModuleManager: Shutting down and abandoning module EditableMesh (400)
+[2020.03.13-05.53.55:754][528]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (398)
+[2020.03.13-05.53.55:754][528]LogModuleManager: Shutting down and abandoning module CableComponent (396)
+[2020.03.13-05.53.55:754][528]LogModuleManager: Shutting down and abandoning module AudioCapture (394)
+[2020.03.13-05.53.55:754][528]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (392)
+[2020.03.13-05.53.55:754][528]LogModuleManager: Shutting down and abandoning module AndroidPermission (390)
+[2020.03.13-05.53.55:754][528]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (388)
+[2020.03.13-05.53.55:754][528]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (386)
+[2020.03.13-05.53.55:754][528]LogModuleManager: Shutting down and abandoning module MediaCompositing (384)
+[2020.03.13-05.53.55:754][528]LogModuleManager: Shutting down and abandoning module LinearTimecode (382)
+[2020.03.13-05.53.55:755][528]LogModuleManager: Shutting down and abandoning module ImgMedia (380)
+[2020.03.13-05.53.55:755][528]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (378)
+[2020.03.13-05.53.55:755][528]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (376)
+[2020.03.13-05.53.55:755][528]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (374)
+[2020.03.13-05.53.55:755][528]LogModuleManager: Shutting down and abandoning module HTML5Networking (372)
+[2020.03.13-05.53.55:755][528]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (370)
+[2020.03.13-05.53.55:755][528]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (368)
+[2020.03.13-05.53.55:755][528]LogModuleManager: Shutting down and abandoning module BackChannel (366)
+[2020.03.13-05.53.55:755][528]LogModuleManager: Shutting down and abandoning module AppleVision (364)
+[2020.03.13-05.53.55:755][528]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (362)
+[2020.03.13-05.53.55:755][528]LogModuleManager: Shutting down and abandoning module AppleImageUtils (360)
+[2020.03.13-05.53.55:755][528]LogModuleManager: Shutting down and abandoning module AlembicImporter (358)
+[2020.03.13-05.53.55:755][528]LogModuleManager: Shutting down and abandoning module AlembicLibrary (357)
+[2020.03.13-05.53.55:755][528]LogModuleManager: Shutting down and abandoning module GeometryCache (356)
+[2020.03.13-05.53.55:755][528]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (355)
+[2020.03.13-05.53.55:755][528]LogModuleManager: Shutting down and abandoning module VariantManagerContent (350)
+[2020.03.13-05.53.55:755][528]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (348)
+[2020.03.13-05.53.55:755][528]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (346)
+[2020.03.13-05.53.55:755][528]LogModuleManager: Shutting down and abandoning module PluginBrowser (344)
+[2020.03.13-05.53.55:756][528]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (342)
+[2020.03.13-05.53.55:756][528]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (340)
+[2020.03.13-05.53.55:756][528]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (338)
+[2020.03.13-05.53.55:756][528]LogModuleManager: Shutting down and abandoning module CryptoKeys (336)
+[2020.03.13-05.53.55:756][528]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (334)
+[2020.03.13-05.53.55:756][528]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (332)
+[2020.03.13-05.53.55:756][528]LogModuleManager: Shutting down and abandoning module UObjectPlugin (330)
+[2020.03.13-05.53.55:756][528]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (328)
+[2020.03.13-05.53.55:756][528]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (326)
+[2020.03.13-05.53.55:756][528]LogModuleManager: Shutting down and abandoning module GitSourceControl (324)
+[2020.03.13-05.53.55:756][528]LogModuleManager: Shutting down and abandoning module SourceControl (323)
+[2020.03.13-05.53.55:756][528]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (320)
+[2020.03.13-05.53.55:756][528]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (318)
+[2020.03.13-05.53.55:756][528]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (316)
+[2020.03.13-05.53.55:756][528]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (314)
+[2020.03.13-05.53.55:757][528]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (312)
+[2020.03.13-05.53.55:757][528]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (310)
+[2020.03.13-05.53.55:757][528]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (308)
+[2020.03.13-05.53.55:757][528]LogModuleManager: Shutting down and abandoning module Paper2DEditor (306)
+[2020.03.13-05.53.55:757][528]LogModuleManager: Shutting down and abandoning module SignificanceManager (302)
+[2020.03.13-05.53.55:757][528]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (300)
+[2020.03.13-05.53.55:757][528]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (298)
+[2020.03.13-05.53.55:757][528]LogModuleManager: Shutting down and abandoning module PhysXVehicles (296)
+[2020.03.13-05.53.55:757][528]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (294)
+[2020.03.13-05.53.55:757][528]LogModuleManager: Shutting down and abandoning module GameplayAbilitiesEditor (292)
+[2020.03.13-05.53.55:757][528]LogModuleManager: Shutting down and abandoning module GameplayAbilities (290)
+[2020.03.13-05.53.55:757][528]LogModuleManager: Shutting down and abandoning module GameplayDebugger (289)
+[2020.03.13-05.53.55:757][528]LogModuleManager: Shutting down and abandoning module ActorSequence (286)
+[2020.03.13-05.53.55:757][528]LogModuleManager: Shutting down and abandoning module UdpMessaging (284)
+[2020.03.13-05.53.55:858][528]LogModuleManager: Shutting down and abandoning module TcpMessaging (282)
+[2020.03.13-05.53.55:959][528]LogModuleManager: Shutting down and abandoning module VaFogOfWar (280)
+[2020.03.13-05.53.55:959][528]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (278)
+[2020.03.13-05.53.55:959][528]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (276)
+[2020.03.13-05.53.55:959][528]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (274)
+[2020.03.13-05.53.55:959][528]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (272)
+[2020.03.13-05.53.55:959][528]LogModuleManager: Shutting down and abandoning module MagicLeapController (270)
+[2020.03.13-05.53.55:959][528]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2020.03.13-05.53.55:959][528]LogModuleManager: Shutting down and abandoning module MagicLeapAR (268)
+[2020.03.13-05.53.55:959][528]LogModuleManager: Shutting down and abandoning module AugmentedReality (267)
+[2020.03.13-05.53.55:959][528]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (264)
+[2020.03.13-05.53.55:959][528]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (262)
+[2020.03.13-05.53.55:959][528]LogModuleManager: Shutting down and abandoning module FacialAnimation (260)
+[2020.03.13-05.53.55:959][528]LogModuleManager: Shutting down and abandoning module DataValidation (258)
+[2020.03.13-05.53.55:959][528]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (256)
+[2020.03.13-05.53.55:960][528]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2020.03.13-05.53.55:961][528]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2020.03.13-05.53.55:961][528]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (252)
+[2020.03.13-05.53.55:961][528]LogModuleManager: Shutting down and abandoning module MainFrame (250)
+[2020.03.13-05.53.55:961][528]LogModuleManager: Shutting down and abandoning module HotReload (249)
+[2020.03.13-05.53.55:962][528]LogModuleManager: Shutting down and abandoning module ContentBrowser (245)
+[2020.03.13-05.53.55:963][528]LogModuleManager: Shutting down and abandoning module TreeMap (243)
+[2020.03.13-05.53.55:963][528]LogModuleManager: Shutting down and abandoning module AnimationSharing (240)
+[2020.03.13-05.53.55:963][528]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
+[2020.03.13-05.53.55:963][528]LogModuleManager: Shutting down and abandoning module AISupportModule (236)
+[2020.03.13-05.53.55:963][528]LogModuleManager: Shutting down and abandoning module Paper2D (234)
+[2020.03.13-05.53.55:964][528]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (232)
+[2020.03.13-05.53.55:964][528]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (230)
+[2020.03.13-05.53.55:964][528]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
+[2020.03.13-05.53.55:964][528]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
+[2020.03.13-05.53.55:964][528]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
+[2020.03.13-05.53.55:964][528]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
+[2020.03.13-05.53.55:964][528]LogModuleManager: Shutting down and abandoning module Overlay (220)
+[2020.03.13-05.53.55:964][528]LogModuleManager: Shutting down and abandoning module OverlayEditor (219)
+[2020.03.13-05.53.55:964][528]LogModuleManager: Shutting down and abandoning module VREditor (216)
+[2020.03.13-05.53.55:964][528]LogModuleManager: Shutting down and abandoning module StringTableEditor (214)
+[2020.03.13-05.53.55:964][528]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (212)
+[2020.03.13-05.53.55:964][528]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (210)
+[2020.03.13-05.53.55:964][528]LogModuleManager: Shutting down and abandoning module FunctionalTesting (208)
+[2020.03.13-05.53.55:964][528]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (206)
+[2020.03.13-05.53.55:964][528]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (205)
+[2020.03.13-05.53.55:964][528]LogModuleManager: Shutting down and abandoning module UMG (202)
+[2020.03.13-05.53.55:964][528]LogModuleManager: Shutting down and abandoning module UMGEditor (201)
+[2020.03.13-05.53.55:964][528]LogModuleManager: Shutting down and abandoning module Sequencer (200)
+[2020.03.13-05.53.55:965][528]LogModuleManager: Shutting down and abandoning module MessageLog (197)
+[2020.03.13-05.53.55:965][528]LogModuleManager: Shutting down and abandoning module SlateReflector (192)
+[2020.03.13-05.53.55:965][528]LogModuleManager: Shutting down and abandoning module Slate (190)
+[2020.03.13-05.53.55:965][528]LogModuleManager: Shutting down and abandoning module EditorStyle (188)
+[2020.03.13-05.53.55:970][528]LogModuleManager: Shutting down and abandoning module UnrealEd (186)
+[2020.03.13-05.53.55:970][528]LogModuleManager: Shutting down and abandoning module MRMesh (184)
+[2020.03.13-05.53.55:970][528]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
+[2020.03.13-05.53.55:970][528]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
+[2020.03.13-05.53.55:970][528]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
+[2020.03.13-05.53.55:970][528]LogModuleManager: Shutting down and abandoning module Networking (176)
+[2020.03.13-05.53.55:970][528]LogModuleManager: Shutting down and abandoning module Core (174)
+[2020.03.13-05.53.55:970][528]LogModuleManager: Shutting down and abandoning module KismetCompiler (172)
+[2020.03.13-05.53.55:970][528]LogModuleManager: Shutting down and abandoning module MeshUtilities (170)
+[2020.03.13-05.53.55:970][528]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (169)
+[2020.03.13-05.53.55:970][528]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (168)
+[2020.03.13-05.53.55:970][528]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (167)
+[2020.03.13-05.53.55:970][528]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (165)
+[2020.03.13-05.53.55:970][528]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (163)
+[2020.03.13-05.53.55:970][528]LogModuleManager: Shutting down and abandoning module MaterialBaking (159)
+[2020.03.13-05.53.55:971][528]LogModuleManager: Shutting down and abandoning module DerivedDataCache (154)
+[2020.03.13-05.53.56:044][528]LogDerivedDataCache: Shutdown
+[2020.03.13-05.53.56:044][528]LogModuleManager: Shutting down and abandoning module XGEController (152)
+[2020.03.13-05.53.56:044][528]LogXGEController: Cleaning working directory: C:/Users/ericf/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.03.13-05.53.56:045][528]LogModuleManager: Shutting down and abandoning module TargetPlatform (150)
+[2020.03.13-05.53.56:045][528]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (149)
+[2020.03.13-05.53.56:045][528]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (147)
+[2020.03.13-05.53.56:045][528]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (145)
+[2020.03.13-05.53.56:045][528]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (143)
+[2020.03.13-05.53.56:045][528]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (141)
+[2020.03.13-05.53.56:045][528]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (139)
+[2020.03.13-05.53.56:045][528]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (137)
+[2020.03.13-05.53.56:045][528]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (135)
+[2020.03.13-05.53.56:045][528]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (133)
+[2020.03.13-05.53.56:045][528]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (131)
+[2020.03.13-05.53.56:045][528]LogModuleManager: Shutting down and abandoning module ImageWrapper (130)
+[2020.03.13-05.53.56:045][528]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (127)
+[2020.03.13-05.53.56:045][528]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (125)
+[2020.03.13-05.53.56:045][528]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (123)
+[2020.03.13-05.53.56:045][528]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (121)
+[2020.03.13-05.53.56:045][528]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (119)
+[2020.03.13-05.53.56:046][528]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (117)
+[2020.03.13-05.53.56:046][528]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (115)
+[2020.03.13-05.53.56:046][528]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (113)
+[2020.03.13-05.53.56:046][528]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (111)
+[2020.03.13-05.53.56:046][528]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (109)
+[2020.03.13-05.53.56:047][528]LogModuleManager: Shutting down and abandoning module Messaging (107)
+[2020.03.13-05.53.56:047][528]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (105)
+[2020.03.13-05.53.56:048][528]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (103)
+[2020.03.13-05.53.56:048][528]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (101)
+[2020.03.13-05.53.56:057][528]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (99)
+[2020.03.13-05.53.56:057][528]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (97)
+[2020.03.13-05.53.56:057][528]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (95)
+[2020.03.13-05.53.56:057][528]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (93)
+[2020.03.13-05.53.56:057][528]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (91)
+[2020.03.13-05.53.56:057][528]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (89)
+[2020.03.13-05.53.56:057][528]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (87)
+[2020.03.13-05.53.56:057][528]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (85)
+[2020.03.13-05.53.56:057][528]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (83)
+[2020.03.13-05.53.56:057][528]LogModuleManager: Shutting down and abandoning module InputCore (80)
+[2020.03.13-05.53.56:057][528]LogModuleManager: Shutting down and abandoning module Settings (78)
+[2020.03.13-05.53.56:057][528]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (76)
+[2020.03.13-05.53.56:057][528]LogModuleManager: Shutting down and abandoning module PhysXCooking (74)
+[2020.03.13-05.53.56:057][528]LogModuleManager: Shutting down and abandoning module SteamVR (72)
+[2020.03.13-05.53.56:057][528]LogHMD: Freeing OpenVRDLLHandle.
+[2020.03.13-05.53.56:057][528]LogModuleManager: Shutting down and abandoning module OculusHMD (70)
+[2020.03.13-05.53.56:057][528]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (68)
+[2020.03.13-05.53.56:057][528]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (66)
+[2020.03.13-05.53.56:057][528]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (64)
+[2020.03.13-05.53.56:057][528]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (60)
+[2020.03.13-05.53.56:058][528]LogModuleManager: Shutting down and abandoning module XMPP (55)
+[2020.03.13-05.53.56:058][528]LogModuleManager: Shutting down and abandoning module WebSockets (54)
+[2020.03.13-05.53.56:059][528]LogModuleManager: Shutting down and abandoning module HTTP (51)
+[2020.03.13-05.53.56:059][528]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2020.03.13-05.53.56:060][528]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD8DD135E-49FD-431B-FF58-BCBC8C8C5EAD%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=ae86788d4134fa5a137890a720085a6a%7C722f828ed35e43ae806c4e05bee10d1a%7C623e5266-bd3d-4d5d-a1dd-fac30eb961f2&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2020.03.13-05.53.56:076][528]LogModuleManager: Shutting down and abandoning module SSL (50)
+[2020.03.13-05.53.56:077][528]LogModuleManager: Shutting down and abandoning module WmfMedia (46)
+[2020.03.13-05.53.56:078][528]LogModuleManager: Shutting down and abandoning module Media (45)
+[2020.03.13-05.53.56:084][528]LogModuleManager: Shutting down and abandoning module MagicLeap (42)
+[2020.03.13-05.53.56:084][528]LogModuleManager: Shutting down and abandoning module DatasmithContent (40)
+[2020.03.13-05.53.56:085][528]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2020.03.13-05.53.56:085][528]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2020.03.13-05.53.56:085][528]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2020.03.13-05.53.56:085][528]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2020.03.13-05.53.56:085][528]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2020.03.13-05.53.56:085][528]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2020.03.13-05.53.56:085][528]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2020.03.13-05.53.56:085][528]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2020.03.13-05.53.56:085][528]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2020.03.13-05.53.56:085][528]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2020.03.13-05.53.56:085][528]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2020.03.13-05.53.56:085][528]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2020.03.13-05.53.56:085][528]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2020.03.13-05.53.56:086][528]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2020.03.13-05.53.56:086][528]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2020.03.13-05.53.56:086][528]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2020.03.13-05.53.56:086][528]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2020.03.13-05.53.56:086][528]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2020.03.13-05.53.56:086][528]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2020.03.13-05.53.56:090][528]LogExit: Exiting.
+[2020.03.13-05.53.56:176][528]Log file closed, 03/13/20 00:53:56

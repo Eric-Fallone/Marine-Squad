@@ -8,15 +8,14 @@
 
 ABaseAbilityChooseLocation::ABaseAbilityChooseLocation()
 {
-    PrimaryActorTick.bCanEverTick = true;
-    WorldPos = FVector();
-    
+    PrimaryActorTick.bCanEverTick = true;    
 }
 
 
 void ABaseAbilityChooseLocation::StartTargeting(UGameplayAbility* Ability)
 {
     Super::StartTargeting(Ability);
+    //will always give null because there is no player controller on basic units
     MasterPC = Cast<APlayerController>( Ability->GetOwningActorFromActorInfo()->GetInstigatorController() ); 
     CastingUnit = Cast<AParentUnit>( Ability->GetOwningActorFromActorInfo() );
     if(CastingUnit)
@@ -27,7 +26,6 @@ void ABaseAbilityChooseLocation::StartTargeting(UGameplayAbility* Ability)
 
 void ABaseAbilityChooseLocation::ConfirmTargetingAndContinue()
 {
-    FVector TargetLocation = FVector();
     TargetLocation = GetTargetLocation();
 
     TArray<FOverlapResult> Overlaps;
@@ -72,8 +70,6 @@ void ABaseAbilityChooseLocation::ConfirmTargetingAndContinue()
 
 void ABaseAbilityChooseLocation::Tick(float DeltaSeconds){
     Super::Tick(DeltaSeconds);
-  //  FVector TargetLocation = FVector();
-   // TargetLocation = GetTargetLocation();
 
-    DrawDebugSphere(GetWorld(), WorldPos, Radius, 32, FColor::Red, false, 0, 0, 5.0f);
+    DrawDebugSphere(GetWorld(), TargetLocation, Radius, 32, FColor::Red, false, -1, 0, 5.0f);
 }

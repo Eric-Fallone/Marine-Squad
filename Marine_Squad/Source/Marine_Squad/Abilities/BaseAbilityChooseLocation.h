@@ -26,10 +26,11 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, meta = (ExposeOnSpawn = true), Category = "GroundSelect")
 	float Radius; 
-	
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=UnitDeath)
 	AParentUnit* CastingUnit;
 	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=UnitDeath)
-	FVector WorldPos;
+	FVector TargetLocation;
 
 };

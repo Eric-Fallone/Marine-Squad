@@ -12,7 +12,6 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeMarine_Squad_init() {}
 	MARINE_SQUAD_API UFunction* Z_Construct_UDelegateFunction_Marine_Squad_OnHealthChangeDelegate__DelegateSignature();
-	MARINE_SQUAD_API UFunction* Z_Construct_UDelegateFunction_Marine_Squad_WorldPositionOfMouseDelegate__DelegateSignature();
 	UPackage* Z_Construct_UPackage__Script_Marine_Squad()
 	{
 		static UPackage* ReturnPackage = nullptr;
@@ -20,15 +19,14 @@ void EmptyLinkFunctionForGeneratedCodeMarine_Squad_init() {}
 		{
 			static UObject* (*const SingletonFuncArray[])() = {
 				(UObject* (*)())Z_Construct_UDelegateFunction_Marine_Squad_OnHealthChangeDelegate__DelegateSignature,
-				(UObject* (*)())Z_Construct_UDelegateFunction_Marine_Squad_WorldPositionOfMouseDelegate__DelegateSignature,
 			};
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/Marine_Squad",
 				SingletonFuncArray,
 				ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
-				0xF7DA9B1D,
-				0xD3EAB6D7,
+				0x67F501B7,
+				0xB3809FD4,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

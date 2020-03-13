@@ -14,23 +14,6 @@ struct FVector;
 #endif
 #define MARINE_SQUAD_HUD_MarineSquad_generated_h
 
-#define Marine_Squad_Source_Marine_Squad_HUD_MarineSquad_h_11_DELEGATE \
-struct _Script_Marine_Squad_eventWorldPositionOfMouseDelegate_Parms \
-{ \
-	float x; \
-	float y; \
-	float z; \
-}; \
-static inline void FWorldPositionOfMouseDelegate_DelegateWrapper(const FMulticastScriptDelegate& WorldPositionOfMouseDelegate, float x, float y, float z) \
-{ \
-	_Script_Marine_Squad_eventWorldPositionOfMouseDelegate_Parms Parms; \
-	Parms.x=x; \
-	Parms.y=y; \
-	Parms.z=z; \
-	WorldPositionOfMouseDelegate.ProcessMulticastDelegate<UObject>(&Parms); \
-}
-
-
 #define Marine_Squad_Source_Marine_Squad_HUD_MarineSquad_h_18_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execGetActorAtMousePos) \
