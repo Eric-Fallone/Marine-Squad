@@ -86,8 +86,8 @@ void APlayerController_MarineSquad::SetupInputComponent()
         InputComponent->BindAction("LeftMouseClick", IE_Pressed, this, &APlayerController_MarineSquad::LeftClickStarted);
         InputComponent->BindAction("LeftMouseClick", IE_Released, this, &APlayerController_MarineSquad::LeftClickEnded);
 
-        InputComponent->BindAction("RightMouseClick", IE_Pressed, this, &APlayerController_MarineSquad::MoveCommandStarted);
-        InputComponent->BindAction("RightMouseClick", IE_Released, this, &APlayerController_MarineSquad::MoveCommandEnded);
+        InputComponent->BindAction("RightMouseClick", IE_Pressed, this, &APlayerController_MarineSquad::RightClickStarted);
+        InputComponent->BindAction("RightMouseClick", IE_Released, this, &APlayerController_MarineSquad::RightClickEnded);
 
         InputComponent->BindAction("Que_Command", IE_Pressed, this, &APlayerController_MarineSquad::QueCommandStarted);
         InputComponent->BindAction("Que_Command", IE_Released, this, &APlayerController_MarineSquad::QueCommandStopped);
@@ -118,20 +118,6 @@ void APlayerController_MarineSquad::SetupInputComponent()
 
 
 /*          Move Commands          */
-
-
-void APlayerController_MarineSquad::MoveCommandStarted()
-{
-    UE_LOG(LogTemp, Warning, TEXT("Right Mouse Button Pressed"))
-    //todo - clear command que from unit
-    MoveCommand();
-}
-
-
-void APlayerController_MarineSquad::MoveCommandEnded()
-{
-    UE_LOG(LogTemp, Warning, TEXT("Right Mouse Button Released"))
-}
 
 
 void APlayerController_MarineSquad::MoveCommand()
@@ -195,11 +181,12 @@ void APlayerController_MarineSquad::LeftClickStarted()
     if( isAbilityBeingConfirmed )
     {
         //confirms target of the active unit
-        //AllUnits[FocusedUnit]->AbilitySystemComponent->
+        AllUnits[FocusedUnit]->AbilitySystemComponent->TargetConfirm();
     }
     else
     {
         //startes selecting units
+        isSelectingUnits=true;
         SelectionStarted();
     }
 }
@@ -209,14 +196,33 @@ void APlayerController_MarineSquad::LeftClickEnded()
 {
     UE_LOG(LogTemp, Warning, TEXT("Left Mouse Button Pressed"))
 
+    if( isSelectingUnits )
+    {
+        isSelectingUnits = false;
+        SelectionEnded();
+    }
+}
+
+
+void APlayerController_MarineSquad::RightClickStarted()
+{
+    UE_LOG(LogTemp, Warning, TEXT("Right Button Pressed"))
+
     if( isAbilityBeingConfirmed )
     {
 
     }
     else
     {
-        SelectionEnded();
+        //startes selecting units
+        MoveCommand();
     }
+}
+
+
+void APlayerController_MarineSquad::RightClickEnded()
+{
+    UE_LOG(LogTemp, Warning, TEXT("Right Button UnPressed"))
 }
 
 

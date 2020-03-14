@@ -30,10 +30,10 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, meta = (ExposeOnSpawn = true), Category = "GroundSelect")
 	float Range; 
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=UnitDeath)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=GroundSelect)
 	AParentUnit* CastingUnit;
 	
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=UnitDeath)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=GroundSelect)
 	FVector TargetLocation;
 
 };

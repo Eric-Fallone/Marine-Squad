@@ -18,16 +18,10 @@ void ABaseAbilityChooseLocation::StartTargeting(UGameplayAbility* Ability)
     //will always give null because there is no player controller on basic units
     MasterPC = Cast<APlayerController>( Ability->GetOwningActorFromActorInfo()->GetInstigatorController() ); 
     CastingUnit = Cast<AParentUnit>( Ability->GetOwningActorFromActorInfo() );
-    if(CastingUnit)
-    {
-        UE_LOG(LogTemp, Warning, TEXT("was this triggered?"))   
-    }
 }
 
 void ABaseAbilityChooseLocation::ConfirmTargetingAndContinue()
 {
-    TargetLocation = GetTargetLocation();
-
     TArray<FOverlapResult> Overlaps;
     TArray<TWeakObjectPtr<AActor>> OverlappedActors; 
     bool TraceComplex = false; 
@@ -35,7 +29,7 @@ void ABaseAbilityChooseLocation::ConfirmTargetingAndContinue()
     FCollisionQueryParams CollisionQueryParams; 
     CollisionQueryParams.bTraceComplex = TraceComplex;
     CollisionQueryParams.bReturnPhysicalMaterial = false;
-    CollisionQueryParams.AddIgnoredActor( MasterPC->GetPawn()->GetUniqueID() );
+    CollisionQueryParams.AddIgnoredActor( CastingUnit->GetUniqueID() );
 
     bool TryOverlap = GetWorld()->OverlapMultiByObjectType(
         Overlaps, 

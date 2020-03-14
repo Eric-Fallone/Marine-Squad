@@ -197,7 +197,6 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AParentUnit); \
 
 
 #define Marine_Squad_Source_Marine_Squad_ParentUnit_h_19_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__AbilitySystemComponent() { return STRUCT_OFFSET(AParentUnit, AbilitySystemComponent); } \
 	FORCEINLINE static uint32 __PPO__AttributeSet() { return STRUCT_OFFSET(AParentUnit, AttributeSet); } \
 	FORCEINLINE static uint32 __PPO__GameplayAbilities() { return STRUCT_OFFSET(AParentUnit, GameplayAbilities); } \
 	FORCEINLINE static uint32 __PPO__KeyBoundAbilities() { return STRUCT_OFFSET(AParentUnit, KeyBoundAbilities); } \

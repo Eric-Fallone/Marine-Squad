@@ -65,14 +65,14 @@ void EmptyLinkFunctionForGeneratedCodeBaseAbilityChooseLocation() {}
 #endif
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABaseAbilityChooseLocation_Statics::NewProp_TargetLocation_MetaData[] = {
-		{ "Category", "UnitDeath" },
+		{ "Category", "GroundSelect" },
 		{ "ModuleRelativePath", "Abilities/BaseAbilityChooseLocation.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_ABaseAbilityChooseLocation_Statics::NewProp_TargetLocation = { "TargetLocation", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABaseAbilityChooseLocation, TargetLocation), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_ABaseAbilityChooseLocation_Statics::NewProp_TargetLocation_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABaseAbilityChooseLocation_Statics::NewProp_TargetLocation_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABaseAbilityChooseLocation_Statics::NewProp_CastingUnit_MetaData[] = {
-		{ "Category", "UnitDeath" },
+		{ "Category", "GroundSelect" },
 		{ "ModuleRelativePath", "Abilities/BaseAbilityChooseLocation.h" },
 	};
 #endif
@@ -126,7 +126,7 @@ void EmptyLinkFunctionForGeneratedCodeBaseAbilityChooseLocation() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABaseAbilityChooseLocation, 2616321385);
+	IMPLEMENT_CLASS(ABaseAbilityChooseLocation, 4085458087);
 	template<> MARINE_SQUAD_API UClass* StaticClass<ABaseAbilityChooseLocation>()
 	{
 		return ABaseAbilityChooseLocation::StaticClass();

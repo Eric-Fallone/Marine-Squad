@@ -482,9 +482,10 @@ void EmptyLinkFunctionForGeneratedCodeParentUnit() {}
 		{ "Category", "Abilities" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "ParentUnit.h" },
+		{ "ToolTip", "this is needed to pass to baseability choose location\nAPlayerController controller;" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AParentUnit_Statics::NewProp_AbilitySystemComponent = { "AbilitySystemComponent", nullptr, (EPropertyFlags)0x00200800000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AParentUnit, AbilitySystemComponent), Z_Construct_UClass_UMarine_AbilitySystemComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AParentUnit_Statics::NewProp_AbilitySystemComponent_MetaData, ARRAY_COUNT(Z_Construct_UClass_AParentUnit_Statics::NewProp_AbilitySystemComponent_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AParentUnit_Statics::NewProp_AbilitySystemComponent = { "AbilitySystemComponent", nullptr, (EPropertyFlags)0x00100000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AParentUnit, AbilitySystemComponent), Z_Construct_UClass_UMarine_AbilitySystemComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AParentUnit_Statics::NewProp_AbilitySystemComponent_MetaData, ARRAY_COUNT(Z_Construct_UClass_AParentUnit_Statics::NewProp_AbilitySystemComponent_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AParentUnit_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AParentUnit_Statics::NewProp_GraveMarkerModel,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AParentUnit_Statics::NewProp_isDead,
@@ -529,7 +530,7 @@ void EmptyLinkFunctionForGeneratedCodeParentUnit() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AParentUnit, 128278237);
+	IMPLEMENT_CLASS(AParentUnit, 3453327881);
 	template<> MARINE_SQUAD_API UClass* StaticClass<AParentUnit>()
 	{
 		return AParentUnit::StaticClass();

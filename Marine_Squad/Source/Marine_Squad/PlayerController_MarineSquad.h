@@ -60,6 +60,8 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=isAbilityBeingConfirmed)
 	bool isAbilityBeingConfirmed;
 
+	bool isSelectingUnits;
+
 protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;
@@ -74,8 +76,9 @@ private:
 	void LeftClickStarted();
 	void LeftClickEnded();
 
-	void MoveCommandStarted();
-	void MoveCommandEnded();
+	void RightClickStarted();
+	void RightClickEnded();
+
 	void MoveCommand();
 
 	void QueCommandStarted();

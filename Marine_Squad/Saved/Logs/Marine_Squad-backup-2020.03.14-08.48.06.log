@@ -1,0 +1,807 @@
+﻿Log file open, 03/14/20 03:16:10
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: Marine_Squad
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.164417
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -6:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin VaFogOfWar
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GameplayAbilities
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.22-CL-7053642
+LogInit: Engine Version: 4.22.3-7053642+++UE4+Release-4.22
+LogInit: Compatible Engine Version: 4.22.0-5660361+++UE4+Release-4.22
+LogInit: Net CL: 5660361
+LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Core(TM) i5-4690K CPU @ 3.50GHz, GPU: NVIDIA GeForce GTX 970
+LogInit: Compiled (64-bit): Jun 18 2019 03:09:11
+LogInit: Compiled with Visual C++: 19.16.27025.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.22
+LogInit: Command Line: 
+LogInit: Base Directory: Q:/UE_4.22/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 30
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 28
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 25
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 2
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.03.14-08.16.11:431][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.03.14-08.16.11:431][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.03.14-08.16.11:431][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Config/Windows/Engine.ini]
+[2020.03.14-08.16.11:431][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.03.14-08.16.11:431][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2020.03.14-08.16.11:431][  0]LogConfig: Setting CVar [[r.AllowGlobalClipPlane:1]]
+[2020.03.14-08.16.11:431][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Config/Windows/Engine.ini]
+[2020.03.14-08.16.11:431][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Config/Windows/Engine.ini]
+[2020.03.14-08.16.11:431][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.03.14-08.16.11:431][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.03.14-08.16.11:431][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.03.14-08.16.11:431][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.03.14-08.16.11:431][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.03.14-08.16.11:431][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.03.14-08.16.11:431][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.03.14-08.16.11:431][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.03.14-08.16.11:431][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.03.14-08.16.11:431][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.03.14-08.16.11:431][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.03.14-08.16.11:431][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.03.14-08.16.11:431][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.03.14-08.16.11:431][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Config/Windows/Engine.ini]
+[2020.03.14-08.16.11:431][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.03.14-08.16.11:431][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.03.14-08.16.11:431][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.03.14-08.16.11:431][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.03.14-08.16.11:431][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.03.14-08.16.11:431][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.03.14-08.16.11:431][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2020.03.14-08.16.11:431][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.03.14-08.16.11:431][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.03.14-08.16.11:431][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.03.14-08.16.11:431][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.03.14-08.16.11:431][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.03.14-08.16.11:431][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.03.14-08.16.11:431][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Config/Windows/Engine.ini]
+[2020.03.14-08.16.11:431][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Config/Windows/Engine.ini]
+[2020.03.14-08.16.11:439][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Config/Windows/Scalability.ini]
+[2020.03.14-08.16.11:439][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.03.14-08.16.11:439][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.03.14-08.16.11:439][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Config/Windows/Scalability.ini]
+[2020.03.14-08.16.11:439][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.03.14-08.16.11:439][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Config/Windows/Scalability.ini]
+[2020.03.14-08.16.11:439][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.03.14-08.16.11:439][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.03.14-08.16.11:439][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.03.14-08.16.11:439][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.03.14-08.16.11:439][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.03.14-08.16.11:439][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.03.14-08.16.11:439][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.03.14-08.16.11:439][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.03.14-08.16.11:439][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.03.14-08.16.11:439][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.03.14-08.16.11:439][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.03.14-08.16.11:439][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.03.14-08.16.11:439][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.03.14-08.16.11:439][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.03.14-08.16.11:439][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.03.14-08.16.11:439][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.03.14-08.16.11:439][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.03.14-08.16.11:439][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.03.14-08.16.11:439][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Config/Windows/Scalability.ini]
+[2020.03.14-08.16.11:439][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.03.14-08.16.11:439][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.03.14-08.16.11:439][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.03.14-08.16.11:439][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.03.14-08.16.11:439][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.03.14-08.16.11:439][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.03.14-08.16.11:439][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.03.14-08.16.11:439][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.03.14-08.16.11:439][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.03.14-08.16.11:439][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.03.14-08.16.11:439][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.03.14-08.16.11:439][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.03.14-08.16.11:439][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.03.14-08.16.11:439][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.03.14-08.16.11:439][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.03.14-08.16.11:439][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.03.14-08.16.11:439][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.03.14-08.16.11:440][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.03.14-08.16.11:440][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.03.14-08.16.11:440][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.03.14-08.16.11:440][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.03.14-08.16.11:440][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.03.14-08.16.11:440][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.03.14-08.16.11:440][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.03.14-08.16.11:440][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.03.14-08.16.11:440][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.03.14-08.16.11:440][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.03.14-08.16.11:440][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.03.14-08.16.11:440][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.03.14-08.16.11:440][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.03.14-08.16.11:440][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Config/Windows/Scalability.ini]
+[2020.03.14-08.16.11:440][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.03.14-08.16.11:440][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.03.14-08.16.11:440][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.03.14-08.16.11:440][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.03.14-08.16.11:440][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.03.14-08.16.11:440][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.03.14-08.16.11:440][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.03.14-08.16.11:440][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.03.14-08.16.11:440][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Config/Windows/Scalability.ini]
+[2020.03.14-08.16.11:440][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.03.14-08.16.11:440][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.03.14-08.16.11:440][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.03.14-08.16.11:440][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.03.14-08.16.11:440][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.03.14-08.16.11:440][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.03.14-08.16.11:440][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.03.14-08.16.11:440][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.03.14-08.16.11:440][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.03.14-08.16.11:440][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.03.14-08.16.11:440][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.03.14-08.16.11:440][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.03.14-08.16.11:440][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.03.14-08.16.11:440][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Config/Windows/Scalability.ini]
+[2020.03.14-08.16.11:440][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.03.14-08.16.11:440][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.03.14-08.16.11:440][  0]LogInit: Selected Device Profile: [Windows]
+[2020.03.14-08.16.11:440][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.03.14-08.16.11:454][  0]LogHAL: Display: Platform has ~ 8 GB [8444633088 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.03.14-08.16.11:454][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2020.03.14-08.16.11:454][  0]LogInit: Going up to parent DeviceProfile []
+[2020.03.14-08.16.11:455][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Config/Windows/Scalability.ini]
+[2020.03.14-08.16.11:455][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.03.14-08.16.11:455][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.03.14-08.16.11:455][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Config/Windows/Scalability.ini]
+[2020.03.14-08.16.11:455][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.03.14-08.16.11:455][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Config/Windows/Scalability.ini]
+[2020.03.14-08.16.11:455][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.03.14-08.16.11:455][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.03.14-08.16.11:455][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.03.14-08.16.11:455][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.03.14-08.16.11:455][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.03.14-08.16.11:455][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.03.14-08.16.11:455][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.03.14-08.16.11:455][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.03.14-08.16.11:455][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.03.14-08.16.11:455][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.03.14-08.16.11:455][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.03.14-08.16.11:455][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.03.14-08.16.11:455][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.03.14-08.16.11:455][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.03.14-08.16.11:455][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.03.14-08.16.11:455][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.03.14-08.16.11:455][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.03.14-08.16.11:455][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.03.14-08.16.11:455][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Config/Windows/Scalability.ini]
+[2020.03.14-08.16.11:455][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.03.14-08.16.11:455][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.03.14-08.16.11:455][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.03.14-08.16.11:455][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.03.14-08.16.11:455][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.03.14-08.16.11:455][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.03.14-08.16.11:455][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.03.14-08.16.11:455][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.03.14-08.16.11:455][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.03.14-08.16.11:455][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.03.14-08.16.11:455][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.03.14-08.16.11:455][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.03.14-08.16.11:455][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.03.14-08.16.11:455][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.03.14-08.16.11:455][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.03.14-08.16.11:455][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.03.14-08.16.11:455][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.03.14-08.16.11:455][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.03.14-08.16.11:455][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.03.14-08.16.11:455][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.03.14-08.16.11:455][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.03.14-08.16.11:455][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.03.14-08.16.11:455][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.03.14-08.16.11:455][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.03.14-08.16.11:455][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.03.14-08.16.11:455][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.03.14-08.16.11:455][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.03.14-08.16.11:455][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.03.14-08.16.11:455][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.03.14-08.16.11:455][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.03.14-08.16.11:455][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Config/Windows/Scalability.ini]
+[2020.03.14-08.16.11:455][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.03.14-08.16.11:455][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.03.14-08.16.11:455][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.03.14-08.16.11:455][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.03.14-08.16.11:455][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.03.14-08.16.11:455][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.03.14-08.16.11:455][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.03.14-08.16.11:455][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.03.14-08.16.11:455][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Config/Windows/Scalability.ini]
+[2020.03.14-08.16.11:455][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.03.14-08.16.11:455][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.03.14-08.16.11:455][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.03.14-08.16.11:455][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.03.14-08.16.11:455][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.03.14-08.16.11:455][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.03.14-08.16.11:455][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.03.14-08.16.11:455][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.03.14-08.16.11:455][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.03.14-08.16.11:455][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.03.14-08.16.11:455][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.03.14-08.16.11:455][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.03.14-08.16.11:455][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.03.14-08.16.11:455][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Config/Windows/Scalability.ini]
+[2020.03.14-08.16.11:455][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.03.14-08.16.11:455][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.03.14-08.16.11:455][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.03.14-08.16.11:456][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.03.14-08.16.11:456][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.03.14-08.16.11:456][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Config/Windows/Engine.ini]
+[2020.03.14-08.16.11:456][  0]LogInit: Computer: FALL-PC
+[2020.03.14-08.16.11:456][  0]LogInit: User: ericf
+[2020.03.14-08.16.11:456][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.03.14-08.16.11:456][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.03.14-08.16.11:456][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2020.03.14-08.16.11:456][  0]LogMemory: Platform Memory Stats for Windows
+[2020.03.14-08.16.11:456][  0]LogMemory: Process Physical Memory: 98.45 MB used, 98.45 MB peak
+[2020.03.14-08.16.11:456][  0]LogMemory: Process Virtual Memory: 98.47 MB used, 98.47 MB peak
+[2020.03.14-08.16.11:456][  0]LogMemory: Physical Memory: 3544.09 MB used,  4509.34 MB free, 8053.43 MB total
+[2020.03.14-08.16.11:456][  0]LogMemory: Virtual Memory: 4639.42 MB used,  134213088.00 MB free, 134217728.00 MB total
+[2020.03.14-08.16.11:474][  0]LogInit: Using OS detected language (en-US).
+[2020.03.14-08.16.11:474][  0]LogInit: Using OS detected locale (en-US).
+[2020.03.14-08.16.11:474][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.03.14-08.16.11:642][  0]LogInit: Setting process to per monitor DPI aware
+[2020.03.14-08.16.11:680][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.03.14-08.16.11:680][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.03.14-08.16.11:834][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.03.14-08.16.11:834][  0]LogD3D11RHI: D3D11 adapters:
+[2020.03.14-08.16.11:896][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2020.03.14-08.16.11:896][  0]LogD3D11RHI:       4043/0/4026 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.03.14-08.16.11:903][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2020.03.14-08.16.11:903][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.03.14-08.16.11:906][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.03.14-08.16.11:906][  0]LogD3D11RHI:       0/0/4026 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.03.14-08.16.11:906][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.03.14-08.16.11:912][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.03.14-08.16.11:913][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2020.03.14-08.16.11:913][  0]LogWindows: EnumDisplayDevices:
+[2020.03.14-08.16.11:913][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2020.03.14-08.16.11:913][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2020.03.14-08.16.11:913][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2020.03.14-08.16.11:913][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2020.03.14-08.16.11:914][  0]LogWindows:    4. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2020.03.14-08.16.11:914][  0]LogWindows:    5. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2020.03.14-08.16.11:914][  0]LogWindows:    6. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2020.03.14-08.16.11:914][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2020.03.14-08.16.11:914][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2020.03.14-08.16.11:914][  0]LogD3D11RHI:   Driver Version: 436.02 (internal:26.21.14.3602, unified:436.02)
+[2020.03.14-08.16.11:914][  0]LogD3D11RHI:      Driver Date: 8-16-2019
+[2020.03.14-08.16.11:914][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
+[2020.03.14-08.16.11:962][  0]LogD3D11RHI: Async texture creation enabled
+[2020.03.14-08.16.12:180][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2020.03.14-08.16.12:180][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2020.03.14-08.16.12:180][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2020.03.14-08.16.12:189][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.03.14-08.16.12:613][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2020.03.14-08.16.12:625][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2020.03.14-08.16.12:637][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2020.03.14-08.16.12:649][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2020.03.14-08.16.12:661][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2020.03.14-08.16.12:673][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2020.03.14-08.16.12:686][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2020.03.14-08.16.12:698][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2020.03.14-08.16.12:704][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2020.03.14-08.16.12:778][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2020.03.14-08.16.12:778][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2020.03.14-08.16.12:778][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2020.03.14-08.16.12:778][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2020.03.14-08.16.12:778][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2020.03.14-08.16.12:778][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2020.03.14-08.16.12:778][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2020.03.14-08.16.12:778][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2020.03.14-08.16.12:778][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2020.03.14-08.16.12:778][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2020.03.14-08.16.12:778][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2020.03.14-08.16.12:778][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2020.03.14-08.16.12:778][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2020.03.14-08.16.12:778][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2020.03.14-08.16.12:778][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2020.03.14-08.16.12:778][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2020.03.14-08.16.12:778][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2020.03.14-08.16.12:778][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2020.03.14-08.16.12:779][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2020.03.14-08.16.12:825][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2020.03.14-08.16.12:825][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2020.03.14-08.16.12:848][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2020.03.14-08.16.12:848][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2020.03.14-08.16.12:860][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2020.03.14-08.16.12:872][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2020.03.14-08.16.12:884][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2020.03.14-08.16.12:896][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2020.03.14-08.16.12:940][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2020.03.14-08.16.12:940][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2020.03.14-08.16.12:940][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.03.14-08.16.12:946][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.03.14-08.16.12:975][  0]LogShaderCompilers: Guid format shader working directory is -8 characters bigger than the processId version (C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Intermediate/Shaders/WorkingDirectory/7612/).
+[2020.03.14-08.16.12:975][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ericf/AppData/Local/Temp/UnrealShaderWorkingDir/2DE685924B1BFD9E4695E9B82152CEB0/'.
+[2020.03.14-08.16.12:977][  0]LogXGEController: Cleaning working directory: C:/Users/ericf/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.03.14-08.16.12:977][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.03.14-08.16.12:977][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.03.14-08.16.12:977][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.03.14-08.16.13:506][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.03.14-08.16.13:562][  0]LogDerivedDataCache: Loaded boot cache 0.06s 71MB C:/Users/ericf/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2020.03.14-08.16.13:562][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/ericf/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2020.03.14-08.16.13:562][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.03.14-08.16.13:562][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.03.14-08.16.13:562][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.03.14-08.16.13:562][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.03.14-08.16.13:575][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.03.14-08.16.13:575][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.03.14-08.16.13:575][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.03.14-08.16.13:587][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ericf/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.03.14-08.16.13:587][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.03.14-08.16.13:587][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.03.14-08.16.13:610][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.03.14-08.16.13:611][  0]LogSlate: Using FreeType 2.6.0
+[2020.03.14-08.16.13:612][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.03.14-08.16.13:693][  0]LogAssetRegistry: FAssetRegistry took 0.0348 seconds to start up
+[2020.03.14-08.16.13:986][  0]LogInit: Selected Device Profile: [Windows]
+[2020.03.14-08.16.14:102][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.03.14-08.16.14:102][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.03.14-08.16.14:102][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.03.14-08.16.14:102][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.03.14-08.16.14:102][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.03.14-08.16.14:112][  0]LogNetVersion: Marine_Squad 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 4148284594)
+[2020.03.14-08.16.14:565][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.038081 seconds
+[2020.03.14-08.16.14:572][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2020.03.14-08.16.14:572][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2020.03.14-08.16.14:572][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.03.14-08.16.15:292][  0]LogVaFog: [FVaFogOfWarModule::StartupModule(44)] VaFogOfWar module started
+[2020.03.14-08.16.15:295][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.03.14-08.16.15:308][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.03.14-08.16.15:380][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.03.14-08.16.15:438][  0]SourceControl: Source control is disabled
+[2020.03.14-08.16.15:438][  0]SourceControl: Source control is disabled
+[2020.03.14-08.16.15:439][  0]SourceControl: Source control is disabled
+[2020.03.14-08.16.15:440][  0]SourceControl: Source control is disabled
+[2020.03.14-08.16.15:502][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.03.14-08.16.15:662][  0]LogOcInput: OculusInput pre-init called
+[2020.03.14-08.16.16:248][  0]LogEngine: Initializing Engine...
+[2020.03.14-08.16.16:249][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.03.14-08.16.16:455][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.03.14-08.16.16:463][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.03.14-08.16.16:464][  0]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_976865d7f760a47e2a086b15bf7dcbd9>::operator ()(41)] Fog Controller is created for: Untitled
+[2020.03.14-08.16.16:518][  0]LogInit: XAudio2 using 'HEAD SET (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.03.14-08.16.16:546][  0]LogInit: FAudioDevice initialized.
+[2020.03.14-08.16.16:546][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.03.14-08.16.19:043][  0]LogDerivedDataCache: Saved boot cache 2.50s 71MB C:/Users/ericf/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2020.03.14-08.16.19:048][  0]LogInit: Texture streaming: Enabled
+[2020.03.14-08.16.19:063][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.03.14-08.16.19:063][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={2D295D5A-48D5-4C3F-E344-5883A49F3D85}
+[2020.03.14-08.16.19:079][  0]LogInit: Transaction tracking system initialized
+[2020.03.14-08.16.19:094][  0]BlueprintLog: New page: Editor Load
+[2020.03.14-08.16.19:165][  0]LocalizationService: Localization service is disabled
+[2020.03.14-08.16.19:415][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.03.14-08.16.19:415][  0]LogCook: Display: Mobile HDR setting 1
+[2020.03.14-08.16.19:425][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Content/' took 0.02s
+[2020.03.14-08.16.19:425][  0]LogStats: FGameplayAbilitiesEditorModule::GameplayTagTreeChanged -  0.000 s
+[2020.03.14-08.16.19:552][  0]SourceControl: Source control is disabled
+[2020.03.14-08.16.19:552][  0]Cmd: MAP LOAD FILE="C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.03.14-08.16.19:552][  0]LightingResults: New page: Lighting Build
+[2020.03.14-08.16.19:554][  0]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_144d8ffb0c7ca55232a4412d9c0c3636>::operator ()(31)] Fog Controller is removed for: Untitled
+[2020.03.14-08.16.19:554][  0]MapCheck: New page: Map Check
+[2020.03.14-08.16.19:554][  0]LightingResults: New page: Lighting Build
+[2020.03.14-08.16.19:579][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2020.03.14-08.16.19:639][  0]LogLinker: Error: HOTRELOADED_ParentUnit_0 has an inappropriate outermost, it was probably saved with a deprecated outer (file: C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Content/BP/Units_BP/UnitsEffects/HPBAR.uasset)
+[2020.03.14-08.16.19:639][  0]LogLinker: Error: HOTRELOADED_ParentUnit_0 has an inappropriate outermost, it was probably saved with a deprecated outer (file: C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Content/BP/Units_BP/UnitsEffects/HPBAR.uasset)
+[2020.03.14-08.16.19:640][  0]LogLinker: Error: HOTRELOADED_ParentUnit_0 has an inappropriate outermost, it was probably saved with a deprecated outer (file: C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Content/BP/Units_BP/UnitsEffects/HPBAR.uasset)
+[2020.03.14-08.16.19:640][  0]LogLinker: Error: HOTRELOADED_ParentUnit_0 has an inappropriate outermost, it was probably saved with a deprecated outer (file: C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Content/BP/Units_BP/UnitsEffects/HPBAR.uasset)
+[2020.03.14-08.16.20:059][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.03.14-08.16.20:059][  0]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_976865d7f760a47e2a086b15bf7dcbd9>::operator ()(41)] Fog Controller is created for: Minimal_Default
+[2020.03.14-08.16.20:080][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.03.14-08.16.20:110][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2020.03.14-08.16.20:110][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.03.14-08.16.20:110][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.127ms to complete.
+[2020.03.14-08.16.20:110][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.559
+[2020.03.14-08.16.20:235][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.14-08.16.20:242][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.14-08.16.20:249][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.14-08.16.20:257][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.14-08.16.20:269][  0]LogCollectionManager: Loaded 0 collections in 0.000733 seconds
+[2020.03.14-08.16.20:284][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Saved/Collections/' took 0.01s
+[2020.03.14-08.16.20:284][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Content/Developers/ericf/Collections/' took 0.00s
+[2020.03.14-08.16.20:284][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Content/Collections/' took 0.00s
+[2020.03.14-08.16.20:284][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2020.03.14-08.16.20:293][  0]LogContentBrowser: Native class hierarchy populated in 0.0093 seconds. Added 2839 classes and 674 folders.
+[2020.03.14-08.16.20:297][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.03.14-08.16.20:299][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.14-08.16.20:299][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.14-08.16.20:299][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.14-08.16.20:300][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.14-08.16.20:300][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.14-08.16.20:300][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.14-08.16.20:301][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.14-08.16.20:301][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.14-08.16.20:301][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.14-08.16.20:302][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.14-08.16.20:302][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.14-08.16.20:302][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.14-08.16.20:303][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.14-08.16.20:303][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.14-08.16.20:304][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.14-08.16.20:304][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.14-08.16.20:304][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.14-08.16.20:305][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.14-08.16.20:305][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.14-08.16.20:305][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.14-08.16.20:306][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.14-08.16.20:306][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.14-08.16.20:307][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.14-08.16.20:307][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.14-08.16.20:307][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.14-08.16.20:308][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.14-08.16.20:325][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.03.14-08.16.20:393][  0]LogSlate: Took 0.000144 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.03.14-08.16.20:396][  0]LogSlate: Took 0.000130 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.03.14-08.16.20:399][  0]LogSlate: Took 0.000190 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.03.14-08.16.20:399][  0]LogSlate: Took 0.000105 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.03.14-08.16.20:488][  0]LogRenderer: Reallocating scene render targets to support 1968x896 Format 10 NumSamples 1 (Frame:1).
+[2020.03.14-08.16.20:613][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.03.14-08.16.20:614][  0]LogLoad: (Engine Initialization) Total time: 10.50 seconds
+[2020.03.14-08.16.20:614][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.03.14-08.16.20:655][  0]LogAssetRegistry: Asset discovery search completed in 6.9844 seconds
+[2020.03.14-08.16.20:658][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2020.03.14-08.16.20:658][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000194 seconds (updated 0 objects)
+[2020.03.14-08.16.20:659][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.03.14-08.16.22:945][266]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.14-08.16.28:375][916]LogSlate: Took 0.001019 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.03.14-08.16.28:383][916]LogAssetEditorManager: Opening Asset editor for Class /Script/Marine_Squad.BaseAbilityChooseLocation
+[2020.03.14-08.32.33:695][ 62]LogAssetEditorManager: Opening Asset editor for Class /Script/Marine_Squad.PlayerController_MarineSquad
+[2020.03.14-08.33.08:275][204]Candidate modules for hot reload:
+[2020.03.14-08.33.08:275][204]  Marine_Squad
+[2020.03.14-08.33.08:275][204]Launching UnrealBuildTool... [Q:/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Marine_Squad,6618 Win64 Development -TargetType=Editor -Project="C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Marine_Squad.uproject" "C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Marine_Squad.uproject"  -IgnoreJunk]
+[2020.03.14-08.33.08:287][204]Warning: Starting HotReload took  0.0s.
+[2020.03.14-08.44.44:915][920]CompilerResultsLog: New page: Compilation - Mar 13, 2020, 10:44:44 PM
+[2020.03.14-08.44.44:916][920]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\ericf\Desktop\repos\Marine-Squad).
+[2020.03.14-08.44.44:916][920]CompilerResultsLog: Creating makefile for Marine_SquadEditor (ini files are newer than makefile)
+[2020.03.14-08.44.44:916][920]CompilerResultsLog: Parsing headers for Marine_SquadEditor
+[2020.03.14-08.44.44:916][920]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Marine_Squad.uproject" "C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Intermediate\Build\Win64\Marine_SquadEditor\Development\Marine_SquadEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.03.14-08.44.44:917][920]CompilerResultsLog: Reflection code generated for Marine_SquadEditor in 26.2588523 seconds
+[2020.03.14-08.44.44:917][920]CompilerResultsLog: Using Visual Studio 2019 14.21.27702 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.21.27702) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.03.14-08.44.44:917][920]CompilerResultsLog: Building 4 actions with 4 processes...
+[2020.03.14-08.44.44:917][920]CompilerResultsLog:   [1/4] PlayerController_MarineSquad.cpp
+[2020.03.14-08.44.44:917][920]CompilerResultsLog:    C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Source\Marine_Squad\PlayerController_MarineSquad.cpp(198) : error C2039: 'ConfirmTargeting': is not a member of 'UMarine_AbilitySystemComponent'
+[2020.03.14-08.44.44:917][920]CompilerResultsLog:   C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Source\Marine_Squad\Abilities/Marine_AbilitySystemComponent.h(13): note: see declaration of 'UMarine_AbilitySystemComponent'
+[2020.03.14-08.44.44:918][920]LogMainFrame: MainFrame: Module compiling took 696.659 seconds
+[2020.03.14-08.44.44:919][920]Warning: HotReload failed, recompile failed
+[2020.03.14-08.46.50:933][947]Candidate modules for hot reload:
+[2020.03.14-08.46.50:933][947]  Marine_Squad
+[2020.03.14-08.46.50:933][947]Launching UnrealBuildTool... [Q:/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Marine_Squad,5621 Win64 Development -TargetType=Editor -Project="C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Marine_Squad.uproject" "C:/Users/ericf/Desktop/repos/Marine-Squad/Marine_Squad/Marine_Squad.uproject"  -IgnoreJunk]
+[2020.03.14-08.46.50:965][947]Warning: Starting HotReload took  0.0s.
+[2020.03.14-08.47.39:291][702]CompilerResultsLog: New page: Compilation - Mar 13, 2020, 10:47:39 PM
+[2020.03.14-08.47.39:292][702]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\ericf\Desktop\repos\Marine-Squad).
+[2020.03.14-08.47.39:292][702]CompilerResultsLog: Parsing headers for Marine_SquadEditor
+[2020.03.14-08.47.39:293][702]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Marine_Squad.uproject" "C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Intermediate\Build\Win64\Marine_SquadEditor\Development\Marine_SquadEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.03.14-08.47.39:293][702]CompilerResultsLog: Reflection code generated for Marine_SquadEditor in 6.2917951 seconds
+[2020.03.14-08.47.39:293][702]CompilerResultsLog: Using Visual Studio 2019 14.21.27702 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.21.27702) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.03.14-08.47.39:294][702]CompilerResultsLog: Building 4 actions with 4 processes...
+[2020.03.14-08.47.39:294][702]CompilerResultsLog:   [1/4] PlayerController_MarineSquad.cpp
+[2020.03.14-08.47.39:294][702]CompilerResultsLog:   [2/4] UE4Editor-Marine_Squad-5621.lib
+[2020.03.14-08.47.39:295][702]CompilerResultsLog:      Creating library C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Intermediate\Build\Win64\UE4Editor\Development\Marine_Squad\UE4Editor-Marine_Squad-5621.lib and object C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Intermediate\Build\Win64\UE4Editor\Development\Marine_Squad\UE4Editor-Marine_Squad-5621.exp
+[2020.03.14-08.47.39:295][702]CompilerResultsLog:   [3/4] UE4Editor-Marine_Squad-5621.dll
+[2020.03.14-08.47.39:295][702]CompilerResultsLog:      Creating library C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Intermediate\Build\Win64\UE4Editor\Development\Marine_Squad\UE4Editor-Marine_Squad-5621.suppressed.lib and object C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Intermediate\Build\Win64\UE4Editor\Development\Marine_Squad\UE4Editor-Marine_Squad-5621.suppressed.exp
+[2020.03.14-08.47.39:295][702]CompilerResultsLog:   [4/4] Marine_SquadEditor.target
+[2020.03.14-08.47.39:296][702]CompilerResultsLog: Total time in Parallel executor: 40.57 seconds
+[2020.03.14-08.47.39:296][702]CompilerResultsLog: Total execution time: 48.12 seconds
+[2020.03.14-08.47.39:296][702]LogMainFrame: MainFrame: Module compiling took 48.365 seconds
+[2020.03.14-08.47.39:340][702]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2020.03.14-08.47.39:385][702]LogClass: ECommandsEnum HotReload.
+[2020.03.14-08.47.39:395][702]LogContentBrowser: Native class hierarchy updated for 'Marine_Squad' in 0.0007 seconds. Added 14 classes and 3 folders.
+[2020.03.14-08.47.39:398][702]Display: HotReload successful (19 functions remapped  0 scriptstructs remapped)
+[2020.03.14-08.47.39:499][702]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2020.03.14-08.47.39:515][702]LogContentBrowser: Native class hierarchy populated in 0.0099 seconds. Added 2839 classes and 674 folders.
+[2020.03.14-08.47.39:517][702]Display: HotReload took 48.6s.
+[2020.03.14-08.47.44:413][287]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2020.03.14-08.47.52:882][659]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.14-08.47.53:026][659]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.03.14-08.47.53:399][659]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.14-08.47.53:402][659]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.14-08.47.53:402][659]PIE: New page: PIE session: Minimal_Default (Mar 13, 2020, 10:47:53 PM)
+[2020.03.14-08.47.53:425][659]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.03.14-08.47.53:552][659]LogPlayLevel: PIE: StaticDuplicateObject took: (0.126655s)
+[2020.03.14-08.47.53:555][659]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.03.14-08.47.53:559][659]LogVaFog: [FVaFogOfWarModule::StartupModule::<lambda_976865d7f760a47e2a086b15bf7dcbd9>::operator ()(41)] Fog Controller is created for: Minimal_Default
+[2020.03.14-08.47.53:560][659]LogPlayLevel: PIE: World Init took: (0.007478s)
+[2020.03.14-08.47.53:560][659]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.136083s)
+[2020.03.14-08.47.53:611][659]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2020.03.14-08.47.53:656][659]LogInit: XAudio2 using 'HEAD SET (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.03.14-08.47.53:668][659]LogInit: FAudioDevice initialized.
+[2020.03.14-08.47.53:679][659]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.14-08.47.53:727][659]LogLoad: Game class is 'MyGameModeBase_MarineSquad_BP_C'
+[2020.03.14-08.47.53:741][659]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2020.03.14-03.47.53
+[2020.03.14-08.47.53:763][659]LogWorld: Bringing up level for play took: 0.026323
+[2020.03.14-08.47.53:827][659]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 20 classes and 0 folders.
+[2020.03.14-08.47.53:854][659]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.644
+[2020.03.14-08.47.53:855][659]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.14-08.47.55:091][767]LogTemp: Warning: Left Mouse Button Pressed
+[2020.03.14-08.47.55:208][781]LogTemp: Warning: Left Mouse Button Pressed
+[2020.03.14-08.47.55:209][781]LogTemp: Warning: Left Mouse Button pressed for : 0.118324
+[2020.03.14-08.47.55:209][781]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.47.57:570][ 64]LogTemp: Warning: SelectUnitOne Pressed
+[2020.03.14-08.47.57:821][ 94]LogTemp: Warning: Right Mouse Button Pressed
+[2020.03.14-08.47.57:933][107]LogTemp: Warning: Right Mouse Button Released
+[2020.03.14-08.47.58:018][117]LogTemp: Warning: Right Mouse Button Pressed
+[2020.03.14-08.47.58:125][130]LogTemp: Warning: Right Mouse Button Released
+[2020.03.14-08.47.58:209][140]LogTemp: Warning: Right Mouse Button Pressed
+[2020.03.14-08.47.58:325][154]LogTemp: Warning: Right Mouse Button Released
+[2020.03.14-08.47.58:694][198]LogTemp: Warning: Left Mouse Button Pressed
+[2020.03.14-08.47.58:818][213]LogTemp: Warning: Left Mouse Button Pressed
+[2020.03.14-08.47.58:818][213]LogTemp: Warning: Left Mouse Button pressed for : 0.125145
+[2020.03.14-08.47.58:818][213]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.47.59:573][303]LogTemp: Warning: Left Mouse Button Pressed
+[2020.03.14-08.47.59:763][326]LogTemp: Warning: Left Mouse Button Pressed
+[2020.03.14-08.47.59:763][326]LogTemp: Warning: Left Mouse Button pressed for : 0.192135
+[2020.03.14-08.48.00:130][370]LogTemp: Warning: AbilityTwo Pressed
+[2020.03.14-08.48.00:136][370]LogTemp: Warning: was this triggered?
+[2020.03.14-08.48.00:137][370]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:146][371]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:156][372]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:165][373]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:173][374]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:182][375]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:190][376]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:199][377]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:207][378]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:215][379]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:224][380]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:232][381]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:241][382]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:249][383]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:257][384]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:265][385]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:275][386]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:284][387]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:293][388]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:301][389]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:309][390]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:318][391]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:326][392]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:335][393]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:343][394]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:352][395]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:360][396]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:368][397]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:377][398]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:385][399]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:394][400]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:402][401]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:411][402]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:419][403]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:428][404]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:436][405]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:445][406]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:453][407]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:461][408]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:470][409]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:478][410]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:486][411]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:494][412]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:503][413]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:511][414]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:519][415]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:528][416]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:536][417]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:544][418]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:553][419]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:561][420]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:569][421]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:578][422]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:586][423]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:594][424]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:603][425]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:611][426]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:619][427]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:628][428]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:636][429]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:644][430]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:653][431]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:661][432]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:669][433]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:678][434]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:686][435]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:694][436]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:703][437]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:711][438]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:719][439]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:728][440]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:736][441]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:745][442]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:753][443]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:761][444]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:770][445]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:778][446]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:786][447]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:795][448]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:803][449]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:811][450]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:820][451]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:828][452]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:836][453]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:844][454]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:853][455]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:861][456]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:869][457]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:877][458]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:886][459]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:894][460]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:903][461]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:911][462]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:919][463]LogTemp: Warning: Found Unit: Landscape_1
+[2020.03.14-08.48.00:929][464]LogTemp: Warning: Left Mouse Button Pressed
+[2020.03.14-08.48.06:186][464]LogWindows: Error: === Critical error: ===
+[2020.03.14-08.48.06:186][464]LogWindows: Error: 
+[2020.03.14-08.48.06:186][464]LogWindows: Error: Fatal error!
+[2020.03.14-08.48.06:186][464]LogWindows: Error: 
+[2020.03.14-08.48.06:186][464]LogWindows: Error: Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0x00000430
+[2020.03.14-08.48.06:186][464]LogWindows: Error: 
+[2020.03.14-08.48.06:186][464]LogWindows: Error: [Callstack] 0x00007ffea6e74171 UE4Editor-Marine_Squad-5621.dll!ABaseAbilityChooseLocation::ConfirmTargetingAndContinue() [C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Source\Marine_Squad\Abilities\BaseAbilityChooseLocation.cpp:38]
+[2020.03.14-08.48.06:186][464]LogWindows: Error: [Callstack] 0x00007ffe7c206da0 UE4Editor-GameplayAbilities.dll!UnknownFunction []
+[2020.03.14-08.48.06:186][464]LogWindows: Error: [Callstack] 0x00007ffe7c24d8bf UE4Editor-GameplayAbilities.dll!UnknownFunction []
+[2020.03.14-08.48.06:186][464]LogWindows: Error: [Callstack] 0x00007ffea6e7cc4d UE4Editor-Marine_Squad-5621.dll!APlayerController_MarineSquad::LeftClickStarted() [C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Source\Marine_Squad\PlayerController_MarineSquad.cpp:198]
+[2020.03.14-08.48.06:186][464]LogWindows: Error: [Callstack] 0x00007ffe8e556ac7 UE4Editor-Engine.dll!UnknownFunction []
+[2020.03.14-08.48.06:186][464]LogWindows: Error: [Callstack] 0x00007ffe8e580ef1 UE4Editor-Engine.dll!UnknownFunction []
+[2020.03.14-08.48.06:186][464]LogWindows: Error: [Callstack] 0x00007ffe8e0f0dc4 UE4Editor-Engine.dll!UnknownFunction []
+[2020.03.14-08.48.06:186][464]LogWindows: Error: [Callstack] 0x00007ffe8e103c88 UE4Editor-Engine.dll!UnknownFunction []
+[2020.03.14-08.48.06:186][464]LogWindows: Error: [Callstack] 0x00007ffe8e0ef1cb UE4Editor-Engine.dll!UnknownFunction []
+[2020.03.14-08.48.06:186][464]LogWindows: Error: [Callstack] 0x00007ffe8e102697 UE4Editor-Engine.dll!UnknownFunction []
+[2020.03.14-08.48.06:186][464]LogWindows: Error: [Callstack] 0x00007ffe8d4eaeed UE4Editor-Engine.dll!UnknownFunction []
+[2020.03.14-08.48.06:186][464]LogWindows: Error: [Callstack] 0x00007ffe8e4a72bc UE4Editor-Engine.dll!UnknownFunction []
+[2020.03.14-08.48.06:186][464]LogWindows: Error: [Callstack] 0x00007ffe96ed22d8 UE4Editor-Core.dll!UnknownFunction []
+[2020.03.14-08.48.06:186][464]LogWindows: Error: [Callstack] 0x00007ffe96ed2563 UE4Editor-Core.dll!UnknownFunction []
+[2020.03.14-08.48.06:186][464]LogWindows: Error: [Callstack] 0x00007ffe96ee2309 UE4Editor-Core.dll!UnknownFunction []
+[2020.03.14-08.48.06:186][464]LogWindows: Error: [Callstack] 0x00007ffe8e4ef9e3 UE4Editor-Engine.dll!UnknownFunction []
+[2020.03.14-08.48.06:186][464]LogWindows: Error: [Callstack] 0x00007ffe8e4fbd12 UE4Editor-Engine.dll!UnknownFunction []
+[2020.03.14-08.48.06:186][464]LogWindows: Error: [Callstack] 0x00007ffe8dd1dc4f UE4Editor-Engine.dll!UnknownFunction []
+[2020.03.14-08.48.06:186][464]LogWindows: Error: [Callstack] 0x00007ffe8dd27e28 UE4Editor-Engine.dll!UnknownFunction []
+[2020.03.14-08.48.06:186][464]LogWindows: Error: [Callstack] 0x00007ffe8c0702f7 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.03.14-08.48.06:186][464]LogWindows: Error: [Callstack] 0x00007ffe8c88d396 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.03.14-08.48.06:186][464]LogWindows: Error: [Callstack] 0x00007ff6e4636bb1 UE4Editor.exe!UnknownFunction []
+[2020.03.14-08.48.06:186][464]LogWindows: Error: [Callstack] 0x00007ff6e464554c UE4Editor.exe!UnknownFunction []
+[2020.03.14-08.48.06:186][464]LogWindows: Error: [Callstack] 0x00007ff6e46455ca UE4Editor.exe!UnknownFunction []
+[2020.03.14-08.48.06:186][464]LogWindows: Error: [Callstack] 0x00007ff6e465316c UE4Editor.exe!UnknownFunction []
+[2020.03.14-08.48.06:186][464]LogWindows: Error: [Callstack] 0x00007ff6e4655b8e UE4Editor.exe!UnknownFunction []
+[2020.03.14-08.48.06:186][464]LogWindows: Error: [Callstack] 0x00007ffee0367bd4 KERNEL32.DLL!UnknownFunction []
+[2020.03.14-08.48.06:186][464]LogWindows: Error: [Callstack] 0x00007ffee166ced1 ntdll.dll!UnknownFunction []
+[2020.03.14-08.48.06:186][464]LogWindows: Error: 
+[2020.03.14-08.48.06:242][464]LogExit: Executing StaticShutdownAfterError
+[2020.03.14-08.48.06:284][464]LogWindows: FPlatformMisc::RequestExit(1)
+[2020.03.14-08.48.06:316][464]Log file closed, 03/14/20 03:48:06

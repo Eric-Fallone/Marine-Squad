@@ -32,11 +32,12 @@ public:
 	//
 	//this is needed to pass to baseability choose location
 	//APlayerController controller;
-	
-protected:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Abilities)
 	UMarine_AbilitySystemComponent* AbilitySystemComponent;
+
+
+protected:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Abilities)
 	UMarineAttributeSet* AttributeSet;
