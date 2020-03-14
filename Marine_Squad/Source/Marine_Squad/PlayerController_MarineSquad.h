@@ -57,6 +57,9 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=Hud)
 	AHUD_MarineSquad* HUDPtr;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=isAbilityBeingConfirmed)
+	bool isAbilityBeingConfirmed;
+
 protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;
@@ -67,6 +70,9 @@ private:
 	void SetupInputComponent();
 
 //Player Input
+	
+	void LeftClickStarted();
+	void LeftClickEnded();
 
 	void MoveCommandStarted();
 	void MoveCommandEnded();

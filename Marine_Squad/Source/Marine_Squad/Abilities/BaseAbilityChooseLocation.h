@@ -27,6 +27,9 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, meta = (ExposeOnSpawn = true), Category = "GroundSelect")
 	float Radius; 
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, meta = (ExposeOnSpawn = true), Category = "GroundSelect")
+	float Range; 
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=UnitDeath)
 	AParentUnit* CastingUnit;
 	

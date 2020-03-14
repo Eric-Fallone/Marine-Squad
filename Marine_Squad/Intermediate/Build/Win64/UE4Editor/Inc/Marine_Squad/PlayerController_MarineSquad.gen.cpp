@@ -116,6 +116,11 @@ void EmptyLinkFunctionForGeneratedCodePlayerController_MarineSquad() {}
 		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_SelectedUnits;
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_SelectedUnits_Inner;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_isAbilityBeingConfirmed_MetaData[];
+#endif
+		static void NewProp_isAbilityBeingConfirmed_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_isAbilityBeingConfirmed;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_HUDPtr_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_HUDPtr;
@@ -206,6 +211,17 @@ void EmptyLinkFunctionForGeneratedCodePlayerController_MarineSquad() {}
 	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_APlayerController_MarineSquad_Statics::NewProp_SelectedUnits = { "SelectedUnits", nullptr, (EPropertyFlags)0x0040000000020001, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APlayerController_MarineSquad, SelectedUnits), METADATA_PARAMS(Z_Construct_UClass_APlayerController_MarineSquad_Statics::NewProp_SelectedUnits_MetaData, ARRAY_COUNT(Z_Construct_UClass_APlayerController_MarineSquad_Statics::NewProp_SelectedUnits_MetaData)) };
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APlayerController_MarineSquad_Statics::NewProp_SelectedUnits_Inner = { "SelectedUnits", nullptr, (EPropertyFlags)0x0000000000020000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_AParentUnit_NoRegister, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayerController_MarineSquad_Statics::NewProp_isAbilityBeingConfirmed_MetaData[] = {
+		{ "Category", "isAbilityBeingConfirmed" },
+		{ "ModuleRelativePath", "PlayerController_MarineSquad.h" },
+	};
+#endif
+	void Z_Construct_UClass_APlayerController_MarineSquad_Statics::NewProp_isAbilityBeingConfirmed_SetBit(void* Obj)
+	{
+		((APlayerController_MarineSquad*)Obj)->isAbilityBeingConfirmed = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_APlayerController_MarineSquad_Statics::NewProp_isAbilityBeingConfirmed = { "isAbilityBeingConfirmed", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(APlayerController_MarineSquad), &Z_Construct_UClass_APlayerController_MarineSquad_Statics::NewProp_isAbilityBeingConfirmed_SetBit, METADATA_PARAMS(Z_Construct_UClass_APlayerController_MarineSquad_Statics::NewProp_isAbilityBeingConfirmed_MetaData, ARRAY_COUNT(Z_Construct_UClass_APlayerController_MarineSquad_Statics::NewProp_isAbilityBeingConfirmed_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayerController_MarineSquad_Statics::NewProp_HUDPtr_MetaData[] = {
 		{ "Category", "Hud" },
 		{ "ModuleRelativePath", "PlayerController_MarineSquad.h" },
@@ -279,6 +295,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerController_MarineSquad() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerController_MarineSquad_Statics::NewProp_AllUnits_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerController_MarineSquad_Statics::NewProp_SelectedUnits,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerController_MarineSquad_Statics::NewProp_SelectedUnits_Inner,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerController_MarineSquad_Statics::NewProp_isAbilityBeingConfirmed,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerController_MarineSquad_Statics::NewProp_HUDPtr,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerController_MarineSquad_Statics::NewProp_SelectionKeyTimeDown,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerController_MarineSquad_Statics::NewProp_UnitFiveType,
@@ -317,7 +334,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerController_MarineSquad() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APlayerController_MarineSquad, 1042650957);
+	IMPLEMENT_CLASS(APlayerController_MarineSquad, 560574768);
 	template<> MARINE_SQUAD_API UClass* StaticClass<APlayerController_MarineSquad>()
 	{
 		return APlayerController_MarineSquad::StaticClass();

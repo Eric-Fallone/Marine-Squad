@@ -83,8 +83,8 @@ void APlayerController_MarineSquad::SetupInputComponent()
     Super::SetupInputComponent();
 	if(InputComponent)
     {
-        InputComponent->BindAction("LeftMouseClick", IE_Pressed, this, &APlayerController_MarineSquad::SelectionStarted);
-        InputComponent->BindAction("LeftMouseClick", IE_Released, this, &APlayerController_MarineSquad::SelectionEnded);
+        InputComponent->BindAction("LeftMouseClick", IE_Pressed, this, &APlayerController_MarineSquad::LeftClickStarted);
+        InputComponent->BindAction("LeftMouseClick", IE_Released, this, &APlayerController_MarineSquad::LeftClickEnded);
 
         InputComponent->BindAction("RightMouseClick", IE_Pressed, this, &APlayerController_MarineSquad::MoveCommandStarted);
         InputComponent->BindAction("RightMouseClick", IE_Released, this, &APlayerController_MarineSquad::MoveCommandEnded);
@@ -188,13 +188,48 @@ void APlayerController_MarineSquad::AttackMoveCommand()
 }
 
 
+void APlayerController_MarineSquad::LeftClickStarted()
+{
+    UE_LOG(LogTemp, Warning, TEXT("Left Mouse Button Pressed"))
+
+    if( isAbilityBeingConfirmed )
+    {
+        //confirms target of the active unit
+        //AllUnits[FocusedUnit]->AbilitySystemComponent->
+    }
+    else
+    {
+        //startes selecting units
+        SelectionStarted();
+    }
+}
+
+
+void APlayerController_MarineSquad::LeftClickEnded()
+{
+    UE_LOG(LogTemp, Warning, TEXT("Left Mouse Button Pressed"))
+
+    if( isAbilityBeingConfirmed )
+    {
+
+    }
+    else
+    {
+        SelectionEnded();
+    }
+}
+
+
 void APlayerController_MarineSquad::SelectionStarted()
 {   
+    //removes units from being selected
     for(int32 i= 0 ; i < SelectedUnits.Num() ; i++)
     {
         SelectedUnits[i]->StopSelect();
     }
-    UE_LOG(LogTemp, Warning, TEXT("Left Mouse Button Pressed"))
+    SelectedUnits.Empty();
+
+    //starts varibales needed for the hud to start selecting
     HUDPtr->InitialPoint = HUDPtr->GetMousePos2D();
     HUDPtr->bStartSelecting = true;
     FocusedUnit = -1;
