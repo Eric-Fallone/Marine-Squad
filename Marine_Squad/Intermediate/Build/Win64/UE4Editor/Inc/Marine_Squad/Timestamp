@@ -1,5 +1,4 @@
 C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Source\Marine_Squad\Abilities\BaseAbilityChooseLocation.h
-C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Source\Marine_Squad\Abilities\BaseGameplayAbility.h
 C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Source\Marine_Squad\Abilities\MarineAttributeSet.h
 C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Source\Marine_Squad\Abilities\Marine_AbilitySystemComponent.h
 C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Source\Marine_Squad\AIController_MarineSquad.h
@@ -10,5 +9,6 @@ C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Source\Marine_Squad\Marin
 C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Source\Marine_Squad\MoveIndicator.h
 C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Source\Marine_Squad\ParentUnit.h
 C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Source\Marine_Squad\PlayerCamera_MarineSquad.h
-C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Source\Marine_Squad\UnitSelectorCircle.h
 C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Source\Marine_Squad\PlayerController_MarineSquad.h
+C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Source\Marine_Squad\UnitSelectorCircle.h
+C:\Users\ericf\Desktop\repos\Marine-Squad\Marine_Squad\Source\Marine_Squad\Abilities\BaseGameplayAbility.h

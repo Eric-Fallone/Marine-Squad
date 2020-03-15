@@ -17,6 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeBaseAbilityChooseLocation() {}
 	MARINE_SQUAD_API UClass* Z_Construct_UClass_ABaseAbilityChooseLocation();
 	GAMEPLAYABILITIES_API UClass* Z_Construct_UClass_AGameplayAbilityTargetActor();
 	UPackage* Z_Construct_UPackage__Script_Marine_Squad();
+	ENGINE_API UClass* Z_Construct_UClass_UDecalComponent_NoRegister();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	MARINE_SQUAD_API UClass* Z_Construct_UClass_AParentUnit_NoRegister();
 // End Cross Module References
@@ -33,6 +34,10 @@ void EmptyLinkFunctionForGeneratedCodeBaseAbilityChooseLocation() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Decal_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Decal;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TargetLocation_MetaData[];
 #endif
@@ -64,6 +69,14 @@ void EmptyLinkFunctionForGeneratedCodeBaseAbilityChooseLocation() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABaseAbilityChooseLocation_Statics::NewProp_Decal_MetaData[] = {
+		{ "Category", "GroundSelect" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Abilities/BaseAbilityChooseLocation.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABaseAbilityChooseLocation_Statics::NewProp_Decal = { "Decal", nullptr, (EPropertyFlags)0x001000000008000d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABaseAbilityChooseLocation, Decal), Z_Construct_UClass_UDecalComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABaseAbilityChooseLocation_Statics::NewProp_Decal_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABaseAbilityChooseLocation_Statics::NewProp_Decal_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABaseAbilityChooseLocation_Statics::NewProp_TargetLocation_MetaData[] = {
 		{ "Category", "GroundSelect" },
 		{ "ModuleRelativePath", "Abilities/BaseAbilityChooseLocation.h" },
@@ -94,6 +107,7 @@ void EmptyLinkFunctionForGeneratedCodeBaseAbilityChooseLocation() {}
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ABaseAbilityChooseLocation_Statics::NewProp_Radius = { "Radius", nullptr, (EPropertyFlags)0x0011000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABaseAbilityChooseLocation, Radius), METADATA_PARAMS(Z_Construct_UClass_ABaseAbilityChooseLocation_Statics::NewProp_Radius_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABaseAbilityChooseLocation_Statics::NewProp_Radius_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ABaseAbilityChooseLocation_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABaseAbilityChooseLocation_Statics::NewProp_Decal,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABaseAbilityChooseLocation_Statics::NewProp_TargetLocation,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABaseAbilityChooseLocation_Statics::NewProp_CastingUnit,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABaseAbilityChooseLocation_Statics::NewProp_Range,
@@ -126,7 +140,7 @@ void EmptyLinkFunctionForGeneratedCodeBaseAbilityChooseLocation() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABaseAbilityChooseLocation, 4085458087);
+	IMPLEMENT_CLASS(ABaseAbilityChooseLocation, 2949713642);
 	template<> MARINE_SQUAD_API UClass* StaticClass<ABaseAbilityChooseLocation>()
 	{
 		return ABaseAbilityChooseLocation::StaticClass();

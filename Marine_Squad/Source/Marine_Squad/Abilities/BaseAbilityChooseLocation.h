@@ -8,6 +8,8 @@
 #include "ParentUnit.h"
 #include "BaseAbilityChooseLocation.generated.h"
 
+class UDecalComponent; 
+class USceneComponent;
 /**
  * 
  */
@@ -35,5 +37,11 @@ public:
 	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=GroundSelect)
 	FVector TargetLocation;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=GroundSelect)
+	UDecalComponent* Decal; 
+
+	USceneComponent* RootComp;
+
 
 };

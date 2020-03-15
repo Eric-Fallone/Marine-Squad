@@ -24,7 +24,7 @@ FVector AHUD_MarineSquad::GetMouseWorldPos()
 
     if(TryTrace)
     {        
-        DrawDebugSphere(GetWorld(), HitResult.ImpactPoint, 200, 12, FColor(20, 100, 240), false, -1, 0, 2);
+        //DrawDebugSphere(GetWorld(), HitResult.ImpactPoint, 200, 12, FColor(20, 100, 240), false, -1, 0, 2);
         UE_LOG(LogTemp, Warning, TEXT("Found Unit: %s"), *HitResult.Actor->GetName())
     }
 

@@ -4,11 +4,17 @@
 #include "BaseAbilityChooseLocation.h"
 #include "ParentUnit.h"
 #include "DrawDebugHelpers.h"
-
+#include "Components/DecalComponent.h"
+#include "Components/SceneComponent.h"
 
 ABaseAbilityChooseLocation::ABaseAbilityChooseLocation()
 {
-    PrimaryActorTick.bCanEverTick = true;    
+    PrimaryActorTick.bCanEverTick = true;   
+    Decal = CreateDefaultSubobject<UDecalComponent>("Decal"); 
+    RootComp = CreateDefaultSubobject<USceneComponent>("RootComp");
+    SetRootComponent(RootComp);
+    Decal->SetupAttachment(RootComp);
+    Decal->DecalSize = FVector(Radius);
 }
 
 
@@ -50,20 +56,29 @@ void ABaseAbilityChooseLocation::ConfirmTargetingAndContinue()
             }
         }
     }
+    //adds the target location to the data broadcast
+    FGameplayAbilityTargetData_LocationInfo* CenterLocation = new FGameplayAbilityTargetData_LocationInfo();
+    if(Decal)
+    {
+        CenterLocation->TargetLocation.LiteralTransform = Decal->GetComponentTransform();
+        CenterLocation->TargetLocation.LocationType = EGameplayAbilityTargetingLocationType::LiteralTransform;
+    }
 
     if(OverlappedActors.Num() > 0)
     {
         FGameplayAbilityTargetDataHandle TargetData = StartLocation.MakeTargetDataHandleFromActors(OverlappedActors);
+        TargetData.Add(CenterLocation);
         TargetDataReadyDelegate.Broadcast(TargetData);
     }
     else
     {
-        TargetDataReadyDelegate.Broadcast( FGameplayAbilityTargetDataHandle() );
+        TargetDataReadyDelegate.Broadcast( FGameplayAbilityTargetDataHandle(CenterLocation) );
     }
 }
 
 void ABaseAbilityChooseLocation::Tick(float DeltaSeconds){
     Super::Tick(DeltaSeconds);
-
-    DrawDebugSphere(GetWorld(), TargetLocation, Radius, 32, FColor::Red, false, -1, 0, 5.0f);
+    Decal->SetWorldLocation(TargetLocation);
+    Decal->DecalSize = FVector(Radius);
+    //DrawDebugSphere(GetWorld(), TargetLocation, Radius, 32, FColor::Red, false, -1, 0, 5.0f);
 }

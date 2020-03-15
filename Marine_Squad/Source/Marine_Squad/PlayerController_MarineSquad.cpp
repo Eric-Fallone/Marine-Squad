@@ -210,7 +210,7 @@ void APlayerController_MarineSquad::RightClickStarted()
 
     if( isAbilityBeingConfirmed )
     {
-
+        AllUnits[FocusedUnit]->AbilitySystemComponent->TargetCancel();
     }
     else
     {
@@ -280,6 +280,11 @@ void APlayerController_MarineSquad::SelectionEnded()
 //-1 to select all else select from all units array by input
 void APlayerController_MarineSquad::SelectUnit(int UnitNum)
 {
+    if( AllUnits.IsValidIndex(FocusedUnit) )
+    {
+        AllUnits[FocusedUnit]->AbilitySystemComponent->TargetCancel();
+    }
+    
     //stop selecting units 
     for(int32 i= 0 ; i < SelectedUnits.Num() ; i++)
     {
@@ -414,7 +419,7 @@ void APlayerController_MarineSquad::ChangeFocusedUnit(){
     {
         return;
     }
-
+    AllUnits[FocusedUnit]->AbilitySystemComponent->TargetCancel();
     //FocusedUnit = AllUnits.Find( SelectedUnits[0] );
 
     int32 helper = ( SelectedUnits.Find( AllUnits[FocusedUnit] ) ) + 1;
