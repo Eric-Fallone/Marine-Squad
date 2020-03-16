@@ -32,7 +32,7 @@ FVector AHUD_MarineSquad::GetMouseWorldPos()
 }
 
 
-void AHUD_MarineSquad::GetActorAtMousePos()
+AActor* AHUD_MarineSquad::GetActorAtMousePos()
 {
     FHitResult HitResult; 
 
@@ -43,6 +43,7 @@ void AHUD_MarineSquad::GetActorAtMousePos()
         DrawDebugSphere(GetWorld(), HitResult.ImpactPoint, 50, 12, FColor(20, 100, 240), true, 1, 0, 2);
         UE_LOG(LogTemp, Warning, TEXT("Found Unit: %s"), *HitResult.Actor->GetName())
     }
+    return Cast<AActor>(HitResult.Actor);
 }
 
 

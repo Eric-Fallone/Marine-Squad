@@ -8,6 +8,7 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class AActor;
 struct FVector;
 #ifdef MARINE_SQUAD_HUD_MarineSquad_generated_h
 #error "HUD_MarineSquad.generated.h already included, missing '#pragma once' in HUD_MarineSquad.h"
@@ -20,7 +21,7 @@ struct FVector;
 	{ \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->GetActorAtMousePos(); \
+		*(AActor**)Z_Param__Result=P_THIS->GetActorAtMousePos(); \
 		P_NATIVE_END; \
 	} \
  \
@@ -39,7 +40,7 @@ struct FVector;
 	{ \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->GetActorAtMousePos(); \
+		*(AActor**)Z_Param__Result=P_THIS->GetActorAtMousePos(); \
 		P_NATIVE_END; \
 	} \
  \

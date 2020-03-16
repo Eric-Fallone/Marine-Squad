@@ -25,7 +25,7 @@ public:
 	FVector GetMouseWorldPos();
 
 	UFUNCTION(BlueprintCallable, Category = "HUD")
-	void GetActorAtMousePos();
+	AActor* GetActorAtMousePos();
 
 	FVector2D InitialPoint;
 	FVector2D CurrentPoint;

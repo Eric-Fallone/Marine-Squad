@@ -18,6 +18,7 @@ void EmptyLinkFunctionForGeneratedCodeHUD_MarineSquad() {}
 	ENGINE_API UClass* Z_Construct_UClass_AHUD();
 	UPackage* Z_Construct_UPackage__Script_Marine_Squad();
 	MARINE_SQUAD_API UFunction* Z_Construct_UFunction_AHUD_MarineSquad_GetActorAtMousePos();
+	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	MARINE_SQUAD_API UFunction* Z_Construct_UFunction_AHUD_MarineSquad_GetMouseWorldPos();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	MARINE_SQUAD_API UClass* Z_Construct_UClass_AParentUnit_NoRegister();
@@ -33,10 +34,20 @@ void EmptyLinkFunctionForGeneratedCodeHUD_MarineSquad() {}
 	}
 	struct Z_Construct_UFunction_AHUD_MarineSquad_GetActorAtMousePos_Statics
 	{
+		struct HUD_MarineSquad_eventGetActorAtMousePos_Parms
+		{
+			AActor* ReturnValue;
+		};
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
 #endif
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AHUD_MarineSquad_GetActorAtMousePos_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(HUD_MarineSquad_eventGetActorAtMousePos_Parms, ReturnValue), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AHUD_MarineSquad_GetActorAtMousePos_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AHUD_MarineSquad_GetActorAtMousePos_Statics::NewProp_ReturnValue,
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AHUD_MarineSquad_GetActorAtMousePos_Statics::Function_MetaDataParams[] = {
@@ -44,7 +55,7 @@ void EmptyLinkFunctionForGeneratedCodeHUD_MarineSquad() {}
 		{ "ModuleRelativePath", "HUD_MarineSquad.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AHUD_MarineSquad_GetActorAtMousePos_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AHUD_MarineSquad, nullptr, "GetActorAtMousePos", 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AHUD_MarineSquad_GetActorAtMousePos_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AHUD_MarineSquad_GetActorAtMousePos_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AHUD_MarineSquad_GetActorAtMousePos_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AHUD_MarineSquad, nullptr, "GetActorAtMousePos", sizeof(HUD_MarineSquad_eventGetActorAtMousePos_Parms), Z_Construct_UFunction_AHUD_MarineSquad_GetActorAtMousePos_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AHUD_MarineSquad_GetActorAtMousePos_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AHUD_MarineSquad_GetActorAtMousePos_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AHUD_MarineSquad_GetActorAtMousePos_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_AHUD_MarineSquad_GetActorAtMousePos()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -112,7 +123,7 @@ void EmptyLinkFunctionForGeneratedCodeHUD_MarineSquad() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_Marine_Squad,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AHUD_MarineSquad_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_AHUD_MarineSquad_GetActorAtMousePos, "GetActorAtMousePos" }, // 1732506327
+		{ &Z_Construct_UFunction_AHUD_MarineSquad_GetActorAtMousePos, "GetActorAtMousePos" }, // 4245517417
 		{ &Z_Construct_UFunction_AHUD_MarineSquad_GetMouseWorldPos, "GetMouseWorldPos" }, // 1124073183
 	};
 #if WITH_METADATA
@@ -162,7 +173,7 @@ void EmptyLinkFunctionForGeneratedCodeHUD_MarineSquad() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AHUD_MarineSquad, 1723314067);
+	IMPLEMENT_CLASS(AHUD_MarineSquad, 1506287554);
 	template<> MARINE_SQUAD_API UClass* StaticClass<AHUD_MarineSquad>()
 	{
 		return AHUD_MarineSquad::StaticClass();
