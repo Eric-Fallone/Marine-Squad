@@ -40,7 +40,7 @@ AActor* AHUD_MarineSquad::GetActorAtMousePos()
 
     if(TryTrace)
     {        
-        DrawDebugSphere(GetWorld(), HitResult.ImpactPoint, 50, 12, FColor(20, 100, 240), true, 1, 0, 2);
+       // DrawDebugSphere(GetWorld(), HitResult.ImpactPoint, 50, 12, FColor(20, 100, 240), true, 1, 0, 2);
         UE_LOG(LogTemp, Warning, TEXT("Found Unit: %s"), *HitResult.Actor->GetName())
     }
     return Cast<AActor>(HitResult.Actor);
