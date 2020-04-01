@@ -252,6 +252,7 @@ void AParentUnit::OnHealthChange(float Health, float MaxHealth)
 		MaxHealth = 1;
 	}
 	HealthPercent = Health / MaxHealth ; 
+
 	if(Health == 0)
 	{
 		KillSelf();
